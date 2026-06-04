@@ -1,0 +1,36 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# Claude Code
+.claude/sessions/
+.claude/cache/
+
+# PDFs and large binary files (keep in external reference manager)
+*.pdf
+
+# Draft outputs not ready for commit
+manuscript/draft-*.md.tmp

@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//e/medical-review/**)",
+      "Write(//e/medical-review/**)",
+      "Edit(//e/medical-review/**)",
+      "Bash(git *)",
+      "Bash(cd E:/medical-review && git *)",
+      "Bash(cd /e/medical-review && git *)",
+      "WebSearch",
+      "WebFetch(domain:pubmed.ncbi.nlm.nih.gov)",
+      "WebFetch(domain:pmc.ncbi.nlm.nih.gov)",
+      "WebFetch(domain:europepmc.org)",
+      "WebFetch(domain:api.semanticscholar.org)",
+      "WebFetch(domain:www.semanticscholar.org)",
+      "WebFetch(domain:link.springer.com)",
+      "WebFetch(domain:ncbi.nlm.nih.gov)",
+      "WebFetch(domain:ebi.ac.uk)",
+      "Bash(find /e/medical-review/**)",
+      "Bash(mkdir -p /e/medical-review/**)",
+      "Bash(python *)",
+      "Bash(pip *)"
+    ]
+  }
+}
