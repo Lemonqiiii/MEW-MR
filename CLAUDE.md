@@ -6,34 +6,72 @@
 - **当前阶段**: 初始化
 - **目标期刊**: 待定
 
+## 交互原则 (最高优先级)
+
+### 启动行为
+**每次会话开始时**，自动执行：
+1. 读取 `memory/project-status.md` — 了解当前阶段
+2. 读取 `features/FEATURE_LIST.md` — 找到第一个未完成任务
+3. 用**一句话**告诉用户当前状态，然后用**简洁的选项列表**告诉用户接下来可以做什么
+
+示例:
+```
+📍 Phase 2 文献搜索 | 下一步: 确定检索策略
+
+你可以这样说:
+  1 或 主题    → 确定综述主题和检索策略
+  状态          → 查看详细项目状态
+  帮助          → 查看所有可用命令
+```
+
+### 命令极简化
+用户只需要用**最少的字**触发动作。Agent 在看到简短指令时，**先确认理解再执行**：
+
+| 用户说 | Agent 理解为 | 触发哪个Agent |
+|--------|------------|-------------|
+| `1` `搜索` `搜` | 文献搜索 | Agent 1 文献搜索 |
+| `2` `筛选` `筛` | 文献筛选 | Agent 6 筛选Agent |
+| `3` `分析` | 分析论文 | Agent 2 论文分析 |
+| `4` `写作` `写` | 综述写作 | Agent 3 综述写作 |
+| `5` `审校` `审` | 审校 | Agent 4 审校Agent |
+| `6` `编码` `记` | 记录进度 | Agent 0 编码Agent |
+| `7` `评估` `评` | 质量评估 | Agent 5 评估Agent |
+| `就绪` `好了` `done` | 手动操作完成 | (上下文相关) |
+| `状态` `进度` | 查看项目状态 | (展示当前状态) |
+| `帮助` `?` `help` | 显示命令和当前阶段 | (展示帮助) |
+| `下一步` `next` | 自动判断并建议下一步 | (读取状态后建议) |
+| `主题` | 确定综述主题 | (引导填写 active-focus.md) |
+
+### 确认规则
+- 用户输入简略指令时 → **先一句话确认理解**，再执行
+- 禁止在确认前执行任何写操作或网络请求
+- 确认格式: `理解为: [你要做什么]。确认吗？(直接回复"是"或"1"开始)`
+
 ## 核心规则
-1. 所有论文笔记必须遵循 `docs/papers/template.md` 模板
-2. 每完成一个工作阶段或会话结束前，必须调用**编码Agent**记录增量进展
+1. 所有论文笔记遵循 `docs/papers/template.md` 模板
+2. 每完成一个工作阶段，调用**编码Agent**（用户说"编码"或"6"）
 3. 文献搜索优先使用 PubMed / Semantic Scholar / Europe PMC
 4. 综述正文使用**英文**写作，项目文档和内部交流使用**中文**
-5. 所有引用必须包含 PMID 或 DOI，确保可追溯
-6. 做出范围、方法、目标期刊等关键决策时，记录到 `memory/decisions.md`
+5. 所有引用必须包含 PMID 或 DOI
+6. 做出关键决策时记录到 `memory/decisions.md`
+7. 仅摘要论文 ≤ 纳入总数 20%，核心论点不得基于仅摘要论文
 
 ## Tier 2 资源（按需加载）
-以下文件在需要时读取，不要全部加载到会话：
-- **项目状态**: `memory/project-status.md` — 当前阶段、进度百分比、文献统计
-- **当前聚焦**: `memory/active-focus.md` — 本次综述的具体研究方向、PICO 框架
-- **子Agent定义**: `memory/agent-specializations.md` — 各子Agent的触发条件与prompt
-- **功能清单**: `features/FEATURE_LIST.md` — 任务清单（优先级排序）
-- **关键发现**: `memory/key-findings.md` — 已从文献中提取的核心论点
-- **决策记录**: `memory/decisions.md` — 选刊、范围界定等方法决策
+- **项目状态**: `memory/project-status.md`
+- **当前聚焦**: `memory/active-focus.md`
+- **子Agent定义**: `memory/agent-specializations.md`
+- **功能清单**: `features/FEATURE_LIST.md`
+- **关键发现**: `memory/key-findings.md`
+- **决策记录**: `memory/decisions.md`
 
 ## Tier 3 资源（主动检索）
-Agent 在需要文献背景时主动搜索以下路径：
-- **文献索引**: `docs/index.md` → 按主题/方法/年份导航 → `docs/papers/[topic]/`
-- **方法论**: `docs/methods/` — 系统综述、荟萃分析、统计方法指南
-- **术语表**: `docs/glossary.md` — 常用医学术语与缩写
+- **文献索引**: `docs/index.md` → `docs/papers/[topic]/`
+- **方法论**: `docs/methods/`
+- **数据库目录**: `docs/methods/database-coverage.md`
+- **术语表**: `docs/glossary.md`
 
-## 当前任务
-读取 `features/FEATURE_LIST.md` 获取最高优先级的未完成任务。
-
-## 推荐会话流程
-1. 读取 `memory/project-status.md` 了解当前项目状态
-2. 读取 `features/FEATURE_LIST.md` 选择下一个任务
-3. 执行任务（搜索文献 / 分析论文 / 撰写草稿 / 审校）
-4. 会话结束前调用**编码Agent**更新进度和项目状态
+## 会话流程
+1. **启动** → 自动显示状态 + 选项
+2. **用户选择** → Agent 确认 → 执行
+3. **需要用户手动操作时** → 生成清单，等待用户说"就绪"
+4. **阶段结束** → 提示用户说"编码"保存进度

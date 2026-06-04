@@ -1,14 +1,14 @@
 # Agent 专业化定义
 
-本文件定义了综述写作项目中的4个领域子Agent + 3个基础设施Agent。每个子Agent有明确的触发条件、输入输出规范和prompt模板。
+本文件定义了综述写作项目中的5个横向执行Agent + 2个纵向基础设施Agent（共7个）。每个Agent有极简命令触发、完整的输入输出规范和prompt模板。
 
 ---
 
 ## Agent 0: 编码Agent (Infrastructure)
 
 ### 触发条件
-- **手动**: 用户说"编码"、"记录进度"、"commit progress"、"更新进度"
-- **自动**: 会话结束时 Stop hook 提醒（下次会话开头手动触发）
+- **手动极简命令**: `编码` `记` `6` `记录进度` `commit progress`
+- **自动**: 每个工作阶段完成时 CLAUDE.md 会话流程自动提示
 
 ### 输入
 - 当前会话的上下文（完成的工作内容）
@@ -62,7 +62,8 @@
 横向执行层。负责多数据库系统检索、五层全面性验证、全文获取策略。**不负责筛选**（由 Agent 6 筛选Agent 负责）。
 
 ### 触发条件
-用户说"搜索文献"、"find papers"、"search PubMed"、"找论文"、"检索"
+**极简命令**: `搜索` `搜` `1` `检索` `search` `find papers`
+启动时如果当前 Phase 为 literature-search 且用户说 `下一步` → 自动触达
 
 ### 输入
 - `memory/active-focus.md` — PICO 框架、检索关键词、纳入排除标准
@@ -263,7 +264,7 @@ docs/search-results/
 ## Agent 2: 论文分析Agent
 
 ### 触发条件
-用户说"分析这篇"、"读论文"、"analyze paper"、"做笔记"、"take notes"
+**极简命令**: `分析` `读` `3` `分析这篇` `analyze` `take notes`
 
 ### 输入
 - 论文 PMID/DOI/URL 或已有 PDF
@@ -293,7 +294,7 @@ docs/search-results/
 ## Agent 3: 综述写作Agent
 
 ### 触发条件
-用户说"开始写"、"写草稿"、"draft section"、"写第X节"、"撰写"
+**极简命令**: `写作` `写` `4` `撰写` `draft` `开始写`
 
 ### 输入
 - `manuscript/outline.md` — 综述大纲
@@ -330,7 +331,7 @@ docs/search-results/
 ## Agent 4: 审校Agent
 
 ### 触发条件
-用户说"审校"、"review"、"检查草稿"、"核查"、"verify"
+**极简命令**: `审校` `审` `5` `review` `核查` `检查草稿`
 
 ### 输入
 - `manuscript/draft.md` — 待审草稿
@@ -368,11 +369,144 @@ docs/search-results/
 
 ---
 
+## Agent 6: 筛选Agent (Screening)
+
+### 定位
+横向执行层。负责按纳入/排除标准对初筛列表进行两轮筛选。**独立于搜索Agent**——搜索负责"找到"，筛选负责"判断"。
+
+### 触发条件
+**极简命令**: `筛选` `筛` `2` `screening` `开始筛选`
+**自动**: 文献搜索Agent 完成 Handoff 后自动提示
+
+### 输入
+- 文献搜索Agent 的 Handoff（初筛列表 + 五层验证摘要 + 全文获取状态）
+- `memory/active-focus.md` — 纳入/排除标准（PICO）
+- `docs/methods/systematic-review.md` — PRISMA 方法学指南
+
+---
+
+### 工作流
+
+#### Round 1: 标题/摘要筛选 (目标: ~500 → ~80)
+
+逐篇基于标题+摘要判定，**宁滥勿缺策略**:
+
+| PICO 维度 | 判定 |
+|-----------|------|
+| Population 匹配 | YES → 通过; NO(关键) → EXCLUDE; UNCERTAIN → INCLUDE |
+| Intervention/Exposure 匹配 | 同上 |
+| Comparison 匹配 | 同上 |
+| Outcome 匹配 | 同上 |
+| 研究设计符合纳入标准 | YES → 通过; NO → EXCLUDE + 原因代码 |
+
+**排除原因代码**:
+- `WRONG_POPULATION` — 人群不匹配
+- `WRONG_INTERVENTION` — 干预/暴露不匹配
+- `WRONG_OUTCOME` — 结局指标不匹配
+- `WRONG_DESIGN` — 研究设计不符合
+- `NOT_ORIGINAL` — 非原始研究/综述/评论/信件
+- `DUPLICATE` — 重复文献
+- `NO_ABSTRACT` — 无摘要 → INCLUDE (宁滥勿缺)
+- `LANGUAGE` — 语言不符合纳入标准
+- `OTHER` — 其他（需填写具体原因）
+
+**宁滥勿缺底线**: 任何 UNCERTAIN → INCLUDE。只有明确违反关键纳入标准 → EXCLUDE。
+
+**中文文献特殊处理**:
+- 中文期刊摘要信息不足 → 标记为 `LOW_INFO_ABSTRACT` → INCLUDE
+- Round 2 全文阶段再判断
+
+#### Round 2: 全文筛选 (目标: ~80 → 30-40)
+
+1. 检查全文获取状态:
+   - 已获取全文 (Tier 1 OA + Tier 2 VPN) → 正常读取全文判定
+   - 仅摘要 (Tier 4) → 基于摘要 + Semantic Scholar TLDR 判定 → 标记 ⚠️
+   
+2. 逐篇重新按 PICO 判定（全文信息比摘要完整）
+
+3. 额外判定维度:
+   - 方法学质量是否可接受？
+   - 数据报告是否完整（样本量、效应量、CI）？
+   - 是否存在明显利益冲突？
+   - 是否为掠夺性期刊？
+
+4. 判定:
+   - 符合全部标准 → **INCLUDE**
+   - 有疑虑但可接受 → **INCLUDE + 标注疑虑** (如 `⚠️ 高偏倚风险`)
+   - 不符合关键标准 → **EXCLUDE + 引用全文中的具体段落作为证据**
+
+5. **仅摘要比例控制**:
+   - 计算当前仅摘要论文占 INCLUDE 的比例
+   - 如果 > 20% → ⚠️ 标记 → 建议优先获取 Tier 2/3 全文
+   - 仅摘要论文在最终列表中标注 `⚠️ ABSTRACT ONLY`
+
+---
+
+### 输出
+
+#### 筛选报告结构
+
+```markdown
+## 筛选报告 — [主题] — YYYY-MM-DD
+
+### Round 1: 标题/摘要筛选
+- 筛选前: N 篇
+- 排除: M 篇 (原因分布见下表)
+- 纳入: K 篇 (含 X 篇 UNCERTAIN, Y 篇 LOW_INFO_ABSTRACT)
+
+| 排除原因 | 数量 |
+|---------|------|
+| WRONG_POPULATION | 45 |
+| WRONG_INTERVENTION | 30 |
+| WRONG_DESIGN | 25 |
+| NOT_ORIGINAL | 20 |
+| ... | ... |
+
+### Round 2: 全文筛选
+- 筛选前: K 篇
+- 全文可获取: P 篇 (XX%)
+- 仅摘要: Q 篇 (XX%) — [✅ ≤20% / ⚠️ >20%]
+- 排除: L 篇
+- **最终纳入: J 篇**
+
+| 排除原因 | 数量 | 证据强度 |
+|---------|------|---------|
+| WRONG_OUTCOME | 8 | 全文验证 |
+| 方法学质量不可接受 | 5 | 全文方法学段落 |
+| ... | ... | ... |
+
+### PRISMA 流程图数据
+- 检索命中: N
+- 去重后: N'
+- Round 1 纳入: K
+- Round 2 纳入: J
+- (提供完整 PRISMA 流程图所需数字)
+
+### Handoff 给分析Agent
+- 最终纳入列表: [J 篇 PMID + 标题 + 全文状态]
+- ⚠️ 仅摘要论文: Q 篇 (标注在列表中)
+- 已知问题:
+  1. [如"XX 篇中文文献摘要信息不足，已纳入但标注待全文核实"]
+  2. ...
+- 建议优先分析顺序: [按重要性/置信度排序]
+```
+
+---
+
+### 质量对冲: 审校Agent 抽样复核
+
+审校Agent 从 Round 2 排除列表中随机抽取 15-20%:
+- 复核排除理由是否合理
+- 尤其是"方法学质量不可接受"这类主观判断 → 需审校Agent 独立验证
+- 如果抽样错误率 > 10% → 整个筛选批次标记为不可靠 → 复审
+
+---
+
 ## Agent 5: 评估Agent (Quality Assurance)
 
 ### 触发条件
-- **Phase 结束**: 用户说"评估"、"evaluate"、"跑评估"、"run evaluation"
-- **自动**: 编码Agent 在 Phase 完成时提示是否需要运行评估Agent
+**极简命令**: `评估` `评` `7` `evaluate` `跑评估`
+**自动**: 编码Agent 在每个 Phase 完成时自动提示
 
 ### 职责
 独立的质量判断角色，与编码Agent 分离以保证客观性：
@@ -450,26 +584,48 @@ docs/search-results/
 ## Agent 间协作流程
 
 ```
-用户确定主题
+用户: "主题" → 确定综述方向 (更新 active-focus.md)
     │
     ▼
-文献搜索Agent ──→ 生成初筛列表 ──→ 编码Agent 收集 metrics + 安全审计
-    │                                    │
-    ▼                                    ▼
-[用户手动筛选]                      评估Agent L2 判定
+用户: "搜索" 或 "1"
     │
-    ▼
-论文分析Agent ──→ 逐篇笔记写入 docs/papers/ ──→ 编码Agent 收集 metrics
-    │                                              │
-    ▼                                              ▼
-综述写作Agent ──→ 输出草稿 ──→ 编码Agent 收集   评估Agent L2 判定
+文献搜索Agent [Agent 1]
+    ├─ Tier 1 自动检索 (PubMed + S2 + EPMC + CT.gov)
+    ├─ Tier 2 手动清单 (Embase/Cochrane/CNKI等)
+    │       │
+    │   用户:"就绪" → 继续合并去重+五层验证
     │
-    ▼
-审校Agent ──→ 审校报告 ──→ [迭代修改]
-    │
-    ▼
-编码Agent ──→ 每个阶段结束时: 收集数据 + 安全审计 + git commit
-    │
-    ▼
-评估Agent ──→ Phase 结束时: 综合评估 + 鲁棒性测试 + 一致性测试
+    └─ Handoff ──→ 用户: "筛选" 或 "2"
+                        │
+                        ▼
+                  筛选Agent [Agent 6]
+                    ├─ Round 1: 标题/摘要 (宁滥勿缺)
+                    ├─ Round 2: 全文 (≤20%仅摘要)
+                    └─ Handoff ──→ 用户: "分析" 或 "3"
+                                        │
+                                        ▼
+                                  论文分析Agent [Agent 2]
+                                    逐篇结构化笔记 → docs/papers/
+                                        │
+                                        ▼
+                                  用户: "写作" 或 "4"
+                                        │
+                                        ▼
+                                  综述写作Agent [Agent 3]
+                                    笔记→草稿段落
+                                        │
+                                        ▼
+                                  用户: "审校" 或 "5"
+                                        │
+                                        ▼
+                                  审校Agent [Agent 4]
+                                    事实核查+逻辑+引用溯源
+                                        │
+                                   ┌────┴────┐
+                                   ▼         ▼
+                           用户:"编码/6"  用户:"评估/7"
+                                   │         │
+                            编码Agent    评估Agent
+                            进度+效率+安全   L2+鲁棒+一致
+                            每任务执行     每Phase执行
 ```
