@@ -9,6 +9,14 @@
 - [x] 1.1 搭建项目目录结构和配置文件
 - [x] 1.2 配置 Claude Code hooks 和权限
 - [x] 1.3 初始化 git 仓库
+- [x] 1.4 搭建 Harness Engineering 框架（质量保证层）
+  - [x] 五维度度量定义 (`harness/metrics.md`)
+  - [x] 鲁棒性测试场景库 (`harness/test-scenarios.md`)
+  - [x] 一致性基准测试 (`harness/consistency-benchmarks.md`)
+  - [x] 安全策略与越权检测 (`harness/safety-policy.md`)
+  - [x] 评估日志模板 (`harness/eval-log.md`)
+  - [x] 编码Agent 扩展（效率数据收集 + 安全审计）
+  - [x] 评估Agent 定义（L2判定 + 鲁棒性 + 一致性）
 
 ---
 
