@@ -58,37 +58,204 @@
 
 ## Agent 1: 文献搜索Agent
 
+### 定位
+横向执行层。负责多数据库系统检索、五层全面性验证、全文获取策略。**不负责筛选**（由 Agent 6 筛选Agent 负责）。
+
 ### 触发条件
 用户说"搜索文献"、"find papers"、"search PubMed"、"找论文"、"检索"
 
 ### 输入
-- `memory/active-focus.md` — 检索关键词和 PICO 框架
+- `memory/active-focus.md` — PICO 框架、检索关键词、纳入排除标准
+- `docs/methods/database-coverage.md` — 数据库覆盖目录与激活决策表
 - `docs/index.md` — 了解已有文献分布
-- 用户指定的检索参数（年份范围、研究类型、数据库选择）
+- 用户指定的额外检索参数（年份范围、研究类型等）
+
+---
 
 ### 工作流
-1. 读取 `memory/active-focus.md` 获取检索策略
-2. 构建 PubMed 检索式 (MeSH + 自由词 + 布尔运算)
-3. 执行 PubMed E-utilities API 检索 (或 WebFetch PubMed)
-4. 同样策略检索 Semantic Scholar / Europe PMC
-5. 去重合并结果（优先 PMID 去重）
-6. 按相关性/年份排序
-7. 生成初筛列表 (标题 + PMID + 年份 + 期刊 + 摘要片段)
-8. 更新 `docs/index.md` 文献统计数据
-9. **不直接写入论文笔记** — 仅生成待筛选列表
 
-### 输出格式
+#### Step 0: 数据库需求评估
+
+1. 读取 `memory/active-focus.md` 获取 PICO 和研究设计类型
+2. 读取 `docs/methods/database-coverage.md` 的激活决策表
+3. 自动判定需要激活的数据库列表:
+
+| 条件 | 激活 |
+|------|------|
+| 所有综述 | PubMed + Semantic Scholar + Europe PMC (Tier 1 自动) |
+| 涉及药物/生物制剂 | Embase (Tier 2 高优先级) |
+| 涉及 RCT/临床试验 | Cochrane CENTRAL + ClinicalTrials.gov |
+| 涉及中国人群/中医药/亚洲流行病学 | CNKI + 万方 (Tier 2 必需) |
+| 涉及中医药/中西医结合 | + SinoMed (Tier 2 必需) |
+| 涉及最新进展 | Europe PMC 预印本模式（自动） |
+| 系统综述/荟萃分析 | Embase + Cochrane (标记为强烈建议) |
+
+4. 输出数据库清单，标注优先级和访问方式
+
+#### Step 1: Tier 1 自动检索
+
+1. **PubMed**: 构建 MeSH + 自由词检索式 → E-utilities API 或 WebFetch → 获取 PMID 列表 + 摘要
+2. **Semantic Scholar**: 关键词 + 语义搜索 → API → 获取论文详情（含 TLDR 摘要、引用计数）
+3. **Europe PMC**: 自由词 + 预印本 → API → 获取论文详情（含 OA 全文链接）
+4. **ClinicalTrials.gov** (如激活): API → 获取已完成/进行中的试验记录
+5. **检索式诊断**: 提交检索式前:
+   - 敏感性检验: 用已知应命中的术语验证
+   - 精确性检验: 随机抽取前 20 篇 → Agent 判断相关性 (目标 ≥ 85%)
+   - 漏洞分析: 检查潜在的同义词/上位词遗漏
+6. 将 Tier 1 结果合并为初始 PMID 列表
+
+#### Step 2: 生成 Tier 2 手动检索清单
+
+1. 按各数据库语法预编译检索式:
+   - **Embase**: MeSH → Emtree 术语映射 → Ovid 检索式
+   - **Cochrane**: 适配 Cochrane Library 检索语法
+   - **CNKI**: 英文关键词 → 中文关键词 → CNKI 专业检索语法
+   - **万方**: 适配万方高级检索语法
+   - **SinoMed**: 适配 CBM 检索语法
+
+2. 写入 `docs/search-results/manual-search-checklist.md`:
+   - 每个数据库的完整操作步骤
+   - 预编译检索式（可直接粘贴）
+   - 导出格式说明 (RIS) 和文件命名规则
+   - 预计耗时
+
+3. 提示用户:
+
+> "Tier 1 自动检索完成，共命中约 N 篇。请连接医学院 VPN，按 manual-search-checklist.md 中的清单执行 Tier 2 数据库检索。完成后将 RIS 文件放入 docs/search-results/，对我说'检索结果已就绪'。"
+
+#### Step 3: 合并去重
+
+用户完成 Tier 2 后触发:
+
+1. 读取 `docs/search-results/` 下所有 RIS 文件
+2. 解析 PMID/DOI/标题
+3. 统一去重: PMID 精确匹配 → DOI 匹配 → 标题相似度 > 95%
+4. 去重后生成统一格式的初筛列表
+
+#### Step 4: 五层全面性验证
+
+##### Layer 1: 多策略检索覆盖
+- 四路独立检索已执行 (PubMed + S2 + EPMC + 可选 ClinicalTrials.gov)
+- 确认每个数据库的成功响应状态
+
+##### Layer 2: 多点引文扩散
+- **锚点A — 共识端**: 三方共识集 (PubMed ∩ S2 ∩ EPMC) 中引用最高的 5 篇
+  → 反向查参考文献 + 前向查引文 → 补充至检索结果
+- **锚点B — 时间端**: 三方共识集中最新的 5 篇 (2024-2025)
+  → 它们的参考文献 → 确保新兴方向不遗漏
+- **锚点C — 方法学端**: 不同研究设计的论文各 2 篇
+  (RCT × 2, 队列 × 2, 系统综述 × 2, 基础实验 × 2)
+  → 不同方法学社群引用不同的文献圈 → 交叉验证
+- **锚点D — 地域端**: 如元数据支持，从不同国家各取 1 篇
+  → 非英美研究者的引用网络 → 防止欧美文献中心化
+- 多点回溯的新增论文与 Layer 1 结果合并
+
+##### Layer 3: 外部金标准验证
+1. 在检索结果中识别最近 2-3 篇高质量系统综述/荟萃分析
+   (标记: 发表于 2023-2025, 高引, 系统综述)
+2. 提取这些系统综述的纳入文献列表（参考文献）
+3. 交叉验证: 已发表系统综述的纳入文献中，有多少被我们的检索命中？
+   - 命中率 ≥ 90% → ✅ 检索覆盖度可接受
+   - 命中率 85-90% → ⚠️ 标记，分析遗漏文献特征
+   - 命中率 < 85% → ❌ 检索策略可能有重大漏洞 → 报告给用户
+
+##### Layer 4: 灰色文献补充
+1. 如果涉及临床试验: 检查 ClinicalTrials.gov 已完成未发表的试验
+2. 会议摘要: Europe PMC 已自动覆盖部分
+3. 预印本: Europe PMC bioRxiv/medRxiv 已自动覆盖
+4. 灰色文献单独标记: 不作为核心论点主要证据, 引用时标注类型
+
+##### Layer 5: 饱和 + 对抗检验
+1. **饱和检验**: 连续扩展检索式（增加同义词、上位词）→ PMID 增量 < 5% → 检索饱和
+2. **对抗检验**: 评估Agent 在收到检索结果后独立排查:
+   - 从已纳入论文中随机抽 5 篇 → 阅读 Discussion 段落
+   - Discussion 中引用的关键前人工作 → 是否已在检索结果中？
+   - ≥ 2 篇缺失 → 🔴 标记: 检索可能有盲区
+
+#### Step 5: 全文获取分级
+
+对去重后的论文按获取难度分级:
+
+| Tier | 来源 | Agent 动作 | 预计覆盖 |
+|------|------|-----------|---------|
+| **Tier 1** | PMC OA, Europe PMC OA, bioRxiv/medRxiv | Agent 自动获取全文 | 30-50% |
+| **Tier 2** | 需要 VPN (机构订阅期刊) | 生成下载清单 → 用户 VPN 批量下载 | 20-30% |
+| **Tier 3** | 付费墙 | 生成清单 → 标注获取途径 → 用户决定 | 10-20% |
+| **Tier 4** | 无法获取全文 | 标记为仅摘要 → 降级处理 | 余量 |
+
+Tier 2 操作:
+1. 生成 VPN 下载清单 (PMID + 标题 + 期刊 + DOI + 直接 PDF 链接)
+2. 用户在 VPN 窗口批量下载 → 放入 `docs/papers/fulltext/`
+3. Agent 按文件名中的 PMID 自动匹配 PDF → 论文
+
+**仅摘要比例控制**:
+- 目标: 仅摘要论文 ≤ 纳入总数的 20%
+- 搜索Agent 在 Step 5 结束时自动估算仅摘要比例
+- 如果预估 > 20% → ⚠️ 预警 → 建议用户优先获取 Tier 2 全文
+- 仅摘要论文在笔记中标注 `⚠️ Abstract Only — Not Full Text Verified`
+
+#### Step 6: 更新索引
+
+1. 更新 `docs/index.md` 文献统计数据
+2. 生成 Handoff 给筛选 Agent:
+   - 初筛列表路径
+   - 数据库覆盖度报告（哪些库检索了/哪些未检索）
+   - Layer 1-5 验证摘要
+   - 全文获取比例预估
+   - 已知问题和建议
+
+---
+
+### Handoff 格式 (传递给筛选Agent)
+
 ```markdown
-## 检索结果: [检索主题]
-- 数据库: PubMed / Semantic Scholar / Europe PMC
-- 检索日期: YYYY-MM-DD
-- 检索式: [完整检索式]
-- 命中: N 篇 → 去重后: M 篇
+## 文献搜索 Handoff — [检索主题] — YYYY-MM-DD
 
-### Top 20 (按相关性排序)
-| # | 标题 | PMID | 年份 | 期刊 | 初筛判断 |
-|---|------|------|------|------|---------|
-| 1 | ... | ... | ... | ... | 纳入/排除/待定 |
+### 检索概要
+| 数据库 | 命中 | 状态 |
+|--------|------|------|
+| PubMed | XXX | ✅ |
+| Semantic Scholar | XXX | ✅ |
+| Europe PMC | XXX | ✅ |
+| Embase | XXX | ✅/⚠️ 未检索 |
+| CNKI | XXX | ✅/⚠️ 未激活 |
+| ... | ... | ... |
+
+去重后总计: N 篇
+
+### 五层验证结果
+| 层级 | 结果 | 说明 |
+|------|------|------|
+| L1 多策略 | ✅ | 四路自动检索完成 |
+| L2 多点引文 | ✅/⚠️ | 新增 X 篇，锚点D未执行(元数据不支持) |
+| L3 外部金标准 | 92% | 两篇系统综述的参考文献覆盖度 |
+| L4 灰色文献 | ✅ | 预印本已覆盖，无未发表试验 |
+| L5 饱和+对抗 | ⚠️ | 待评估Agent 对抗检验 |
+
+### 全文获取
+- 预估 OA 自动获取: XX%
+- 需要 VPN 手动下载: XX 篇 (清单已生成)
+- 预估仅摘要: XX% (目标 ≤ 20%)
+- ⚠️ 如预估仅摘要 > 20%: [具体建议]
+
+### 已知问题
+1. [问题描述和影响]
+2. ...
+
+### 建议
+- [对筛选Agent的建议，如某数据库结果的质量注意事项]
+```
+
+### 输出结构
+```
+docs/search-results/
+├── manual-search-checklist.md  # VPN 手动检索清单
+├── pubmed-export.json          # PubMed 检索结果
+├── s2-export.json              # Semantic Scholar 检索结果
+├── epmc-export.json            # Europe PMC 检索结果
+├── embase-export.ris           # Embase 检索结果 (用户放入)
+├── cnki-export.txt             # CNKI 检索结果 (用户放入)
+└── merged-deduplicated.json    # 合并去重后的初筛列表
 ```
 
 ---
