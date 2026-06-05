@@ -1,0 +1,602 @@
+# NRDS Life-Course Review — Paper Index
+
+**Total**: 590 | **P1**: 528 | **P2**: 47 | **P3**: 15
+
+## Priority 1 (Full Notes)
+
+- [F] ★★★ [28321847] Antenatal corticosteroids for accelerating fetal lung maturation for women at ri → `Roberts_2017_28321847.md`
+- [F] ★★★ [33368142] Antenatal corticosteroids for accelerating fetal lung maturation for women at ri → `McGoldrick_2020_33368142.md`
+- [F] ★★★ [29459939] Cognitive Outcomes of Children Born Extremely or Very Preterm Since the 1990s an → `Twilhaar_2018_29459939.md`
+- [F] ★★★ [35404395] Evaluation of Long-term Outcomes Associated With Preterm Exposure to Antenatal C → `Ninan_2022_35404395.md`
+- [F] ★★★ [29039883] Volume-targeted versus pressure-limited ventilation in neonates. → `Klingenberg_2017_29039883.md`
+- [F] ★★★ [33970483] Surfactant therapy via thin catheter in preterm infants with or at risk of respi → `Abdel-Latif_2021_33970483.md`
+- [F] ★★★ [29063585] Early (&lt; 8 days) systemic postnatal corticosteroids for prevention of broncho → `Doyle_2017_29063585.md`
+- [F] ★★★ [34758507] Late (≥ 7 days) systemic postnatal corticosteroids for prevention of bronchopulm → `Doyle_2021_34758507.md`
+- [F] ★★★ [25785789] Elective high frequency oscillatory ventilation versus conventional ventilation  → `Cools_2015_25785789.md`
+- [F] ★★★ [28045472] Inhaled nitric oxide for respiratory failure in preterm infants. → `Barrington_2017_28045472.md`
+- [F] ★★★ [28398697] Effects of targeting lower versus higher arterial oxygen saturations on death or → `Askie_2017_28398697.md`
+- [F] ★★★ [29063594] Late (&gt; 7 days) systemic postnatal corticosteroids for prevention of bronchop → `Doyle_2017_29063594.md`
+- [F] ★★★ [34674229] Early (&amp;lt; 7 days) systemic postnatal corticosteroids for prevention of bro → `Doyle_2021_34674229.md`
+- [F] ★★★ [27976361] Early nasal intermittent positive pressure ventilation (NIPPV) versus early nasa → `Lemyre_2016_27976361.md`
+- [F] ★★★ [34661278] Prophylactic or very early initiation of continuous positive airway pressure (CP → `Subramaniam_2021_34661278.md`
+- [F] ★★★ [30978205] Effects of repeat prenatal corticosteroids given to women at risk of preterm bir → `Crowther_2019_30978205.md`
+- [F] ★★★ [26690260] Comparison of animal-derived surfactants for the prevention and treatment of res → `Singh_2015_26690260.md`
+- [F] ★★★ [33301630] Early treatment versus expectant management of hemodynamically significant paten → `Mitra_2020_33301630.md`
+- [F] ★★★ [28141913] Systemic corticosteroid regimens for prevention of bronchopulmonary dysplasia in → `Onland_2017_28141913.md`
+- [F] ★★★ [35947046] Tocolytics for delaying preterm birth: a network meta-analysis (0924). → `Wilson_2022_35947046.md`
+- [F] ★★★ [27940510] Oxygen Saturation Targets in Preterm Infants and Outcomes at 18-24 Months: A Sys → `Manja_2017_27940510.md`
+- [F] ★★★ [33729556] Opioids for newborn infants receiving mechanical ventilation. → `Bellù_2021_33729556.md`
+- [F] ★★★ [30876411] Noninvasive high-frequency oscillatory ventilation as respiratory support in pre → `Li_2019_30876411.md`
+- [F] ★★★ [37532269] The proportions of term or late preterm births after exposure to early antenatal → `Ninan_2023_37532269.md`
+- [F] ★★★ [38597338] Corticosteroids for the prevention and treatment of bronchopulmonary dysplasia:  → `van_2024_38597338.md`
+- [F] ★★★ [33750966] Antenatal corticosteroids for impending late preterm (34-36+6 weeks) deliveries- → `Deshmukh_2021_33750966.md`
+- [F] ★★★ [33345924] Antenatal corticosteroids in preterm small-for-gestational age infants: a system → `Blankenship_2020_33345924.md`
+- [F] ★★★ [28052185] Early administration of inhaled corticosteroids for preventing chronic lung dise → `Shah_2017_28052185.md`
+- [F] ★★★ [28836266] Late (≥ 7 days) inhalation corticosteroids to reduce bronchopulmonary dysplasia  → `Onland_2017_28836266.md`
+- [F] ★★★ [35943347] Different corticosteroids and regimens for accelerating fetal lung maturation fo → `Williams_2022_35943347.md`
+- [F] ★★★ [37353207] Less invasive surfactant administration versus intubation-surfactant-extubation  → `Silveira_2024_37353207.md`
+- [F] ★★★ [31283839] Inositol in preterm infants at risk for or having respiratory distress syndrome. → `Howlett_2019_31283839.md`
+- [F] ★★★ [35377461] Repeat doses of prenatal corticosteroids for women at risk of preterm birth for  → `Walters_2022_35377461.md`
+- [F] ★★★ [29041034] Inhaled versus systemic corticosteroids for preventing bronchopulmonary dysplasi → `Shah_2017_29041034.md`
+- [F] ★★★ [37905735] Methylxanthine for the prevention and treatment of apnea in preterm infants. → `Marques_2023_37905735.md`
+- [F] ★★★ [29726010] Lower versus higher oxygen concentrations titrated to target oxygen saturations  → `Lui_2018_29726010.md`
+- [F] ★★★ [30820939] Positive end-expiratory pressure for preterm infants requiring conventional mech → `Bamat_2019_30820939.md`
+- [F] ★★★ [32176939] Diaphragm-triggered non-invasive respiratory support in preterm infants. → `Goel_2020_32176939.md`
+- [F] ★★★ [36912887] Systemic corticosteroid regimens for prevention of bronchopulmonary dysplasia in → `Onland_2023_36912887.md`
+- [F] ★★★ [34847243] Nasal continuous positive airway pressure levels for the prevention of morbidity → `Bamat_2021_34847243.md`
+- [F] ★★★ [29042870] Update of minimally invasive surfactant therapy. → `Shim_2017_29042870.md`
+- [F] ★★★ [38032241] Automated oxygen delivery for preterm infants with respiratory dysfunction. → `Stafford_2023_38032241.md`
+- [F] ★★★ [29035425] Inhaled versus systemic corticosteroids for the treatment of bronchopulmonary dy → `Shah_2017_29035425.md`
+- [D] ★★★ [33876883] Stem cells for bronchopulmonary dysplasia in preterm infants: A randomized contr → `Ahn_2021_33876883.md`
+- [F] ★★★ [31910825] Porcine versus bovine surfactant therapy for RDS in preterm neonates: pragmatic  → `Foligno_2020_31910825.md`
+- [F] ★★★ [26474355] Rescue high-frequency jet ventilation versus conventional ventilation for severe → `Rojas-Reyes_2015_26474355.md`
+- [F] ★★★ [37099568] Surfactant delivery via thin catheter in preterm infants: A systematic review an → `Yeung_2023_37099568.md`
+- [F] ★★★ [38695628] Non-invasive high-frequency ventilation in newborn infants with respiratory dist → `Abdel-Latif_2024_38695628.md`
+- [F] ★★★ [38270182] Laryngeal mask airway surfactant administration for prevention of morbidity and  → `Abdel-Latif_2024_38270182.md`
+- [F] ★★★ [26299681] Surfactant therapy for bronchiolitis in critically ill infants. → `Jat_2015_26299681.md`
+- [H] ★★★ [19307058] Neonatal pain, parenting stress and interaction, in relation to cognitive and mo → `Grunau_2009_19307058.md`
+- [F] ★★★ [32187656] Sustained versus standard inflations during neonatal resuscitation to prevent mo → `Bruschettini_2020_32187656.md`
+- [F] ★★★ [34935127] Antenatal corticosteroids prior to planned caesarean at term for improving neona → `Sotiriadis_2021_34935127.md`
+- [F] ★★★ [30487291] Sustained inflations and avoiding mechanical ventilation to prevent death or bro → `Fischer_2018_30487291.md`
+- [F] ★★★ [27149997] High frequency jet ventilation versus high frequency oscillatory ventilation for → `Ethawi_2016_27149997.md`
+- [F] ★★★ [37650547] Systemic corticosteroids for the prevention of bronchopulmonary dysplasia, a net → `Hay_2023_37650547.md`
+- [F] ★★★ [28707404] Sustained versus standard inflations during neonatal resuscitation to prevent mo → `Bruschettini_2017_28707404.md`
+- [F] ★★★ [39384308] Impaired lung function and associated risk factors in children born prematurely: → `van_2024_39384308.md`
+- [F] ★★★ [36209465] The effect of antenatal corticosteroid use on offspring cardiovascular function: → `Sacco_2023_36209465.md`
+- [H] ★★★ [22147379] Association of antenatal corticosteroids with mortality and neurodevelopmental o → `Carlo_2011_22147379.md`
+- [F] ★★★ [39045901] Strategies for cessation of caffeine administration in preterm infants. → `Urru_2024_39045901.md`
+- [H] ★★★ [34902013] Effect of Minimally Invasive Surfactant Therapy vs Sham Treatment on Death or Br → `Dargaville_2021_34902013.md`
+- [H] ★★★ [24534406] Invasive procedures in preterm children: brain and cognitive development at scho → `Vinall_2014_24534406.md`
+- [F] ★★★ [29246209] Airway administration of corticosteroids for prevention of bronchopulmonary dysp → `Zhang_2017_29246209.md`
+- [F] ★★★ [37565681] Pharmacological pain and sedation interventions for the prevention of intraventr → `Stróżyk_2023_37565681.md`
+- [F] ★★★ [36521169] Late (≥ 7 days) inhaled corticosteroids to reduce bronchopulmonary dysplasia in  → `Onland_2022_36521169.md`
+- [F] ★★★ [38419972] Outcomes of postnatal systemic corticosteroids administration in ventilated pret → `Boscarino_2024_38419972.md`
+- [F] ★★★ [39736686] Comparative efficacy and safety of pulmonary surfactant delivery strategies in n → `Liu_2024_39736686.md`
+- [F] ★★★ [36900783] Development and Validation of a Risk Scoring Tool for Bronchopulmonary Dysplasia → `Yu_2023_36900783.md`
+- [F] ★★★ [37882216] Surfactant therapy guided by tests for lung maturity in preterm infants at risk  → `Sibrecht_2023_37882216.md`
+- [F] ★★★ [39787118] Efficacy of pulmonary surfactant with budesonide in premature infants: A systema → `Phattraprayoon_2025_39787118.md`
+- [A] ★★★ [33964929] Surfactant protein D and bronchopulmonary dysplasia: a new way to approach an ol → `Arroyo_2021_33964929.md`
+- [H] ★★★ [32539121] Effect of Nonintervention vs Oral Ibuprofen in Patent Ductus Arteriosus in Prete → `Sung_2020_32539121.md`
+- [F] ★★★ [39392114] Nasal continuous positive airway pressure immediately after extubation for preve → `Ho_2024_39392114.md`
+- [F] ★★★ [39078848] Noninvasive high-frequency oscillation ventilation as post- extubation respirato → `Prasad_2024_39078848.md`
+- [H] ★★★ [30374050] Oxygen desaturations in the early neonatal period predict development of broncho → `Fairchild_2019_30374050.md`
+- [H] ★★★ [24725582] Respiratory outcomes of the surfactant positive pressure and oximetry randomized → `Stevens_2014_24725582.md`
+- [H] ★★★ [35467744] Noninvasive High-Frequency Oscillatory Ventilation vs Nasal Continuous Positive  → `Zhu_2022_35467744.md`
+- [B] ★★★ [33562339] Preventing Brain Injury in the Preterm Infant-Current Controversies and Potentia → `Yates_2021_33562339.md`
+- [F] ★★★ [29516473] Provision of respiratory support compared to no respiratory support before cord  → `Meyer_2018_29516473.md`
+- [H] ★★★ [31519441] The Effect of Extended Continuous Positive Airway Pressure on Changes in Lung Vo → `Lam_2020_31519441.md`
+- [F] ★★★ [40395234] Respiratory and other organ manifestations in &lt;i&gt;NKX2-1&lt;/i&gt;-related  → `Michel_2025_40395234.md`
+- [F] ★★★ [40575451] Effects of respiratory physiotherapeutic interventions on pulmonary mechanics, v → `de_2025_40575451.md`
+- [H] ★★★ [35943742] Association of Administration of Surfactant Using Less Invasive Methods With Out → `Härtel_2022_35943742.md`
+- [G] ★★★ [31727986] Bronchopulmonary dysplasia. → `Thébaud_2019_31727986.md`
+- [F] ★★★ [38591664] Inhaled bronchodilators for the prevention and treatment of chronic lung disease → `Ng_2024_38591664.md`
+- [F] ★★★ [39497733] Effects of mechanical ventilation on neurodevelopment at 12 months in preterm lo → `Vargas_2024_39497733.md`
+- [H] ★★★ [34031514] New BPD-prevalence and risk factors for bronchopulmonary dysplasia/mortality in  → `Geetha_2021_34031514.md`
+- [G] ★★★ [30974433] European Consensus Guidelines on the Management of Respiratory Distress Syndrome → `Sweet_2019_30974433.md`
+- [H] ★★★ [33753894] Early oxygen levels contribute to brain injury in extremely preterm infants. → `Rantakari_2021_33753894.md`
+- [H] ★★★ [37155165] Assessment of Corticosteroid Therapy and Death or Disability According to Pretre → `Jensen_2023_37155165.md`
+- [B] ★★★ [32854293] Phenotypes of Bronchopulmonary Dysplasia. → `Wang_2020_32854293.md`
+- [H] ★★★ [18534222] Prenatal and neonatal risk factors for sleep disordered breathing in school-aged → `Hibbs_2008_18534222.md`
+- [H] ★★★ [36136598] Neonatal hyperoxia in mice triggers long-term cognitive deficits via impairments → `Lithopoulos_2022_36136598.md`
+- [F] ★★★ [40355540] Cerebral oxygenation measurements during immediate neonatal transition in the de → `Selim_2026_40355540.md`
+- [H] ★★★ [34125148] Comparison of Respiratory Support After Delivery in Infants Born Before 28 Weeks → `Donaldsson_2021_34125148.md`
+- [F] ★★★ [41375719] Methylxanthines: The Major Impact of Caffeine in Clinical Practice in Patients D → `Neamțu_2025_41375719.md`
+- [F] ★★★ [40851451] Maternal Exposure to Medications and the Risk of Congenital and Early-Onset Hear → `Kücükyildiz_2025_40851451.md`
+- [F] ★★★ [40507622] Use of Prophylactic Methylxanthines to Prevent Extubation Failure in Preterm Neo → `Suwankomonkul_2025_40507622.md`
+- [F] ★★★ [40851778] Tiny Lungs, Big Decisions: A Meta-Analysis Comparing Minimally Invasive Surfacta → `Veintemilla-Burgos_2025_40851778.md`
+- [G] ★★★ [36863329] European Consensus Guidelines on the Management of Respiratory Distress Syndrome → `Sweet_2023_36863329.md`
+- [F] ★★★ [39618698] Efficacy and safety of different noninvasive ventilation strategies for postextu → `Yang_2024_39618698.md`
+- [H] ★★★ [29173319] Impact of the Neonatal Resuscitation Program-Recommended Low Oxygen Strategy on  → `Kapadia_2017_29173319.md`
+- [H] ★★★ [33641473] Non-invasive high-frequency oscillatory ventilation in preterm infants after ext → `Li_2021_33641473.md`
+- [F] ★★★ [36159566] Surfactant without Endotracheal Tube Intubation (SurE) versus Intubation-Surfact → `Wang_2022_36159566.md`
+- [H] ★★★ [37695601] Two-Year Outcomes After Minimally Invasive Surfactant Therapy in Preterm Infants → `Dargaville_2023_37695601.md`
+- [H] ★★★ [19161874] Postnatal corticosteroids for bronchopulmonary dysplasia. → `Jobe_2009_19161874.md`
+- [H] ★★★ [32457854] Minimally Invasive Surfactant Administration for the Treatment of Neonatal Respi → `Han_2020_32457854.md`
+- [H] ★★★ [31935746] Non-invasive forced oscillometry to quantify respiratory mechanics in term neona → `Klinger_2020_31935746.md`
+- [H] ★★★ [20232470] Effect of cumulative oxygen exposure on respiratory symptoms during infancy amon → `Stevens_2010_20232470.md`
+- [G] ★★★ [25988638] Outcomes for extremely premature infants. → `Glass_2015_25988638.md`
+- [H] ★★★ [39977011] Extended Continuous Positive Airway Pressure in Preterm Infants Increases Lung G → `McEvoy_2025_39977011.md`
+- [H] ★★★ [37925512] Lung UltrasouNd Guided surfactant therapy in preterm infants: an international m → `Corsini_2023_37925512.md`
+- [H] ★★★ [30733962] Eliminating Risk of Intubation in Very Preterm Infants with Noninvasive Cardiore → `Govindaswami_2019_30733962.md`
+- [H] ★★★ [22859930] The role of surfactant in respiratory distress syndrome. → `Ma_2012_22859930.md`
+- [H] ★★★ [35872037] Long-term childhood outcomes for babies born at term who were exposed to antenat → `Osteen_2023_35872037.md`
+- [H] ★★★ [37399009] Effectiveness of Nasal Continuous Positive Airway Pressure vs Nasal Intermittent → `Zhu_2023_37399009.md`
+- [D] ★★★ [23037875] Late administration of surfactant replacement therapy increases surfactant prote → `Keller_2012_23037875.md`
+- [E] ★★★ [17236892] Altered basal cortisol levels at 3, 6, 8 and 18 months in infants born at extrem → `Grunau_2007_17236892.md`
+- [F] ★★★ [10796193] Intravenous dexamethasone for extubation of newborn infants. → `Davis_2000_10796193.md`
+- [H] ★★★ [38557442] Cardiovascular outcomes 50 years after antenatal exposure to betamethasone: Foll → `Walters_2024_38557442.md`
+- [F] ★★★ [42096067] Prognosis of neonates receiving invasive mechanical ventilation in low-resource  → `Krishnegowda_2026_42096067.md`
+- [F] ★★★ [42220681] Pediatric Congenital Tracheobronchial Variants and Their Clinical Significance f → `Kanakaris_2026_42220681.md`
+- [H] ★★★ [26376074] Neurodevelopmental Outcomes of Extremely Preterm Infants Randomized to Stress Do → `Parikh_2015_26376074.md`
+- [H] ★★★ [34337150] Oxygen injury in neonates: which is worse? hyperoxia, hypoxia, or alternating hy → `Mohamed_2020_34337150.md`
+- [F] ★★★ [41430414] Efficacy of pulmonary surfactant with budesonide in infants born at or less than → `Phattraprayoon_2025_41430414.md`
+- [F] ★★★ [40877918] Inhaled nitric oxide in preterm infants with respiratory disease: a systematic r → `Zhou_2025_40877918.md`
+- [F] ★★★ [41669539] Risk factors for intraventricular hemorrhage in very low birth weight infants: a → `Bao_2025_41669539.md`
+- [F] ★★★ [41278024] A systematic scoping review of the use of surfactant replacement therapy for res → `Price_2025_41278024.md`
+- [F] ★★★ [41143337] Intratracheal instillation of corticosteroids combined with surfactant for preve → `Bolanos_2025_41143337.md`
+- [F] ★★★ [40870374] Comparative Efficacy and Safety Profile of the Combination of Pulmonary Surfacta → `Fatima_2025_40870374.md`
+- [F] ★★★ [41480379] Diagnostic accuracy of lung ultrasound score for bronchopulmonary dysplasia in p → `Han_2025_41480379.md`
+- [F] ★★★ [40637325] Perinatal Treatment with Corticosteroids and Its Relation with Neurodevelopment  → `Uberos_2025_40637325.md`
+- [F] ★★★ [40333673] Long-term outcomes of antenatal corticosteroids for preterm birth: An overview o → `Sultana_2025_40333673.md`
+- [F] ★★★ [40074210] Volume-targeted on high-frequency oscillatory ventilation in preterm infants: a  → `Orlandin_2025_40074210.md`
+- [F] ★★★ [40342892] Meta-analysis of budesonide and surfactant combination for the prevention of bro → `Ekraminasab_2025_40342892.md`
+- [H] ★★★ [37708497] Antenatal Corticosteroids at 21-23 Weeks of Gestation. → `Battarbee_2024_37708497.md`
+- [B] ★★★ [36864985] Prevention for moderate or severe BPD with intravenous infusion of autologous co → `Zhuxiao_2023_36864985.md`
+- [H] ★★★ [35388626] Longitudinal changes in lung function in very prematurely born young people rece → `Bisquera_2022_35388626.md`
+- [B] ★★★ [35356441] Pharmacotherapy in Bronchopulmonary Dysplasia: What Is the Evidence? → `Sakaria_2022_35356441.md`
+- [H] ★★★ [25263581] Postnatal glucocorticoid-induced hypomyelination, gliosis, and neurologic defici → `Zia_2015_25263581.md`
+- [G] ★★★ [28067830] Bronchopulmonary Dysplasia: Chronic Lung Disease of Infancy and Long-Term Pulmon → `Davidson_2017_28067830.md`
+- [H] ★★★ [37976061] Antenatal Corticosteroid Treatment During the Late-Preterm Period and Neonatal O → `Zhu_2023_37976061.md`
+- [H] ★★★ [19736053] Prevention of bronchopulmonary dysplasia. → `Laughon_2009_19736053.md`
+- [B] ★★★ [30517142] Components of the antepartum, intrapartum, and postpartum exposome impact on dis → `Nayeri_2018_30517142.md`
+- [H] ★★★ [32488737] Effect of a new respiratory care bundle on bronchopulmonary dysplasia in preterm → `Ramos-Navarro_2020_32488737.md`
+- [H] ★★★ [38840740] The relationship between neonatal stress in preterm infants and developmental ou → `Pavlyshyn_2024_38840740.md`
+- [B] ★★★ [40880213] The evolving pathophysiology of bronchopulmonary dysplasia. → `Ambalavanan_2026_40880213.md`
+- [H] ★★★ [36428848] The Outcome- or Cost-Effectiveness Analysis of LUS-Based Care or CXR-Based Care  → `Liu_2022_36428848.md`
+- [H] ★★★ [30707225] Association of Fetal Growth Restriction With Neurocognitive Function After Repea → `Cartwright_2019_30707225.md`
+- [H] ★★★ [37256621] Heterogeneity of Treatment Effects of Hydrocortisone by Risk of Bronchopulmonary → `Gentle_2023_37256621.md`
+- [H] ★★★ [38643076] The impact of combined administration of surfactant and intratracheal budesonide → `Marzban_2024_38643076.md`
+- [G] ★★★ [23905526] An official American Thoracic Society clinical practice guideline: classificatio → `Kurland_2013_23905526.md`
+- [H] ★★★ [37752593] A randomised controlled trial in preterm infants comparing prophylactic with sel → `Göpel_2023_37752593.md`
+- [H] ★★★ [39982720] Short Duration of Antenatal Corticosteroid Exposure and Outcomes in Extremely Pr → `Chawla_2025_39982720.md`
+- [B] ★★★ [24778691] Evidence for adverse effect of perinatal glucocorticoid use on the developing br → `Chang_2014_24778691.md`
+- [G] ★★★ [29463286] Bronchopulmonary dysplasia: clinical aspects and preventive and therapeutic stra → `Principi_2018_29463286.md`
+- [H] ★★★ [32025257] Respiratory Outcome of the Former Premature Infants. → `Bogdan_2019_32025257.md`
+- [E] ★★★ [23415614] Outcomes of small for gestational age infants born at <27 weeks' gestation. → `De_2013_23415614.md`
+- [H] ★★★ [35433539] With or Without Nasal Continuous Positive Airway Pressure During Delayed Cord Cl → `Deng_2022_35433539.md`
+- [H] ★★★ [38357510] Does perinatal management have the potential to reduce the risk of intraventricu → `Korček_2024_38357510.md`
+- [B] ★★★ [33177678] Budesonide with surfactant decreases systemic responses in mechanically ventilat → `Hillman_2021_33177678.md`
+- [H] ★★★ [32082129] Targeting the Stress System During Gestation: Is Early Handling a Protective Str → `Castelli_2020_32082129.md`
+- [G] ★★★ [34933747] 2021 International Consensus on Cardiopulmonary Resuscitation and Emergency Card → `Wyckoff_2021_34933747.md`
+- [G] ★★★ [29374791] Recent Advances in Bronchopulmonary Dysplasia: Pathophysiology, Prevention, and  → `Hwang_2018_29374791.md`
+- [H] ★★★ [37393894] Fluctuations in Oxygen Saturation during Synchronized Nasal Intermittent Positiv → `Atanasov_2023_37393894.md`
+- [D] ★★★ [19399006] Synthetic surfactants: where are we? Evidence from randomized, controlled clinic → `Moya_2009_19399006.md`
+- [H] ★★★ [39948401] Prevalence and associated factors for retinopathy of prematurity at a tertiary h → `Mhina_2025_39948401.md`
+- [H] ★★★ [41052898] Non-invasive high frequency oscillatory ventilation for primary respiratory supp → `Li_2025_41052898.md`
+- [H] ★★★ [39377490] Changes in practice of less-invasive surfactant administration (LISA) in United  → `Shetty_2025_39377490.md`
+- [H] ★★★ [35395952] Does closed-loop automated oxygen control reduce the duration of mechanical vent → `Kaltsogianni_2022_35395952.md`
+- [G] ★★★ [29473039] Surfactant Protein D in Respiratory and Non-Respiratory Diseases. → `Sorensen_2018_29473039.md`
+- [H] ★★★ [20057335] Modulation of Lgl1 by steroid, retinoic acid, and vitamin D models complex trans → `Nadeau_2010_20057335.md`
+- [B] ★★★ [34445253] Chitin-Derived AVR-48 Prevents Experimental Bronchopulmonary Dysplasia (BPD) and → `Das_2021_34445253.md`
+- [E] ★★★ [37532264] Association between antenatal corticosteroids and risk of serious infection in c → `Yao_2023_37532264.md`
+- [H] ★★★ [20877626] The role of growth retardation in lasting effects of neonatal dexamethasone trea → `Wang_2010_20877626.md`
+- [E] ★★★ [32020038] Timing of postnatal steroids for bronchopulmonary dysplasia: association with pu → `Harmon_2020_32020038.md`
+- [H] ★★★ [35821876] Let's Talk about Dex: When do the Benefits of Dexamethasone for Prevention of Br → `Nguyen_2022_35821876.md`
+- [E] ★★★ [30975699] Home Oxygen and 2-Year Outcomes of Preterm Infants With Bronchopulmonary Dysplas → `DeMauro_2019_30975699.md`
+- [E] ★★★ [33259857] Perinatal Risk and Protective Factors in the Development of Diffuse White Matter → `Parikh_2021_33259857.md`
+- [E] ★★★ [30612812] Black Race Is Associated with a Lower Risk of Bronchopulmonary Dysplasia. → `Ryan_2019_30612812.md`
+- [H] ★★★ [39452058] Comparing the Effects of Two Surfactant Administration Methods: Minimally Invasi → `Boskabadi_2024_39452058.md`
+- [E] ★★★ [32912950] Changing consumption of resources for respiratory support and short-term outcome → `Cheong_2020_32912950.md`
+- [H] ★★★ [36767013] Early Surfactant Therapy for Respiratory Distress Syndrome in Very Preterm Infan → `Cucerea_2023_36767013.md`
+- [B] ★★★ [33998994] Glucocorticosteroids Effects on Brain Development in the Preterm Infant: A Role  → `Manuela_2021_33998994.md`
+- [H] ★★★ [27832835] Pulmonary Function at Hospital Discharge in Preterm Infants Randomized to a Sing → `Jordan_2017_27832835.md`
+- [H] ★★★ [35146694] Antenatal Steroids and Cord Blood T-cell Glucocorticoid Receptor DNA Methylation → `Carpenter_2022_35146694.md`
+- [G] ★★★ [31377752] Continuous vital sign analysis for predicting and preventing neonatal diseases i → `Kumar_2020_31377752.md`
+- [G] ★★★ [20233384] Global report on preterm birth and stillbirth (3 of 7): evidence for effectivene → `Barros_2010_20233384.md`
+- [H] ★★★ [40525736] Late Permissive Hypercapnia for Mechanically Ventilated Preterm Infants: A Rando → `Travers_2025_40525736.md`
+- [H] ★★★ [40344310] Maternal stress and fetoplacental cortisol regulation in small-for-gestational-a → `Miranda_2025_40344310.md`
+- [D] ★★★ [41018057] A phase 1b randomized, multicenter, dose determination trial of zelpultide alfa  → `Alonso-Ojembarrena_2025_41018057.md`
+- [G] ★★★ [31296694] Less invasive surfactant administration (LISA): chances and limitations. → `Herting_2019_31296694.md`
+- [H] ★★★ [38937062] Achieved oxygen saturations and risk for bronchopulmonary dysplasia with pulmona → `Gentle_2024_38937062.md`
+- [H] ★★★ [39010007] The developmental phenotype of motor delay in extremely preterm infants followin → `Yu_2024_39010007.md`
+- [E] ★★★ [31315591] Psychiatric symptoms and risk factors in adults born preterm with very low birth → `Lærum_2019_31315591.md`
+- [G] ★★★ [32443685] Present and Future of Bronchopulmonary Dysplasia. → `Bonadies_2020_32443685.md`
+- [H] ★★★ [27057330] Advances in respiratory support for high risk newborn infants. → `Bancalari_2015_27057330.md`
+- [H] ★★★ [28436580] Pulmonary function and outcomes in infants randomized to a rescue course of ante → `McEvoy_2017_28436580.md`
+- [B] ★★★ [40352605] Advancements in biomarkers and machine learning for predicting of bronchopulmona → `Talebi_2025_40352605.md`
+- [H] ★★★ [38027255] Comparing low-dose (DART) and enhanced low-dose dexamethasone regimens in preter → `Al-Taweel_2023_38027255.md`
+- [H] ★★★ [37270819] Comparison of Beractant Administration by Thin Catheter vs Intubation-Surfactant → `Patra_2023_37270819.md`
+- [B] ★★★ [36452354] Respiratory support strategies in the management of severe, longstanding broncho → `Logan_2022_36452354.md`
+- [H] ★★★ [35250378] Administration of Antenatal Corticosteroids: Current State of Knowledge. → `Berger_2022_35250378.md`
+- [H] ★★★ [35243818] Implementation of neurally adjusted ventilatory assist and high flow nasal cannu → `Piątek_2022_35243818.md`
+- [E] ★★★ [36997902] Cerebral oxygenation immediately after birth and long-term outcome in preterm ne → `Wolfsberger_2023_36997902.md`
+- [H] ★★★ [29734948] Inhaled corticosteroids in ventilated preterm neonates: a non-randomized dose-ra → `Raghuram_2018_29734948.md`
+- [H] ★★★ [41158505] Lung MRI scoring reveals persistence of emphysema-like changes in lungs of infan → `Förster_2025_41158505.md`
+- [H] ★★★ [40640263] Trends in bronchopulmonary dysplasia and 15-year evolution in respiratory and he → `Orvay_2025_40640263.md`
+- [H] ★★★ [41192625] Decreasing Exposure to Mechanical Ventilation in Extremely Preterm Infants. → `Gentle_2025_41192625.md`
+- [H] ★★★ [39673333] Closed-loop automated oxygen control in late preterm and term, ventilated infant → `Kaltsogianni_2025_39673333.md`
+- [H] ★★★ [39800181] Outcomes of extremely preterm infants exposed to prolonged prelabor rupture of m → `Younge_2025_39800181.md`
+- [H] ★★★ [28192509] Drug versus placebo randomized controlled trials in neonates: A review of Clinic → `Desselas_2017_28192509.md`
+- [H] ★★★ [38688083] Antenatal Late Preterm Steroids: The Evolution of the ALPS Trial. → `Gyamfi-Bannerman_2024_38688083.md`
+- [H] ★★★ [38228632] A clinical study evaluating the combination of LISA and SNIPPV for the treatment → `Permall_2024_38228632.md`
+- [H] ★★★ [38672192] The Outcomes of Preterm Infants with Neonatal Respiratory Distress Syndrome Trea → `Huang_2024_38672192.md`
+- [H] ★★★ [39533330] Statistical analysis plan for the FiO&lt;sub&gt;2&lt;/sub&gt;-C trial: effects o → `König_2024_39533330.md`
+- [H] ★★★ [39258148] Predictors of CPAP failure after less-invasive surfactant administration in pret → `Alsina-Casanova_2024_39258148.md`
+- [H] ★★★ [39062285] Nasal High-Frequency Oscillatory Ventilation Use in Romanian Neonatal Intensive  → `Ognean_2024_39062285.md`
+- [H] ★★★ [39767706] Early Transpyloric Tube Feeding in Preventing Adverse Respiratory Events in Extr → `Tanaka_2024_39767706.md`
+- [H] ★★★ [39403347] Ciclesonide exhibits lung-protective effects in neonatal rats exposed to intra-a → `Mielgo_2024_39403347.md`
+- [H] ★★★ [36404722] Systemic postnatal corticosteroids and magnetic resonance imaging measurements o → `Han-Menz_2023_36404722.md`
+- [E] ★★★ [31001126] Cognitive Development Trajectories in Preterm Children With Very Low Birth Weigh → `Stålnacke_2019_31001126.md`
+- [H] ★★★ [34019273] Sex and Gender Differences in Lung Disease. → `Silveyra_2021_34019273.md`
+- [E] ★★★ [30738658] Discordance in Antenatal Corticosteroid Use and Resuscitation Following Extremel → `Rysavy_2019_30738658.md`
+- [G] ★★★ [25811285] Respiratory consequences of prematurity: evolution of a diagnosis and developmen → `Maitre_2015_25811285.md`
+- [E] ★★★ [36719082] Postnatal corticosteroids and developmental outcomes in extremely preterm or ext → `Douglas_2023_36719082.md`
+- [H] ★★★ [35835614] Perinatal management: Lessons learned from the neonatal research network. → `Ramachandran_2022_35835614.md`
+- [H] ★★★ [34980047] Lung recruitment improves the efficacy of intubation-surfactant-extubation treat → `Yang_2022_34980047.md`
+- [H] ★★★ [36619499] Volume-guarantee vs. pressure-limited ventilation in evolving bronchopulmonary d → `Cuevas_2022_36619499.md`
+- [G] ★★★ [31926483] Surfactant replacement therapy: from biological basis to current clinical practi → `Hentschel_2020_31926483.md`
+- [E] ★★★ [31551853] Born Too Early and Too Small: Higher Order Cognitive Function and Brain at Risk  → `Córcoles-Parada_2019_31551853.md`
+- [G] ★★★ [32068592] Less invasive surfactant administration: best practices and unanswered questions → `Herting_2020_32068592.md`
+- [E] ★★★ [34183433] Life-threatening bronchopulmonary dysplasia: a British Paediatric Surveillance U → `Naples_2022_34183433.md`
+- [H] ★★★ [34204670] Surfactant-Assisted Distal Pulmonary Distribution of Budesonide Revealed by Mass → `Zecchi_2021_34204670.md`
+- [E] ★★★ [30062831] Prolonged respiratory support of any type impacts outcomes of extremely low birt → `Zhang_2018_30062831.md`
+- [E] ★★★ [36471280] Late preterm antenatal corticosteroids in singleton and twin gestations: a retro → `Vieira_2022_36471280.md`
+- [F] ★★★ [37018131] Systemic opioid regimens for postoperative pain in neonates. → `Kinoshita_2023_37018131.md`
+- [H] ★★★ [41664356] Neighborhood Opportunity and Early Life Indicators of Respiratory Health in Chil → `Whitman_2026_41664356.md`
+- [H] ★★★ [40021840] Pulmonary function tests in the neonatal intensive care unit and beyond: a clini → `Go_2026_40021840.md`
+- [B] ★★★ [40173116] Accuracy of point-of-care nasopharyngeal Interleukin 6 and lung ultrasound in pr → `Teresa-Palacio_2025_40173116.md`
+- [G] ★★★ [35136198] High-frequency ventilation in preterm infants and neonates. → `Ackermann_2023_35136198.md`
+- [E] ★★★ [33942570] Intra-tracheal surfactant/budesonide versus surfactant alone: Comparison of two  → `Moschino_2021_33942570.md`
+- [H] ★★★ [31350226] Late-onset group B streptococcus infections and severe bronchopulmonary dysplasi → `Suffolk_2019_31350226.md`
+- [H] ★★★ [40243620] Modulation of the &lt;i&gt;ETV6::RUNX1&lt;/i&gt; Gene Fusion Prevalence in Newbo → `Benítez_2025_40243620.md`
+- [H] ★★★ [40439732] Less Invasive Surfactant Administration (LISA) versus Intubation Surfactant Extu → `Hooda_2025_40439732.md`
+- [D] ★★★ [40983658] Neurodevelopmental outcome in infants with neonatal encephalopathy receiving hyd → `Kovacs_2025_40983658.md`
+- [G] ★★★ [27065351] Biomarkers for Bronchopulmonary Dysplasia in the Preterm Infant. → `Rivera_2016_27065351.md`
+- [E] ★★★ [40082666] Increased bronchopulmonary dysplasia along with decreased mortality in extremely → `Jeon_2025_40082666.md`
+- [G] ★★★ [28761416] Neurological consequences of systemic inflammation in the premature neonate. → `Patra_2017_28761416.md`
+- [E] ★★★ [32792633] Characteristics and outcomes of preterm neonates according to number of doses of → `Coshal_2021_32792633.md`
+- [G] ★★★ [30574005] Bronchopulmonary Dysplasia: An Update of Current Pharmacologic Therapies and New → `Michael_2018_30574005.md`
+- [H] ★★★ [30648037] Should Minimally Invasive Surfactant Therapy be a Must in Neonatal Intensive Car → `Gengaimuthu_2018_30648037.md`
+- [H] ★★★ [18492549] Cumulative perinatal steroids: child development of preterm infants. → `Purdy_2008_18492549.md`
+- [H] ★★★ [39507497] Neurodevelopmental outcome in children between one and five years after persiste → `Atlan_2024_39507497.md`
+- [H] ★★★ [39021700] Risk Factors and Mortality in Newborns with Persistent Pulmonary Hypertension: A → `Sahin_2024_39021700.md`
+- [H] ★★★ [39685030] Short-Term Effects of Conventional Chest Physiotherapy and Expiratory Flow Incre → `Macedo_2024_39685030.md`
+- [H] ★★★ [38698318] Does the use of antenatal corticosteroids reduce respiratory morbidity in babies → `Shittu_2024_38698318.md`
+- [H] ★★★ [39320892] Lung Recruitment Before Surfactant Administration in Extremely Preterm Neonates: → `Gallini_2024_39320892.md`
+- [H] ★★★ [38465034] Factors Associated With Failure of Non-invasive Ventilation in Preterm Neonates  → `Nath_2024_38465034.md`
+- [F] ★★★ [36645224] Systemic opioid regimens for postoperative pain in neonates. → `Kinoshita_2023_36645224.md`
+- [H] ★★★ [28774356] Prevention of bronchopulmonary dysplasia: current strategies. → `Jain_2017_28774356.md`
+- [E] ★★★ [34930247] Oscillatory mechanics at birth for identifying infants requiring surfactant: a p → `Lavizzari_2021_34930247.md`
+- [E] ★★★ [39510555] Respiratory support and bronchopulmonary dysplasia in infants born at 22-26 week → `Löfberg_2025_39510555.md`
+- [H] ★★★ [38076170] The relationship between late (≥ 7 days) systemic dexamethasone and functional n → `Jia_2023_38076170.md`
+- [H] ★★★ [36926217] Care Bundle to Improve Oxygen Maintenance and Events. → `Shivananda_2023_36926217.md`
+- [H] ★★★ [38078326] Comparison of clinical outcomes following delivery of budesonide by both vibrati → `Zhou_2023_38078326.md`
+- [E] ★★★ [35570644] Little evidence for long-term harm from antenatal corticosteroids in a populatio → `Darlow_2022_35570644.md`
+- [G] ★★★ [33618742] Surfactant therapies for pediatric and neonatal ARDS: ESPNIC expert consensus op → `De_2021_33618742.md`
+- [H] ★★★ [36360415] Timing of Systemic Steroids and Neurodevelopmental Outcomes in Infants < 29 Week → `Kandraju_2022_36360415.md`
+- [E] ★★★ [35564997] Systemic Steroids in Preventing Bronchopulmonary Dysplasia (BPD): Neurodevelopme → `Zayat_2022_35564997.md`
+- [G] ★★★ [36980093] Respiratory Management of the Preterm Infant: Supporting Evidence-Based Practice → `Tana_2023_36980093.md`
+- [E] ★★★ [37744280] Cortisol levels are related to neonatal pain exposure in children born very pret → `McLean_2023_37744280.md`
+- [H] ★★★ [34949936] A Comparative Study of the Respiratory Neonatal Outcomes Utilizing Dexamethasone → `Altal_2021_34949936.md`
+- [E] ★★★ [32238150] Feasibility of combining two individualized lung recruitment maneuvers at birth  → `Kanaan_2020_32238150.md`
+- [G] ★★★ [25729750] Bronchopulmonary dysplasia early changes leading to long-term consequences. → `Hilgendorff_2015_25729750.md`
+- [E] ★★★ [38475760] Long-term pulmonary outcomes of young adults born prematurely: a Polish prospect → `Walicka-Serzysko_2024_38475760.md`
+- [E] ★★★ [35534599] Association between bronchopulmonary dysplasia and early respiratory morbidity i → `Shin_2022_35534599.md`
+- [B] ★★★ [40722975] Inhaled and Systemic Steroids for Bronchopulmonary Dysplasia: Targeting Inflamma → `Galletta_2025_40722975.md`
+- [B] ★★★ [39799305] Home oxygen therapy for Thai preterm infants with bronchopulmonary dysplasia. Wh → `Grajangdara_2025_39799305.md`
+- [E] ★★★ [36693993] Automated oxygen control for very preterm infants and neurodevelopmental outcome → `Salverda_2023_36693993.md`
+- [E] ★★★ [37160975] Association of antenatal corticosteroids with kidney function in adolescents bor → `Floyd_2023_37160975.md`
+- [E] ★★★ [37152326] Fungal infection and neurodevelopmental outcomes at 18-30 months in preterm infa → `Zhou_2023_37152326.md`
+- [G] ★★★ [31372499] Bronchopulmonary Dysplasia: An Update on Experimental Therapeutics. → `Naeem_2019_31372499.md`
+- [G] ★★★ [35986148] Should less invasive surfactant administration (LISA) become routine practice in → `Kakkilaya_2023_35986148.md`
+- [G] ★★★ [37188774] RDS-NExT workshop: consensus statements for the use of surfactant in preterm neo → `Bhandari_2023_37188774.md`
+- [G] ★★★ [32704351] Recent advances in understanding and management of bronchopulmonary dysplasia. → `Sahni_2020_32704351.md`
+- [H] ★★★ [30654786] Developmental outcomes of preterm infants with bronchopulmonary dysplasia-associ → `Choi_2019_30654786.md`
+- [G] ★★★ [29514147] Update on Vitamin E and Its Potential Role in Preventing or Treating Bronchopulm → `Stone_2018_29514147.md`
+- [G] ★★★ [36689999] European guidelines on perinatal care: corticosteroids for women at risk of pret → `Daskalakis_2023_36689999.md`
+- [G] ★★★ [34490163] Bibliometric Analysis of Bronchopulmonary Dysplasia in Extremely Premature Infan → `Zhou_2021_34490163.md`
+- [E] ★★★ [37860637] Antenatal corticosteroid treatment and infectious diseases in children: a nation → `Räikkönen_2023_37860637.md`
+- [G] ★★★ [34813878] Pulmonary surfactant as a versatile biomaterial to fight COVID-19. → `Herman_2022_34813878.md`
+- [G] ★★★ [16504990] Normal neuropsychological development in children with congenital complete heart → `Brucato_2006_16504990.md`
+- [G] ★★★ [37466143] Early nasal intermittent positive pressure ventilation (NIPPV) versus early nasa → `Lemyre_2023_37466143.md`
+- [G] ★★★ [33924638] Evidence for the Management of Bronchopulmonary Dysplasia in Very Preterm Infant → `Muehlbacher_2021_33924638.md`
+- [E] ★★★ [39366748] Point prevalence, characteristics and treatment variations for preterm infants w → `Wang_2024_39366748.md`
+- [G] ★★★ [37497794] Nasal intermittent positive pressure ventilation (NIPPV) versus nasal continuous → `Lemyre_2023_37497794.md`
+- [E] ★★★ [33145354] Neuromotor Development Evaluation of Preterm Babies Less than 34 Weeks of Gestat → `Bulbul_2020_33145354.md`
+- [E] ★★★ [25683992] Efficacy of surfactant-TA, calfactant and poractant alfa for preterm infants wit → `Jeon_2015_25683992.md`
+- [G] ★★★ [35372140] Surfactant Administration Through Laryngeal or Supraglottic Airways (SALSA): A V → `Zapata_2022_35372140.md`
+- [H] ★★★ [41869072] What is the role of diuretics in the prevention and management of bronchopulmona → `Nelin_2026_41869072.md`
+- [H] ★★★ [41929912] Implementation of developmental care in routine NICU practice and early clinical → `Pavlyshyn_2026_41929912.md`
+- [H] ★★★ [41868995] Sustained Lung Inflation in Preterm Infants with Signs of Respiratory Distress:  → `Mohammadizadeh_2026_41868995.md`
+- [H] ★★★ [42042579] Early Postnatal Hypocapnia and Hypercapnia in Ventilated Preterm Infants: Incide → `Chatziioannidis_2026_42042579.md`
+- [H] ★★★ [42005913] Lipidomics Reveals Circulating Lipid Biomarkers for Retinopathy of Prematurity i → `Trošt_2026_42005913.md`
+- [H] ★★★ [41899102] Neurally Adjusted Ventilatory Assist Compared with Volume-Targeted and Pressure- → `Park_2026_41899102.md`
+- [H] ★★★ [41890306] Structured continuous positive airway pressure weaning standardizes discontinuat → `Deindl_2026_41890306.md`
+- [H] ★★★ [41547676] Stratified Comparison of Risk Factors for Mild Versus Moderate-to-Severe Broncho → `Zhu_2026_41547676.md`
+- [H] ★★★ [42116170] Hemodynamic effects of high frequency oscillatory ventilation versus conventiona → `El_2026_42116170.md`
+- [H] ★★★ [41975090] Original research: surfactant administration using less invasive surfactant admi → `Khera_2026_41975090.md`
+- [E] ★★★ [39181982] Surgical necrotizing enterocolitis risk factors in extremely preterm infants: a  → `Kim_2025_39181982.md`
+- [G] ★★★ [37565243] Neonatal respiratory support strategies-short and long-term respiratory outcomes → `Kaltsogianni_2023_37565243.md`
+- [G] ★★★ [37072570] Perinatal origins of bronchopulmonary dysplasia-deciphering normal and impaired  → `Mižíková_2023_37072570.md`
+- [E] ★★★ [34472494] Social skills and psychopathology are associated with autonomic function in chil → `Cainelli_2022_34472494.md`
+- [G] ★★★ [34408533] An Update on the Prevention and Management of Bronchopulmonary Dysplasia. → `Hennelly_2021_34408533.md`
+- [H] ★★★ [41383573] Efficacy of lung surfactant combined with budesonide in improving bronchopulmona → `Zhang_2025_41383573.md`
+- [H] ★★★ [41362467] Efficacy of Melatonin Administration in Pregnancy in Prevention of Neonatal Resp → `Ghotbizadeh_2025_41362467.md`
+- [H] ★★★ [41462759] Prospective, Non-Blinded, Randomized Controlled Trial of Pulmonary Surfactant Ad → `Zhang_2025_41462759.md`
+- [H] ★★★ [40852409] Enhanced vs. standard low dose dexamethasone treatment on respiratory outcomes o → `Gunes_2025_40852409.md`
+- [H] ★★★ [41517375] Late-Preterm and Early-Term Respiratory Morbidity in Infants Born Primarily via  → `Arvaniti_2025_41517375.md`
+- [H] ★★★ [41087710] Computerized chest radiograph analysis of air distribution after surfactant trea → `Fall_2025_41087710.md`
+- [H] ★★★ [40415453] End-Tidal Carbon Dioxide Monitoring in Neonates Receiving Therapeutic Hypothermi → `Detar_2025_40415453.md`
+- [H] ★★★ [41283155] Chest compression during sustained inflation versus 3:1 compression-to-ventilati → `Shaker_2025_41283155.md`
+- [H] ★★★ [41301858] Cumulative Hydrocortisone Exposure and Early Brain Volumetrics in Very Low Birth → `Kim_2025_41301858.md`
+- [H] ★★★ [41278036] Increasing continuous positive airway pressure use rates in the delivery room fo → `Kim_2025_41278036.md`
+- [H] ★★★ [41222028] Adding Early Postnatal Parameters of Ventilation to Prognostic Models for Pulmon → `Staude_2025_41222028.md`
+- [H] ★★★ [41174682] Vibrating mesh nebulizers vs. less invasive surfactant administration in the tre → `Jiang_2025_41174682.md`
+- [H] ★★★ [40873737] Predictors of bronchopulmonary dysplasia occurrence and severity in extremely pr → `Liu_2025_40873737.md`
+- [H] ★★★ [41296483] Antenatal Corticosteroids and Bronchopulmonary Dysplasia in Very Preterm Infants → `Gao_2025_41296483.md`
+- [H] ★★★ [40435347] Twenty-year outcomes after repeat doses of antenatal corticosteroids prior to 32 → `May_2025_40435347.md`
+- [H] ★★★ [41364345] Diaphragmatic ultrasound and thoracic fluid content for prediction of non-invasi → `Elgendy_2025_41364345.md`
+- [H] ★★★ [41331768] A randomized controlled equivalence trial of pulmonary surfactant administration → `Wang_2025_41331768.md`
+- [H] ★★★ [40740316] Comparison of Minimally Invasive Surfactant Therapy and Intubation-surfactant Ad → `Rezaei_2025_40740316.md`
+- [H] ★★★ [40003236] Laryngeal Mask Airway Method for Minimally Invasive Surfactant Therapy in Neonat → `Pinheiro_2025_40003236.md`
+- [H] ★★★ [41035248] Ciclesonide shows a lung-protective effect in neonatal hyperoxia-exposed rats. → `Mielgo_2025_41035248.md`
+- [H] ★★★ [40881075] Comparative analysis on the efficacy of antenatal corticosteroids in preterm new → `Sairankyzy_2025_40881075.md`
+- [G] ★★★ [39226881] Less Invasive Surfactant Administration for Preterm Infants - State of the Art. → `Härtel_2024_39226881.md`
+- [H] ★★★ [39604779] Late postnatal steroid treatment using oral betamethasone can help to close duct → `Remy_2024_39604779.md`
+- [G] ★★★ [37144837] Nasal high flow therapy for primary respiratory support in preterm infants. → `Hodgson_2023_37144837.md`
+- [H] ★★★ [24250734] The relationship between the first episode of wheezing and matrix metalloprotein → `Sezer_2013_24250734.md`
+- [H] ★★★ [38021697] Effect of Nasal Continuous Airway Pressure With and Without Surfactant Administr → `Malibary_2023_38021697.md`
+- [H] ★★★ [37834864] Outcomes at 7 Years of Age of Former Very Preterm Neonates with Repeated Surfact → `Hascoet_2023_37834864.md`
+- [G] ★★★ [36085059] Contributions of the NICHD neonatal research network to the diagnosis, preventio → `Jensen_2022_36085059.md`
+- [G] ★★★ [33790663] New Pharmacologic Approaches to Bronchopulmonary Dysplasia. → `Roberts_2021_33790663.md`
+- [G] ★★★ [23582966] An update on pharmacologic approaches to bronchopulmonary dysplasia. → `Ghanta_2013_23582966.md`
+- [G] ★★★ [36600473] Can we balance early exogenous surfactant therapy and non-invasive respiratory s → `Glaser_2023_36600473.md`
+- [G] ★★★ [34735625] Enhanced INSURE (ENSURE): an updated and standardised reference for surfactant a → `Fortas_2022_34735625.md`
+- [H] ★★★ [] Surfactant Administration in Preterm babies (28-36 weeks) with Respiratory Distr → `Mishra_2022_.md`
+- [G] ★★★ [34639034] Oxygen Toxicity to the Immature Lung-Part II: The Unmet Clinical Need for Causal → `Behnke_2021_34639034.md`
+- [E] ★★★ [33986470] Budesonide mixed with surfactant did not affect neurodevelopmental outcomes at 6 → `Anderson_2021_33986470.md`
+- [H] ★★★ [34650941] Intratracheal Keratinocyte Growth Factor Enhances Surfactant Protein B Expressio → `Krishnan_2021_34650941.md`
+- [G] ★★★ [38870922] Optimal Strategies of Mechanical Ventilation: Can We Avoid or Reduce Lung Injury → `van_2024_38870922.md`
+- [B] ★★★ [41897096] Postnatal Steroids in Preterm Infants: A Narrative Review Series-Part 1: Inflamm → `Plessas-Azurduy_2026_41897096.md`
+- [B] ★★★ [41898223] PDA in Prematurity: Rethinking a Decades-Old Debate in 2026. → `Plessas-Azurduy_2026_41898223.md`
+- [B] ★★★ [41948847] The Inflammatory Nexus of Bronchopulmonary Dysplasia: From Molecular Pathways to → `Wang_2026_41948847.md`
+- [G] ★★★ [37009665] Bubble devices versus other pressure sources for nasal continuous positive airwa → `Prakash_2023_37009665.md`
+- [E] ★★★ [39870062] Validation of a New Classification for Severe Bronchopulmonary Dysplasia in Extr → `Nakanishi_2025_39870062.md`
+- [E] ★★★ [40696041] Outcomes of extremely preterm infants with bronchopulmonary dysplasia: a retrosp → `Gad_2025_40696041.md`
+- [B] ★★★ [41462589] Oxidant Stress, Hyperoxia/Hypoxia and Neonatal Respiratory Disorders. → `Kaltsogianni_2025_41462589.md`
+- [B] ★★★ [40776618] Respiratory severity score-guided postnatal systemic corticosteroid therapy for  → `Yeom_2025_40776618.md`
+- [B] ★★★ [40242679] Exploring the Relationship Between Blood Transfusions and Development of Broncho → `Al-Matary_2025_40242679.md`
+- [G] ★★★ [27720550] IGF-I in the clinics: Use in retinopathy of prematurity. → `Hellström_2016_27720550.md`
+- [G] ★★★ [31243934] History of Pulmonary Surfactant Replacement Therapy for Neonatal Respiratory Dis → `Bae_2019_31243934.md`
+- [G] ★★★ [22007245] Postnatal corticosteroids for prevention and treatment of chronic lung disease i → `Gupta_2012_22007245.md`
+- [E] ★★★ [39062137] The Characteristics and Two-Year Neurodevelopmental Outcomes of Home Oxygen Ther → `Chang_2024_39062137.md`
+- [E] ★★★ [38445078] Prediction of bronchopulmonary dysplasia in very preterm infants: competitive ri → `Sucasas-Alonso_2024_38445078.md`
+- [B] ★★★ [39716121] Lung recruitment with HFOV versus VTV/AC in preterm infants with RDS. → `Eldegwi_2024_39716121.md`
+- [G] ★★★ [27581993] Synchronized mechanical ventilation for respiratory support in newborn infants. → `Greenough_2016_27581993.md`
+- [G] ★★★ [30013381] Evaluating the use of corticosteroids in preventing and treating bronchopulmonar → `Olaloko_2018_30013381.md`
+- [G] ★★★ [32922358] Respiratory Support of the Preterm Neonate: Lessons About Ventilation-Induced Br → `Chan_2020_32922358.md`
+- [G] ★★★ [32117833] Volume Targeted Ventilation and High Frequency Ventilation as the Primary Modes  → `Ganguly_2020_32117833.md`
+- [G] ★★★ [40556011] Women's health and maternal care services: seizing missed opportunities to preve → `Jacobsson_2025_40556011.md`
+- [E] ★★★ [37517651] Preterm Infants off Positive Pressure Respiratory Support Have a Higher Incidenc → `Noroozi-Clever_2023_37517651.md`
+- [G] ★★★ [35753831] Quality improvement for neonatal resuscitation and delivery room care. → `Whitesel_2022_35753831.md`
+- [G] ★★★ [37508624] Development and Disorders of the Airway in Bronchopulmonary Dysplasia. → `Bush_2023_37508624.md`
+- [G] ★★★ [28837121] Diagnostic Approach to Pulmonary Hypertension in Premature Neonates. → `Kumar_2017_28837121.md`
+- [H] ★★★ [] EFFECTS OF BOVINE LIPID EXTRACT SURFACTANT (BLES) ADMINISTRATION IN PRETERM INFA → `Stockley_2017_.md`
+- [G] ★★★ [35251853] Treating Apnea of Prematurity. → `Pergolizzi_2022_35251853.md`
+- [E] ★★★ [34497783] Clinical Characteristics and Outcomes Until 2 Years of Age in Preterm Infants Wi → `Ruan_2021_34497783.md`
+- [E] ★★★ [39379026] Clinical Analysis of Inhaled Nitric Oxide Therapy in Preterm Infants at Differen → `Liang_2025_39379026.md`
+- [E] ★★★ [40082978] Association between antenatal corticosteroids and neonatal outcomes among very p → `Sun_2025_40082978.md`
+- [E] ★★★ [39285390] Impact of implementation of 2019 European respiratory distress syndrome guidelin → `Yan_2024_39285390.md`
+- [E] ★★★ [37500076] Comparison of Outcomes of Less Invasive Surfactant Administration in Prematurely → `Shetty_2024_37500076.md`
+- [G] ★★★ [37791592] Caffeine versus other methylxanthines for the prevention and treatment of apnea  → `Moresco_2023_37791592.md`
+- [E] ★★★ [38322242] pCO2 values in asphyxiated infants under therapeutic hypothermia after tailored  → `Serrao_2023_38322242.md`
+- [G] ★★★ [31998672] Fine Tuning Non-invasive Respiratory Support to Prevent Lung Injury in the Extre → `Glaser_2019_31998672.md`
+- [G] ★★★ [38111458] A Review of the Occurrence of Intraventricular Hemorrhage in Preterm Newborns an → `Pande_2023_38111458.md`
+- [G] ★★★ [37780042] Comparison of mortality and short-term outcomes between classic, intubation-surf → `Kim_2023_37780042.md`
+- [E] ★★★ [35799753] Noninvasive high-frequency oscillatory ventilation versus bi-level positive pres → `Chen_2022_35799753.md`
+- [G] ★★★ [33490635] How to prevent ROP in preterm infants in Indonesia? → `Siswanto_2021_33490635.md`
+- [E] ★★★ [32642365] Minimally Invasive Surfactant Therapy: An Analytical Report of Our Prospective D → `Gengaimuthu_2020_32642365.md`
+- [E] ★★★ [32111975] Neonatal oxygen saturations and blood pressure at school-age in children born ex → `Oren_2020_32111975.md`
+- [G] ★★★ [31573068] Prostanoids and their analogues for the treatment of pulmonary hypertension in n → `Shivanna_2019_31573068.md`
+- [E] ★★★ [40987824] Total hydrocortisone dosage in extremely low birth weight infants and neurodevel → `Taniguchi_2026_40987824.md`
+- [E] ★★★ [40864163] Mortality and Neurodevelopmental Outcome in an Italian Cohort of Very Low Birth  → `Lugli_2026_40864163.md`
+- [F] ★★★ [42005931] Neurological and neurodevelopmental outcomes in neonates and children after mate → `Zhou_2026_42005931.md`
+- [G] ★★★ [40374983] Current and Emerging Therapies for Prevention and Treatment of Bronchopulmonary  → `Gilfillan_2025_40374983.md`
+- [G] ★★★ [33262959] Non-invasive Ventilation for Children With Chronic Lung Disease. → `Atag_2020_33262959.md`
+- [G] ★★★ [19023529] Pulmonary diseases and corticosteroids. → `Sethi_2008_19023529.md`
+- [E] ★★★ [40360237] Postnatal dexamethasone treatment for preterm infants at high risk for bronchopu → `Chandwani_2025_40360237.md`
+- [E] ★★★ [39694682] Postnatal betamethasone treatment in extremely preterm infants and risk of neuro → `Löfberg_2025_39694682.md`
+- [E] ★★★ [39935572] Neurodevelopmental Outcome at 20 Months Corrected Age in Extremely Preterm Infan → `David_2025_39935572.md`
+- [E] ★★★ [40730036] Neonatal Outcomes of the Intubation-Surfactant-Extubation versus Less Invasive S → `Cho_2025_40730036.md`
+- [E] ★★★ [39939928] A comparison of short- and long-term prognoses between cases with and without an → `Cho_2025_39939928.md`
+- [E] ★★★ [40454579] Antenatal dexamethasone for late preterm delivery: Rate of complete course and n → `Srisakulpanich_2025_40454579.md`
+- [E] ★★★ [40253571] Development and external validation of a machine learning model to predict bronc → `Choi_2025_40253571.md`
+- [E] ★★★ [40404190] Delayed admission temperature normalisation in preterm infants &lt;32 weeks: imp → `Alrahili_2025_40404190.md`
+- [G] ★★★ [38325946] Comorbidities and Late Outcomes in Neonatal Pulmonary Hypertension. → `Stieren_2024_38325946.md`
+- [E] ★★★ [38933056] Open-heart surgery in preterm infants: A single-center experience. → `Memon_2024_38933056.md`
+- [E] ★★★ [39315359] Outcomes of infants with birthweights less than 501 g compared to infants weighi → `Elgin_2024_39315359.md`
+- [G] ★★★ [37808559] Preterm infant retinal OCT markers of perinatal health and retinopathy of premat → `Mangalesh_2023_37808559.md`
+- [E] ★★★ [36904291] Noninvasive Ventilation and Rapid Enteral Feeding Advances in Preterm Infants-2- → `Behnke_2023_36904291.md`
+- [G] ★★★ [36539205] Less Invasive Surfactant Administration: A Viewpoint. → `Mani_2024_36539205.md`
+- [E] ★★★ [36545664] Safety and efficacy of a novel double-lumen tracheal tube in neonates with RDS:  → `Li_2022_36545664.md`
+- [E] ★★★ [36714644] Individualized dynamic PEEP (dynPEEP) vs. positive pressure ventilation in deliv → `Song_2022_36714644.md`
+- [E] ★★★ [35279706] Factors associated with initial tidal volume selection during neonatal volume-ta → `Knake_2022_35279706.md`
+- [G] ★★★ [31236027] Turkish Neonatal Society guideline on prevention and management of bronchopulmon → `Arsan_2018_31236027.md`
+- [G] ★★★ [19026341] Inhaled nitric oxide and neuroprotection in preterm infants. → `Marks_2008_19026341.md`
+- [G] ★★★ [35551136] Pulmonary Resilience: Moderating the Association between Oxygen Exposure and Pul → `Jhaveri_2022_35551136.md`
+- [G] ★★★ [22295020] Neonatal ventilatory techniques - which are best for infants born at term? → `Chowdhury_2011_22295020.md`
+- [G] ★★★ [40722815] Pulmonary Hemorrhage in Premature Infants: Pathophysiology, Risk Factors and Cli → `Sahussarungsi_2025_40722815.md`
+- [G] ★★★ [37761012] Tracheostomy in Severe Bronchopulmonary Dysplasia-How to Decide in the Absence o → `Miller_2023_37761012.md`
+- [G] ★★★ [40987836] Prophylactic surfactant therapy in the era of less invasive surfactant delivery. → `Kaluarachchi_2026_40987836.md`
+- [G] ★★★ [34682148] The Intertemporal Role of Respiratory Support in Improving Neonatal Outcomes: A  → `Sarafidis_2021_34682148.md`
+- [G] ★★★ [33916116] Antenatal Corticosteroids: Extending the Practice for Late-Preterm and Scheduled → `Htun_2021_33916116.md`
+- [E] ★★★ [42122930] Morbidity, Mortality, and Short-Term Outcomes of Preterm Infants ≤ 25 Weeks of G → `Matyas_2026_42122930.md`
+- [E] ★★★ [42146931] A nomogram for predicting the risk of bronchopulmonary dysplasia in preterm infa → `Guo_2026_42146931.md`
+- [E] ★★★ [41703503] Outcomes and complications of invasive versus non-invasive respiratory support i → `Chen_2026_41703503.md`
+- [E] ★★★ [41770776] Impact of timing from last dose of dexamethasone administration to delivery, dif → `Chawanpaiboon_2026_41770776.md`
+- [E] ★★★ [41597093] Association Between Serum Caffeine Concentrations, Intermittent Hypoxia and Apne → `Vardar_2026_41597093.md`
+- [E] ★★★ [42073148] Improving LISA Practice: An Ongoing Observational Quality Improvement Initiative → `Koenigsaecker_2026_42073148.md`
+- [E] ★★★ [] Safely developing respiratory care during emergency neonatal transport by a long → `Lantos_2026_.md`
+- [E] ★★★ [42230381] Comparison of LISA and INSURE techniques for surfactant administration: a multic → `Panza_2026_42230381.md`
+- [E] ★★★ [42205720] Real-world use of hydrocortisone and dexamethasone in the prevention and treatme → `Ali_2026_42205720.md`
+- [E] ★★★ [40523948] Longitudinal changes in cardiopulmonary outcomes of adults born extremely premat → `Jenkinson_2026_40523948.md`
+- [E] ★★★ [41567169] Lung aeration and gas exchange in preterm infants developing moderate-to-severe  → `De_2026_41567169.md`
+- [E] ★★★ [41927465] School-age lung function after preterm birth: early-life determinants in a paedi → `Kelchtermans_2026_41927465.md`
+- [E] ★★★ [41565004] Time-Series Machine Learning for Prediction of Bronchopulmonary Dysplasia. → `Chhabra_2026_41565004.md`
+- [E] ★★★ [42147625] Assessment of Neurodevelopmental Outcomes Using the Developmental Assessment Sca → `Sood_2026_42147625.md`
+- [G] ★★★ [39881039] ESR Essentials: imaging of common paediatric pulmonary diseases-practice recomme → `Lovrenski_2025_39881039.md`
+- [G] ★★★ [39436116] Efficacy and tolerance of intravenous methylprednisolone pulses in children with → `Reynaud_2025_39436116.md`
+- [E] ★★★ [41153532] Comparison of Clinical Outcomes Between Calfactant and Poractant-Alfa in Preterm → `Sero_2025_41153532.md`
+- [E] ★★★ [41022644] Impact of LISA failure on 2-year neurodevelopmental outcomes in preterm infants: → `Swinkels_2025_41022644.md`
+- [E] ★★★ [41398010] Dexamethasone dosage and course effects on respiratory outcomes in preterm twins → `Chawanpaiboon_2025_41398010.md`
+- [E] ★★★ [41264604] Outcome of infants with bronchopulmonary dysplasia. → `Setyowireni_2025_41264604.md`
+- [E] ★★★ [39532069] Increased Risk of Persistent Pulmonary Hypertension of the Newborn in Twin Anaem → `van_2025_39532069.md`
+- [E] ★★★ [40334647] Medical Needs of Very-Low-Birth-Weight Preterm Infants Post-Discharge: A Populat → `Jim_2025_40334647.md`
+- [E] ★★★ [40679694] Rib-indexed quantitative lung ultrasound versus chest X-ray for lung recruitment → `Ouyang_2025_40679694.md`
+- [E] ★★★ [40034712] Correlation and predictive value of oxygenation and oxygen saturation indices in → `Alanazi_2025_40034712.md`
+- [E] ★★★ [40666240] Continuous positive airway pressure in delivery room in extremely preterm infant → `Zhang_2025_40666240.md`
+- [E] ★★★ [40229783] Prevalence and perinatal risk factors of growth retardation in congenital diaphr → `Kim_2025_40229783.md`
+- [E] ★★★ [41035245] Less invasive surfactant administration versus intubation-surfactant-extubation: → `Jithin_2025_41035245.md`
+- [E] ★★★ [39994592] Commentary: Antenatal corticosteroid prophylaxis in late preterms- short- and lo → `Jost_2025_39994592.md`
+- [E] ★★★ [39941365] Validation of the NICHD Bronchopulmonary Dysplasia Outcome Estimator 2022 in a Q → `Kanagaraj_2025_39941365.md`
+- [E] ★★★ [41113566] Association between fentanyl use and reduced risk of tension pneumothorax in ext → `Kurimoto_2025_41113566.md`
+- [E] ★★★ [40084127] The current clinical landscape of preterm infants less than 32 weeks of gestatio → `Wang_2025_40084127.md`
+- [F] ★★★ [41487613] Risk factors for neonatal catheter-related bloodstream infections: a systematic  → `Wang_2025_41487613.md`
+- [G] ★★★ [39404798] Moving on from clinical animal-derived surfactants to peptide-based synthetic pu → `Walther_2024_39404798.md`
+- [E] ★★★ [39677257] Unplanned Extubation in Extremely Preterm Neonates: Incidence, Risk Factors, and → `Ibrahim_2024_39677257.md`
+- [E] ★★★ [38398420] Updated Clinical Practice Guidelines in Resuscitation and the Management of Resp → `Cucerea_2024_38398420.md`
+- [E] ★★★ [39069619] Predictive value of serum MED1 and PGC-1α for bronchopulmonary dysplasia in pret → `Li_2024_39069619.md`
+- [E] ★★★ [38722851] First-year outcomes of very low birth weight preterm singleton infants with hypo → `Chang_2024_38722851.md`
+- [G] ★★★ [37371878] Prevention of Chronic Morbidities in Extremely Premature Newborns with LISA-nCPA → `Balázs_2023_37371878.md`
+- [G] ★★★ [35620146] Management Practices During Perinatal Respiratory Transition of Very Premature I → `Hallman_2022_35620146.md`
+- [G] ★★★ [40023691] Extending CPAP in stable preterm infants to increase lung growth and development → `Mamidi_2025_40023691.md`
+- [G] ★★★ [40299251] Noninvasive Ventilation Strategies in Neonates. → `Kumar_2025_40299251.md`
+- [G] ★★★ [36381708] Less Invasive Surfactant Administration: A Review of Current Evidence of Clinica → `Sanchez_2022_36381708.md`
+- [G] ★★★ [41597158] Non-Invasive Surfactant Administration in Preterm Infants. → `Budajaja_2026_41597158.md`
+- [G] ★★★ [41802129] European Consensus Guidelines on the Management of Respiratory Distress Syndrome → `Sweet_2026_41802129.md`
+- [G] ★★★ [41517590] Respiratory Physiotherapy in Preterm Neonates with Bronchopulmonary Dysplasia or → `Rodríguez-Roza_2026_41517590.md`
+- [G] ★★★ [42073053] Postnatal Steroids in Preterm Infants: A Narrative Review Series-Part 3: Impacts → `Plessas-Azurduy_2026_42073053.md`
+- [G] ★★★ [41958207] Optimal postnatal corticosteroid regimens to prevent bronchopulmonary dysplasia  → `Jeon_2026_41958207.md`
+- [G] ★★★ [42232093] Dexmedetomidine Dosing Strategies in Sedation and Anesthesia: Pharmacokinetics,  → `Tsai_2026_42232093.md`
+- [G] ★★★ [41292569] Electrical Impedance Tomography Use in Neonatal and Pediatrics Patients: A Narra → `Yang_2025_41292569.md`
+- [G] ★★★ [41153523] The Clinical Relevance of Overnight Oximetry in the Diagnosis of Intermittent De → `Noone_2025_41153523.md`
+- [G] ★★★ [40725567] Antenatal Corticosteroids in Early and Late Fetal Growth Restriction. → `Tosto_2025_40725567.md`
+- [G] ★★★ [39347262] The Potential of Ambroxol as a Panacea for Neonatal Diseases: A Scoping Review. → `Al-Abdi_2024_39347262.md`
+- [G] ★★★ [39727666] Personalized Antenatal Corticosteroid Therapy and Central Nervous System Develop → `Babović_2024_39727666.md`
+- [G] ★★★ [] Analgesia and sedation in premature infants receiving invasive ventilation: a sy → `Moultrie_2024_.md`
+- [G] ★★★ [40625572] An updated review on systemic glucocorticoids in the prevention and treatment of → `Wang_2023_40625572.md`
+- [G] ★★★ [37899802] Role of Postnatal Corticosteroids in the Treatment or Prevention of Bronchopulmo → `Bulbul_2023_37899802.md`
+- [E] ★★★ [30134865] Prospective study of early and late outcomes of extremely low birthweight in Cen → `Abolfotouh_2018_30134865.md`
+- [H] ★★★ [33312033] Midterm Neuromotor Development Results of Preterm Babies less than 34 Weeks Gest → `Bulbul_2020_33312033.md`
+- [H] ★★★ [42220737] A Novel F5 Gene Variant Associated With Early-Life Ischemic Brain Injury in a Ch → `Hassanien_2026_42220737.md`
+- [G] ★★★ [35391836] The Epidemiology and Mechanisms of Lifetime Cardiopulmonary Morbidities Associat → `Rastogi_2022_35391836.md`
+- [G] ★★★ [34829543] Oxidative Stress in Preterm Newborns. → `Lembo_2021_34829543.md`
+- [G] ★★★ [38672994] Association of Fetal Lung Development Disorders with Adult Diseases: A Comprehen → `Yaremenko_2024_38672994.md`
+- [H] ★★★ [37842024] Neonatal sequential organ failure assessment score within 72 h after delivery re → `Xu_2023_37842024.md`
+- [E] ★★★ [30360037] Association between vitamin D level at birth and respiratory morbidities in very → `Kim_2019_30360037.md`
+- [E] ★★★ [35160203] Prematurity and Long-Term Respiratory Morbidity-What Is the Critical Gestational → `Gutvirtz_2022_35160203.md`
+- [G] ★★★ [28915908] Advances in paediatrics in 2016: current practices and challenges in allergy, au → `Caffarelli_2017_28915908.md`
+- [G] ★★★ [38634910] 40 years neonatology : An academic life. → `Pollak_2025_38634910.md`
+- [I] ★★★ [41624824] Case Report: Clinical characteristics and multidisciplinary collaborative manage → `Yang_2025_41624824.md`
+- [I] ★★★ [40863720] Case Report of a Neonate with Severe Perinatal Asphyxia: A Multidisciplinary App → `Powązka_2025_40863720.md`
+- [I] ★★★ [40564738] Tetralogy of Fallot: The Burden of Pulmonary Atresia in the NICU Set-Up: Two Cas → `Dragomir_2025_40564738.md`
+- [I] ★★★ [40710888] The First Percutaneous Closures of Patent Ductus Arteriosus in Premature Neonate → `Krasic_2025_40710888.md`
+- [H] ★★★ [39856589] Time to recovery of neonatal sepsis and its predictors in public hospitals of No → `Oyato_2025_39856589.md`
+- [I] ★★★ [39882212] Case Report: Respiratory outcome in a preterm infant following previable rupture → `Subramanian_2024_39882212.md`
+- [G] ★★★ [29354115] Cytokine-Ion Channel Interactions in Pulmonary Inflammation. → `Hamacher_2017_29354115.md`
+- [G] ★★★ [40633975] Towards early detection and disease interception of COPD across the lifespan. → `Faner_2025_40633975.md`
+- [E] ★★★ [38028674] Burden of respiratory failure in pediatric patients: Analysis of a prospective m → `Hernández-Corredor_2023_38028674.md`
+- [H] ★★★ [41756186] Early lung ultrasound score combined with umbilical cord-blood procalcitonin imp → `Zheng_2026_41756186.md`
+- [E] ★★★ [41607975] Clinical Profile, Magnetic Resonance Imaging (MRI) Findings, and Neurological Ou → `Sakaleshpur_2025_41607975.md`
+- [H] ★★★ [41300623] Funisitis Predicts Poor Respiratory Outcomes in Extremely Preterm Neonates. → `Hung_2025_41300623.md`
+- [H] ★★★ [40221464] Prevalence and associated factors of thrombocytopenia among neonates in Northwes → `Abate_2025_40221464.md`
+- [E] ★★★ [33101673] Assessment and comparison of mortality and short-term outcomes among premature i → `Khasawneh_2020_33101673.md`
+- [G] ★★★ [34681665] Oxygen Toxicity to the Immature Lung-Part I: Pathomechanistic Understanding and  → `Choi_2021_34681665.md`
+- [B] ★★★ [42072750] Association of Chorioamnionitis with Early and Late Neonatal Sepsis in Preterm I → `Babacheva_2026_42072750.md`
+- [G] ★★★ [40723099] Short- and Long-Term Consequences of Late-Preterm and Early-Term Birth. → `Arham_2025_40723099.md`
+- [E] ★★★ [39699894] Racial and Ethnic Differences in Outcomes of Neonates Born at Less Than 30 Weeks → `Boghossian_2024_39699894.md`
+- [G] ★★★ [35084716] Multiomics Analysis-Based Biomarkers in Diagnosis of Polycystic Ovary Syndrome. → `Rani_2023_35084716.md`
+- [E] ★★★ [41090249] Phenotype-Genotype Correlations in ABCA3 Patients-The RespiRare Cohort. → `Fleury_2025_41090249.md`
+- [G] ★★★ [37239335] Hypoxia-Inducible Pathway Polymorphisms and Their Role in the Complications of P → `Strauss_2023_37239335.md`
+- [G] ★★★ [40150674] Vitamin D: What We Know and What We Still Do Not Know About Vitamin D in Preterm → `Radu_2025_40150674.md`
+- [G] ★★★ [26518317] Advances in pediatrics in 2014: current practices and challenges in allergy, gas → `Caffarelli_2015_26518317.md`
+- [E] ★★★ [42227301] Perinatal outcomes in pregnancies with one abnormal oral glucose tolerance test  → `Ismayilov_2026_42227301.md`
+- [E] ★★★ [42116311] Quantitative evaluation of nursing intervention efficacy in high-risk hypertensi → `Zhang_2026_42116311.md`
+- [E] ★★★ [42216380] Neonatal PICC-related complications: Risk factors and evaluation of an optimized → `Zhou_2026_42216380.md`
+- [E] ★★★ [42100758] Time to Death and Predictors of Mortality in Neonates Admitted to Tibebe Ghion R → `Tsegaye_2026_42100758.md`
+- [G] ★★★ [40002629] Review of Precision Medicine and Diagnosis of Neonatal Illness. → `ELMeneza_2025_40002629.md`
+- [E] ★★★ [41193600] Association of maternal pre-pregnancy body mass index with neonatal respiratory  → `Kim_2025_41193600.md`
+- [E] ★★★ [40469624] Prevalence of carbapenem-resistant Enterobacterales colonisation in hospitalised → `Haumann_2025_40469624.md`
+- [E] ★★★ [39334670] Attendance in a Neonatal Follow-Up Program before and in the Time of COVID-19 Pa → `Nantsi_2024_39334670.md`
+- [E] ★★★ [39064021] Bioinformatics in Neonatal/Pediatric Medicine-A Literature Review. → `Rallis_2024_39064021.md`
+- [I] ★★ [42181580] Prenatal ultrasound diagnosis, intrauterine monitoring and postnatal management  → `Giudice_2026_42181580.md`
+- [F] ★★ [28786098] Antenatal and intrapartum interventions for preventing cerebral palsy: an overvi → `Shepherd_2017_28786098.md`
+- [F] ★★ [39145520] Daily oral iron supplementation during pregnancy. → `Finkelstein_2024_39145520.md`
+
+## Priority 2 (Abbreviated)
+
+- [F] [40472380] Antenatal Corticosteroids and Child Neurodevelopment: A Systematic Review and Me → `Liauw_2025_40472380_abbrev.md`
+- [H] [33730436] Bronchopulmonary dysplasia as a determinant of respiratory outcomes in adult lif → `Collaco_2021_33730436_abbrev.md`
+- [H] [35210327] Increased cytotoxic T-cells in the airways of adults with former bronchopulmonar → `Um-Bergström_2022_35210327_abbrev.md`
+- [B] [36625900] Complex roles of TGF-β signaling pathways in lung development and bronchopulmona → `Calthorpe_2023_36625900_abbrev.md`
+- [F] [42114873] Mapping the evidence on stillbirth prevention across the reproductive continuum: → `Gadapani_2026_42114873_abbrev.md`
+- [H] [34640535] Safety, Feasibility, and Impact of Enalapril on Cardiorespiratory Physiology and → `Stanford_2021_34640535_abbrev.md`
+- [E] [35410959] Tracking of lung function from 10 to 35 years after being born extremely preterm → `Bårdsen_2022_35410959_abbrev.md`
+- [G] [24754823] Bronchopulmonary dysplasia: NHLBI Workshop on the Primary Prevention of Chronic  → `McEvoy_2014_24754823_abbrev.md`
+- [E] [35181232] Extreme prematurity: Risk and resiliency. → `Taylor_2022_35181232_abbrev.md`
+- [H] [40760723] Impact of antenatal corticosteroid therapy on neonatal respiratory outcomes in l → `Kurt_2025_40760723_abbrev.md`
+- [H] [36313352] Landscape analysis for a neonatal disease progression model of bronchopulmonary  → `Barrett_2022_36313352_abbrev.md`
+- [G] [31818194] Bronchopulmonary dysplasia: what are its links to COPD? → `McGrath-Morrow_2019_31818194_abbrev.md`
+- [G] [21646264] Targeting inflammation to prevent bronchopulmonary dysplasia: can new insights b → `Wright_2011_21646264_abbrev.md`
+- [E] [29540497] How best to capture the respiratory consequences of prematurity? → `Ciuffini_2018_29540497_abbrev.md`
+- [H] [40122573] Improving the quality of care for preterm infants in the golden hour. → `Amuji_2025_40122573_abbrev.md`
+- [E] [33072679] Reduced Lung Function at Preschool Age in Survivors of Very Low Birth Weight Pre → `Chang_2020_33072679_abbrev.md`
+- [G] [36763190] Prematurity and BPD: what general pediatricians should know. → `Bonadies_2023_36763190_abbrev.md`
+- [G] [39114855] Strategies for the prevention of bronchopulmonary dysplasia. → `Dini_2024_39114855_abbrev.md`
+- [H] [42002756] Long-term developmental outcomes of very-low-birth-weight infants born to non-Ko → `Kim_2026_42002756_abbrev.md`
+- [H] [42028267] PROMISE-impact of maternal and neonatal risk factors on the respiratory outcome  → `Brickmann_2026_42028267_abbrev.md`
+- [H] [] Defining the Timing Window: Week- and Interval-Specific Effects of Antenatal Bet → `Edut_2026__abbrev.md`
+- [H] [41820888] Association between timing of antenatal corticosteroid and developmental outcome → `Chung_2026_41820888_abbrev.md`
+- [H] [40957980] Can postnatal steroids or initial mode of respiratory support really impact lung → `Shanthikumar_2026_40957980_abbrev.md`
+- [H] [41521229] Associations between postnatal cerebral oxygen availability and utilization in v → `Karthikeyan_2026_41521229_abbrev.md`
+- [G] [26593086] The Natural History of Bronchopulmonary Dysplasia: The Case for Primary Preventi → `McEvoy_2015_26593086_abbrev.md`
+- [G] [35923207] Effects of Antioxidants in Human Milk on Bronchopulmonary Dysplasia Prevention a → `Yang_2022_35923207_abbrev.md`
+- [H] [41469593] Comparison of the effect of surfactant with and without budesonide on the outcom → `Jamali_2025_41469593_abbrev.md`
+- [H] [40821422] Do Postnatal Corticosteroids Negatively Impact the Neurodevelopmental Outcomes o → `Unknown_2025_40821422_abbrev.md`
+- [H] [41327240] Nomogram-based prediction model for extubation failure in preterm infants with i → `Tan_2025_41327240_abbrev.md`
+- [H] [39797676] Enlarged airspaces in the distal lung in adolescents born very preterm as measur → `Öhrneman_2024_39797676_abbrev.md`
+- [H] [] Impact of Early Surfactant Administration on Ductus Arteriosus Assessed at 24 h  → `Cucerea_2024__abbrev.md`
+- [G] [32637389] Predicting Lung Health Trajectories for Survivors of Preterm Birth. → `Gibbons_2020_32637389_abbrev.md`
+- [G] [26593074] Postnatal Infections and Immunology Affecting Chronic Lung Disease of Prematurit → `Pryhuber_2015_26593074_abbrev.md`
+- [H] [] Meeting abstracts from the 15th international conference on neonatal and childho → `Boehme_2022__abbrev.md`
+- [E] [40976366] The role of CC16 in the associations of preterm birth with lung function and ast → `Voraphani_2026_40976366_abbrev.md`
+- [E] [40581701] Lung function in adults born with very low birth weight from young to mid-adulth → `Jussinniemi_2026_40581701_abbrev.md`
+- [G] [17804519] New modes of mechanical ventilation in the preterm newborn: evidence of benefit. → `Claure_2007_17804519_abbrev.md`
+- [G] [38410770] A clinical informatics approach to bronchopulmonary dysplasia: current barriers  → `Moreira_2024_38410770_abbrev.md`
+- [E] [41957572] Outcomes and latency to delivery in preterm prelabour rupture of membranes at 22 → `Şahin_2026_41957572_abbrev.md`
+- [E] [42070199] Severe neonatal complications and long-term health-related quality of life in ve → `Bolbocean_2026_42070199_abbrev.md`
+- [E] [41998625] Machine learning-based prognostic modeling of early clinical outcomes in very lo → `Oh_2026_41998625_abbrev.md`
+- [E] [] Surfactant retreatment in very preterm infants with respiratory distress syndrom → `Dani_2026__abbrev.md`
+- [E] [41490933] Toward precision for bronchopulmonary dysplasia: Moving past current definitions → `Kielt_2026_41490933_abbrev.md`
+- [E] [41214586] Impact of patent ductus arteriosus treatment on neonatal outcomes in preterm inf → `Choi_2025_41214586_abbrev.md`
+- [E] [39651605] Predictive analysis of lung function in school-age children born with very low b → `Uberos_2025_39651605_abbrev.md`
+- [E] [] Antenatal dexamethasone for preterm birth and long-term health outcomes in child → `Sultana_2025__abbrev.md`
+- [E] [39095524] The association of the room air challenge with long-term outcomes in extremely p → `Aleem_2024_39095524_abbrev.md`
+
+## Priority 3 (Index Only, n=15)
+
+- [E] [] Association of individual and bundled evidence-based practices with adverse outc
+- [G] [40853849] The Role of Mesenchymal Stromal Cells in the Treatment of Bronchopulmonary Dyspl
+- [G] [] Bronchopulmonary dysplasia and extremely preterm birth: time for a broader persp
+- [G] [42109479] Risk factors for BPD and relevant nursing models of care to improve outcomes: a 
+- [G] [42073078] Lung Function Trajectories After Preterm Birth: A Life-Course Approach to Age-Sp
+- [G] [41122965] Defining endotypes of bronchopulmonary dysplasia in preterm infants to improve p
+- [G] [] Complications of Preterm Birth—The Importance of Care for the Outcome: A Narrati
+- [G] [39156276] Beyond Bronchopulmonary Dysplasia: A Comprehensive Review of Chronic Lung Diseas
+- [G] [] Heliox for prevention of morbidity and mortality in ventilated newborn infants
+- [G] [] Macrolides for the prevention of bronchopulmonary dysplasia in preterm neonates
+- [G] [] Automated oxygen delivery for preterm infants with respiratory dysfunction
+- [G] [] Maternal antenatal methylxanthine (including caffeine) treatment for improving p
+- [I] [41902299] Antiviral Treatment for Congenital Cytomegalovirus Infection in Extremely Preter
+- [J] [38238048] Randomised placebo-controlled trial of antenatal corticosteroids for planned bir
+- [J] [41044648] Study protocol of "A preterm infant life-saving package including a simple and a
