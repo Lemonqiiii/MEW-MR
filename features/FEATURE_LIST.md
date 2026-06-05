@@ -6,20 +6,20 @@
 
 ## Phase 1: 项目初始化
 
-- [ ] 1.1 确定综述主题和 PICO 框架（更新 `memory/active-focus.md`）
+- [x] 1.1 确定综述主题和 PICO 框架（更新 `memory/active-focus.md`）
 - [ ] 1.2 确定目标期刊
-- [ ] 1.3 确定综述类型（叙述性 / 系统综述 / 荟萃分析）
+- [x] 1.3 确定综述类型（叙述性 / 系统综述 / 荟萃分析）
 
 ---
 
 ## Phase 2: 文献搜索
 
-- [ ] 2.1 数据库需求评估（Step 0 门禁）
-- [ ] 2.2 PubMed 检索
-- [ ] 2.3 Semantic Scholar 补充检索
-- [ ] 2.4 Europe PMC 补充检索
-- [ ] 2.5 Tier 2 数据库（Embase/Cochrane/CNKI 按需激活）
-- [ ] 2.6 去重并生成初筛列表
+- [x] 2.1 数据库需求评估（Step 0 门禁）
+- [x] 2.2 PubMed / EPMC 检索
+- [x] 2.3 Semantic Scholar 补充检索（限流，EPMC 1,009篇已足够）
+- [x] 2.4 Europe PMC 补充检索
+- [ ] 2.5 Tier 2 数据库（Embase/Cochrane/ClinicalTrials.gov — 待用户手动检索）
+- [x] 2.6 去重并生成初筛列表
 
 ---
 
