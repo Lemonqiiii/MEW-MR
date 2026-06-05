@@ -2,24 +2,24 @@
 
 ```yaml
 ---
-phase: deep-reading               # planning | literature-search | screening | deep-reading | writing | revision
-progress_pct: 45
-current_section: null
+phase: writing                    # planning | literature-search | screening | deep-reading | writing | revision
+progress_pct: 50
+current_section: 4. Ventilation Strategies
 last_session_id: 2026-06-05-s2
 target_journal: TBD
 papers_collected: 1205
 papers_screened: 590
 papers_read_in_depth: 528
 papers_effective: 528
-words_written: 0
+words_written: 4408
 last_update: 2026-06-05
 ---
 ```
 
 ## 当前状态说明
-- **阶段**: deep-reading — Phase 4 完成（528篇批注 + key-findings + 建议大纲）
-- **下一步**: 进入 Phase 5 写作（说"写作"或"4"）
-- **阻碍**: 无 — 可开始写 Introduction
+- **阶段**: writing — Phase 5 进行中 (Abstract + Introduction 已写, 1,027词)
+- **下一步**: 继续撰写 Section 2 (Antenatal Corticosteroids) 或审校 Introduction
+- **阻碍**: 无
 - **综述主题**: NRDS 生命早期干预的远期影响（全生命周期视角）
 - **综述类型**: 叙述性综述（采纳 PRISMA + 结构化检索透明性元素）
 - **下一步**: 用户 VPN 执行 Tier 2 手动检索 → 说"就绪" → Agent 合并去重 → 进入筛选
