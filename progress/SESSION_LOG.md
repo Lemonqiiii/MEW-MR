@@ -96,6 +96,16 @@
 - **下一步**: 用户审阅 → 定期刊 → 格式化引用 → 投稿
 - **阻碍**: 目标期刊未定
 
+## 2026-06-05 (Session 10) — 审稿修改 P0-P2
+
+- **完成事项**: 
+  - P0: +Methods §1.1 | 数字统一 | +NEUROSIS [36]+NeOProM [37]+CAP [39] | Running title 50字符
+  - P1: +Islam BPD [38] | NEUROSIS 5年 | 文学化修正 | NAVA移除
+  - P2: §9 QoL总结 | BPD定义段落 | ARR/NNT | NeOProM IPD
+  - 最终: 9,847词/39引用/3图 — audit PASSED
+- **下一步**: 填写声明段 → 投稿
+- **阻碍**: Author Contributions/Acknowledgements/Funding 待用户填写
+
 ---
 
 *本文件由编码Agent在每次轻量编码时自动追加。*

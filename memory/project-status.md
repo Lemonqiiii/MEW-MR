@@ -11,8 +11,8 @@ papers_collected: 1205
 papers_screened: 590
 papers_read_in_depth: 528
 papers_effective: 528
-words_written: 9060
-last_update: 2026-06-05
+words_written: 9847
+last_update: 2026-06-05 (post-review revision)
 ---
 ```
 

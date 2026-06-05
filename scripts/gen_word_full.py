@@ -157,7 +157,7 @@ P('')
 
 # Running information
 info_lines = [
-    ('Running title: ', title[:70]),
+    ('Running title: ', 'NRDS Interventions: Life-Course Consequences'),
     ('Word count: ', f'~{word_count:,} words (body); ~{word_count + 800:,} including references'),
     ('Figures/Tables: ', f'{len(fig_files)} Figure(s) | {len(tab_files)} Table(s) | {ref_count} References'),
     ('Target Journal: ', 'Pediatric Research'),
