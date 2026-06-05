@@ -7,6 +7,8 @@
 - **作者**: [第一作者 et al.]
 - **引用次数**:
 - **检索来源**: [PubMed / Semantic Scholar / Europe PMC / 其他]
+- **论文类型**: [A-J 代码 + 类型名, 来自筛选Agent Round 2] (2026-06-05 新增)
+- **引用范围**: [can_support_mechanism / can_support_clinical / can_be_primary_ref / abstract_only_ok]
 
 ## 研究问题
 [用一句话描述该论文试图回答的核心问题]
