@@ -75,7 +75,16 @@
   - 文件结构 3 次破坏性修复 — 最终 5,387 词/34 引用/5 章
   - 重建完整引用列表 (refs 1-34)
 - **下一步**: Section 6 (Oxygen Therapy)
-- **阻碍**: 增量编辑易破坏引用段结构 — 后续用 rebuild_refs.py 工具修复
+- **阻碍**: 增量编辑易破坏引用段 — 使用 rebuild_refs.py 作为标准化修复工具
+
+## 2026-06-05 (Session 8) — 初稿完成
+
+- **完成事项**: 
+  - Sections 6-11 连续撰写完成 (Oxygen, BPD, Neurodevelopment, QoL, Gaps, Conclusions)
+  - 最终: 11 章, 9,060 词, 36 引用
+  - 核心叙事: "高确信短期证据 → 2-5年后完全空白 → QoL 最被忽视"
+- **下一步**: 最终审校 + gen_word_full.py 生成 Word + Gate 4/5/6
+- **阻碍**: 无
 
 ---
 

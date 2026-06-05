@@ -4,20 +4,21 @@
 ---
 phase: writing                    # planning | literature-search | screening | deep-reading | writing | revision
 progress_pct: 50
-current_section: 5. Surfactant Therapy
+current_section: 11. Conclusions (COMPLETE)
 last_session_id: 2026-06-05-s2
 target_journal: TBD
 papers_collected: 1205
 papers_screened: 590
 papers_read_in_depth: 528
 papers_effective: 528
-words_written: 4408
+words_written: 9060
 last_update: 2026-06-05
 ---
 ```
 
 ## 当前状态说明
-- **阶段**: writing — Phase 5 进行中 (Abstract + Introduction 已写, 1,027词)
+- **阶段**: writing — Phase 5 初稿完成 (11章, 9,060词, 36引用)
+- **下一步**: 运行 gen_word_full.py 生成 Word 文档 + Gate 4/5/6 验证 + 最终审校
 - **下一步**: 继续撰写 Section 2 (Antenatal Corticosteroids) 或审校 Introduction
 - **阻碍**: 无
 - **综述主题**: NRDS 生命早期干预的远期影响（全生命周期视角）

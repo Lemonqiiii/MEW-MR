@@ -40,7 +40,8 @@
       "Bash(PYTHONIOENCODING=utf-8 python3 scripts/gen_english_word.py)",
       "Bash(PYTHONIOENCODING=utf-8 python3 scripts/redraw_figures.py)",
       "Bash(PYTHONIOENCODING=utf-8 python3 scripts/gen_word_full.py)",
-      "WebFetch(domain:www.ebi.ac.uk)"
+      "WebFetch(domain:www.ebi.ac.uk)",
+      "Bash(E:/medical-review/.claude/run python3 *)"
     ]
   },
   "hooks": {

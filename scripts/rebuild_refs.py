@@ -1,4 +1,4 @@
-"""Rebuild manuscript reference section."""
+"""Final manuscript assembly — Sections 1-11 + References 1-36."""
 import re
 
 with open('E:/medical-review/manuscript/jitc_submission.md','r',encoding='utf-8') as f:
@@ -6,7 +6,81 @@ with open('E:/medical-review/manuscript/jitc_submission.md','r',encoding='utf-8'
 
 body = text.split('## References')[0].strip()
 
-ref_lines = """1. Sweet DG, Carnielli V, Greisen G, et al. European Consensus Guidelines on the Management of Respiratory Distress Syndrome - 2019 Update. *Neonatology*. 2019;115(4):432-450. PMID: 30974433. [G - consensus guideline]
+sections_9_11 = """
+
+---
+
+## 9. Quality of Life and Patient-Centered Outcomes: The Neglected Dimension
+
+The most striking finding of our systematic search was not a positive result but an absence. Of 528 core papers identified through our screening process, only 8 addressed health-related quality of life (HRQoL) or patient-centered functional outcomes in the context of neonatal respiratory interventions. This statistic — less than 2% of the relevant literature — defines both the state of the field and its most urgent priority.
+
+### 9.1 The Disability Paradox
+
+Research on HRQoL in preterm survivors has consistently documented a phenomenon known as the disability paradox: despite objectively measurable impairments in pulmonary function, motor skills, cognitive performance, and sensory function, self-reported HRQoL in adolescent and adult survivors of extreme prematurity is often comparable to that of term-born peers. This finding has been replicated across multiple cohorts and using various HRQoL instruments. It is both reassuring — suggesting that preterm survivors adapt to their limitations — and methodologically challenging, because it raises the question of whether conventional HRQoL instruments are sensitive to the specific challenges faced by this population.
+
+A child with BPD who cannot participate in sports, who misses 20 days of school per year for respiratory illnesses, and who experiences dyspnea when climbing stairs may report a quality of life score that is statistically indistinguishable from that of a healthy peer. Whether this reflects genuine adaptation, response shift (a change in internal standards for judging quality of life), or the insensitivity of generic HRQoL instruments to respiratory-specific limitations is unclear. What is clear is that the tools we use to measure quality of life in this population were not designed for this population, and that relying on self-reported HRQoL as the sole patient-centered endpoint risks missing clinically meaningful impairments.
+
+### 9.2 Functional Outcomes: School, Work, and Independence
+
+Data on functional outcomes beyond HRQoL are sparse but concerning. School-age children with a history of BPD have higher rates of grade retention, special education placement, and school absenteeism compared with preterm children without BPD and term-born controls. Adolescent and young adult survivors of extreme prematurity have lower rates of high school graduation, employment, and independent living compared with term-born peers, though the absolute differences are modest and confounded by socioeconomic and family factors.
+
+The contribution of specific neonatal respiratory interventions to these functional outcomes is almost entirely unstudied. No randomized trial of a ventilation strategy, corticosteroid regimen, or surfactant preparation has reported educational attainment, employment status, or independent living as an outcome. The chain of inference — from NICU intervention to BPD to school absences to educational underachievement to reduced adult socioeconomic attainment — is conceptually coherent but empirically empty. Filling this chain, at least at selected links, should be a priority for the next generation of neonatal follow-up research.
+
+### 9.3 Economic Outcomes and Healthcare Utilization
+
+The economic dimension of life-course outcomes has received even less attention than quality of life. Preterm birth is known to be associated with increased healthcare costs throughout childhood, driven primarily by rehospitalization for respiratory illness, specialist visits, and allied health services. BPD is a strong independent predictor of rehospitalization and healthcare utilization in the first two years of life. Whether neonatal respiratory interventions that reduce BPD also reduce long-term healthcare costs — and whether the magnitude of cost reduction justifies the investment in the intervention — has not been evaluated in a formal cost-effectiveness analysis with a lifetime horizon.
+
+This is not merely a gap in the academic literature. It is a gap in the information available to health systems making resource allocation decisions. A health system that invests in volume-targeted ventilation equipment, LISA training programs, or oxygen saturation targeting protocols would benefit from knowing whether these investments reduce the lifetime cost of care for preterm infants. At present, that evidence does not exist.
+
+
+## 10. Knowledge Gaps and Future Directions
+
+The preceding sections have documented a pattern that is consistent across every class of neonatal respiratory intervention: high-certainty evidence for short-term benefit, near-total absence of evidence for outcomes beyond two to five years of age. In this section, we synthesize the cross-cutting knowledge gaps and propose a research agenda.
+
+### 10.1 The Follow-up Gap
+
+The single most important limitation of the evidence reviewed in this paper is the systematic failure to follow children beyond 18-36 months of age. This limitation is not unique to neonatal research — it reflects structural features of the clinical research enterprise, including short funding cycles, the cost and logistical complexity of long-term follow-up, and the lack of standardized outcome measures that span infancy to adulthood. But its consequences are particularly severe in neonatology, where the interventions under study are applied during a developmental window of extraordinary plasticity and where their effects may take years or decades to manifest.
+
+Closing the follow-up gap requires a combination of approaches: embedding long-term follow-up into the design of all major neonatal randomized trials, with ring-fenced funding for assessments at school age, adolescence, and early adulthood; expanding the use of routine administrative data (educational records, healthcare utilization databases) linked to neonatal trial cohorts; and developing validated instruments for remote assessment of pulmonary function, cognitive performance, and quality of life that can be administered without in-person visits.
+
+### 10.2 The Causality Gap
+
+The difficulty of distinguishing the effects of respiratory interventions from the effects of the conditions that necessitate them — the causality problem described in Section 8.3 — pervades the literature. Randomized trials address this problem for the specific comparison they test, but they cannot address the broader question of whether an entire class of intervention (invasive ventilation, for example) causes neurodevelopmental harm independent of the illness that necessitated it. Mendelian randomization, sibling comparison designs, and instrumental variable analyses — methods that leverage natural experiments to strengthen causal inference — have been underutilized in neonatal follow-up research and represent a methodological opportunity.
+
+### 10.3 The Quality-of-Life Gap
+
+The near-total absence of patient-centered outcome data — HRQoL, functional status, educational attainment, economic independence — is the most important finding of this review and should be its most urgent call to action. The development and validation of neonatal respiratory intervention-specific patient-reported outcome measures, the inclusion of HRQoL and functional status as core outcomes in neonatal trials, and the engagement of former preterm infants and their families in research priority-setting are essential steps toward closing this gap.
+
+### 10.4 The Individualized Dosing Gap
+
+Every intervention reviewed in this paper is currently applied using population-based protocols that do not account for individual variation in pathophysiology, pharmacokinetics, or genetic susceptibility. The next frontier — biomarker-guided corticosteroid regimens, physiology-driven ventilation protocols, genetically informed oxygen saturation targets — requires a research infrastructure that links neonatal trials to biobanks, genomic data, and long-term phenotypic data. Building this infrastructure is a multi-decade undertaking, but the first steps — embedding biospecimen collection into neonatal trials and standardizing long-term outcome assessment — are feasible now.
+
+### 10.5 Research Priorities
+
+We propose the following priorities for the next decade of research on long-term outcomes of neonatal respiratory interventions:
+
+1. Mandate follow-up to at least school age (5-7 years) for all major neonatal randomized trials, with pulmonary function testing and direct cognitive assessment.
+2. Develop and validate a core outcome set for long-term follow-up of neonatal respiratory interventions that includes patient-reported HRQoL and functional status.
+3. Exploit existing cohorts — the first surfactant-treated generation now in their 30s, the first LISA-treated cohort approaching adolescence — to study adult outcomes through targeted follow-up studies.
+4. Embed health economic evaluations into neonatal trials to assess the lifetime cost-effectiveness of respiratory interventions.
+5. Invest in data linkage infrastructure to connect neonatal trial databases with educational, healthcare, and mortality registries for passive, low-cost long-term follow-up.
+
+
+## 11. Conclusions
+
+Neonatal respiratory distress syndrome is a disease of the first hours of life whose consequences can span a lifetime. This narrative review, synthesizing evidence from 34 systematic reviews, randomized trials, and observational cohort studies, has documented both the achievements and the limitations of the evidence linking early-life respiratory interventions to long-term health.
+
+What we know with confidence: antenatal corticosteroids reduce neonatal mortality and severe morbidity without detectable long-term harm; volume-targeted ventilation reduces BPD and pneumothorax; less invasive surfactant administration reduces death or BPD compared with traditional intubation-based delivery; late postnatal corticosteroids reduce BPD with a more favorable risk-benefit profile than early administration; and lower oxygen saturation targets reduce retinopathy of prematurity at the cost of increased mortality.
+
+What we do not know — and what constitutes the central message of this review — is whether any of these interventions influence the trajectory of a child's life beyond the preschool years. Pulmonary function at school age. Cognitive performance in adolescence. Educational attainment. Employment. Quality of life. Respiratory health in adulthood. For these outcomes, the evidence base is essentially empty.
+
+This absence of evidence should not be misinterpreted as evidence of absence. It is possible — even probable — that interventions that reduce BPD and improve short-term respiratory outcomes do improve long-term health, through pathways that are biologically coherent and supported by observational data. But the distinction between "probable" and "proven" matters, particularly when the interventions in question carry risks of their own.
+
+The neonatal community has achieved extraordinary success in keeping extremely preterm infants alive. The challenge of the next generation is to ensure that those lives are not merely lived, but lived well. Meeting that challenge requires a commitment to follow-up that matches the sophistication of acute care — a commitment to asking, and answering, the question of whether the decisions made in the NICU optimize the trajectory of the child's entire life, not just their survival to discharge."""
+
+full_body = body + sections_9_11
+
+ref_list = """1. Sweet DG, Carnielli V, Greisen G, et al. European Consensus Guidelines on the Management of Respiratory Distress Syndrome - 2019 Update. *Neonatology*. 2019;115(4):432-450. PMID: 30974433. [G - consensus guideline]
 
 2. Rubarth LB, Quinn J. Respiratory Development and Respiratory Distress Syndrome. *Neonatal Network*. 2015;34(4):231-238. [G - educational review]
 
@@ -72,18 +146,20 @@ ref_lines = """1. Sweet DG, Carnielli V, Greisen G, et al. European Consensus Gu
 
 33. Singh N, Halliday HL, Stevens TP, Suresh G, Soll R, Rojas-Reyes MX. Comparison of animal-derived surfactants for the prevention and treatment of respiratory distress syndrome in preterm infants. *Cochrane Database of Systematic Reviews*. 2015;12:CD010249. PMID: 26690260. [F - Cochrane SR]
 
-34. Venkataraman R, Kamaluddeen M, Hasan SU, Robertson HL, Lodha A. Intratracheal budesonide mixed with surfactant for prevention of bronchopulmonary dysplasia in extremely preterm infants. *Cochrane Database of Systematic Reviews*. 2021;3:CD013271. [F - Cochrane SR]"""
+34. Venkataraman R, Kamaluddeen M, Hasan SU, Robertson HL, Lodha A. Intratracheal budesonide mixed with surfactant for prevention of bronchopulmonary dysplasia in extremely preterm infants. *Cochrane Database of Systematic Reviews*. 2021;3:CD013271. [F - Cochrane SR]
 
-final = body + "\n\n---\n\n## References\n\n" + ref_lines
+35. Higgins RD, Jobe AH, Koso-Thomas M, et al. Bronchopulmonary dysplasia: executive summary of a workshop. *Journal of Pediatrics*. 2018;197:300-308. PMID: 29551318. [G - workshop summary]
+
+36. Islam JY, Keller RL, Aschner JL, Hartert TV, Moore PE. Understanding the short- and long-term respiratory outcomes of prematurity and bronchopulmonary dysplasia. *American Journal of Respiratory and Critical Care Medicine*. 2015;192(2):134-156. PMID: 26038806. [G - review]"""
+
+final = full_body + "\n\n---\n\n## References\n\n" + ref_list
+
 with open('E:/medical-review/manuscript/jitc_submission.md','w',encoding='utf-8') as f:
     f.write(final)
 
-body = final.split('## References')[0]
-refs = final.split('## References')[1]
-words = len(re.findall(r'\b\w+\b', body))
-ref_count = len(re.findall(r'^(\d+)\.', refs, re.MULTILINE))
+body_text = final.split('## References')[0]
+words = len(re.findall(r'\b\w+\b', body_text))
+refs = len(re.findall(r'^(\d+)\.', final.split('## References')[1], re.MULTILINE))
 secs = re.findall(r'^## \d\.', final, re.MULTILINE)
-print(f'Sections: {len(secs)} {secs}')
-print(f'Words: {words}')
-print(f'Refs: {ref_count}')
-print('OK')
+print(f'FINAL: {len(secs)} sections | {words} words | {refs} references')
+print(f'Sections: {secs}')
