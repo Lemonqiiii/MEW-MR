@@ -1,0 +1,332 @@
+[
+  {
+    "rank": 13,
+    "score": 17,
+    "mechanisms": [
+      "cytokine_metabolism",
+      "genomic_transcriptomic",
+      "combination_strategies"
+    ],
+    "flags": [
+      "SQ_TITLE",
+      "MECH:cytokine_metabolism+genomic_transcriptomic+combination_strategies",
+      "MECH_IN_TITLE",
+      "QUAL_DETAILED",
+      "RECENT",
+      "PERFECT_FOCUS"
+    ],
+    "id": "40138855",
+    "pmid": "40138855",
+    "pmcid": "PMC11985067",
+    "doi": "10.1016/j.tranon.2025.102350",
+    "title": "Targeting hypoxia-mediated chemo-immuno resistance by a hybrid NBDHEX-Pt(IV) prodrug via declining nuclear STING1-promoted AhR-CIN in human lung squamous cell carcinoma.",
+    "authorString": "Chen F, Wen X, Li S, Wu J, Luo Y, Gao Y, Yu X, Chen L.",
+    "journal": "Translational oncology",
+    "pubYear": "2025",
+    "abstractText": "As found in human lung squamous cell carcinoma (LUSC), STING1 involved in ER-Golgi intermediate compartment (ERGIC) could coordinate immune responses to ectopic DNA triggered by DNA-targeted chemotherapy. ERGIC STING1 is considered to compete with nuclear STING1 to decline aryl hydrocarbon receptor (AhR)-chromosomal instability (CIN)-triggered chronic STING activation which could cause therapeutic resistance. Moreover, GSTP1 was proved to inhibit ERGIC-STING1 via promoting S-glutathione modification of STING1. Hence, a potent GSTP1-targeted Pt(IV) hybrid NBDHEX-DN604, was designed via conjugating a GSTP1 inhibitor NBDHEX to the axial position of Pt(IV) prodrug. As mentioned, hypoxia is mainly observed in malignant tumors and develops acquired drug resistance. In vitro bio-properties of hypoxic SK-MES-1/cDDP cells demonstrated that NBDHEX-DN604 could reverse chemo-immuno resistance via intercepting GSTP1 to activate ERGIC STING1, leading to the decrease of nuclear STING1. The mechanistic data indicated that NBDHEX-DN604 could elevate ERGIC STING1 to mitigate nuclear STING1-mediated AhR-TLS-CIN-chronic activation. Meanwhile, NBDHEX-DN604 was found to decline STING1-AhR-CIN to circumvent chemo-immuno resistance, resulting in predominant in vivo antitumor effect in HY-KLN-205/cDDP-inoculated BALB/c mice. The data provide a novel rationale for the mixed chemo-immunotherapy of NBDHEX-DN604 as a potent Pt(IV) therapeutic method for patients with resistant LUSC.",
+    "pubTypeList": [
+      "research-article",
+      "Journal Article"
+    ],
+    "source": "MED",
+    "citedByCount": 0
+  },
+  {
+    "rank": 14,
+    "score": 17,
+    "mechanisms": [
+      "tumor_intrinsic",
+      "immunosuppressive_cells",
+      "cytokine_metabolism",
+      "genomic_transcriptomic"
+    ],
+    "flags": [
+      "SQ_TITLE",
+      "MECH:tumor_intrinsic+immunosuppressive_cells+cytokine_metabolism+genomic_transcriptomic",
+      "QUAL_DETAILED",
+      "MODERATE_RECENT",
+      "PERFECT_FOCUS"
+    ],
+    "id": "39237897",
+    "pmid": "39237897",
+    "pmcid": "PMC11375884",
+    "doi": "10.1186/s12885-024-12877-4",
+    "title": "SEPT9: From pan-cancer to lung squamous cell carcinoma.",
+    "authorString": "Wang W, Zhang X, Gui P, Zou Q, Nie Y, Ma S, Zhang S.",
+    "journal": "BMC cancer",
+    "pubYear": "2024",
+    "abstractText": "<h4>Background</h4>SEPT9 is a pivotal cytoskeletal GTPase that regulates diverse biological processes encompassing mitosis and cytokinesis. While previous studies have implicated SEPT9 in tumorigenesis and development; comprehensive pan-cancer analyses have not been performed. This study aims to systematically explore its role in cancer screening, prognosis, and treatment, addressing this critical gap.<h4>Methods</h4>Gene and protein expression data containing clinical information were obtained from public databases for pan-cancer analyses. Additionally, clinical samples from 90 patients with lung squamous cell carcinoma (LUSC) were used to further experimentally validate the clinical significance of SEPT9. In addition, the molecular docking tool was used to analyze the affinities between SEPT9 protein and drugs.<h4>Results</h4>SEPT9 is highly expressed in various cancers, and its aberrant expression correlates with genetic alternations and epigenetic modifications, leading to adverse clinical outcomes. Take LUSC as an example, additional dataset analyses and immunohistochemical experiments further confirm the diagnostic and prognostic values as well as the clinical relevance of the SEPT9 gene and protein. Functional enrichment, single-cell expression, and immune infiltration analyses revealed that SEPT9 promotes malignant tumor progression and modulates the immune microenvironments, enabling patients to benefit from immunotherapy. Moreover, drug sensitivity and molecular docking analyses showed that SEPT9 is associated with the sensitivity and resistance of multiple drugs and has stable binding activity with them, including Vorinostat and OTS-964. To harness its prognostic and therapeutic potential in LUSC, a mitotic spindle-associated prognostic model including SEPT9, HSF1, ARAP3, KIF20B, FAM83D, TUBB8, and several clinical characteristics, was developed. This model not only improves clinical outcome predictions but also reshapes the immune microenvironment, making immunotherapy more effective for LUSC patients.<h4>Conclusion</h4>This is the first study to systematically analyze the role of SEPT9 in cancers and innovatively apply the mitotic spindle-associated model to LUSC, fully demonstrating its potential as a valuable biomarker for cancer screening and prognosis, and highlighting its application value in promoting immunotherapy and chemotherapy, particularly for LUSC.",
+    "pubTypeList": [
+      "research-article",
+      "Journal Article"
+    ],
+    "source": "MED",
+    "citedByCount": 3
+  },
+  {
+    "rank": 16,
+    "score": 16,
+    "mechanisms": [
+      "tumor_intrinsic",
+      "cytokine_metabolism",
+      "genomic_transcriptomic"
+    ],
+    "flags": [
+      "SQ_TITLE",
+      "MECH:tumor_intrinsic+cytokine_metabolism+genomic_transcriptomic",
+      "QUAL_DETAILED",
+      "RECENT",
+      "PERFECT_FOCUS"
+    ],
+    "id": "40568577",
+    "pmid": "40568577",
+    "pmcid": "PMC12187763",
+    "doi": "10.3389/fimmu.2025.1603822",
+    "title": "Multi-omics analysis untangles the crosstalk between intratumor microbiome, lactic acid metabolism and immune status in lung squamous cell carcinoma.",
+    "authorString": "Qiu X, Li D.",
+    "journal": "Frontiers in immunology",
+    "pubYear": "2025",
+    "abstractText": "<h4>Introduction</h4>Cancer development is intricately linked with metabolic dysregulation, including lactic acid metabolism (LM), which plays a pivotal role in tumor progression and immune evasion. However, its specific implications in lung squamous cell carcinoma (LUSC) remain unclear.<h4>Methods</h4>We used numerous datasets encompassing bulk and single-cell transcriptome, genome, intratumor microbiome, and digital pathome to systematically investigate the LM patterns in LUSC. Multiple machine learning algorithms were used to generate the LUSC classification. Histopathology image-based deep learning model was used to predict the classification. Casual mediation analysis was conducted to uncover the association among intratumor microbiota, LM, and immunity.<h4>Results</h4>Two LM-based subtypes were discovered endowed with distinct clinical outcomes and biological peculiarities, such as overall survival, somatic mutations, and intratumor microbiota structure. Moreover, the histopathology image-based deep learning model accurately predicted our LM-based LUSC taxonomy, significantly improving its clinical utility. Machine learning models based on seven LM-related genes (<i>CHEK2, LIPT1, TUFM, NDUFA10, AGK, PNPLA2,</i> and <i>GFM1</i>) accurately predicted immunotherapy outcomes for multiple cancer types, including LUSC, and outperformed other currently known biomarkers. Furthermore, mediation analysis identified potential association pathways involving tumor-resident microbes, LM-related gene signatures, and antitumor immune cells.<h4>Discussion</h4>Overall, this study advanced the understanding of the relationship between LM patterns and LUSC tumor biology, as well as its potential clinical implications, which might advance the tailored management of LUSC.",
+    "pubTypeList": [
+      "research-article",
+      "Journal Article"
+    ],
+    "source": "MED",
+    "citedByCount": 3
+  },
+  {
+    "rank": 20,
+    "score": 15,
+    "mechanisms": [
+      "tumor_intrinsic",
+      "genomic_transcriptomic"
+    ],
+    "flags": [
+      "SQ_TITLE",
+      "MECH:tumor_intrinsic+genomic_transcriptomic",
+      "MECH_IN_TITLE",
+      "QUAL_DETAILED",
+      "RECENT",
+      "PERFECT_FOCUS"
+    ],
+    "id": "41530460",
+    "pmid": "41530460",
+    "pmcid": "PMC12886706",
+    "doi": "10.1007/s12672-026-04395-5",
+    "title": "A novel anoikis resistance-associated gene model for prognostic prediction and immune microenvironment characterization in lung squamous cell carcinoma.",
+    "authorString": "Ou D, Wang H, Liu Y, Nie J, Liu D.",
+    "journal": "Discover oncology",
+    "pubYear": "2026",
+    "abstractText": "<h4>Purpose</h4>Advanced lung squamous cell carcinoma (LUSC) has poor prognosis due to local invasion, metastasis, therapeutic resistance, and a dynamic tumor microenvironment. While anoikis resistance contributes to its malignancy, its influence on the tumor immune microenvironment (TIME) and clinical outcomes in LUSC remains unclear.<h4>Methods</h4>Anoikis resistance-associated genes (ARGs) in LUSC were identified using LASSO regression and univariate Cox proportional hazards analysis. A prognostic signature was constructed and validated in both internal (TCGA-LUSC) and external (GSE73403, GSE74777) cohorts. Functional characterization of signature genes was performed using single-cell transcriptomics and pathway enrichment analysis. Comprehensive immune profiling was conducted to explore the relationship between risk stratification and TIME features. Core genes were experimentally validated to confirm their biological relevance.<h4>Results</h4>The ARG-based model stratified patients into high- and low-risk subgroups with significant overall survival differences (log-rank p < 0.001). The risk score was an independent prognostic factor (HR: 3.91; 95% CI: 2.08-7.34). The model demonstrated robust predictive performance across external datasets (AUC: >0.7). High-risk patients displayed immunosuppressive TIME characteristics, including reduced CD8 + T cell infiltration (p = 0.004), increased stromal content (p < 0.01), and lower predicted immunotherapy responsiveness (p = 0.007). Three key ARGs-SDCBP, RPS6KA1, and ITGA3-were identified as critical regulators of anoikis resistance, with functional assays confirming SDCBP's oncogenic role in promoting malignancy.<h4>Conclusion</h4>This validated ARG-based prognostic model effectively predicts survival outcomes and revealed strong associations between anoikis resistance, immune landscape alterations, and immunotherapy response, offering a framework for risk stratification and precision immunotherapy in LUSC clinical management.",
+    "pubTypeList": [
+      "research-article",
+      "Journal Article"
+    ],
+    "source": "MED",
+    "citedByCount": 0
+  },
+  {
+    "rank": 24,
+    "score": 15,
+    "mechanisms": [
+      "immune_checkpoint",
+      "cytokine_metabolism",
+      "genomic_transcriptomic"
+    ],
+    "flags": [
+      "SQ_TITLE",
+      "MECH:immune_checkpoint+cytokine_metabolism+genomic_transcriptomic",
+      "MECH_IN_TITLE",
+      "QUAL_DETAILED",
+      "PERFECT_FOCUS"
+    ],
+    "id": "35525959",
+    "pmid": "35525959",
+    "pmcid": "PMC9077876",
+    "doi": "10.1186/s12943-022-01586-w",
+    "title": "The circular RNA circHMGB2 drives immunosuppression and anti-PD-1 resistance in lung adenocarcinomas and squamous cell carcinomas via the miR-181a-5p/CARM1 axis.",
+    "authorString": "Zhang LX, Gao J, Long X, Zhang PF, Yang X, Zhu SQ, Pei X, Qiu BQ, Chen SW, Lu F, Lin K, Xu JJ, Wu YB.",
+    "journal": "Molecular cancer",
+    "pubYear": "2022",
+    "abstractText": "<h4>Background</h4>Previous studies have confirmed the oncogenic role of HMGB2 in various cancers, but the biological functions of HMGB2-derived circRNAs remain unknown. Thus, we intended to investigate the potential role of HMGB2-derived circRNAs in lung adenocarcinomas (LUAD) and squamous cell carcinomas (LUSC).<h4>Methods</h4>The expression profiles of HMGB2-derived circRNAs in LUAD and LUSC tissues and matched normal tissues were assessed using qRT-PCR. The role of circHMGB2 in the progression of the LUAD and LUSC was determined in vitro by Transwell, CCK-8, flow cytometry and immunohistochemistry assays, as well as in vivo in an immunocompetent mouse model and a humanized mouse model. In addition, in vivo circRNA precipitation assays, luciferase reporter assays and RNA pulldown assays were performed to explore the underlying mechanism by which circHMGB2 promotes anti-PD-1 resistance in the LUAD and LUSC.<h4>Results</h4>The expression of circHMGB2 (hsa_circ_0071452) was significantly upregulated in NSCLC tissues, and survival analysis identified circHMGB2 as an independent indicator of poor prognosis in the LUAD and LUSC patients. We found that circHMGB2 exerted a mild effect on the proliferation of the LUAD and LUSC cells, but circHMGB2 substantially reshaped the tumor microenvironment by contributing to the exhaustion of antitumor immunity in an immunocompetent mouse model and a humanized mouse model. Mechanistically, circHMGB2 relieves the inhibition of downstream CARM1 by sponging miR-181a-5p, thus inactivating the type 1 interferon response in the LUAD and LUSC. Moreover, we found that the upregulation of circHMGB2 expression decreased the efficacy of anti-PD-1 therapy, and we revealed that the combination of the CARM1 inhibitor EZM2302 and an anti-PD-1 antibody exerted promising synergistic effects in a preclinical model.<h4>Conclusion</h4>circHMGB2 overexpression promotes the LUAD and LUSC progression mainly by reshaping the tumor microenvironment and regulating anti-PD-1 resistance in the LUAD and LUSC patients. This study provides a new strategy for the LUAD and LUSC treatment.",
+    "pubTypeList": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article"
+    ],
+    "source": "MED",
+    "citedByCount": 97
+  },
+  {
+    "rank": 25,
+    "score": 15,
+    "mechanisms": [
+      "tumor_intrinsic",
+      "cytokine_metabolism",
+      "combination_strategies"
+    ],
+    "flags": [
+      "SQ_TITLE",
+      "MECH:tumor_intrinsic+cytokine_metabolism+combination_strategies",
+      "MECH_IN_TITLE",
+      "QUAL_DETAILED",
+      "PERFECT_FOCUS"
+    ],
+    "id": "33133263",
+    "pmid": "33133263",
+    "pmcid": "PMC7590427",
+    "doi": "10.3892/ol.2020.12218",
+    "title": "Mechanism of intrinsic resistance of lung squamous cell carcinoma to epithelial growth factor receptor-tyrosine kinase inhibitors revealed by high-throughput RNA interference screening.",
+    "authorString": "Ju L, Dong Z, Yang J, Li M.",
+    "journal": "Oncology letters",
+    "pubYear": "2020",
+    "abstractText": "Although targeted therapy has achieved a great breakthrough in the treatment of lung adenocarcinoma, there are still no effective targeted drugs for lung squamous cell carcinoma (SqCC). In addition, as immunotherapy can only prolong the overall survival (OS) of lung SqCC by ≤5 months, chemotherapy and radiotherapy are still the main types of therapy for advanced SqCC. The expression level of epithelial growth factor receptor (EGFR) in patients with lung SqCC is higher compared with those with adenocarcinoma, but the former group is intrinsically resistant to EGFR-tyrosine kinase inhibitors (EGFR-TKIs). Therefore, if the drug resistance in patients with lung SqCC could be reversed, the majority of patients may benefit from EGFR-TKIs. In the present study, the high-throughput RNA interference technology was used to screen the genes involved in the EGFR-TKI erlotinib resistance of lung SqCCs, and integrin-linked kinase (ILK) was identified to be the most effective. The role of ILK in erlotinib resistance was further studied in cell lines, and the expression of ILK was analyzed in patients with SqCC and adenocarcinoma. Finally, the mechanism of ILK in EGFR-TKIs resistance was analyzed using Kyoto Encyclopedia of Genes and Genomes (KEGG), Gene Ontology (GO) and ingenuity pathway analysis (IPA). The results demonstrated that the ILK gene knockdown could overcome erlotinib resistance by inhibiting cell proliferation, inducing apoptosis and blocking the cell cycle at the G2/M phase. The expression of ILK in patients with SqCC was significantly higher compared with those with adenocarcinoma with sensitizing EGFR mutations. In addition, the cell cycle pathway 'G2/M DNA damage and checkpoint regulation' was identified to be significantly inhibited by ILK knockdown in IPA, KEGG and GO analysis. The results of the present study may improve the understanding of EGFR-TKI resistance in lung SqCCs, thus promoting the development of potential targeted therapies for lung SqCCs.",
+    "pubTypeList": [
+      "research-article",
+      "Journal Article"
+    ],
+    "source": "MED",
+    "citedByCount": 5
+  },
+  {
+    "rank": 34,
+    "score": 14,
+    "mechanisms": [
+      "tumor_intrinsic",
+      "immune_checkpoint",
+      "immunosuppressive_cells",
+      "cytokine_metabolism"
+    ],
+    "flags": [
+      "SQ_TITLE",
+      "MECH:tumor_intrinsic+immune_checkpoint+immunosuppressive_cells+cytokine_metabolism",
+      "MECH_IN_TITLE",
+      "QUAL_DETAILED"
+    ],
+    "id": "36123889",
+    "pmid": "36123889",
+    "pmcid": "PMC9478317",
+    "doi": "10.1097/md.0000000000030304",
+    "title": "Prediction of lung squamous cell carcinoma immune microenvironment and immunotherapy efficiency with pyroptosis-derived genes.",
+    "authorString": "Deng X, Wang Z, Luo Y, Li Z, Chen L.",
+    "journal": "Medicine",
+    "pubYear": "2022",
+    "abstractText": "Lung squamous cell carcinoma (LUSC) is a common subtype of lung cancer that exhibits diverse pyroptosis regulatory patterns. Studies have highlighted the significance of pyroptosis in cancer invasion and immune responses. We aimed to explore the signatures of pyroptosis-related genes and their immune relevance in LUSC. Using The Cancer Genome Atlas (TCGA)-LUSC cohort and 5 gene expression omnibus (GEO) datasets, we performed consensus clustering based on 41 pyroptosis-related genes, and single sample gene set enrichment analysis (ssGSEA) was employed to calculate the infiltration levels of distinct clusters. A pyroptosis scoring scheme using the principal component analysis (PCA) method was used to quantify pyroptosis regulation in patients with LUSC and predict their prognosis. Four pyroptosis clusters were identified among 833 LUSC samples, which were associated with different Kyoto encyclopedia of genes and genome (KEGG) signaling pathways and tumor microenvironment infiltration features, and were highly consistent with 4 reported immune phenotypes: immune-responsive, immune-non-functional, immune-exclusion, and immune-ignorance. We then divided the patients into high- and low-pyroptosis score subgroups, and patients with higher scores were characterized by prolonged survival and attenuated immune infiltration. Moreover, higher scores were correlated with male patients, higher microsatellite instability, lower immune checkpoint inhibitor expression (such as CTLA-4 and GAL-9), and high mutation rates of typical mutated genes (e.g., TP53 and TTN). In particular, patients with lower pyroptosis scores showed better immune response to immune checkpoint inhibitor treatment. Pyroptosis regulatory patterns in the immune microenvironment can predict the clinical outcomes of patients with LUSC. Accurately quantifying the pyroptosis of individual patients will strengthen the understanding of heterogeneity within the LUSC tumor microenvironment infiltration areas.",
+    "pubTypeList": [
+      "research-article",
+      "Journal Article"
+    ],
+    "source": "MED",
+    "citedByCount": 4
+  },
+  {
+    "rank": 36,
+    "score": 14,
+    "mechanisms": [
+      "immunosuppressive_cells",
+      "cytokine_metabolism",
+      "genomic_transcriptomic"
+    ],
+    "flags": [
+      "SQ_TITLE",
+      "MECH:immunosuppressive_cells+cytokine_metabolism+genomic_transcriptomic",
+      "QUAL_DETAILED",
+      "PERFECT_FOCUS"
+    ],
+    "id": "35186710",
+    "pmid": "35186710",
+    "pmcid": "PMC8847157",
+    "doi": "10.3389/fonc.2021.778549",
+    "title": "Identification of Immune Subtypes of Lung Squamous Cell Carcinoma by Integrative Genome-Scale Analysis.",
+    "authorString": "Yin L, Zhang W, Pu D, Zhai X, Lin Y, Wu Q, Chang T, Hu J, Li Y, Zhou Q.",
+    "journal": "Frontiers in oncology",
+    "pubYear": "2021",
+    "abstractText": "<h4>Background</h4>Characterization of the tumor microenvironment is helpful to understand the tumor immune environment of lung cancer and help predict the prognosis.<h4>Methods</h4>First, immune subtypes were identified by consensus subtype among lung squamous carcinoma (LUSC) patients. Immune cell infiltration was evaluated by CIBERSORT and ESTIMATE analyses. Then, based on differentially expressed genes (DEGs) identified, a risk score model was constructed. Finally, gene <i>FPR1</i> was validated by using YTMLC-90.<h4>Findings</h4>LUSC samples were divided into four heterogeneous immune subtypes, with significantly different prognoses with subtype 4 having the poorest overall survival (OS). The immune infiltration score showed that subtype 4 was characterized as immune enriched and fibrotic, while subtype 3 was tumor enriched. DEG analysis showed that upregulated genes in subtype 4 were enriched of neutrophil and exhausted T cell-related biological processes. Based on a univariate Cox regression model, prognostic 7 immune-related genes were combined to construct a risk score model and able to predict OS rates in the validation datasets. Wound healing and transwell assay were conducted to evaluate the invasion property after activating the gene <i>FPR1.</i><h4>Interpretation</h4>The analysis of tumor immune microenvironments among LUSC subtypes may provide new insights into the strategy of immunotherapy.",
+    "pubTypeList": [
+      "research-article",
+      "Journal Article"
+    ],
+    "source": "MED",
+    "citedByCount": 2
+  },
+  {
+    "rank": 39,
+    "score": 13,
+    "mechanisms": [
+      "tumor_intrinsic",
+      "immune_checkpoint",
+      "cytokine_metabolism",
+      "genomic_transcriptomic"
+    ],
+    "flags": [
+      "SQ_TITLE",
+      "MECH:tumor_intrinsic+immune_checkpoint+cytokine_metabolism+genomic_transcriptomic",
+      "QUAL_DETAILED"
+    ],
+    "id": "34250747",
+    "pmid": "34250747",
+    "pmcid": "PMC8419766",
+    "doi": "10.1002/cam4.4126",
+    "title": "Hypoxia-related lncRNAs to build prognostic classifier and reveal the immune characteristics of EGFR wild type and low expression of PD-L1 squamous and adenocarcinoma NSCLC.",
+    "authorString": "Zhao F, Wang M, Zhu J.",
+    "journal": "Cancer medicine",
+    "pubYear": "2021",
+    "abstractText": "<h4>Background</h4>Recently, the development and application of targeted therapies like tyrosine kinase inhibitors (TKIs) and immune checkpoint inhibitors (ICIs) have achieved remarkable survival benefits in non-small cell lung cancer (NSCLC) treatment. However, epidermal growth factor receptor (EGFR) wild type and low expression of programmed death-ligand 1 (PD-L1) NSCLC remain unmanageable. Few treatments for these patients exist, and more side effects with combination therapies have been observed. We intended to generate a hypoxia-related lncRNAs (hypolncRNAs) classifier that could successfully identify the high-risk patients and reveal its underlying molecular immunology characteristics.<h4>Methods</h4>By identifying the bottom 25% PD-L1 expression level as low expression of PD-L1 and removing EGFR mutant samples, a total of 222 lung adenocarcinoma (LUAD) and lung squamous carcinoma (LUSC) samples and 93 adjacent non-tumor samples were finally extracted from The Cancer Genome Atlas (TCGA). A 0 or 1 matrix was constructed by cyclically pairing hypoxia-related long non-coding RNAs (hypolncRNAs) and divided into the train set and test set. The univariate Cox regression analysis determined the prognostic hypolncRNAs pairs. Then, the prognostic classifier contained nine hypolncRNAs pairs which were generated by Lasso regression and multivariate Cox analysis. It successfully stratified EGFR wild type and low expression of PD-L1 squamous and adenocarcinoma NSCLC (double-negative LUAD and LUSC) patients into the high- and low-risk groups, whose accuracy was proved by the time-dependent receiver operating characteristic (ROC) curve. Furthermore, diverse acknowledged immunology methods include XCELL, TIMER, QUANTISEQ, MCPcounter, EPIC, CIBERSORT-ABS, CIBERSORT, and the single-sample gene set enrichment analysis (ssGSEA) revealed its underlying antitumor immunosuppressive status in the high-risk patients.<h4>Conclusions</h4>It is noteworthy that hypolncRNAs are associated with the survival of double-negative LUAD and LUSC patients, for which the possible mechanism is inhibiting the antitumor immune process.",
+    "pubTypeList": [
+      "research-article",
+      "Journal Article"
+    ],
+    "source": "MED",
+    "citedByCount": 7
+  },
+  {
+    "rank": 40,
+    "score": 13,
+    "mechanisms": [
+      "tumor_intrinsic",
+      "t_cell_dysfunction",
+      "immunosuppressive_cells",
+      "cytokine_metabolism",
+      "genomic_transcriptomic"
+    ],
+    "flags": [
+      "SQ_TITLE",
+      "MECH:tumor_intrinsic+t_cell_dysfunction+immunosuppressive_cells+cytokine_metabolism",
+      "QUAL_DETAILED"
+    ],
+    "id": "34394068",
+    "pmid": "34394068",
+    "pmcid": "PMC8358782",
+    "doi": "10.3389/fimmu.2021.547333",
+    "title": "The Immune Heterogeneity Between Pulmonary Adenocarcinoma and Squamous Cell Carcinoma: A Comprehensive Analysis Based on lncRNA Model.",
+    "authorString": "Yan T, Ma G, Wang K, Liu W, Zhong W, Du J.",
+    "journal": "Frontiers in immunology",
+    "pubYear": "2021",
+    "abstractText": "Adenocarcinoma (AD) and squamous cell carcinoma (SCC) are both classified as major forms of non-small cell lung cancer, but differences in clinical prognoses and molecular mechanisms are remarkable. Recent studies have supported the importance of understanding immune status in that it influences clinical outcomes of cancer, and immunotherapies based on the theory of \"immune editing\" have had notable clinical success. Our study aimed to identify specific long non-coding (lnc) RNAs that control key immune-related genes and to use them to construct risk models for AD and SCC. Risk scores were used to separate patients into high- and low-risk groups, and we validated the prognostic significance of both risk scores with our own cohorts. A Gene Set Enrichment Analysis suggested that the immune responses of patients in the AD high-risk group and the SCC low-risk group tended to be weakened. Evaluation of immune infiltration revealed that the degree of infiltration of dendritic cells is of particular importance in AD. In addition, prediction of responses to immune checkpoint inhibitor (ICI) treatments, based on the T Cell Immune Dysfunction and Exclusion and immunophenoscore models, indicated that deterioration of the immune microenvironment is due mainly to T cell exclusion in AD patients and T cell dysfunction in SCC patients and that high-risk patients with SCC might benefit from ICI treatment. The prediction of downstream targets <i>via</i> The Cancer Proteome Atlas and RNA-seq analyses of a transfected lung cancer cell line indicated that the lncRNA LINC00996 is a potential therapeutic target in AD.",
+    "pubTypeList": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article"
+    ],
+    "source": "MED",
+    "citedByCount": 20
+  },
+  {
+    "id": "40083325",
+    "pmid": "40083325",
+    "pmcid": "PMC11904499",
+    "doi": "10.1016/j.gendis.2024.101374",
+    "title": "Differences between lung adenocarcinoma and lung squamous cell carcinoma: Driver genes, therapeutic targets, and clinical efficacy.",
+    "authorString": "Shen Y, Chen JQ, Li XP.",
+    "journal": "Genes & diseases",
+    "pubYear": "2025",
+    "abstractText": "With the rapid advancements in second-generation gene sequencing technologies, a growing number of driver genes and associated therapeutic targets have been unveiled for lung adenocarcinoma (LUAD) and lung squamous cell carcinoma (LUSC). While they are clinically classified as non-small cell lung cancer (NSCLC), they display distinct genomic features and substantial variations in clinical efficacy, underscoring the need for particular attention. Hence, this review provides a comprehensive overview of the latest advancements in driver genes, epigenetic targets, chemotherapy, targeted therapy, and immunotherapy for LUAD and LUSC. Additionally, it delves into the distinctions in signaling pathways and pivotal facets of clinical management specific to these two categories of lung cancer. Moreover, we furnish pertinent details regarding clinical trials pertaining to driver genes and epigenetics, thus establishing a theoretical foundation for the realization of precision treatments for LUAD and LUSC.",
+    "pubTypeList": [
+      "review-article",
+      "Review",
+      "Journal Article"
+    ],
+    "source": "MED",
+    "citedByCount": 26
+  }
+]

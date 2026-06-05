@@ -1,28 +1,42 @@
 # 当前聚焦
 
 ## 综述主题
-**待定** — 用户尚未指定具体方向。
+**非小细胞肺癌中鳞癌的免疫治疗耐药机制研究**
 
-## 候选方向（参考）
-以下为医学/生物学领域中适合综述的热门方向，供参考选择：
+**英文标题**: Mechanisms of Immunotherapy Resistance in Squamous Cell Carcinoma of Non-Small Cell Lung Cancer
 
-1. **肿瘤免疫治疗耐药机制** — Immune checkpoint inhibitor resistance mechanisms
-2. **CAR-T 细胞治疗的实体瘤应用** — CAR-T therapy in solid tumors: challenges and advances
-3. **肿瘤微环境的代谢调控** — Metabolic regulation of the tumor microenvironment
-4. **神经退行性疾病中的神经炎症** — Neuroinflammation in neurodegenerative diseases
-5. **肠道微生物组与免疫治疗应答** — Gut microbiome and immunotherapy response
-6. **单细胞组学在疾病分型中的应用** — Single-cell omics for disease stratification
+**选定日期**: 2026-06-04
+
+## 主题聚焦范围
+- **疾病**: 非小细胞肺癌 (NSCLC) — 限定于鳞状细胞癌 (squamous cell carcinoma) 亚型
+- **治疗**: 免疫检查点抑制剂 (ICIs) — anti-PD-1, anti-PD-L1, anti-CTLA-4
+- **核心问题**: 免疫治疗耐药机制 — 原发性耐药 (primary resistance) + 获得性耐药 (acquired resistance)
+- **排除**: 肺腺癌 (adenocarcinoma)、大细胞癌等非鳞癌亚型；化疗耐药；靶向治疗耐药
 
 ## PICO 框架
-待确定具体主题后填写：
-- **Population**:
-- **Intervention/Exposure**:
-- **Comparison**:
-- **Outcome**:
+- **Population**: NSCLC patients, specifically squamous cell carcinoma subtype (including both early and advanced stage)
+- **Intervention/Exposure**: Immune checkpoint inhibitors — anti-PD-1 (nivolumab, pembrolizumab), anti-PD-L1 (atezolizumab, durvalumab), anti-CTLA-4 (ipilimumab), alone or in combination
+- **Comparison**: ICI responders vs. non-responders; primary resistance vs. acquired resistance; squamous vs. non-squamous NSCLC
+- **Outcome**: Identification and characterization of resistance mechanisms — tumor-intrinsic factors, tumor microenvironment (TME) alterations, genomic/transcriptomic determinants, immune evasion pathways
 
-## 检索关键词（候选）
-待确定主题后填入 PubMed/Semantic Scholar 检索式。
+## 检索关键词
+
+### PubMed / Semantic Scholar 检索式 (初稿)
+```
+("non-small cell lung cancer"[MeSH] OR "NSCLC" OR "lung cancer") 
+AND ("squamous cell carcinoma" OR "squamous" OR "lung squamous cell carcinoma")
+AND ("immunotherapy" OR "immune checkpoint inhibitor" OR "anti-PD-1" OR "anti-PD-L1" OR "anti-CTLA-4" OR "pembrolizumab" OR "nivolumab" OR "atezolizumab" OR "durvalumab" OR "ipilimumab")
+AND ("resistance" OR "resistant" OR "refractory" OR "immune evasion" OR "non-response" OR "tumor microenvironment" OR "TME")
+```
+
+### 关键词组合
+| 维度 | 关键词 |
+|------|--------|
+| 疾病 | NSCLC, non-small cell lung cancer, lung squamous cell carcinoma, LUSC |
+| 治疗 | immunotherapy, immune checkpoint inhibitor, ICI, anti-PD-1, anti-PD-L1, anti-CTLA-4, pembrolizumab, nivolumab, atezolizumab, durvalumab, ipilimumab |
+| 问题 | resistance, resistant, refractory, immune evasion, non-response, primary resistance, acquired resistance |
+| 机制 | tumor microenvironment, TME, tumor-intrinsic, immune exclusion, immune desert, T cell exhaustion, neoantigen, antigen presentation, MHC, HLA, interferon signaling, WNT/β-catenin, TGF-β, MAPK, PI3K, epigenetic |
 
 ---
 
-*此文件将在用户确定综述方向后由编码Agent更新。*
+*最后更新: 2026-06-04*

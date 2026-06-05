@@ -92,9 +92,51 @@
 ---
 
 ## 文献统计
-- 已收集: 0 篇
-- 已筛选: 0 篇
-- 已深度阅读并笔记: 0 篇
-- 已纳入综述引用: 0 篇
+- 已收集: 4,106 篇 (2026-06-04检索)
+- 已筛选: 432 → 62 → **40 篇** (最终纳入)
+- 已深度阅读并笔记: 30 篇
+- 已纳入综述引用: 37 篇 (3篇已排除: 喉鳞癌1+非鳞NSCLC 2)
+- 初稿完成: 8,546 词, 41 引文, 7 章节 + 摘要 + 图表
+
+## 当前综述: NSCLC鳞癌免疫治疗耐药机制
+
+### PRISMA 流程
+```
+检索获得 (n=4,106)
+    ↓ 去重 + 排除勘误/病例报告
+初筛候选 (n=432)
+    ↓ 标题/摘要筛选
+全文候选 (n=62)
+    ↓ 全文评估 + 机制覆盖分析
+最终纳入 (n=40)
+```
+
+### 机制覆盖度
+| 机制类别 | 覆盖论文数 |
+|------|------|
+| Tumor-Intrinsic Resistance | 27 |
+| Genomic & Transcriptomic Determinants | 28 |
+| Cytokine & Metabolic Immune Modulation | 33 |
+| Immunosuppressive Cell Populations | 16 |
+| Immune Checkpoint Pathways | 14 |
+| T Cell Exhaustion & Dysfunction | 6 |
+| Combination Strategies | 6 |
+| Acquired Resistance Mechanisms | 5 |
+| Antigen Presentation | 4 |
+
+### 数据文件
+| 文件 | 内容 |
+|------|------|
+| `data/pubmed_merged_all.json` | 全量检索 (4,106篇) |
+| `data/screening_final_40.json` | 最终纳入 (40篇) |
+| `docs/papers/lusc_ici_resistance/` | 论文笔记目录 (62篇) |
+
+### 项目状态: 初稿完成 🎉
+
+7 章节, 8,546词, 41 引文, 4 图, 4 表
+详见 `manuscript/complete_draft.md`
+
+### 下一步
+→ 用户最终审阅 → 目标期刊选定 → 格式化参考文献 → 投稿
 
 *最后更新: 2026-06-04*

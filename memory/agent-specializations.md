@@ -4,55 +4,81 @@
 
 ---
 
-## Agent 0: 编码Agent (Infrastructure)
+## Agent 0: 编码Agent (Infrastructure) — 双模式 (2026-06-05 修订)
 
-### 触发条件
-- **手动极简命令**: `编码` `记` `6` `记录进度` `commit progress`
-- **自动**: 每个工作阶段完成时 CLAUDE.md 会话流程自动提示
+### 设计理念
+编码Agent从原始的单模式（4 Parts全部执行）拆分为两种模式，以降低执行门槛、提高触发频率：
 
-### 输入
-- 当前会话的上下文（完成的工作内容）
-- `features/FEATURE_LIST.md`
-- `memory/project-status.md`
-- `git status` / `git diff --stat`
+| 模式 | 触发命令 | 频率 | 包含Parts | 预计耗时 |
+|------|---------|------|----------|---------|
+| **轻量编码** | `快记` `记` `quick` | 每2-3个子任务 | Part A + Git提交 | 低（秒级） |
+| **完整编码** | `编码` `6` `commit` | 每Phase结束 | Part A + B + C + D | 中（需审计扫描） |
 
-### 工作流
+### 自动提示规则
+- 完成2-3个子任务后 → Agent主动建议"快记"
+- Phase结束时 → Agent展示检查清单，提示"编码"
+- Stop hook → 提醒用户执行"快记"或"编码"
 
-#### Part A: 进度记录（原有职责）
+---
+
+### 轻量编码模式 (`快记` / `记`)
+
+#### 触发条件
+- **手动极简命令**: `快记` `记` `quick`
+- **自动提示**: 完成2-3个子任务后Agent主动建议
+
+#### 工作流
 1. 检查 git 变更状态
-2. 读取 `features/FEATURE_LIST.md`，匹配完成的任务
-3. 更新任务勾选状态
-4. 更新 `memory/project-status.md` 统计数据
-5. 追加 `progress/SESSION_LOG.md`
-6. 如有新发现或决策，更新 `memory/key-findings.md` 或 `memory/decisions.md`
+2. 读取 `features/FEATURE_LIST.md`，更新已完成任务的勾选状态
+3. 更新 `memory/project-status.md` 统计数据（progress_pct、words_written、last_update、last_session_id）
+4. 追加 `progress/SESSION_LOG.md` 一条精简记录（格式：日期+完成事项+下一步+阻碍）
+5. git add -A && git commit（结构化 message: `[phase] 简短描述`）
 
-#### Part B: 效率数据收集（新增 — Harness Engineering）
-7. 从会话上下文提取效率指标，写入 `progress/metrics-raw.json`:
-   - **wall_time_sec**: 任务耗时（需从会话时间戳推算）
+#### 跳过项
+- Part B 效率数据收集（完整编码时执行）
+- Part C 安全审计（完整编码时执行）
+- MILESTONES.md 更新（仅Phase结束时更新）
+
+#### 输出
+- 一句话确认：提交了哪些变更
+
+---
+
+### 完整编码模式 (`编码` / `6`)
+
+#### 触发条件
+- **手动极简命令**: `编码` `6` `commit`
+- **自动提示**: Phase结束时Agent展示检查清单后提示
+
+#### 工作流
+执行轻量编码全部内容 + 以下补充：
+
+##### Part A+: 进度记录（含里程碑）
+1-5. 同轻量编码
+6. 更新 `progress/MILESTONES.md`（将本Phase对应的里程碑标记为✅+填写日期）
+7. 如有新发现或决策，更新 `memory/key-findings.md` 或 `memory/decisions.md`
+
+##### Part B: 效率数据收集
+8. 从会话上下文提取效率指标，写入 `progress/metrics-raw.json`:
+   - **wall_time_sec**: 任务耗时
    - **tool_calls**: 工具调用总次数
-   - **tools**: 各工具调用次数明细 `{WebFetch: N, Bash: N, Write: N, Read: N, Edit: N, ...}`
-   - **tokens_in / tokens_out**: 从会话摘要或 API 记录获取
+   - **tools**: 各工具调用次数明细
+   - **tokens_in / tokens_out**: Token消耗
    - **compactions**: 上下文压缩次数
-8. 从会话日志提取工具调用序列: `["Read", "WebFetch", "Write", ...]`
 
-#### Part C: 安全审计（新增 — Harness Engineering）
-9. 扫描会话中的所有操作，对照 `harness/safety-policy.md` 的检测规则:
-   - 文件越界检查（Read/Write/Edit 路径是否在允许范围内）
-   - 网络越界检查（WebFetch 域名是否在白名单内）
-   - 命令越界检查（Bash 命令是否匹配允许模式）
-   - 配置篡改检查（是否修改了 CLAUDE.md 或 settings.json 等敏感文件）
-   - 信息泄露检查（URL/命令中是否包含 API key 模式）
-10. 将违规写入 `progress/metrics-raw.json` 的 `safety` 字段
+##### Part C: 安全审计
+9. 扫描会话操作，对照 `harness/safety-policy.md` 检测越权
+10. 将违规写入 `progress/metrics-raw.json`
 
-#### Part D: Git 提交
-11. git commit 所有变更（含 metrics-raw.json），使用结构化 commit message `[phase] 简短描述`
+##### Part D: Git 提交
+11. git commit（含 metrics-raw.json），使用结构化 message
 
-### 输出
+#### 输出
 - 表格总结本次更新内容
 - 效率指标摘要
 - 安全审计摘要（如有违规）
 - 建议的下一步任务
-- `progress/metrics-raw.json` 文件（供评估Agent 读取）
+- `progress/metrics-raw.json` 文件（供评估Agent读取）
 
 ---
 
@@ -578,6 +604,89 @@ docs/search-results/
 | 鲁棒性测试 | 每 Phase | 批量跑 L1-L5 |
 | 安全复核 | 每 Phase | 审计编码Agent的发现 |
 | 一致性测试 | 每 Phase | 重跑基准任务 |
+
+---
+
+---
+
+## Agent 3v2: 综述写作Agent (2026-06-05 改进版)
+
+### 新增纪律 (来自 lessons-learned)
+
+1. **单源真理**: 所有稿件内容写入 `manuscript/jitc_submission.md`。Word 由 `scripts/gen_word_full.py` 自动生成。
+2. **引用铁律**: 
+   - 每条声明必须由至少一篇引用文献的**摘要**直接支撑
+   - 禁止从训练数据中提取知识贴到不相关引用上
+   - 引用非鳞NSCLC文献支撑LUSC论点时必须加限定语
+3. **扩展前验证**: 任何新增段落必须先将声明与引用配对验证
+4. **图表纪律**: 
+   - 删除图表 = 删除所有正文引用 + 更新Title Page + 重新编号
+   - 生成后运行自检（Figure/Table编号一致性）
+5. **喉鳞癌过滤**: 引用前验证PMID对应的论文确实为肺鳞癌
+
+### 修改后工作流
+
+1. 读取大纲确定写作位置
+2. 加载相关论文笔记
+3. **新增**: 逐条声明-引用配对写入（声明 → PMID → 摘要关键词）
+4. 撰写段落到 `manuscript/jitc_submission.md`
+5. **新增**: 运行 `python3 scripts/gen_word_full.py` 生成 Word
+6. **新增**: 运行 Gate 4 引用验证 + Gate 5 格式验证
+
+---
+
+## Agent 4v2: 审校Agent (2026-06-05 改进版)
+
+### 新增检查项
+
+在原有六步审查基础上增加：
+
+#### 7. 引用-声明配对验证 (Gate 4)
+```bash
+对每一条声明：
+  提取被引 PMID → 查数据库摘要 → 关键词匹配
+通过标准: ≥90% 声明可直接验证
+发现不匹配 → 标记为 MUST FIX
+```
+
+#### 8. 格式完整性 (Gate 5)
+```bash
+检查:
+- Figure refs ∈ {已保留集合}
+- Table refs ∈ {已保留集合}
+- 正文引用数 == 文献列表数（含范围展开 [N-M]）
+- Word 文档：标题层级、段前段后间距、图片嵌入数
+```
+
+#### 9. 图表编号一致性
+```bash
+验证三处一致：
+  正文引用 "Figure 1" == 图片内嵌标题 "Figure 1" == Word Caption "Figure 1"
+```
+
+#### 10. 喉鳞癌/非鳞文献标记
+- 扫描所有引用，标记以下风险文献：
+  - PMID 42111396 等喉鳞癌文献 → 标记移除
+  - 非鳞NSCLC试验引用 → 检查是否加限定语
+
+---
+
+## Agent 5v2: 评估Agent (2026-06-05 改进版)
+
+### 新增：Gate 4/5 可执行脚本
+
+评估Agent 现在携带完整的自动化验证脚本（见 `harness/quality-gate.md`）：
+
+- `gate4_verify.py`: 20项声明 vs PMID摘要交叉验证
+- `gate5_check.py`: 范围引用展开 + 编号一致性 + 未使用引用检测
+- `word_format_check.py`: 嵌入 gen_word_full.py 的 8 项自检
+
+### 新增：错误模式库匹配
+评估时检查是否触发了已知错误模式：
+- `引用嫁接`: 声明关键词 vs 引用摘要关键词 匹配度 < 30%
+- `编号漂移`: 图/表引用集合 != 已声明保留集合
+- `范围遗漏`: 正文有 [N-M] 但解析器只提取了 N
+- `压缩丢失`: Word 词数 < 源文件词数 × 0.85
 
 ---
 

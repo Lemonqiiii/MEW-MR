@@ -1,0 +1,322 @@
+[
+  {
+    "rank": 28,
+    "score": 14,
+    "mechanisms": [
+      "cytokine_metabolism",
+      "acquired_resistance"
+    ],
+    "flags": [
+      "SQ_TITLE",
+      "MECH:cytokine_metabolism+acquired_resistance",
+      "QUAL_REVIEW",
+      "RECENT",
+      "LUNG_RES_FOCUS"
+    ],
+    "id": "40568576",
+    "pmid": "40568576",
+    "pmcid": "PMC12188374",
+    "doi": "10.3389/fimmu.2025.1542526",
+    "title": "Unraveling the immune mechanisms and therapeutic targets in lung adenosquamous transformation.",
+    "authorString": "Xu H, Yang Y, Wang P, Lin S, Zhang X, Ni H, Xu Z.",
+    "journal": "Frontiers in immunology",
+    "pubYear": "2025",
+    "abstractText": "Adenocarcinoma-to-squamous cell carcinoma transformation (AST) induces drug resistance in patients with lung adenocarcinoma (LUAD), often resulting in unfavorable clinical outcomes. In recent years, it has been found that alterations in the tumor immune microenvironment (TIME) during adenosquamous carcinoma trans-differentiation also influence the efficacy of immunotherapy. Moreover, the aberrant expression and activation of several driver genes for AST lead to abnormal infiltration and function of immune cell by remodeling the cellular inflammatory phenotype. In this review, we will systematically present the changes in the TIME and molecular regulatory mechanisms during adenosquamous carcinoma differentiation, aiming to gain a better understand of the function of immune cells during this process and the potential value of combining immunotherapy to enhance the treatment of non-small cell lung cancer (NSCLC).",
+    "pubTypeList": [
+      "review-article",
+      "Review",
+      "Journal Article"
+    ],
+    "source": "MED",
+    "citedByCount": 2
+  },
+  {
+    "rank": 35,
+    "score": 14,
+    "mechanisms": [
+      "tumor_intrinsic",
+      "cytokine_metabolism",
+      "genomic_transcriptomic"
+    ],
+    "flags": [
+      "SQ_TITLE",
+      "MECH:tumor_intrinsic+cytokine_metabolism+genomic_transcriptomic",
+      "MECH_IN_TITLE",
+      "QUAL_REVIEW"
+    ],
+    "id": "36198685",
+    "pmid": "36198685",
+    "pmcid": "PMC9535022",
+    "doi": "10.1038/s41392-022-01200-x",
+    "title": "Signaling pathways and targeted therapies in lung squamous cell carcinoma: mechanisms and clinical trials.",
+    "authorString": "Niu Z, Jin R, Zhang Y, Li H.",
+    "journal": "Signal transduction and targeted therapy",
+    "pubYear": "2022",
+    "abstractText": "Lung cancer is the leading cause of cancer-related death across the world. Unlike lung adenocarcinoma, patients with lung squamous cell carcinoma (LSCC) have not benefitted from targeted therapies. Although immunotherapy has significantly improved cancer patients' outcomes, the relatively low response rate and severe adverse events hinder the clinical application of this promising treatment in LSCC. Therefore, it is of vital importance to have a better understanding of the mechanisms underlying the pathogenesis of LSCC as well as the inner connection among different signaling pathways, which will surely provide opportunities for more effective therapeutic interventions for LSCC. In this review, new insights were given about classical signaling pathways which have been proved in other cancer types but not in LSCC, including PI3K signaling pathway, VEGF/VEGFR signaling, and CDK4/6 pathway. Other signaling pathways which may have therapeutic potentials in LSCC were also discussed, including the FGFR1 pathway, EGFR pathway, and KEAP1/NRF2 pathway. Next, chromosome 3q, which harbors two key squamous differentiation markers SOX2 and TP63 is discussed as well as its related potential therapeutic targets. We also provided some progress of LSCC in epigenetic therapies and immune checkpoints blockade (ICB) therapies. Subsequently, we outlined some combination strategies of ICB therapies and other targeted therapies. Finally, prospects and challenges were given related to the exploration and application of novel therapeutic strategies for LSCC.",
+    "pubTypeList": [
+      "Research Support, Non-U.S. Gov't",
+      "review-article",
+      "Review",
+      "Journal Article"
+    ],
+    "source": "MED",
+    "citedByCount": 127
+  },
+  {
+    "rank": 37,
+    "score": 13,
+    "mechanisms": [
+      "immune_checkpoint",
+      "cytokine_metabolism"
+    ],
+    "flags": [
+      "SQ_TITLE",
+      "MECH:immune_checkpoint+cytokine_metabolism",
+      "QUAL_SYS_REVIEW",
+      "MODERATE_RECENT"
+    ],
+    "id": "38725635",
+    "pmid": "38725635",
+    "pmcid": "PMC11080620",
+    "doi": "10.3389/fonc.2024.1365255",
+    "title": "First-line immunotherapy efficacy in advanced squamous non-small cell lung cancer with PD-L1 expression ≥50%: a network meta-analysis of randomized controlled trials.",
+    "authorString": "Chen W, Liu H, Li Y, Xue W, Fan S, Sun J, Liu S, Liu Y, Zhang L.",
+    "journal": "Frontiers in oncology",
+    "pubYear": "2024",
+    "abstractText": "<h4>Objective</h4>The optimal first-line immunotherapy regimen for patients with PD-L1 expression ≥50% in squamous non-small cell lung cancer (Sq-NSCLC) remains uncertain. This study utilized net-work meta-analysis (NMA) to indirectly compare the efficacy of various first-line immuno-therapy regimens in this patient subset.<h4>Methods</h4>Systematic searches were conducted across PubMed, the Cochrane Library, Web of Science, and Embase databases for randomized controlled trials reporting overall survival (OS) and progression-free survival (PFS) outcomes. The search spanned from database inception to November 3, 2023. Bayesian network meta-analysis was employed for a comprehen-sive analysis. To ensure scientific rigor and transparency, this study is registered in the Interna-tional Prospective Register of Systematic Reviews (PROSPERO) under the registration number CRD42022349712.<h4>Results</h4>The NMA encompassed 9 randomized controlled trials (RCTs), involving 2170 patients and investigating 9 distinct immunotherapy regimens. For OS, the combination of camrelizumab and chemotherapy demonstrated the highest probability (36.68%) of efficacy, fol-lowed by cemiplimab (33.86%) and atezolizumab plus chemotherapy (23.87%). Regarding PFS, the camrelizumab and chemotherapy combination had the highest probability (39.70%) of efficacy, followed by pembrolizumab (22.88%) and pembrolizumab plus chemotherapy (17.69%). Compared to chemotherapy, first-line treatment with immune checkpoint inhibitors (ICIs) in Sq-NSCLC pa-tients exhibited significant improvements in OS (HR 0.59, 95% CI 0.47-0.75) and PFS (HR 0.44, 95% CI 0.37-0.52).<h4>Conclusion</h4>This study suggests that, for Sq-NSCLC patients with PD-L1 expression ≥50%, the first-line immunotherapy regimen of camrelizumab plus chemotherapy provides superior OS and PFS outcomes. Furthermore, ICIs demonstrate enhanced efficacy compared to chemotherapy in this patient population.<h4>Systematic review registration</h4>https://www.crd.york.ac.uk/prospero/, identifier: CRD 42022349712.",
+    "pubTypeList": [
+      "Systematic Review",
+      "systematic-review",
+      "Journal Article"
+    ],
+    "source": "MED",
+    "citedByCount": 0
+  },
+  {
+    "rank": 12,
+    "score": 17,
+    "mechanisms": [
+      "tumor_intrinsic",
+      "antigen_presentation",
+      "immunosuppressive_cells"
+    ],
+    "flags": [
+      "SQ_TITLE",
+      "MECH:tumor_intrinsic+antigen_presentation+immunosuppressive_cells",
+      "MECH_IN_TITLE",
+      "QUAL_DETAILED",
+      "RECENT",
+      "PERFECT_FOCUS"
+    ],
+    "id": "41050683",
+    "pmid": "41050683",
+    "pmcid": "PMC12488625",
+    "doi": "10.3389/fimmu.2025.1595907",
+    "title": "TGM2 regulated by transcription factor NR3C1 drives p38 MAPK-mediated tumor progression and immune evasion in lung squamous cell carcinoma.",
+    "authorString": "Lin C, Li S, Yi L, Zhou H, Xiao Z, Yang Z, Chen Q, Peng X, Li K, Wang Q, Liu W, Li N, Li L, Du D, Xu Q, Yang L.",
+    "journal": "Frontiers in immunology",
+    "pubYear": "2025",
+    "abstractText": "<h4>Background</h4>Lung squamous cell carcinoma (LUSC) is highly malignant with limited therapeutic targets. Prior studies indicate transglutaminase 2 (TGM2) regulates the tumor microenvironment, but its mechanisms in driving LUSC progression and immune evasion remain unclear.<h4>Methods</h4>The prognostic value of TGM2 was analyzed using the TCGA LUSC cohort. Key genes were screened <i>via</i> random forest algorithm. Functional validation was performed in NCI-H520 and SK-MES-1 cell lines. Proteomics, GSEA, and TIMER2.0 assessed downstream pathways and immune infiltration. Transcriptional regulatory databases predicted the upstream transcription factors of TGM2, which was then validated by chromatin immunoprecipitation (ChIP)-qPCR.<h4>Results</h4>TGM2 was an independent prognostic factor for LUSC. High TGM2 expression correlated with reduced overall survival (OS, P = 0.00018) and disease-free survival (DFS, P = 0.00019). TGM2 promoted proliferation, migration, invasion, clonogenicity, and suppressed apoptosis in LUSC cells by activating p38 MAPK signaling. Elevated TGM2 levels were associated with an immunosuppressive microenvironment: decreased Th1 (R = -0.186, P < 0.0001) and NK cell infiltration (R = -0.116, P = 0.0092), and increased M2 macrophage (R = 0.164-0.528, P < 0.0001) and cancer-associated fibroblast infiltration (R = 0.469, P < 0.0001). NR3C1 was identified as a key transcription factor regulating TGM2. ChIP-qPCR analysis confirmed that NR3C1 binds to a specific site (921-935) within the TGM2 promoter, and their expression showed a strong positive correlation (R = 0.53, P < 0.0001).<h4>Conclusion</h4>TGM2 drives LUSC progression <i>via</i> p38 MAPK activation and shapes an immunosuppressive microenvironment, which is transcriptionally regulated by NR3C1. This study supports TGM2 as a prognostic biomarker and suggests its potential as a therapeutic target, which may inform future combination immunotherapy strategies.",
+    "pubTypeList": [
+      "research-article",
+      "Journal Article"
+    ],
+    "source": "MED",
+    "citedByCount": 0
+  },
+  {
+    "rank": 23,
+    "score": 15,
+    "mechanisms": [
+      "antigen_presentation",
+      "immune_checkpoint",
+      "cytokine_metabolism"
+    ],
+    "flags": [
+      "SQ_TITLE",
+      "MECH:antigen_presentation+immune_checkpoint+cytokine_metabolism",
+      "QUAL_DETAILED",
+      "MODERATE_RECENT",
+      "PERFECT_FOCUS"
+    ],
+    "id": "38983866",
+    "pmid": "38983866",
+    "pmcid": "PMC11231076",
+    "doi": "10.3389/fimmu.2024.1424197",
+    "title": "<i>FAM20A</i>: a potential diagnostic biomarker for lung squamous cell carcinoma.",
+    "authorString": "Zhang Y, Sun Q, Liang Y, Yang X, Wang H, Song S, Wang Y, Feng Y.",
+    "journal": "Frontiers in immunology",
+    "pubYear": "2024",
+    "abstractText": "<h4>Background</h4>Lung squamous cell carcinoma (LUSC) ranks among the carcinomas with the highest incidence and dismal survival rates, suffering from a lack of effective therapeutic strategies. Consequently, biomarkers facilitating early diagnosis of LUSC could significantly enhance patient survival. This study aims to identify novel biomarkers for LUSC.<h4>Methods</h4>Utilizing the TCGA, GTEx, and CGGA databases, we focused on the gene encoding Family with Sequence Similarity 20, Member A (<i>FAM20A</i>) across various cancers. We then corroborated these bioinformatic predictions with clinical samples. A range of analytical tools, including Kaplan-Meier, MethSurv database, Wilcoxon rank-sum, Kruskal-Wallis tests, Gene Set Enrichment Analysis, and TIMER database, were employed to assess the diagnostic and prognostic value of <i>FAM20A</i> in LUSC. These tools also helped evaluate immune cell infiltration, immune checkpoint genes, DNA repair-related genes, DNA methylation, and tumor-related pathways.<h4>Results</h4><i>FAM20A</i> expression was found to be significantly reduced in LUSC, correlating with lower survival rates. It exhibited a negative correlation with key proteins in DNA repair signaling pathways, potentially contributing to LUSC's radiotherapy resistance. Additionally, <i>FAM20A</i> showed a positive correlation with immune checkpoints like CTLA-4, indicating potential heightened sensitivity to immunotherapies targeting these checkpoints.<h4>Conclusion</h4><i>FAM20A</i> emerges as a promising diagnostic and prognostic biomarker for LUSC, offering potential clinical applications.",
+    "pubTypeList": [
+      "research-article",
+      "Journal Article"
+    ],
+    "source": "MED",
+    "citedByCount": 3
+  },
+  {
+    "rank": 9,
+    "score": 18,
+    "mechanisms": [
+      "immune_checkpoint",
+      "cytokine_metabolism",
+      "acquired_resistance",
+      "combination_strategies"
+    ],
+    "flags": [
+      "SQ_TITLE",
+      "MECH:immune_checkpoint+cytokine_metabolism+acquired_resistance+combination_strategies",
+      "MECH_IN_TITLE",
+      "QUAL_CLINICAL_TRIAL",
+      "PERFECT_FOCUS"
+    ],
+    "id": "34429332",
+    "pmid": "34429332",
+    "pmcid": "PMC8386207",
+    "doi": "10.1136/jitc-2021-002973",
+    "title": "Phase II study of durvalumab plus tremelimumab as therapy for patients with previously treated anti-PD-1/PD-L1 resistant stage IV squamous cell lung cancer (Lung-MAP substudy S1400F, NCT03373760).",
+    "authorString": "Leighl NB, Redman MW, Rizvi N, Hirsch FR, Mack PC, Schwartz LH, Wade JL, Irvin WJ, Reddy SC, Crawford J, Bradley JD, Stinchcombe TE, Ramalingam SS, Miao J, Minichiello K, Herbst RS, Papadimitrakopoulou VA, Kelly K, Gandara DR.",
+    "journal": "Journal for immunotherapy of cancer",
+    "pubYear": "2021",
+    "abstractText": "<h4>Introduction</h4>S1400F is a non-match substudy of Lung Cancer Master Protocol (Lung-MAP) evaluating the immunotherapy combination of durvalumab and tremelimumab to overcome resistance to anti-programmed death ligand 1 (PD-(L)1) therapy in patients with advanced squamous lung carcinoma (sq non-small-cell lung cancer (NSCLC)).<h4>Methods</h4>Patients with previously treated sqNSCLC with disease progression after anti-PD-(L)1 monotherapy, who did not qualify for any active molecularly targeted Lung-MAP substudies, were eligible. Patients received tremelimumab 75 mg plus durvalumab 1500 mg once every 28 days for four cycles then durvalumab alone every 28 days until disease progression. The primary endpoint was the objective response rate (RECIST V.1.1). Primary and acquired resistance cohorts, defined as disease progression within 24 weeks versus ≥24 weeks of starting prior anti-PD-(L)1 therapy, were analyzed separately and an interim analysis for futility was planned after 20 patients in each cohort were evaluable for response.<h4>Results</h4>A total of 58 eligible patients received drug, 28 with primary resistance and 30 with acquired resistance to anti-PD-(L)1 monotherapy. Grade ≥3 adverse events at least possibly related to treatment were seen in 20 (34%) patients. The response rate in the primary resistance cohort was 7% (95% CI 0% to 17%), with one complete and one partial response. No responses were seen in the acquired resistance cohort. In the primary and resistance cohorts the median progression-free survival was 2.0 months (95% CI 1.6 to 3.0) and 2.1 months (95% CI 1.6 to 3.2), respectively, and overall survival was 7.7 months (95% CI 4.0 to 12.0) and 7.6 months (95% CI 5.3 to 10.2), respectively.<h4>Conclusion</h4>Durvalumab plus tremelimumab had minimal activity in patients with advanced sqNSCLC progressing on prior anti-PD-1 therapy.<b>Trial registration number</b>NCT03373760.",
+    "pubTypeList": [
+      "Clinical Trial, Phase II",
+      "research-article",
+      "Multicenter Study",
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ],
+    "source": "MED",
+    "citedByCount": 41
+  },
+  {
+    "rank": 18,
+    "score": 16,
+    "mechanisms": [
+      "immune_checkpoint",
+      "cytokine_metabolism",
+      "genomic_transcriptomic",
+      "acquired_resistance"
+    ],
+    "flags": [
+      "SQ_TITLE",
+      "MECH:immune_checkpoint+cytokine_metabolism+genomic_transcriptomic+acquired_resistance",
+      "MECH_IN_TITLE",
+      "QUAL_DETAILED",
+      "MODERATE_RECENT",
+      "LUNG_RES_FOCUS"
+    ],
+    "id": "37025908",
+    "pmid": "37025908",
+    "pmcid": "PMC10070384",
+    "doi": "10.1016/j.heliyon.2023.e14614",
+    "title": "Phenotypic plasticity promotes lymph nodes metastasis and drug resistance in lung squamous cell carcinomas.",
+    "authorString": "Wang F, Zhu L.",
+    "journal": "Heliyon",
+    "pubYear": "2023",
+    "abstractText": "<h4>Background</h4>Phenotypic plasticity (PP) is a major promoter of tumor metastasis and drug resistance. Nevertheless, the molecular features and clinical significance of phenotypic plasticity in lung squamous cell carcinomas (LSCC) remained largely unexplored.<h4>Methods</h4>Phenotypic plasticity-related genes (PPRG) and clinical information of LSCC were downloaded from the cancer genome atlas (TCGA). The expression profiles of PPRG were compared between patients with and without lymph node metastasis. The prognostic signature was constructed, and survival analysis was performed based on phenotypic plasticity. Immunotherapy responses, chemotherapeutic drugs and targeted drug responses were investigated. In addition, the results were verified in an external cohort.<h4>Results</h4>Patients with and without lymph node metastasis exhibited significantly different genomic characteristics of phenotypic plasticity. Enrichment analysis showed that PP was strongly associated with cell responses and cell contraction. Survival analysis demonstrated that PPRG could serve as independent prognostic factor for overall survival. The phenotypic plasticity-related signature successfully divided patients into high- and low-PP score groups. Patients with low-PP scores were more sensitive to PD-L1, Cisplatin, Gefitinib, Obatoclax. Mesylate, Paclitaxel, Sorafenib and Vinorelbine (all p < 0.05). While, patients with low-PP scores were more sensitive to Axitinib and Camptothecin (all p < 0.05). Consistent with the results from TCGA, the external cohort validated the above findings.<h4>Conclusions</h4>Our study revealed that phenotypic plasticity may be involved in the lymph node metastasis in LSCC through regulating cell responses and cell contraction. Evaluation of phenotypic plasticity will assist clinicians in making treatment strategies.",
+    "pubTypeList": [
+      "research-article",
+      "Journal Article"
+    ],
+    "source": "MED",
+    "citedByCount": 4
+  },
+  {
+    "rank": 15,
+    "score": 17,
+    "mechanisms": [
+      "tumor_intrinsic",
+      "immune_checkpoint",
+      "t_cell_dysfunction",
+      "immunosuppressive_cells",
+      "cytokine_metabolism",
+      "genomic_transcriptomic"
+    ],
+    "flags": [
+      "SQ_TITLE",
+      "MECH:tumor_intrinsic+immune_checkpoint+t_cell_dysfunction+immunosuppressive_cells",
+      "MECH_IN_TITLE",
+      "QUAL_DETAILED",
+      "PERFECT_FOCUS"
+    ],
+    "id": "35799269",
+    "pmid": "35799269",
+    "pmcid": "PMC9264601",
+    "doi": "10.1186/s13073-022-01079-x",
+    "title": "Identification of a cytokine-dominated immunosuppressive class in squamous cell lung carcinoma with implications for immunotherapy resistance.",
+    "authorString": "Yang M, Lin C, Wang Y, Chen K, Zhang H, Li W.",
+    "journal": "Genome medicine",
+    "pubYear": "2022",
+    "abstractText": "<h4>Background</h4>Immune checkpoint blockade (ICB) therapy has revolutionized the treatment of lung squamous cell carcinoma (LUSC). However, a significant proportion of patients with high tumour PD-L1 expression remain resistant to immune checkpoint inhibitors. To understand the underlying resistance mechanisms, characterization of the immunosuppressive tumour microenvironment and identification of biomarkers to predict resistance in patients are urgently needed.<h4>Methods</h4>Our study retrospectively analysed RNA sequencing data of 624 LUSC samples. We analysed gene expression patterns from tumour microenvironment by unsupervised clustering. We correlated the expression patterns with a set of T cell exhaustion signatures, immunosuppressive cells, clinical characteristics, and immunotherapeutic responses. Internal and external testing datasets were used to validate the presence of exhausted immune status.<h4>Results</h4>Approximately 28 to 36% of LUSC patients were found to exhibit significant enrichments of T cell exhaustion signatures, high fraction of immunosuppressive cells (M2 macrophage and CD4 Treg), co-upregulation of 9 inhibitory checkpoints (CTLA4, PDCD1, LAG3, BTLA, TIGIT, HAVCR2, IDO1, SIGLEC7, and VISTA), and enhanced expression of anti-inflammatory cytokines (e.g. TGFβ and CCL18). We defined this immunosuppressive group of patients as exhausted immune class (EIC). Although EIC showed a high density of tumour-infiltrating lymphocytes, these were associated with poor prognosis. EIC had relatively elevated PD-L1 expression, but showed potential resistance to ICB therapy. The signature of 167 genes for EIC prediction was significantly enriched in melanoma patients with ICB therapy resistance. EIC was characterized by a lower chromosomal alteration burden and a unique methylation pattern. We developed a web application ( http://lilab2.sysu.edu.cn/tex & http://liwzlab.cn/tex ) for researchers to further investigate potential association of ICB resistance based on our multi-omics analysis data.<h4>Conclusions</h4>We introduced a novel LUSC immunosuppressive class which expressed high PD-L1 but showed potential resistance to ICB therapy. This comprehensive characterization of immunosuppressive tumour microenvironment in LUSC provided new insights for further exploration of resistance mechanisms and optimization of immunotherapy strategies.",
+    "pubTypeList": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article"
+    ],
+    "source": "MED",
+    "citedByCount": 36
+  },
+  {
+    "rank": 27,
+    "score": 14,
+    "mechanisms": [
+      "tumor_intrinsic",
+      "t_cell_dysfunction",
+      "cytokine_metabolism"
+    ],
+    "flags": [
+      "SQ_TITLE",
+      "MECH:tumor_intrinsic+t_cell_dysfunction+cytokine_metabolism",
+      "QUAL_HIGH_IMPACT",
+      "RECENT"
+    ],
+    "id": "42060297",
+    "pmid": "42060297",
+    "pmcid": "PMC13133723",
+    "doi": "10.1001/jamaoncol.2026.0818",
+    "title": "Tiragolumab Plus Atezolizumab and Chemotherapy for Advanced Nonsquamous Non-Small Cell Lung Cancer: The Phase 3 SKYSCRAPER-06 Randomized Clinical Trial.",
+    "authorString": "Socinski MA, Stahel R, Lee DH, Cappuzzo F, Nishio M, Lovly CM, Ozyilkan O, Li Q, Johnson M, Garon EB, Kilickap S, Ferreira da Silva FA, Alatorre-Alexander J, Meng R, Amin R, Matheny C, Troutman S, Wen X, Patil NS, Zou W, Rodriguez-Abreu D.",
+    "journal": "JAMA oncology",
+    "pubYear": "2026",
+    "abstractText": "<h4>Importance</h4>Programmed cell death 1 ligand 1/programmed cell death protein 1 inhibitors, with or without chemotherapy, are standard first-line treatment for patients with advanced non-small cell lung cancer (NSCLC); however, survival benefit is limited, and many patients experience disease progression.<h4>Objective</h4>To evaluate the efficacy and safety of tiragolumab plus atezolizumab plus chemotherapy vs placebo plus pembrolizumab plus chemotherapy in patients with advanced nonsquamous NSCLC.<h4>Design, setting, and participants</h4>SKYSCRAPER-06 was a phase 3 randomized clinical trial that recruited patients with previously untreated, locally advanced unresectable or metastatic NSCLC at 129 sites in 21 countries between December 15, 2020, and September 14, 2023 (data cutoff, April 19, 2024).<h4>Intervention</h4>Patients were randomized 1:1 to receive either tiragolumab, 600 mg, plus atezolizumab, 1200 mg, plus chemotherapy (pemetrexed, 500 mg/m2, and carboplatin [area under the curve 5], or cisplatin, 75 mg/m2) or placebo plus pembrolizumab, 200 mg, plus chemotherapy via intravenous infusion on day 1 of each 21-day cycle until disease progression, loss of clinical benefit, unacceptable toxic effect, or withdrawal of consent.<h4>Main outcomes and measures</h4>Primary end points were investigator-assessed progression-free survival and overall survival. The safety and tolerability of the study drugs were also evaluated.<h4>Results</h4>Of 542 patients in the full analysis set (mean [SD] age, 63.6 [9.3] years; 353 [65.1%] male), 269 were randomized to tiragolumab plus atezolizumab plus chemotherapy and 273 to placebo plus pembrolizumab plus chemotherapy. Overall, baseline demographics were similar between treatment groups. At data cutoff (median follow-up, 11.8 months), median investigator-assessed progression-free survival was 8.3 months (95% CI, 7.1-9.6 months) with tiragolumab plus atezolizumab plus chemotherapy vs 9.9 months (95% CI, 8.7-11.9 months) with placebo plus pembrolizumab plus chemotherapy (hazard ratio, 1.27; 95% CI, 1.02-1.57; P = .99); median overall survival was 18.9 months (95% CI, 15.2-23.8 months) vs 23.1 months (95% CI, 20.7-33.0 months) in each treatment group, respectively (hazard ratio, 1.33; 95% CI, 1.02-1.73; P = .98). Grade 3 to 4 adverse events occurred in 164 of 267 patients (61.4%) in the tiragolumab plus atezolizumab plus chemotherapy group and 165 of 272 patients (60.7%) in the placebo plus pembrolizumab plus chemotherapy group, with grade 5 AEs occurring in 27 of 267 patients (10.1%) and 16 of 272 patients (5.9%) in each group, respectively.<h4>Conclusions and relevance</h4>In the phase 3 SKYSCRAPER-06 randomized clinical trial, the primary end points were not met and the study has been terminated.<h4>Trial registration</h4>ClinicalTrials.gov Identifier: NCT04619797.",
+    "pubTypeList": [
+      "research-article",
+      "Journal Article"
+    ],
+    "source": "MED",
+    "citedByCount": 0
+  },
+  {
+    "rank": 11,
+    "score": 17,
+    "mechanisms": [
+      "immunosuppressive_cells",
+      "cytokine_metabolism",
+      "genomic_transcriptomic"
+    ],
+    "flags": [
+      "SQ_TITLE",
+      "MECH:immunosuppressive_cells+cytokine_metabolism+genomic_transcriptomic",
+      "QUAL_HIGH_IMPACT",
+      "RECENT",
+      "PERFECT_FOCUS"
+    ],
+    "id": "41239433",
+    "pmid": "41239433",
+    "pmcid": "PMC12619220",
+    "doi": "10.1186/s12935-025-04043-y",
+    "title": "Aldolase a in pan-cancer and lung squamous cell carcinoma: prognostic value and macrophage-driven immune suppression unveiled by multi-omics and cohort validation.",
+    "authorString": "Ji Y, Li X, Shen X, Hu X, Du Y, Hu B, Wang W, Meng F.",
+    "journal": "Cancer cell international",
+    "pubYear": "2025",
+    "abstractText": "<h4>Background</h4>Aldolase A (ALDOA), a key glycolytic enzyme, has been implicated in tumor progression and metabolic reprogramming across multiple cancers [1]. However, its role in lung squamous cell carcinoma (LUSC) remains largely unexplored. Recent studies suggest that ALDOA may influence the tumor immune microenvironment, particularly through its association with macrophages [2, 3]. This study aims to investigate the prognostic value of ALDOA in LUSC and its role in macrophage-mediated immune suppression.<h4>Methods</h4>We conducted a comprehensive pan-cancer analysis to evaluate ALDOA expression, genomic alterations, and prognostic relevance across different cancer types. In LUSC, we validated its prognostic value using immunohistochemical (IHC) staining and independent patient cohorts. Immune infiltration was assessed using multiple bioinformatics algorithms and single-cell RNA sequencing (scRNA-seq) from the TISCH2 database. Spatial transcriptomics and immunofluorescence (IF) staining were performed to determine ALDOA's co-localization with CD68 + macrophages in LUSC tissues. Functional enrichment and drug sensitivity analyses were conducted to explore ALDOA's role in tumor progression and therapeutic resistance.<h4>Results</h4>ALDOA was significantly overexpressed in multiple cancers, with LUSC showing one of the highest expression levels. Elevated ALDOA expression was strongly correlated with poor overall survival (OS), disease-specific survival (DSS), and progression-free interval (PFI) in LUSC patients. Copy number variations and promoter hypomethylation were identified as potential mechanisms driving ALDOA overexpression. ALDOA-high tumors exhibited increased M0 macrophage and reduced CD8 + T-cell infiltration, suggesting a role in immune suppression and evasion. Spatial transcriptomic and immunofluorescence analyses confirmed the co-localization of ALDOA with CD68 + tumor-associated macrophages (TAMs). Additionally, ALDOA-high tumors demonstrated increased resistance to multiple chemotherapeutic agents and EGFR-TKIs, highlighting its potential as a predictive biomarker for drug response.<h4>Conclusion</h4>Our findings establish ALDOA as a robust prognostic biomarker and a key regulator of macrophage-mediated immune suppression in LUSC. Its involvement in tumor metabolism, immune evasion, and therapy resistance suggests that targeting ALDOA could enhance both metabolic inhibition strategies and immune checkpoint blockade therapies. Future research should focus on mechanistic studies and therapeutic interventions targeting ALDOA to improve treatment outcomes in LUSC.",
+    "pubTypeList": [
+      "research-article",
+      "Journal Article"
+    ],
+    "source": "MED",
+    "citedByCount": 0
+  }
+]

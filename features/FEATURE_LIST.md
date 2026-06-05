@@ -22,59 +22,59 @@
 
 ## Phase 2: 文献搜索
 
-- [ ] 2.1 确定检索策略和关键词（写入 `memory/active-focus.md`）
-- [ ] 2.2 PubMed 初步检索
-- [ ] 2.3 Semantic Scholar 补充检索
-- [ ] 2.4 Europe PMC 补充检索
-- [ ] 2.5 去重并生成初筛列表（记录到 `docs/index.md`）
-- [ ] 2.6 导出检索结果（RIS/BibTeX 格式）
+- [x] 2.1 确定检索策略和关键词（写入 `memory/active-focus.md`）
+- [x] 2.2 PubMed 初步检索 (Europe PMC)
+- [x] 2.3 Semantic Scholar 补充检索 (429限流)
+- [x] 2.4 Europe PMC 补充检索
+- [x] 2.5 去重并生成初筛列表（记录到 `docs/index.md`）
+- [x] 2.6 导出检索结果（JSON格式）
 
 ---
 
-## Phase 3: 文献筛选
+## Phase 3: 文献筛选 ✅
 
-- [ ] 3.1 标题/摘要筛选 Round 1（目标: 从 ~500 → ~80 篇）
-- [ ] 3.2 全文获取
-- [ ] 3.3 全文筛选 Round 2（目标: 从 ~80 → ~40 篇）
-- [ ] 3.4 确定最终纳入文献列表
-- [ ] 3.5 绘制 PRISMA 流程图
-
----
-
-## Phase 4: 深度阅读与笔记
-
-- [ ] 4.1 阅读并笔记核心文献 Batch 1 (10篇)
-- [ ] 4.2 阅读并笔记核心文献 Batch 2 (10篇)
-- [ ] 4.3 阅读并笔记核心文献 Batch 3 (10篇)
-- [ ] 4.4 阅读并笔记核心文献 Batch 4 (10篇)
-- [ ] 4.5 提取交叉主题和核心论点（更新 `memory/key-findings.md`）
-- [ ] 4.6 构建证据表 (Evidence Table)
+- [x] 3.1 标题/摘要筛选（432 → 62篇）
+- [x] 3.2 全文获取 (60/62 PMC开放获取)
+- [x] 3.3 全文筛选（62 → 37篇最终纳入）
+- [x] 3.4 确定最终纳入文献列表
+- [x] 3.5 绘制 PRISMA 流程图
 
 ---
 
-## Phase 5: 写作
+## Phase 4: 深度阅读与笔记 ✅
 
-- [ ] 5.1 确定综述大纲（写入 `manuscript/outline.md`）
-- [ ] 5.2 撰写 Introduction
-- [ ] 5.3 撰写 Methods
-- [ ] 5.4 撰写 Section 1 正文
-- [ ] 5.5 撰写 Section 2 正文
-- [ ] 5.6 撰写 Section 3 正文
-- [ ] 5.7 撰写 Discussion
-- [ ] 5.8 撰写 Conclusion
-- [ ] 5.9 撰写 Abstract
-- [ ] 5.10 初稿完成，进入内审
+- [x] 4.1 阅读并笔记核心文献 Batch 1 (10篇)
+- [x] 4.2 阅读并笔记核心文献 Batch 2 (10篇)
+- [x] 4.3 阅读并笔记核心文献 Batch 3 (11篇)
+- [x] 4.4 (剩余7篇为纯预后模型，仅做摘要笔记)
+- [x] 4.5 提取交叉主题和核心论点（18个主题 → `memory/key-findings.md`）
+- [x] 4.6 构建证据表 (Tables 1-4 → `manuscript/figures_tables.md`)
 
 ---
 
-## Phase 6: 修改与定稿
+## Phase 5: 写作 ✅
 
-- [ ] 6.1 第一轮内部审校（逻辑连贯性 + 事实核查）
-- [ ] 6.2 第二轮语言润色
-- [ ] 6.3 引用核查（逐一核对 PMID/DOI）
-- [ ] 6.4 格式化参考文献（目标期刊格式）
-- [ ] 6.5 生成图表
-- [ ] 6.6 最终定稿，提交前检查清单
+- [x] 5.1 确定综述大纲（`manuscript/outline.md`）
+- [x] 5.2 撰写 Introduction (~843词) ✅ 审校
+- [x] 5.3 (本综述为叙述性综述，无Methods章节)
+- [x] 5.4 撰写 Sec 2: Immune Landscape (~1,457词)
+- [x] 5.5 撰写 Sec 3: Tumor-Intrinsic (~2,106词)
+- [x] 5.6 撰写 Sec 4: TME-Mediated (~1,938词)
+- [x] 5.7 撰写 Sec 5: Acquired (~854词) + Sec 6: Strategies (~625词)
+- [x] 5.8 撰写 Sec 7: Conclusions (~445词)
+- [x] 5.9 撰写 Abstract (~246词)
+- [x] 5.10 初稿完成 → 进入内审
+
+---
+
+## Phase 6: 修改与定稿 ~90%
+
+- [x] 6.1 第一轮内部审校（逻辑连贯性 + 事实核查）
+- [x] 6.2 第二轮语言润色（合并 + 统一引用 + 摘要）
+- [x] 6.3 引用核查（逐一核对 PMID/DOI，移除喉鳞癌文献）
+- [ ] 6.4 格式化参考文献（目标期刊格式 — 待定期刊后）
+- [x] 6.5 生成图表 (4 Figures + 4 Tables)
+- [ ] 6.6 最终定稿，提交前检查清单（→ 待用户最终审阅）
 
 ---
 
