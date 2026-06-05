@@ -104,6 +104,34 @@
 | 一致性 | 0.90 (Agent 定义编码后统一) |
 | 安全性 | 1.0 |
 
+---
+
+## Phase 6 补充审计 — 数据库覆盖度评估 | 2026-06-05
+
+### 发现: Tier 2 数据库系统性缺失
+
+| 数据库 | 激活决策 | 实际状态 | 影响 |
+|--------|---------|---------|------|
+| Embase | 🔴 高优先级（药物/生物制剂） | ❌ 未检索 | 可能遗漏药理学独特文献（2,900+ PubMed未索引期刊） |
+| Cochrane CENTRAL | 🟡 应激活（涉及RCT/试验） | ❌ 未检索 | 可能遗漏未发表试验报告 |
+| CNKI/万方 | ⚪ 不激活（无中国人群/TCM） | N/A | 无影响 |
+
+**根因**: 搜索Agent Step 0（数据库需求评估）和 Step 2（生成Tier 2清单）被跳过；VPN不可用但兜底流程未触发。
+
+**修复**:
+- `manual-search-checklist.md` → 占位符替换为完整预编译检索式（Embase Ovid + Cochrane）
+- `jitc_submission.md` → 新增 "Search Strategy and Selection Criteria" + Limitations 声明
+- `decisions.md` → 新增决策 #4/#5/#6
+- `lessons-learned.md` → 新增教训 #10
+
+### 综合评分（补充）
+| 维度 | 得分 | 说明 |
+|------|------|------|
+| 数据库覆盖度 | 0.50 | Tier 1完整(3/3)；Tier 2 0/2；整体覆盖度 3/5 = 60% — ❌ 不完整 |
+| Harm | 0.70 | 叙述性综述而非系统综述 → 影响有限但需声明 |
+
+---
+
 ## 模板 — 后续 Phase 使用
 
 ```markdown

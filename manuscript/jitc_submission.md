@@ -16,7 +16,7 @@
 **\*Corresponding author**:
 [Name], [Full address], [Email], [Phone]
 
-**Word count**: 8,969 (main text); 246 (abstract)
+**Word count**: ~9,300 (main text incl. Search Strategy); 246 (abstract)
 
 **Number of figures**: 1 | **Number of tables**: 2 | **References**: 41
 
@@ -328,6 +328,16 @@ Ultimately, overcoming immunotherapy resistance in LUSC will require a shift fro
 
 ---
 
+## Search Strategy and Selection Criteria
+
+This narrative review was conducted through a structured literature search of PubMed/MEDLINE (via the Europe PMC API) and Semantic Scholar. Search terms combined Medical Subject Headings (MeSH) and free-text keywords across four dimensions: (1) disease: "non-small cell lung cancer," "NSCLC," "lung squamous cell carcinoma," "LUSC"; (2) intervention: "immunotherapy," "immune checkpoint inhibitor," "anti-PD-1," "anti-PD-L1," "anti-CTLA-4," with specific drug names (pembrolizumab, nivolumab, atezolizumab, durvalumab, ipilimumab, cemiplimab); (3) outcome: "resistance," "refractory," "immune evasion," "non-response"; and (4) mechanism: "tumor microenvironment," "T cell exhaustion," "neoantigen," "antigen presentation," and related signaling pathways. The search was conducted on June 4, 2026, covering literature published between January 2020 and June 2026, restricted to English-language articles and reviews.
+
+After deduplication (n = 4,106 records), a two-stage screening process was applied: (1) title and abstract screening of 432 records with keyword filtering for squamous histology and resistance mechanisms, applying a strategy of "when uncertain, include"; (2) full-text assessment of 62 articles (60 open access via PubMed Central, 96.8%) against predefined inclusion criteria. Studies were excluded if they focused on non-lung squamous cell carcinomas (e.g., laryngeal, head and neck, oral, esophageal, cutaneous), non-squamous NSCLC without squamous subgroup analysis, or lacked substantive mechanistic content. Following full-text review, 37 studies were included in the qualitative synthesis (8 reviews, 26 original research articles, 3 systematic reviews/meta-analyses).
+
+**Limitations**: Searches were limited to PubMed/MEDLINE (via Europe PMC) and Semantic Scholar. Embase and Cochrane CENTRAL were not searched due to institutional access constraints at the time of manuscript preparation. As this review involves pharmacological agents (immune checkpoint inhibitors) and clinical trials, the absence of Embase—the gold-standard database for pharmacology literature—and Cochrane CENTRAL—the primary registry of clinical trials—represents a methodological limitation that may result in incomplete coverage of pharmacology-related and trial-based literature. Additionally, no formal risk-of-bias assessment was performed for individual included studies, and the synthesis is qualitative rather than quantitative. Pre-compiled search strategies for Embase (Ovid) and Cochrane Library are available as supplementary material for future updates. The review was not registered with PROSPERO as it is a narrative rather than systematic review.
+
+---
+
 ## Declarations
 
 **Funding**: [To be completed — specify grant numbers and funding bodies if applicable]
@@ -339,6 +349,8 @@ Ultimately, overcoming immunotherapy resistance in LUSC will require a shift fro
 **Ethics approval**: Not applicable (review article).
 
 **Data availability statement**: No primary data were generated for this review. All analyzed literature is publicly available via PubMed/PubMed Central.
+
+**Supplementary material**: Pre-compiled search strategies for Embase (Ovid) and Cochrane Library (CENTRAL + CDSR) are documented in `docs/search-results/manual-search-checklist.md`.
 
 ---
 
