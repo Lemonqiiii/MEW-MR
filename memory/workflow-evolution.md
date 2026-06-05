@@ -2,7 +2,23 @@
 
 > 记录每次因项目运行歧义触发的商讨及由此产生的**项目文件修改**。
 > 每条记录的核心是"改了什么文件"——日志只是修改的副作用。
-> 
+
+## E001: gen_word_full.py 硬编码跨项目残留 — 2026-06-05
+- **触发**: NRDS综述生成Word时，标题页显示LUSC标题，Figure/Table插入全部失败
+- **根因**: gen_word_full.py 硬编码了上一项目的标题、section名称匹配、图表文件名、关键词、运行标题等所有主题相关内容
+- **修改**:
+  - `scripts/gen_word_full.py` → 完全重写为通用版：自动检测标题、自动匹配Figure/Table文件、通用声明段提取、基于文件而非硬编码的自检
+  - `scripts/audit_manuscript.py` → **新建**：生成Word前运行10项检查（重复Reference段/引用完整性/章节连续/Abstract无图表引用等）
+  - `CLAUDE.md` 错误模式库 → 追加 `硬编码残留` + `编辑破坏引用段`
+- **效果**: 未来任何新综述项目只需修改gen_word_full.py顶部的OUT/FIG_DIR/SRC三个路径即可使用
+
+## E002: 增量Edit破坏markdown引用段结构 — 2026-06-05
+- **触发**: 3次出现重复 `## References` 段，丢失全部引用或只保留1条
+- **根因**: Edit工具在长文件中查找替换时，新旧内容同时包含`## References\n\n1.`导致重复；Python分割脚本过滤掉了Abstract/Title
+- **修改**:
+  - `scripts/rebuild_refs.py` → 标准化引用段重建工具
+  - `scripts/audit_manuscript.py` → 检测重复Reference段（重构前必跑）
+- **效果**: 每次大段插入后用rebuild_refs.py重建；生成Word前audit_manuscript.py自动拦截重复段
 > 与 `decisions.md` 的区别：
 > - `decisions.md` — 论文主题相关决策（选刊、范围、方法）
 > - `workflow-evolution.md` — 项目运行机制的修正（本文件）

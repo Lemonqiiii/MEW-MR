@@ -4,8 +4,8 @@
 - **目标**: 撰写高质量的医学/生物学英文综述论文
 - **领域**: 新生儿医学 / 呼吸病学 / 全生命周期流行病学
 - **综述主题**: NRDS 生命早期干预的远期影响（全生命周期视角）
-- **当前阶段**: planning（PICO 已确定，待定目标期刊）
-- **目标期刊**: TBD
+- **当前阶段**: revision（初稿完成，格式化为 Pediatric Research 投稿标准）
+- **目标期刊**: Pediatric Research (IF ~3, Springer Nature)
 - **上一轮**: LUSC ICI耐药综述已归档至 `archive/lusc-2025/`（8,969词 | 41引用 | 1图2表 | JITC）
 
 ## 交互原则 (最高优先级)
@@ -210,6 +210,10 @@ Figure refs, Table refs, Bad refs, Body citations, Images embedded, Headings, Wo
 - `引用越权` (2026-06-05): E类支撑因果声明 / G类做主引用 → Gate 6 检测
 - `类型误判` (2026-06-05): 喉鳞癌/头颈鳞癌被纳入LUSC综述 → Agent 6 Round 0 硬排除
 - `Step跳过` (2026-06-05): Agent 跳过门禁步骤（如搜索Agent跳过Step 0数据库评估）→ Agent定义中标记为"不可跳过"
+- `硬编码残留` (2026-06-05): gen_word_full.py 硬编码上一项目标题/图表/关键词 → 已修复：重写为通用版。新增 `scripts/audit_manuscript.py` 在生成Word前做10项检查
+- `编辑破坏引用段` (2026-06-05): 增量 Edit 重复插入 `## References` → 使用 `scripts/rebuild_refs.py` 批量重建
+- `图表插入时机错误` (2026-06-05): gen_word_full.py 把图表插入到节末尾而非标记位置 → 已修复：改为标记处原地插入。**铁律**: 图表插入位置必须与markdown中的`**Figure/Table N.**`标记位置一致；正文引用必须在标记之前出现（先引用，后插图）
+- `regex未匹配闭合标记` (2026-06-05): 图表标记`**Figure N. text.**`中`\*\*$`要求闭合但实际标记不闭合 → gen_word_full.py 所有图表regex已改用`.+`移除`\*\*$`要求
 
 ## 流程演进协议 (最高优先级 — 自改进机制)
 

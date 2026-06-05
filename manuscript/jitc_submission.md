@@ -4,6 +4,10 @@
 
 Neonatal respiratory distress syndrome (NRDS) remains a leading cause of morbidity among preterm infants, yet the focus of clinical research has historically centered on short-term outcomes — survival, bronchopulmonary dysplasia (BPD), and discharge from the neonatal intensive care unit (NICU). As survival rates for extremely preterm infants have risen dramatically, the question is no longer simply whether these infants live, but how they live. This narrative review synthesizes evidence linking early-life respiratory interventions — antenatal corticosteroids, postnatal corticosteroids, mechanical ventilation strategies, surfactant therapy, and oxygen therapy — to long-term pulmonary function, neurodevelopment, and quality of life across the life course. We find that the evidence base is dominated by Cochrane systematic reviews demonstrating clear short-term benefits of antenatal corticosteroids, volume-targeted ventilation, and less invasive surfactant administration (LISA), with emerging yet incomplete data on outcomes beyond 18--36 months of age. Postnatal corticosteroids exemplify a persistent clinical tension: early administration reduces BPD but increases cerebral palsy risk, while late administration offers a more favorable risk--benefit profile. Few high-quality studies link any NICU respiratory intervention to outcomes beyond early childhood. We found almost no data on adolescent and adult pulmonary function, cognitive performance, educational attainment, or health-related quality of life. Only 8 of 528 core papers identified in our systematic search addressed quality-of-life outcomes. Bronchopulmonary dysplasia emerges as the dominant mediator through which early interventions exert their long-term effects, yet the chain of evidence from "intervention to BPD reduction to improved adult respiratory health" remains largely inferential. We identify critical knowledge gaps and propose a research agenda centered on lifelong follow-up, patient-reported outcome measures, and biomarker-guided individualized therapy. The field must move beyond asking "did the infant survive without BPD?" toward asking "did this NICU decision optimize the trajectory of that child's life?"
 
+**Impact Statement**:
+
+This narrative review synthesizes evidence from 590 papers on the long-term consequences of neonatal respiratory interventions for respiratory distress syndrome. We find high-certainty evidence for short-term benefits of antenatal corticosteroids, volume-targeted ventilation, and less invasive surfactant administration, but near-total absence of data on outcomes beyond 18-36 months of age. Quality of life, adult pulmonary function, and functional outcomes are essentially unstudied. The review identifies critical knowledge gaps and proposes a research agenda centered on lifelong follow-up and patient-reported outcome measures.
+
 ---
 
 ## 1. Introduction
@@ -16,7 +20,9 @@ This success creates a new challenge. Infants who would have died a generation a
 
 Evidence is accumulating that early-life respiratory interventions have effects extending far beyond the NICU. Cohort studies following preterm infants into school age have documented reduced forced expiratory volume in one second (FEV₁), increased asthma and wheezing prevalence, and abnormal lung structure on chest imaging [9,10]. Neurodevelopmental follow-up has revealed elevated rates of cognitive impairment, cerebral palsy, behavioral disorders, and academic underachievement [11]. Whether these outcomes are attributable to prematurity itself, to the respiratory interventions deployed in the NICU, or to the interplay between them remains poorly delineated. This distinction matters: prematurity is not currently preventable, but treatment choices — the ventilation mode, the corticosteroid regimen, the oxygen saturation target — are modifiable.
 
-The existing evidence synthesis landscape is both rich and fragmented. The Cochrane Neonatal Group has produced systematic reviews covering antenatal corticosteroids [3], postnatal corticosteroids [12–15], ventilation strategies [5], surfactant preparations [16], and oxygen saturation targets [17]. These reviews provide high-certainty evidence for short-term outcomes — death, BPD, intraventricular hemorrhage, patent ductus arteriosus — but their long-term follow-up data, where available, are typically limited to neurodevelopmental assessment at 18–24 months corrected age. Pulmonary function, cognitive performance, educational attainment, and quality of life in later childhood and adulthood are rarely reported, and when reported, are based on small subsets of the original trial populations [18].
+The existing evidence synthesis landscape is both rich and fragmented. The Cochrane Neonatal Group has produced systematic reviews covering antenatal corticosteroids [3], postnatal corticosteroids [12–15], ventilation strategies [5], surfactant preparations [16], and oxygen saturation targets [17]. The conceptual framework organizing this review is shown in Figure 1: NICU interventions acting through BPD to shape health trajectories across the life course, with the thickness of the evidence base diminishing sharply beyond the preschool years. These reviews provide high-certainty evidence for short-term outcomes — death, BPD, intraventricular hemorrhage, patent ductus arteriosus — but their long-term follow-up data, where available, are typically limited to neurodevelopmental assessment at 18–24 months corrected age. Pulmonary function, cognitive performance, educational attainment, and quality of life in later childhood and adulthood are rarely reported, and when reported, are based on small subsets of the original trial populations [18].
+
+**Figure 1. Life-Course Framework of NRDS Interventions.** NICU interventions affect outcomes across the life course, with BPD as a central mediator. Evidence is strong for short-term outcomes (green) but absent for long-term outcomes beyond 2-5 years (red).
 
 This narrative review adopts a life-course perspective to examine the long-term consequences of five major classes of early-life respiratory interventions for NRDS: antenatal corticosteroids, postnatal corticosteroids, mechanical ventilation strategies, surfactant therapy, and oxygen therapy. For each, we ask what is known about effects on pulmonary function, neurodevelopment, and quality of life beyond the NICU discharge — at school age, in adolescence, and into adult life. We synthesize evidence from systematic reviews, randomized controlled trials with extended follow-up, and observational cohort studies, drawing on a systematic search that identified 590 relevant papers from an initial corpus of 1,205. We highlight areas where the evidence supports confident clinical conclusions, identify critical knowledge gaps, and propose directions for future research. Our goal is to inform clinicians making NICU decisions today about the possible lifelong consequences of those decisions for the children in their care.
 
@@ -51,17 +57,6 @@ The use of ACS in the late preterm period (34–36⁺⁶ weeks) has been evaluat
 ### 2.5 The Knowledge Gap: Adult Outcomes
 
 The first infants to receive ACS are now in their fifth and sixth decades of life, yet data on adult pulmonary function, cardiovascular health, metabolic status, and cognitive function in ACS-exposed individuals are almost entirely absent. A small number of observational studies have reported lung function in adult survivors of preterm birth — with and without ACS exposure — but the sample sizes are insufficient to disentangle the effects of ACS from those of prematurity itself, postnatal interventions, and socioeconomic confounders accumulated over a lifetime [9]. This is the most significant evidence gap in ACS research: an intervention administered during a two-day window of fetal life may have consequences that take 50 years to manifest, and the studies designed to detect those consequences have not been conducted.
-
-Summary of ACS evidence:
-
-| Outcome domain | Time horizon | Evidence certainty | Key finding |
-|---------------|-------------|-------------------|-------------|
-| Neonatal death, RDS, IVH, NEC | Neonatal | HIGH (Cochrane) | ACS reduces all four outcomes |
-| Neurodevelopment | 2–5 years | MODERATE | No detectable harm from single course |
-| Neurodevelopment | School age–adult | LOW | Insufficient data |
-| Repeat courses | Neonatal | MODERATE | Reduced RDS, lower birth weight; long-term unknown |
-| Late preterm ACS | Neonatal | MODERATE | Reduced respiratory morbidity, increased hypoglycemia |
-| Adult lung function, cardiometabolic | Adult | VERY LOW | Essentially no data |
 
 ---
 
@@ -98,17 +93,6 @@ The evidence is modest but suggestive. Early inhaled corticosteroids may reduce 
 The evidence for postnatal corticosteroids, taken as a whole, supports the following clinical framework. Late initiation (after the first week) with a low-dose regimen — preferably hydrocortisone — reduces BPD without a clearly demonstrated increase in cerebral palsy. Early initiation with dexamethasone should be reserved for infants at exceptionally high risk, following a frank discussion with the family about the approximately 5% absolute increase in cerebral palsy risk. Inhaled corticosteroids remain an investigational approach whose long-term safety is unproven.
 
 Every element of this framework is supported by high-quality systematic review evidence — and every element is limited by follow-up that rarely extends beyond two years of age. The neurodevelopmental assessments in the Cochrane reviews are predominantly Bayley Scales of Infant Development scores at 18–24 months corrected age. The Bayley is a valuable instrument, but it is a poor predictor of school-age IQ, executive function, academic achievement, and adult cognitive function. Whether the cerebral palsy signal observed with early dexamethasone represents the full extent of neurological harm — or whether subtler effects on cognition, behavior, or educational attainment emerge later in childhood — cannot be determined from the existing evidence base. Until follow-up studies extend into school age and beyond, the true risk–benefit calculus of postnatal corticosteroids will remain incompletely characterized.
-
-Summary of postnatal corticosteroid evidence:
-
-| Regimen | BPD reduction | Cerebral palsy risk | Long-term data |
-|---------|:---:|:---:|------|
-| Early dexamethasone (< 8 d) | RR 0.72 | RR 1.42 (significant) | 18–24 mo Bayley |
-| Late dexamethasone (≥ 7 d) | RR 0.80 | RR 1.12 (n.s.) | 18–24 mo Bayley |
-| Hydrocortisone (any timing) | RR 0.86 | Lower than dexamethasone | Limited |
-| Inhaled (early) | RR 0.76 | Unknown | Essentially none |
-| Inhaled (late) | RR 0.90 | Unknown | Essentially none |
-| **School-age IQ, FEV₁, adult QoL** | — | — | **Not reported for any regimen** |
 
 ---
 
@@ -172,18 +156,6 @@ The budesonide–surfactant combination illustrates a broader challenge in neona
 
 The first generation of surfactant-treated infants is now in its fourth decade of life. This represents an extraordinary — and largely unexploited — opportunity to study the life-course consequences of neonatal respiratory intervention. Infants who received surfactant in the early 1990s as part of the pivotal trials are now adults in their 30s, and the contrast between surfactant-treated survivors and historical controls who received only mechanical ventilation could provide unique insights into whether early surfactant therapy independently influences adult lung health. A small number of cohort studies have reported lung function in adult survivors of preterm birth, but none has specifically compared surfactant-treated and surfactant-naive survivors with adequate statistical power [9]. This is a missed opportunity that the neonatal research community should urgently address.
 
-Summary of surfactant evidence:
-
-| Aspect | Evidence status | Long-term data |
-|--------|:---:|------|
-| Animal-derived vs synthetic | Settled | — |
-| Poractant vs beractant | Moderate | None |
-| LISA vs INSURE | Moderate | **None beyond 36 wk PMA** |
-| Surfactant + budesonide | Preliminary | None |
-| Adult outcomes of surfactant era | — | Missed opportunity |
-
----
-
 ---
 
 ---
@@ -208,15 +180,6 @@ The oxygen target trials represent the most rigorous long-term follow-up of any 
 
 A fundamental limitation of the oxygen target trials is their use of fixed saturation ranges applied uniformly to all infants. Preterm neonates vary widely in their oxygen requirements, their capacity for antioxidant defense, and their susceptibility to hyperoxia-induced injury — differences that are influenced by gestational age, genetic polymorphisms in antioxidant enzymes, inflammatory status, and the presence or absence of infection. A single target range applied to all infants inevitably represents a compromise that is suboptimal for many. The next frontier in neonatal oxygen therapy is individualized dosing — using biomarkers of oxidative stress, continuous monitoring of tissue oxygenation (near-infrared spectroscopy), or genetic profiling to titrate oxygen delivery to each infant's specific physiology. This approach is conceptually appealing, technically feasible, and completely unstudied for long-term outcomes.
 
-Summary of oxygen therapy evidence:
-
-| Aspect | Evidence strength | Long-term data |
-|--------|:---:|------|
-| Low vs high saturation target: mortality | HIGH (Cochrane) | 5-year follow-up |
-| Low vs high target: neurodevelopment | MODERATE | 2-5 year Bayley |
-| Optimal intermediate target | LOW (consensus) | None |
-| Individualized oxygen dosing | Theoretical | None |
-| School-age lung function, QoL | — | None |
 
 
 ## 7. Bronchopulmonary Dysplasia as a Life-Course Mediator
@@ -295,7 +258,9 @@ The preceding sections have documented a pattern that is consistent across every
 
 ### 10.1 The Follow-up Gap
 
-The single most important limitation of the evidence reviewed in this paper is the systematic failure to follow children beyond 18-36 months of age. This limitation is not unique to neonatal research — it reflects structural features of the clinical research enterprise, including short funding cycles, the cost and logistical complexity of long-term follow-up, and the lack of standardized outcome measures that span infancy to adulthood. But its consequences are particularly severe in neonatology, where the interventions under study are applied during a developmental window of extraordinary plasticity and where their effects may take years or decades to manifest.
+The single most important limitation of the evidence reviewed in this paper is the systematic failure to follow children beyond 18-36 months of age. This limitation is not unique to neonatal research — it reflects structural features of the clinical research enterprise, including short funding cycles, the cost and logistical complexity of long-term follow-up, and the lack of standardized outcome measures that span infancy to adulthood. But its consequences are particularly severe in neonatology, where the interventions under study are applied during a developmental window of extraordinary plasticity and where their effects may take years or decades to manifest. The evidence gap is striking when visualized: Figure 2 compares the certainty of short-term versus long-term evidence across intervention classes, revealing the near-total collapse of data beyond five years for ventilation and surfactant strategies.
+
+**Figure 2. Evidence Certainty: Short-Term versus Long-Term Outcomes across NRDS Intervention Classes.** Green bars represent high-certainty evidence for outcomes within 2 years. Red bars represent evidence for outcomes beyond 5 years. The near-total absence of long-term data for ventilation and surfactant strategies is the central finding of this review.
 
 Closing the follow-up gap requires a combination of approaches: embedding long-term follow-up into the design of all major neonatal randomized trials, with ring-fenced funding for assessments at school age, adolescence, and early adulthood; expanding the use of routine administrative data (educational records, healthcare utilization databases) linked to neonatal trial cohorts; and developing validated instruments for remote assessment of pulmonary function, cognitive performance, and quality of life that can be administered without in-person visits.
 
@@ -332,7 +297,31 @@ What we do not know — and what constitutes the central message of this review 
 
 This absence of evidence should not be misinterpreted as evidence of absence. It is possible — even probable — that interventions that reduce BPD and improve short-term respiratory outcomes do improve long-term health, through pathways that are biologically coherent and supported by observational data. But the distinction between "probable" and "proven" matters, particularly when the interventions in question carry risks of their own.
 
-The neonatal community has achieved extraordinary success in keeping extremely preterm infants alive. The challenge of the next generation is to ensure that those lives are not merely lived, but lived well. Meeting that challenge requires a commitment to follow-up that matches the sophistication of acute care — a commitment to asking, and answering, the question of whether the decisions made in the NICU optimize the trajectory of the child's entire life, not just their survival to discharge.
+The neonatal community has achieved extraordinary success in keeping extremely preterm infants alive. The challenge of the next generation is to ensure that those lives are not merely lived, but lived well. Table 1 summarizes the evidence across all intervention classes, highlighting the severity of long-term evidence gaps. Meeting the challenge of closing these gaps requires a commitment to follow-up that matches the sophistication of acute care — a commitment to asking, and answering, the question of whether the decisions made in the NICU optimize the trajectory of the child's entire life, not just their survival to discharge.
+
+**Table 1. Summary of Evidence for NRDS Interventions: Short-Term and Long-Term Outcomes.** Each intervention is rated for short-term evidence certainty (Cochrane grade), key long-term findings, the maximum follow-up data horizon, and the severity of the evidence gap.
+
+---
+
+## Data Availability Statement
+
+Data sharing not applicable to this article as no datasets were generated or analyzed during the current study. All literature cited is publicly available via PubMed and Europe PMC.
+
+## Author Contributions
+
+[To be completed — author contributions according to CRediT taxonomy]
+
+## Competing Interests
+
+The authors declare no competing interests.
+
+## Acknowledgements
+
+[To be completed]
+
+## Funding
+
+[To be completed]
 
 ---
 
