@@ -4,7 +4,7 @@
 ---
 phase: writing                    # planning | literature-search | screening | deep-reading | writing | revision
 progress_pct: 50
-current_section: 4. Ventilation Strategies
+current_section: 5. Surfactant Therapy
 last_session_id: 2026-06-05-s2
 target_journal: TBD
 papers_collected: 1205

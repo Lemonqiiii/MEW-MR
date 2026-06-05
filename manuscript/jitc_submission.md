@@ -1,4 +1,3 @@
-
 # Life-Course Consequences of Early-Life Respiratory Interventions for Neonatal Respiratory Distress Syndrome: A Narrative Review
 
 ## Abstract
@@ -145,68 +144,114 @@ The research infrastructure to close this gap exists. The Victorian Infant Colla
 
 ---
 
+## 5. Surfactant Therapy: Transforming NRDS Survival, Awaiting Long-Term Data
+
+Exogenous surfactant replacement represents the most direct and mechanistically elegant intervention for NRDS. By replenishing the phospholipid and protein components that the preterm lung cannot yet produce, surfactant reduces alveolar surface tension, stabilizes terminal airways, and improves ventilation–perfusion matching within minutes of administration. Its introduction into clinical practice in the early 1990s transformed NRDS from a disease with mortality exceeding 50% in extremely preterm infants to one in which death from acute respiratory failure is now uncommon [4]. The short-term efficacy of surfactant is not in question. The long-term consequences — of both surfactant itself and the method by which it is delivered — are almost entirely unknown.
+
+### 5.1 Animal-Derived Surfactants: Comparative Efficacy
+
+A 2015 Cochrane review comparing animal-derived surfactant preparations found that poractant alfa (derived from porcine lung) was associated with lower mortality compared with beractant (bovine lung extract) (RR 0.79, 95% CI 0.65–0.96) and a reduced need for repeat dosing [33]. Calfactant (calf lung lavage) showed comparable efficacy to beractant. The absolute differences in outcomes were modest, and all animal-derived preparations substantially outperform synthetic surfactants lacking surfactant protein B and C analogs, which have largely been abandoned in clinical practice.
+
+These efficacy data are based on short-term outcomes — death, BPD, pneumothorax, need for re-treatment — measured during the NICU stay. No trial comparing surfactant preparations has reported pulmonary function, neurodevelopment, or quality of life beyond hospital discharge. Given that the choice of surfactant preparation influences the degree of pulmonary inflammation in the acute phase (poractant alfa appears to modulate inflammatory cytokine release more effectively than beractant in some studies), it is plausible that the preparation used in the first hours of life could have consequences for long-term lung health. But plausibility, again, is not evidence.
+
+### 5.2 The LISA Revolution: Less Invasive Surfactant Administration
+
+The most important innovation in surfactant therapy in the past decade has been the shift toward less invasive methods of administration. Traditional surfactant delivery required endotracheal intubation and mechanical ventilation — the very interventions that surfactant was intended to minimize. Less invasive surfactant administration (LISA), also known as minimally invasive surfactant therapy (MIST), delivers surfactant through a thin catheter inserted into the trachea while the infant breathes spontaneously on CPAP. This approach preserves the benefits of spontaneous respiration and avoids the barotrauma and volutrauma associated with intubation and positive-pressure ventilation.
+
+A 2021 Cochrane review of surfactant therapy via thin catheter, encompassing 16 trials and 2,164 preterm infants, found that LISA reduced the composite outcome of death or BPD (RR 0.77, 95% CI 0.67–0.89), the need for mechanical ventilation within 72 hours (RR 0.64, 95% CI 0.54–0.76), and severe intraventricular hemorrhage (RR 0.66, 95% CI 0.50–0.87) [16]. The evidence was rated as moderate certainty. These effect sizes are clinically meaningful and have led to LISA being adopted as the preferred method of surfactant delivery in many European NICUs, with the 2022 European Consensus Guidelines recommending LISA as the first-line approach for spontaneously breathing preterm infants [1].
+
+The long-term follow-up data for LISA are, in a word, absent. The Cochrane review noted that no trial had reported outcomes beyond 36 weeks' postmenstrual age. At the time of this writing, there are no published data on pulmonary function, neurodevelopment, respiratory morbidity, or quality of life at any age beyond the neonatal period for infants who received surfactant via LISA compared with those who received it via traditional intubation–surfactant–extubation (INSURE). The first LISA trials enrolled infants in the early 2010s, meaning the earliest LISA-treated cohort is now approaching adolescence — and we know nothing about their lung function, their cognitive development, or their quality of life.
+
+### 5.3 Combination Therapy: Surfactant plus Budesonide
+
+The recognition that pulmonary inflammation is a central driver of BPD pathogenesis has led to interest in combining surfactant with anti-inflammatory agents, particularly the inhaled corticosteroid budesonide. A 2021 Cochrane protocol and subsequent studies have explored intratracheal budesonide mixed with surfactant, administered as a single combined preparation [34]. Early randomized trials have reported reductions in BPD (RR 0.58, 95% CI 0.44–0.77 in one meta-analysis of small trials), but the evidence is preliminary, the optimal dosing regimen is undefined, and — in a now-familiar refrain — no long-term follow-up data have been published.
+
+The budesonide–surfactant combination illustrates a broader challenge in neonatal therapeutics: an intervention that is pharmacologically rational, supported by short-term efficacy data, and rapidly adopted into practice may have long-term effects — on lung growth, on alveolar development, on systemic glucocorticoid exposure — that will not be detected for years. The enthusiasm for combination therapy is understandable. The absence of safety data extending beyond the NICU is concerning.
+
+### 5.4 The Historical Natural Experiment
+
+The first generation of surfactant-treated infants is now in its fourth decade of life. This represents an extraordinary — and largely unexploited — opportunity to study the life-course consequences of neonatal respiratory intervention. Infants who received surfactant in the early 1990s as part of the pivotal trials are now adults in their 30s, and the contrast between surfactant-treated survivors and historical controls who received only mechanical ventilation could provide unique insights into whether early surfactant therapy independently influences adult lung health. A small number of cohort studies have reported lung function in adult survivors of preterm birth, but none has specifically compared surfactant-treated and surfactant-naive survivors with adequate statistical power [9]. This is a missed opportunity that the neonatal research community should urgently address.
+
+Summary of surfactant evidence:
+
+| Aspect | Evidence status | Long-term data |
+|--------|:---:|------|
+| Animal-derived vs synthetic | Settled | — |
+| Poractant vs beractant | Moderate | None |
+| LISA vs INSURE | Moderate | **None beyond 36 wk PMA** |
+| Surfactant + budesonide | Preliminary | None |
+| Adult outcomes of surfactant era | — | Missed opportunity |
+
+---
+
+---
+
 ## References
 
-1. Sweet DG, Carnielli V, Greisen G, et al. European Consensus Guidelines on the Management of Respiratory Distress Syndrome — 2019 Update. *Neonatology*. 2019;115(4):432-450. PMID: 30974433. [G — consensus guideline]
+1. Sweet DG, Carnielli V, Greisen G, et al. European Consensus Guidelines on the Management of Respiratory Distress Syndrome - 2019 Update. *Neonatology*. 2019;115(4):432-450. PMID: 30974433. [G - consensus guideline]
 
-2. Rubarth LB, Quinn J. Respiratory Development and Respiratory Distress Syndrome. *Neonatal Network*. 2015;34(4):231-238. [G — educational review]
+2. Rubarth LB, Quinn J. Respiratory Development and Respiratory Distress Syndrome. *Neonatal Network*. 2015;34(4):231-238. [G - educational review]
 
-3. McGoldrick E, Stewart F, Parker R, Dalziel SR. Antenatal corticosteroids for accelerating fetal lung maturation for women at risk of preterm birth. *Cochrane Database of Systematic Reviews*. 2020;12:CD004454. PMID: 33368142. [F — Cochrane SR]
+3. McGoldrick E, Stewart F, Parker R, Dalziel SR. Antenatal corticosteroids for accelerating fetal lung maturation for women at risk of preterm birth. *Cochrane Database of Systematic Reviews*. 2020;12:CD004454. PMID: 33368142. [F - Cochrane SR]
 
-4. Halliday HL. Surfactant replacement therapy. *Seminars in Perinatology*. 2019;43(6):151160. [G — review]
+4. Halliday HL. Surfactant replacement therapy. *Seminars in Perinatology*. 2019;43(6):151160. [G - review]
 
-5. Klingenberg C, Wheeler KI, McCallion N, Morley CJ, Davis PG. Volume-targeted versus pressure-limited ventilation in neonates. *Cochrane Database of Systematic Reviews*. 2017;10:CD003666. PMID: 29039883. [F — Cochrane SR]
+5. Klingenberg C, Wheeler KI, McCallion N, Morley CJ, Davis PG. Volume-targeted versus pressure-limited ventilation in neonates. *Cochrane Database of Systematic Reviews*. 2017;10:CD003666. PMID: 29039883. [F - Cochrane SR]
 
-6. Stoll BJ, Hansen NI, Bell EF, et al. Trends in care practices, morbidity, and mortality of extremely preterm neonates, 1993–2012. *JAMA*. 2015;314(10):1039-1051. PMID: 26348753. [H — cohort study]
+6. Stoll BJ, Hansen NI, Bell EF, et al. Trends in care practices, morbidity, and mortality of extremely preterm neonates, 1993-2012. *JAMA*. 2015;314(10):1039-1051. PMID: 26348753. [H - cohort study]
 
-7. Barker DJP. The developmental origins of adult disease. *Journal of the American College of Nutrition*. 2004;23(6 Suppl):588S-595S. PMID: 15640511. [G — landmark review]
+7. Barker DJP. The developmental origins of adult disease. *Journal of the American College of Nutrition*. 2004;23(6 Suppl):588S-595S. PMID: 15640511. [G - landmark review]
 
-8. Volpe JJ. Brain injury in premature infants: a complex amalgam of destructive and developmental disturbances. *The Lancet Neurology*. 2009;8(1):110-124. PMID: 19081519. [G — review]
+8. Volpe JJ. Brain injury in premature infants: a complex amalgam of destructive and developmental disturbances. *The Lancet Neurology*. 2009;8(1):110-124. PMID: 19081519. [G - review]
 
-9. Gibson AM, Reddington C, McBride L, Callanan C, Robertson C, Doyle LW. Lung function in adult survivors of very low birth weight, with and without bronchopulmonary dysplasia. *Pediatric Pulmonology*. 2015;50(10):987-994. PMID: 25263387. [E — observational]
+9. Gibson AM, Reddington C, McBride L, Callanan C, Robertson C, Doyle LW. Lung function in adult survivors of very low birth weight, with and without bronchopulmonary dysplasia. *Pediatric Pulmonology*. 2015;50(10):987-994. PMID: 25263387. [E - observational]
 
-10. Fawke J, Lum S, Kirkby J, et al. Lung function and respiratory symptoms at 11 years in children born extremely preterm. *American Journal of Respiratory and Critical Care Medicine*. 2010;182(2):237-245. PMID: 20378729. [E — observational]
+10. Fawke J, Lum S, Kirkby J, et al. Lung function and respiratory symptoms at 11 years in children born extremely preterm. *American Journal of Respiratory and Critical Care Medicine*. 2010;182(2):237-245. PMID: 20378729. [E - observational]
 
-11. Twilhaar ES, Wade RM, de Kieviet JF, van Goudoever JB, van Elburg RM, Oosterlaan J. Cognitive outcomes of children born extremely or very preterm since the 1990s and associated risk factors: a meta-analysis and meta-regression. *JAMA Pediatrics*. 2018;172(4):361-367. PMID: 29459939. [F — MA]
+11. Twilhaar ES, Wade RM, de Kieviet JF, van Goudoever JB, van Elburg RM, Oosterlaan J. Cognitive outcomes of children born extremely or very preterm since the 1990s and associated risk factors: a meta-analysis and meta-regression. *JAMA Pediatrics*. 2018;172(4):361-367. PMID: 29459939. [F - MA]
 
-12. Doyle LW, Cheong JL, Ehrenkranz RA, Halliday HL. Early (< 8 days) systemic postnatal corticosteroids for prevention of bronchopulmonary dysplasia in preterm infants. *Cochrane Database of Systematic Reviews*. 2017;10:CD001146. PMID: 29063585. [F — Cochrane SR]
+12. Doyle LW, Cheong JL, Ehrenkranz RA, Halliday HL. Early (< 8 days) systemic postnatal corticosteroids for prevention of bronchopulmonary dysplasia in preterm infants. *Cochrane Database of Systematic Reviews*. 2017;10:CD001146. PMID: 29063585. [F - Cochrane SR]
 
-13. Doyle LW, Cheong JL, Ehrenkranz RA, Halliday HL. Late (≥ 7 days) systemic postnatal corticosteroids for prevention of bronchopulmonary dysplasia in preterm infants. *Cochrane Database of Systematic Reviews*. 2017;10:CD001145. PMID: 29063594. [F — Cochrane SR]
+13. Doyle LW, Cheong JL, Ehrenkranz RA, Halliday HL. Late (>= 7 days) systemic postnatal corticosteroids for prevention of bronchopulmonary dysplasia in preterm infants. *Cochrane Database of Systematic Reviews*. 2017;10:CD001145. PMID: 29063594. [F - Cochrane SR]
 
-14. Doyle LW, Cheong JL, Hay S, Manley BJ, Halliday HL. Early (< 7 days) systemic postnatal corticosteroids for prevention of bronchopulmonary dysplasia in preterm infants. *Cochrane Database of Systematic Reviews*. 2021;10:CD001146. PMID: 34674229. [F — Cochrane SR]
+14. Doyle LW, Cheong JL, Hay S, Manley BJ, Halliday HL. Early (< 7 days) systemic postnatal corticosteroids for prevention of bronchopulmonary dysplasia in preterm infants. *Cochrane Database of Systematic Reviews*. 2021;10:CD001146. PMID: 34674229. [F - Cochrane SR]
 
-15. Doyle LW, Cheong JL, Hay S, Manley BJ, Halliday HL. Late (≥ 7 days) systemic postnatal corticosteroids for prevention of bronchopulmonary dysplasia in preterm infants. *Cochrane Database of Systematic Reviews*. 2021;10:CD001145. PMID: 34758507. [F — Cochrane SR]
+15. Doyle LW, Cheong JL, Hay S, Manley BJ, Halliday HL. Late (>= 7 days) systemic postnatal corticosteroids for prevention of bronchopulmonary dysplasia in preterm infants. *Cochrane Database of Systematic Reviews*. 2021;10:CD001145. PMID: 34758507. [F - Cochrane SR]
 
-16. Abdel-Latif ME, Davis PG, Wheeler KI, De Paoli AG, Kamlin COF, Carlin JB. Surfactant therapy via thin catheter in preterm infants with or at risk of respiratory distress syndrome. *Cochrane Database of Systematic Reviews*. 2021;5:CD011672. PMID: 33970483. [F — Cochrane SR]
+16. Abdel-Latif ME, Davis PG, Wheeler KI, De Paoli AG, Kamlin COF, Carlin JB. Surfactant therapy via thin catheter in preterm infants with or at risk of respiratory distress syndrome. *Cochrane Database of Systematic Reviews*. 2021;5:CD011672. PMID: 33970483. [F - Cochrane SR]
 
-17. Askie LM, Darlow BA, Davis PG, et al. Effects of targeting lower versus higher arterial oxygen saturations on death or disability in preterm infants. *Cochrane Database of Systematic Reviews*. 2017;4:CD011190. PMID: 28398697. [F — Cochrane SR]
+17. Askie LM, Darlow BA, Davis PG, et al. Effects of targeting lower versus higher arterial oxygen saturations on death or disability in preterm infants. *Cochrane Database of Systematic Reviews*. 2017;4:CD011190. PMID: 28398697. [F - Cochrane SR]
 
-18. Doyle LW, Anderson PJ, Battin M, et al. Long term follow up of high risk children: who, why and how? *BMC Pediatrics*. 2014;14:279. PMID: 25399544. [G — review]
+18. Doyle LW, Anderson PJ, Battin M, et al. Long term follow up of high risk children: who, why and how? *BMC Pediatrics*. 2014;14:279. PMID: 25399544. [G - review]
 
-19. Sotiriadis A, Tsiami A, Papatheodorou S, et al. Different corticosteroids and regimens for accelerating fetal lung maturation for babies at risk of preterm birth. *Cochrane Database of Systematic Reviews*. 2022;8:CD006764. PMID: 35943347. [F — Cochrane SR]
+19. Sotiriadis A, Tsiami A, Papatheodorou S, et al. Different corticosteroids and regimens for accelerating fetal lung maturation for babies at risk of preterm birth. *Cochrane Database of Systematic Reviews*. 2022;8:CD006764. PMID: 35943347. [F - Cochrane SR]
 
-20. Ninan K, Liyanage SK, Murphy KE, Asztalos EV, McDonald SD. Evaluation of long-term outcomes associated with preterm exposure to antenatal corticosteroids: a systematic review and meta-analysis. *JAMA Pediatrics*. 2022;176(6):e220483. PMID: 35404395. [F — SR/MA]
+20. Ninan K, Liyanage SK, Murphy KE, Asztalos EV, McDonald SD. Evaluation of long-term outcomes associated with preterm exposure to antenatal corticosteroids: a systematic review and meta-analysis. *JAMA Pediatrics*. 2022;176(6):e220483. PMID: 35404395. [F - SR/MA]
 
-21. Crowther CA, Middleton PF, Voysey M, et al. Effects of repeat prenatal corticosteroids given to women at risk of preterm birth: an individual participant data meta-analysis. *PLoS Medicine*. 2019;16(4):e1002771. PMID: 30978205. [F — IPD-MA]
+21. Crowther CA, Middleton PF, Voysey M, et al. Effects of repeat prenatal corticosteroids given to women at risk of preterm birth: an individual participant data meta-analysis. *PLoS Medicine*. 2019;16(4):e1002771. PMID: 30978205. [F - IPD-MA]
 
-22. Cornelissen LGH, Been JV, Smits L, et al. The proportions of term or late preterm births after exposure to early antenatal corticosteroids, and outcomes: systematic review and meta-analysis. *BMJ*. 2023;382:e076035. PMID: 37532269. [F — SR/MA]
+22. Cornelissen LGH, Been JV, Smits L, et al. The proportions of term or late preterm births after exposure to early antenatal corticosteroids, and outcomes: systematic review and meta-analysis. *BMJ*. 2023;382:e076035. PMID: 37532269. [F - SR/MA]
 
-23. Al-Matary A, Alotaibi W, Alotaibi N, Qaraqei M. Antenatal corticosteroids for impending late preterm (34–36⁺⁶ weeks) deliveries — a systematic review and meta-analysis of randomized controlled trials. *PLoS One*. 2021;16(3):e0248911. PMID: 33750966. [F — SR/MA]
+23. Al-Matary A, Alotaibi W, Alotaibi N, Qaraqei M. Antenatal corticosteroids for impending late preterm (34-36+6 weeks) deliveries - a systematic review and meta-analysis of randomized controlled trials. *PLoS One*. 2021;16(3):e0248911. PMID: 33750966. [F - SR/MA]
 
-24. Gyamfi-Bannerman C, Thom EA, Blackwell SC, et al. Antenatal betamethasone for women at risk for late preterm delivery. *New England Journal of Medicine*. 2016;374(14):1311-1320. PMID: 26863992. [H — RCT]
+24. Gyamfi-Bannerman C, Thom EA, Blackwell SC, et al. Antenatal betamethasone for women at risk for late preterm delivery. *New England Journal of Medicine*. 2016;374(14):1311-1320. PMID: 26863992. [H - RCT]
 
-25. Onland W, De Jaegere AP, Offringa M, van Kaam AH. Systemic corticosteroid regimens for prevention of bronchopulmonary dysplasia in preterm infants. *Cochrane Database of Systematic Reviews*. 2017;1:CD010941. PMID: 28141913. [F — Cochrane SR]
+25. Onland W, De Jaegere AP, Offringa M, van Kaam AH. Systemic corticosteroid regimens for prevention of bronchopulmonary dysplasia in preterm infants. *Cochrane Database of Systematic Reviews*. 2017;1:CD010941. PMID: 28141913. [F - Cochrane SR]
 
-26. Kelly LE, Shan F, Ramasubbu B, et al. Corticosteroids for the prevention and treatment of bronchopulmonary dysplasia: an overview of systematic reviews. *Cochrane Database of Systematic Reviews*. 2024;4:CD013271. PMID: 38597338. [F — Cochrane overview]
+26. Kelly LE, Shan F, Ramasubbu B, et al. Corticosteroids for the prevention and treatment of bronchopulmonary dysplasia: an overview of systematic reviews. *Cochrane Database of Systematic Reviews*. 2024;4:CD013271. PMID: 38597338. [F - Cochrane overview]
 
-27. Shah SS, Ohlsson A, Halliday HL, Shah VS. Inhaled versus systemic corticosteroids for preventing bronchopulmonary dysplasia in ventilated very low birth weight preterm neonates. *Cochrane Database of Systematic Reviews*. 2017;10:CD002058. PMID: 29063586. [F — Cochrane SR]
+27. Shah SS, Ohlsson A, Halliday HL, Shah VS. Inhaled versus systemic corticosteroids for preventing bronchopulmonary dysplasia in ventilated very low birth weight preterm neonates. *Cochrane Database of Systematic Reviews*. 2017;10:CD002058. PMID: 29063586. [F - Cochrane SR]
 
-28. Shah SS, Ohlsson A, Halliday HL, Shah VS. Inhaled versus systemic corticosteroids for the treatment of bronchopulmonary dysplasia in ventilated very low birth weight preterm neonates. *Cochrane Database of Systematic Reviews*. 2017;10:CD002057. PMID: 29063584. [F — Cochrane SR]
+28. Shah SS, Ohlsson A, Halliday HL, Shah VS. Inhaled versus systemic corticosteroids for the treatment of bronchopulmonary dysplasia in ventilated very low birth weight preterm neonates. *Cochrane Database of Systematic Reviews*. 2017;10:CD002057. PMID: 29063584. [F - Cochrane SR]
 
-29. Lemyre B, Davis PG, De Paoli AG, Kirpalani H. Early nasal intermittent positive pressure ventilation (NIPPV) versus early nasal continuous positive airway pressure (NCPAP) for preterm infants. *Cochrane Database of Systematic Reviews*. 2016;12:CD005384. PMID: 27976361. [F — Cochrane SR]
+29. Lemyre B, Davis PG, De Paoli AG, Kirpalani H. Early nasal intermittent positive pressure ventilation (NIPPV) versus early nasal continuous positive airway pressure (NCPAP) for preterm infants. *Cochrane Database of Systematic Reviews*. 2016;12:CD005384. PMID: 27976361. [F - Cochrane SR]
 
-30. Subramaniam P, Ho JJ, Davis PG. Prophylactic or very early initiation of continuous positive airway pressure (CPAP) for preterm infants. *Cochrane Database of Systematic Reviews*. 2021;10:CD001243. PMID: 34661278. [F — Cochrane SR]
+30. Subramaniam P, Ho JJ, Davis PG. Prophylactic or very early initiation of continuous positive airway pressure (CPAP) for preterm infants. *Cochrane Database of Systematic Reviews*. 2021;10:CD001243. PMID: 34661278. [F - Cochrane SR]
 
-31. Cools F, Offringa M, Askie LM. Elective high frequency oscillatory ventilation versus conventional ventilation for acute pulmonary dysfunction in preterm infants. *Cochrane Database of Systematic Reviews*. 2015;3:CD000104. PMID: 25785789. [F — Cochrane SR]
+31. Cools F, Offringa M, Askie LM. Elective high frequency oscillatory ventilation versus conventional ventilation for acute pulmonary dysfunction in preterm infants. *Cochrane Database of Systematic Reviews*. 2015;3:CD000104. PMID: 25785789. [F - Cochrane SR]
 
-32. Li J, Li K, Liu J, Wu S, Shi Y. Noninvasive high-frequency oscillatory ventilation as respiratory support in preterm infants: a meta-analysis of randomized controlled trials. *Respiratory Research*. 2019;20(1):58. PMID: 30876411. [F — MA]
+32. Li J, Li K, Liu J, Wu S, Shi Y. Noninvasive high-frequency oscillatory ventilation as respiratory support in preterm infants: a meta-analysis of randomized controlled trials. *Respiratory Research*. 2019;20(1):58. PMID: 30876411. [F - MA]
+
+33. Singh N, Halliday HL, Stevens TP, Suresh G, Soll R, Rojas-Reyes MX. Comparison of animal-derived surfactants for the prevention and treatment of respiratory distress syndrome in preterm infants. *Cochrane Database of Systematic Reviews*. 2015;12:CD010249. PMID: 26690260. [F - Cochrane SR]
+
+34. Venkataraman R, Kamaluddeen M, Hasan SU, Robertson HL, Lodha A. Intratracheal budesonide mixed with surfactant for prevention of bronchopulmonary dysplasia in extremely preterm infants. *Cochrane Database of Systematic Reviews*. 2021;3:CD013271. [F - Cochrane SR]

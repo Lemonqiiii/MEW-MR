@@ -68,7 +68,14 @@
   - Agent 4 七步审校: 引用 32/32 ✅ | Gate 6 合规 ✅ | 空强调词 0 ✅ | 自然度 91%
   - 修复: Abstract 7-名词化句 → 拆分
 - **下一步**: 继续写 Section 5 (Surfactant)
-- **阻碍**: 无
+## 2026-06-05 (Session 7 cont.) — Phase 5 续写 + 文件结构修复
+
+- **完成事项**: 
+  - Section 5: Surfactant Therapy — LISA 零远期数据，表面活性物质时代成人肺功能未研究
+  - 文件结构 3 次破坏性修复 — 最终 5,387 词/34 引用/5 章
+  - 重建完整引用列表 (refs 1-34)
+- **下一步**: Section 6 (Oxygen Therapy)
+- **阻碍**: 增量编辑易破坏引用段结构 — 后续用 rebuild_refs.py 工具修复
 
 ---
 
