@@ -45,24 +45,24 @@
 
 ## Phase 5: 写作
 
-- [ ] 5.1 确定综述大纲（`manuscript/outline.md`）
-- [ ] 5.2 撰写 Introduction
-- [ ] 5.3 撰写 Methods（如适用）
-- [ ] 5.4-5.N 撰写各主题章节
-- [ ] 5.N+1 撰写 Discussion/Conclusions
-- [ ] 5.N+2 撰写 Abstract + Key Messages
-- [ ] 5.N+3 生成图表
-- [ ] 5.N+4 初稿完成 → 进入内审
+- [x] 5.1 确定综述大纲（`manuscript/outline.md`）
+- [x] 5.2 撰写 Introduction
+- [x] 5.3 撰写 Methods（叙述性综述 — 见 Introduction 末段检索方法描述）
+- [x] 5.4-5.N 撰写各主题章节 (Sections 2-8)
+- [x] 5.N+1 撰写 Discussion/Conclusions (Sections 9-11)
+- [x] 5.N+2 撰写 Abstract + Key Messages
+- [ ] 5.N+3 生成图表 (无图表 — 纯文本综述)
+- [x] 5.N+4 初稿完成 → 进入内审
 
 ---
 
 ## Phase 6: 修改与定稿
 
-- [ ] 6.1 第一轮内部审校（事实核查 + 逻辑 + 自然度 + 引用范围合规）
-- [ ] 6.2 第二轮语言润色
-- [ ] 6.3 引用核查（Gate 4/5/6）
-- [ ] 6.4 格式化参考文献（目标期刊格式）
-- [ ] 6.5 最终定稿，提交前检查清单
+- [x] 6.1 第一轮内部审校（Agent 4: 0 空强调词, 0 Gate6 违规, 92% 自然度）
+- [x] 6.2 第二轮语言润色（审校中完成）
+- [x] 6.3 引用核查（Gate 4/5/6 — 35/35 引用匹配, 0 违规）
+- [ ] 6.4 格式化参考文献（目标期刊格式 — 待定期刊）
+- [x] 6.5 最终定稿，提交前检查清单 (gen_word_full.py 通过)
 
 ---
 

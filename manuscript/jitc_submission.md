@@ -408,4 +408,3 @@ The neonatal community has achieved extraordinary success in keeping extremely p
 
 35. Higgins RD, Jobe AH, Koso-Thomas M, et al. Bronchopulmonary dysplasia: executive summary of a workshop. *Journal of Pediatrics*. 2018;197:300-308. PMID: 29551318. [G - workshop summary]
 
-36. Islam JY, Keller RL, Aschner JL, Hartert TV, Moore PE. Understanding the short- and long-term respiratory outcomes of prematurity and bronchopulmonary dysplasia. *American Journal of Respiratory and Critical Care Medicine*. 2015;192(2):134-156. PMID: 26038806. [G - review]

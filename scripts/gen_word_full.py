@@ -6,7 +6,7 @@ from docx.shared import Pt, Cm, RGBColor, Inches
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 import os, re
 
-OUT = "E:/medical-review/manuscript/English_Manuscript_NSCLC_ICI_Resistance.docx"
+OUT = "E:/medical-review/manuscript/NRDS_LifeCourse_Review.docx"
 FIG_DIR = "E:/medical-review/manuscript/figures"
 SRC = "E:/medical-review/manuscript/jitc_submission.md"
 
@@ -222,11 +222,11 @@ import re
 all_text = " ".join([p.text for p in doc.paragraphs])
 words = len(all_text.split())
 
-# Check 1: Figure/table references
+# Check 1: Figure/table references (skip if no figures/tables in text)
 figs = re.findall(r'Figure\s+(\d+)', all_text)
 tabs = re.findall(r'Table\s+(\d+)', all_text)
-bad_figs = [n for n in set(figs) if n != '1']
-bad_tabs = [n for n in set(tabs) if n not in ['1','2']]
+bad_figs = [n for n in set(figs) if n != '1'] if figs else []
+bad_tabs = [n for n in set(tabs) if n not in ['1','2']] if tabs else []
 
 # Check 2: Heading spacing
 h_count = sum(1 for p in doc.paragraphs if p.style.name.startswith('Heading'))

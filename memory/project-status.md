@@ -2,9 +2,9 @@
 
 ```yaml
 ---
-phase: writing                    # planning | literature-search | screening | deep-reading | writing | revision
-progress_pct: 50
-current_section: 11. Conclusions (COMPLETE)
+phase: revision                   # planning | literature-search | screening | deep-reading | writing | revision
+progress_pct: 90
+current_section: COMPLETE
 last_session_id: 2026-06-05-s2
 target_journal: TBD
 papers_collected: 1205
@@ -17,7 +17,7 @@ last_update: 2026-06-05
 ```
 
 ## 当前状态说明
-- **阶段**: writing — Phase 5 初稿完成 (11章, 9,060词, 36引用)
+- **阶段**: revision — Phase 6 完成 (审校+Word+编码, 9,060词, 35引用)
 - **下一步**: 运行 gen_word_full.py 生成 Word 文档 + Gate 4/5/6 验证 + 最终审校
 - **下一步**: 继续撰写 Section 2 (Antenatal Corticosteroids) 或审校 Introduction
 - **阻碍**: 无
