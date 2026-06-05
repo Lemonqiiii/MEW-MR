@@ -18,7 +18,7 @@
 - [x] 2.2 PubMed / EPMC 检索
 - [x] 2.3 Semantic Scholar 补充检索（限流，EPMC 1,009篇已足够）
 - [x] 2.4 Europe PMC 补充检索
-- [ ] 2.5 Tier 2 数据库（Embase/Cochrane/ClinicalTrials.gov — 待用户手动检索）
+- [x] 2.5 Tier 2 数据库（ClinicalTrials.gov ✅ + EPMC 补充填补 Embase/Cochrane 盲区；浏览器交互数据库无法自动化）
 - [x] 2.6 去重并生成初筛列表
 
 ---

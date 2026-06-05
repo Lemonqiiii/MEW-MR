@@ -1,0 +1,2564 @@
+[
+  {
+    "nct_id": "NCT00014859",
+    "brief_title": "Epidemiology of Surfactant Protein-B Deficiency",
+    "official_title": "Epidemiology of Surfactant Protein-B Deficiency",
+    "overall_status": "COMPLETED",
+    "start_date": "2001-06-01",
+    "completion_date": "2024-04-26",
+    "study_type": "OBSERVATIONAL",
+    "has_results": false,
+    "enrollment": 5176,
+    "conditions": [
+      "Lung Diseases",
+      "Respiratory Distress Syndrome, Newborn",
+      "Pulmonary Surfactant",
+      "Lung Diseases, Interstitial"
+    ],
+    "interventions": [],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT05515744",
+    "brief_title": "Study of Pregnancy And Neonatal Health (SPAN)",
+    "official_title": "Study of Pregnancy And Neonatal Health (SPAN): TIMing of dElivery (TIME) Trial",
+    "overall_status": "TERMINATED",
+    "start_date": "2023-01-20",
+    "completion_date": "2024-12-16",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 304,
+    "conditions": [
+      "Gestational Diabetes Mellitus"
+    ],
+    "interventions": [
+      "Childbirth"
+    ],
+    "locations": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT04295564",
+    "brief_title": "Extending CPAP Therapy in Stable Preterm Infants to Increase Lung Growth and Function",
+    "official_title": "Extending CPAP Therapy in Stable Preterm Infants to Increase Lung Growth and Function: A Randomized Controlled Trial",
+    "overall_status": "COMPLETED",
+    "start_date": "2020-01-10",
+    "completion_date": "2024-03-15",
+    "study_type": "INTERVENTIONAL",
+    "has_results": true,
+    "enrollment": 100,
+    "conditions": [
+      "Neonatal",
+      "Premature Birth",
+      "Respiratory Distress Syndrome"
+    ],
+    "interventions": [
+      "Additional 2 weeks of CPAP"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT04315636",
+    "brief_title": "Surfactant Nebulization for the Early Aeration of the Preterm Lung",
+    "official_title": "Surfactant Nebulization for the Early Aeration of the Preterm Lung: a Single Blinded, Parallel, Randomized Controlled Trial",
+    "overall_status": "COMPLETED",
+    "start_date": "2021-03-19",
+    "completion_date": "2022-01-16",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 32,
+    "conditions": [
+      "Preterm Birth",
+      "Respiratory Distress Syndrome",
+      "Surfactant Deficiency Syndrome Neonatal"
+    ],
+    "interventions": [
+      "Surfactant nebulisation"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT04715373",
+    "brief_title": "LISA in the Delivery Room for Extremely Preterm Infants",
+    "official_title": "Less Invasive Administration of Surfactant in the Delivery Room for Extremely Preterm Infants: A Randomized Control Trial",
+    "overall_status": "COMPLETED",
+    "start_date": "2021-06-22",
+    "completion_date": "2025-04-08",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 60,
+    "conditions": [
+      "Extreme Prematurity",
+      "Respiratory Distress Syndrome"
+    ],
+    "interventions": [
+      "LISA"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT01403623",
+    "brief_title": "Evaluate the Use of Plastic Bags in Preventing and Treating Hypothermia in Neonates",
+    "official_title": "A Randomized Trial to Evaluate the Use of Plastic Bags in Preventing and Treating Hypothermia in Neonates in Developing Countries",
+    "overall_status": "COMPLETED",
+    "start_date": "2011-08",
+    "completion_date": "2012-12",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 106,
+    "conditions": [
+      "Hypothermia, Newborn"
+    ],
+    "interventions": [
+      "Resuscitation and post resuscitation care with plastic bag",
+      "Resuscitation- no plastic bag for temperature regulation"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT00767039",
+    "brief_title": "Curosurf and Survanta Treatment(CAST)of RDS in Very Premature Infants",
+    "official_title": "Phase 4 Study of Curosurf (Poractant) and Survanta (Beractant) Surfactant Treatment in Very Premature Infants With Respiratory Distress Syndrome.",
+    "overall_status": "TERMINATED",
+    "start_date": "2005-01",
+    "completion_date": "2009-01",
+    "study_type": "INTERVENTIONAL",
+    "has_results": true,
+    "enrollment": 52,
+    "conditions": [
+      "Prematurity",
+      "Respiratory Distress Syndrome",
+      "Patent Ductus Arteriosus"
+    ],
+    "interventions": [
+      "Survanta (beractant)",
+      "Curosurf (poractant)"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT04293601",
+    "brief_title": "Pressure Injuries' Prevention in Newborn Infants Admitted to NICU",
+    "official_title": "Pressure Injuries' Prevention in Newborn Infants Admitted to NICU Receiving Noninvasive Respiratory Support With Nasal Continuous Positive Airway Pressure (NCPAP)",
+    "overall_status": "COMPLETED",
+    "start_date": "2019-12-02",
+    "completion_date": "2022-05-16",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 280,
+    "conditions": [
+      "Newborn",
+      "Pressure Injury"
+    ],
+    "interventions": [
+      "interventional nursing care",
+      "Standard nursing care"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT05761626",
+    "brief_title": "Mechanical Power Normalized to Compliance in ARDS",
+    "official_title": "Mechanical Power Normalized to Compliance in Patients With Acute Respiratory Distress Syndrome",
+    "overall_status": "COMPLETED",
+    "start_date": "2016-03-01",
+    "completion_date": "2023-02-10",
+    "study_type": "OBSERVATIONAL",
+    "has_results": false,
+    "enrollment": 39,
+    "conditions": [
+      "Acute Respiratory Distress Syndrome"
+    ],
+    "interventions": [
+      "MP/Crs assessment < = 0.48 J/min/ml/cmH2O"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT05031650",
+    "brief_title": "Open Lung Strategy During Non-Invasive Respiratory Support of Very Preterm Infants in the Delivery Room",
+    "official_title": "Can Open Lung Strategy During Non-Invasive Respiratory Support of Very Premature Infants in the Delivery Room Reduce Non-Invasive Ventilation Failure Compared With Standard Approach? A Randomised Controlled Multicentric Trial",
+    "overall_status": "COMPLETED",
+    "start_date": "2019-07-01",
+    "completion_date": "2023-03-01",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 145,
+    "conditions": [
+      "Respiratory Distress Syndrome in Premature Infant",
+      "Non-invasive Ventilation",
+      "Lung Injury"
+    ],
+    "interventions": [
+      "openCPAP",
+      "standardCPAP"
+    ],
+    "locations": [
+      "",
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT02333669",
+    "brief_title": "Association of SCNN1A Single Nucleotide Polymorphisms With Neonatal Respiratory Distress Syndrome",
+    "official_title": "Association of SCNN1A Single Nucleotide Polymorphisms With Neonatal Respiratory Distress Syndrome",
+    "overall_status": "COMPLETED",
+    "start_date": "2012-01",
+    "completion_date": "2014-12",
+    "study_type": "OBSERVATIONAL",
+    "has_results": false,
+    "enrollment": 249,
+    "conditions": [
+      "Neonatal Respiratory Distress Syndrome"
+    ],
+    "interventions": [
+      "no intervention"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT03938532",
+    "brief_title": "Feasibility and Impact of Volume Targeted Ventilation in the Delivery Room",
+    "official_title": "Feasibility and Impact of Volume Targeted Ventilation for Preterm Infants Born <32 Weeks Gestational Age With Need for Invasive Positive Pressure Ventilation in the Delivery Room in Reducing Neonatal Pulmonary Morbidities",
+    "overall_status": "TERMINATED",
+    "start_date": "2019-07-11",
+    "completion_date": "2024-12-31",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 20,
+    "conditions": [
+      "Prematurity",
+      "BPD - Bronchopulmonary Dysplasia",
+      "Respiratory Distress Syndrome, Newborn"
+    ],
+    "interventions": [
+      "Volume Targeted Ventilation (VTV) using the Philips Respironics NM3 monitor",
+      "Tidal Volume Measurement using the Philips Respironics NM3 monitor"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT02024490",
+    "brief_title": "The Effect of Maternal and Neonatal Vitamin D Levels on Respiratory Distress Syndrome in Preterm Infants",
+    "official_title": "",
+    "overall_status": "COMPLETED",
+    "start_date": "2012-12",
+    "completion_date": "2013-12",
+    "study_type": "OBSERVATIONAL",
+    "has_results": false,
+    "enrollment": 100,
+    "conditions": [
+      "Vitamin D Deficiency"
+    ],
+    "interventions": [],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT03346343",
+    "brief_title": "Pulmonary Function Using Non-invasive Forced Oscillometry",
+    "official_title": "Pulmonary Function Using Non-invasive Forced Oscillometry Respiratory Testing: A Prospective Observational Study",
+    "overall_status": "ACTIVE_NOT_RECRUITING",
+    "start_date": "2017-12-06",
+    "completion_date": "2027-05",
+    "study_type": "INTERVENTIONAL",
+    "has_results": true,
+    "enrollment": 600,
+    "conditions": [
+      "Infant, Premature, Diseases",
+      "Infant, Newborn, Diseases",
+      "Bronchopulmonary Dysplasia",
+      "Respiratory Distress Syndrome, Newborn",
+      "Meconium Aspiration Syndrome",
+      "Transient Tachypnea of the Newborn"
+    ],
+    "interventions": [
+      "Non-invasive forced airway oscillometry"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT03976063",
+    "brief_title": "Tocolysis in the Management of Preterm Premature Rupture of Membranes Before 34 Weeks of Gestation",
+    "official_title": "Tocolysis in the Management of Preterm Premature Rupture of Membranes Before 34 Weeks of Gestation: a Double-blinded Randomized Controlled Trial",
+    "overall_status": "ACTIVE_NOT_RECRUITING",
+    "start_date": "2019-10-07",
+    "completion_date": "2031-11",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 857,
+    "conditions": [
+      "Preterm Premature Rupture of Membrane"
+    ],
+    "interventions": [
+      "Nifedipine",
+      "Placebo of Nifedipine"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT04544514",
+    "brief_title": "Earliest Lung Ultrasound Time for Predicting the Need of Surfactant",
+    "official_title": "Earliest Lung Ultrasound Time for Predicting the Need of Surfactant",
+    "overall_status": "COMPLETED",
+    "start_date": "2017-01-01",
+    "completion_date": "2019-12-31",
+    "study_type": "OBSERVATIONAL",
+    "has_results": false,
+    "enrollment": 71,
+    "conditions": [
+      "Respiratory Distress Syndrome"
+    ],
+    "interventions": [
+      "lung ultrasound"
+    ],
+    "locations": []
+  },
+  {
+    "nct_id": "NCT01553292",
+    "brief_title": "Early CPAP And Large Volume Minimally Invasive Surfactant (ECALMIST) in Preterm Infants With RDS",
+    "official_title": "Feasibility of Using Early CPAP (Continuous Positive Airway Pressure) And Large Volume Minimal Invasive Surfactant Therapy (ECALMIST) in Preterm Infants With Respiratory Distress Syndrome (RDS)",
+    "overall_status": "COMPLETED",
+    "start_date": "2012-04",
+    "completion_date": "2012-09",
+    "study_type": "INTERVENTIONAL",
+    "has_results": true,
+    "enrollment": 21,
+    "conditions": [
+      "Respiratory Distress Syndrome"
+    ],
+    "interventions": [
+      "ECALMIST",
+      "ECALMIST"
+    ],
+    "locations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT01588080",
+    "brief_title": "Comparison Between Infant Flow SiPAP and Noninvasive NAVA in the Neonatal Intensive Care Unit",
+    "official_title": "A Pilot Study Comparing Infant Flow SiPAP to Noninvasive NAVA",
+    "overall_status": "COMPLETED",
+    "start_date": "2012-07",
+    "completion_date": "2014-11",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 21,
+    "conditions": [
+      "Respiratory Distress Syndrome"
+    ],
+    "interventions": [
+      "Neurally Adjusted Ventilatory Assist (NAVA)",
+      "SiPAP - placebo"
+    ],
+    "locations": [
+      "",
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT03309826",
+    "brief_title": "Positive Airway Pressure Treatment of Obstructive Sleep-disordered Breathing in Hypertensive Disorders of Pregnancy",
+    "official_title": "Effects of Positive Airway Pressure Treatment of Obstructive Sleep-disordered Breathing on Maternal and Fetal Outcomes in Hypertensive Disorders of Pregnancy: a Pilot Randomized Controlled Trial",
+    "overall_status": "COMPLETED",
+    "start_date": "2017-10-16",
+    "completion_date": "2021-12-31",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 48,
+    "conditions": [
+      "Hypertensive Disorder of Pregnancy",
+      "Sleep Apnea, Obstructive"
+    ],
+    "interventions": [
+      "Positive Airway Pressure",
+      "Nasal Dilator Strip"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT03841591",
+    "brief_title": "Maternal Weight Gain in Gestational Diabetes Controlled by Metformin Versus Insulin",
+    "official_title": "Maternal Weight Gain in Gestational Diabetes Controlled by Metformin Versus Insulin: A Randomized Controlled Trial",
+    "overall_status": "COMPLETED",
+    "start_date": "2018-02-01",
+    "completion_date": "2019-01-15",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 124,
+    "conditions": [
+      "Gestational Diabetes"
+    ],
+    "interventions": [
+      "Insulin",
+      "Metformin",
+      "Assessment of weight gain"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT02283138",
+    "brief_title": "Prediction of Neonatal Respiratory Distress Syndrome in Preterm Fetuses by Assessment of Fetal Lung Volume by Vocal and Pulmonary Artery Resistance Index a Pilot Study",
+    "official_title": "",
+    "overall_status": "COMPLETED",
+    "start_date": "2014-11",
+    "completion_date": "2017-07",
+    "study_type": "OBSERVATIONAL",
+    "has_results": false,
+    "enrollment": 60,
+    "conditions": [
+      "Fetal Lung Volume of Preterm Fetuses Measured by VOCAL, PA-RI Measured by Pulsed Doppler"
+    ],
+    "interventions": [],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT05276596",
+    "brief_title": "Evaluation of the Early Use of Norepinephrine in Major Abdominal Surgery on Postoperative Organ Dysfunction",
+    "official_title": "Evaluation of the Early Use of Norepinephrine in Major Abdominal Surgery on Postoperative Organ Dysfunction",
+    "overall_status": "COMPLETED",
+    "start_date": "2021-11-17",
+    "completion_date": "2025-11-29",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 500,
+    "conditions": [
+      "Norepinephrine",
+      "Hypotension",
+      "Anesthesiology",
+      "Major Abdominal Surgery"
+    ],
+    "interventions": [
+      "Ephedrine",
+      "Norepinephrine"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT00135902",
+    "brief_title": "Omega-3 Fatty Acid Supplementation to Prevent Preterm Birth in High Risk Pregnancies",
+    "official_title": "A Randomized Trial of Omega-3 Fatty Acid Supplementation to Prevent Preterm Birth in Pregnancies at High Risk",
+    "overall_status": "COMPLETED",
+    "start_date": "2005-02",
+    "completion_date": "2008-03",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 800,
+    "conditions": [
+      "Preterm Birth"
+    ],
+    "interventions": [
+      "17 alpha-Hydroxyprogesterone Caproate and Omega-3 supplement",
+      "17 alpha-hydroxy progesterone caproate and Placebo supplement"
+    ],
+    "locations": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT00000563",
+    "brief_title": "Prevention of Neonatal Respiratory Distress Syndrome With Antenatal Steroid Administration",
+    "official_title": "",
+    "overall_status": "COMPLETED",
+    "start_date": "1976-06",
+    "completion_date": "1983-08",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 0,
+    "conditions": [
+      "Lung Diseases",
+      "Respiratory Distress Syndrome"
+    ],
+    "interventions": [
+      "dexamethasone"
+    ],
+    "locations": []
+  },
+  {
+    "nct_id": "NCT07067177",
+    "brief_title": "Prophylactic IV Paracetamol in Extremely Premature Infants",
+    "official_title": "Prophylactic IV Paracetamol in Extremely Premature Infants",
+    "overall_status": "COMPLETED",
+    "start_date": "2025-01-01",
+    "completion_date": "2025-11-01",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 40,
+    "conditions": [
+      "Patent Ductus Arteriosus in Preterm Infants",
+      "Patent Ductus Arteriosus After Premature Birth",
+      "Patent Ductus Arteriosus (PDA)",
+      "Patent Ductus Arteriosus in Premature Infants"
+    ],
+    "interventions": [
+      "Paracetamol (drug)"
+    ],
+    "locations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT04259177",
+    "brief_title": "Turkish Validity And Reliability Of The Hammersmith Infant Neurological Evaluation (Hine)",
+    "official_title": "Turkish Validity And Reliability Of The Hammersmith Infant Neurological Evaluation (Hine)",
+    "overall_status": "COMPLETED",
+    "start_date": "2020-03-15",
+    "completion_date": "2021-01-30",
+    "study_type": "OBSERVATIONAL",
+    "has_results": false,
+    "enrollment": 35,
+    "conditions": [
+      "Cerebral Palsy",
+      "Reliability",
+      "Infant Development",
+      "Infant, Premature, Diseases",
+      "Infant Asphyxia",
+      "Validity"
+    ],
+    "interventions": [
+      "Scale"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT02482766",
+    "brief_title": "Efficacy of a New Technique -\"IN-REC-SUR-E\"- in Preterm Neonates With RDS",
+    "official_title": "Efficacy of a New Technique -\"IN-REC-SUR-E\"- in Preterm Neonates With Respiratory Distress Syndrome During Non Invasive Ventilation: a Randomized Controlled Trial",
+    "overall_status": "COMPLETED",
+    "start_date": "2015-11",
+    "completion_date": "2018-09-30",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 206,
+    "conditions": [
+      "Respiratory Distress Syndrome",
+      "Hyaline Membrane Disease"
+    ],
+    "interventions": [
+      "Poractant alfa, 200 mg/kg",
+      "Ventilator for High-frequency Oscillatory Ventilation (HFOV)",
+      "Nasal Continuous Positive Airway Pressure (nCPAP)"
+    ],
+    "locations": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT03979196",
+    "brief_title": "Inpatient vs Outpatient Management of Short Cervix",
+    "official_title": "Inpatient vs Outpatient Management of Women With Short Cervix: A Randomized Controlled Trial (RCT)",
+    "overall_status": "TERMINATED",
+    "start_date": "2019-06-06",
+    "completion_date": "2021-09-07",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 5,
+    "conditions": [
+      "Preterm Birth",
+      "Pregnancy, High Risk"
+    ],
+    "interventions": [
+      "Inpatient Management",
+      "Outpatient Management"
+    ],
+    "locations": [
+      "",
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT05508308",
+    "brief_title": "Automated Versus Manual Control Of Oxygen For Preterm Infants On Continuous Positive Airway Pressure In Nigeria",
+    "official_title": "Automated Oxygen Control for Preterm Infants On Continuous Positive Airway Pressure (CPAP): Phase 1/2 Trial In Southwest Nigeria",
+    "overall_status": "COMPLETED",
+    "start_date": "2022-09-13",
+    "completion_date": "2023-09-29",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 49,
+    "conditions": [
+      "Neonatal Respiratory Distress Related Conditions",
+      "Neonatal Respiratory Failure",
+      "Prematurity",
+      "Oxygen Toxicity"
+    ],
+    "interventions": [
+      "OxyMate",
+      "Manual oxygen control"
+    ],
+    "locations": [
+      "",
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT04209946",
+    "brief_title": "Early Caffeine and LISA Compared to Caffeine and CPAP in Preterm Infants",
+    "official_title": "A Multicenter, Randomized Trial of Preterm Infants Receiving Caffeine and Less Invasive Surfactant Administration Compared to Caffeine and Early Continuous Positive Airway Pressure (CaLI Trial)",
+    "overall_status": "COMPLETED",
+    "start_date": "2020-01-22",
+    "completion_date": "2025-11-10",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 180,
+    "conditions": [
+      "Premature Lungs",
+      "Respiratory Distress Syndrome",
+      "Surfactant Deficiency Syndrome Neonatal"
+    ],
+    "interventions": [
+      "Less Invasive Surfactant Administration LISA",
+      "Continuous Positive Airway Pressure CPAP"
+    ],
+    "locations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT03700606",
+    "brief_title": "Physiological Changes With High-Flow Nasal Cannula",
+    "official_title": "Physiological Changes With High-Flow Nasal Cannula Compared to Nasal CPAP in Extremely Low Birth Weight Infants",
+    "overall_status": "COMPLETED",
+    "start_date": "2019-03-15",
+    "completion_date": "2022-02-14",
+    "study_type": "INTERVENTIONAL",
+    "has_results": true,
+    "enrollment": 80,
+    "conditions": [
+      "Respiratory Distress Syndrome in Premature Infant"
+    ],
+    "interventions": [
+      "High flow nasal cannula",
+      "Nasal CPAP"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT04255147",
+    "brief_title": "Cellular Therapy for Extreme Preterm Infants at Risk of Developing Bronchopulmonary Dysplasia",
+    "official_title": "Helping Underdeveloped Lungs With Cells (HULC): Mesenchymal Stromal Cells in Extreme Preterm Infants at Risk of Developing Bronchopulmonary Dysplasia - Phase 1 Study",
+    "overall_status": "ACTIVE_NOT_RECRUITING",
+    "start_date": "2022-10-17",
+    "completion_date": "2033-11-06",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 9,
+    "conditions": [
+      "Bronchopulmonary Dysplasia"
+    ],
+    "interventions": [
+      "Allogeneic Umbilical Cord Tissue-Derived Mesenchymal Stromal Cells"
+    ],
+    "locations": [
+      "",
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT01615016",
+    "brief_title": "MISurf Versus InSurE. A Comparison of Minimally Invasive Surfactant Application Techniques in Preterm Infants",
+    "official_title": "Feasibility Study of A Comparison of Minimally Invasive Surfactant Application Techniques in Preterm Infants",
+    "overall_status": "TERMINATED",
+    "start_date": "2012-07",
+    "completion_date": "2017-08-19",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 4,
+    "conditions": [
+      "Hyaline Membrane Disease"
+    ],
+    "interventions": [
+      "Minimally invasive endotracheal surfactant application"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT04330443",
+    "brief_title": "Lung Ultrasound to Guide Surfactant Therapy",
+    "official_title": "Lung Ultrasound to Guide Surfactant Therapy",
+    "overall_status": "COMPLETED",
+    "start_date": "2019-03-01",
+    "completion_date": "2020-05-10",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 40,
+    "conditions": [
+      "Respiratory Distress Syndrome"
+    ],
+    "interventions": [
+      "Surfactant therapy"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT04542096",
+    "brief_title": "Real Time Evaluation of Dynamic Changes of the Lungs During Respiratory Support of VLBW Neonates Using EIT",
+    "official_title": "Real Time Evaluation of Dynamic Changes of the Lungs During Respiratory Support of Very Low Birth Weight (<1500 g) Neonates Using Electric Impedance Tomography",
+    "overall_status": "COMPLETED",
+    "start_date": "2020-09-29",
+    "completion_date": "2024-05-20",
+    "study_type": "OBSERVATIONAL",
+    "has_results": false,
+    "enrollment": 72,
+    "conditions": [
+      "RDS - Infants",
+      "RDS of Prematurity",
+      "Respiratory Failure",
+      "Prematurity",
+      "Very Low Birth Weight Infant"
+    ],
+    "interventions": [
+      "Lung electrical impedance tomography monitoring"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT06992492",
+    "brief_title": "Vojta Reflex Versus Lung Squeezing Technique in Respiratory Distress Preterm Neonate",
+    "official_title": "Vojta Reflex Versus Lung Squeezing Technique In Preterm Neonate With Respiratory Distress Syndrome",
+    "overall_status": "COMPLETED",
+    "start_date": "2025-05-27",
+    "completion_date": "2025-10-08",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 90,
+    "conditions": [
+      "Respiratory Distress Syndrome"
+    ],
+    "interventions": [
+      "vojta therapy +conventional chest physical therapy",
+      "lung squeezing technique +conventional chest physical therapy",
+      "conventional chest physical therapy"
+    ],
+    "locations": [
+      "",
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT04660448",
+    "brief_title": "Lung Ultrasound Score and Pediatric Intensive Care Outcomes (LUS-PICO)",
+    "official_title": "Lung Ultrasound Score and Pediatric Intensive Care Outcomes: a Prospective Observational Multicenter Study",
+    "overall_status": "COMPLETED",
+    "start_date": "2020-12-01",
+    "completion_date": "2021-11-30",
+    "study_type": "OBSERVATIONAL",
+    "has_results": false,
+    "enrollment": 650,
+    "conditions": [
+      "Lung Injury",
+      "Extravascular Lung Water",
+      "Pulmonary Edema",
+      "Acute Respiratory Distress Syndrome",
+      "Shock"
+    ],
+    "interventions": [
+      "Bedside lung ultrasound examination"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT04016246",
+    "brief_title": "Respiratory Effect of the LISA Method with Sedation by Propofol Versus Absence of Sedation.",
+    "official_title": "Respiratory Effect of the LISA (Less Invasive Surfactant Administration) Method with Sedation by Propofol Versus Absence of Sedation: Double-blind Comparative Randomized Clinical Trial.",
+    "overall_status": "ACTIVE_NOT_RECRUITING",
+    "start_date": "2019-10-07",
+    "completion_date": "2026-10",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 233,
+    "conditions": [
+      "Respiratory Distress Syndrome in Premature Infant"
+    ],
+    "interventions": [
+      "Propofol-Lipuro",
+      "Placebos"
+    ],
+    "locations": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT05898633",
+    "brief_title": "Recombinant Surfactant Protein D (rfhSP-D) to Prevent Neonatal Chronic Lung Disease",
+    "official_title": "Phase 1 Safety Trial of Recombinant Surfactant Protein D to Prevent Neonatal Chronic Lung Disease",
+    "overall_status": "COMPLETED",
+    "start_date": "2024-04-06",
+    "completion_date": "2025-12-31",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 18,
+    "conditions": [
+      "Chronic Lung Disease of Prematurity",
+      "Respiratory Distress Syndrome in Premature Infant",
+      "Bronchopulmonary Dysplasia"
+    ],
+    "interventions": [
+      "Recombinant fragment of human surfactant protein D (rfhSP-D)"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT00188968",
+    "brief_title": "Randomized Trial of Nasal Continuous Positive Airway Pressure or Synchronized Nasal Ventilation in Premature Infants.",
+    "official_title": "A Randomized, Controlled Trial of Synchronized Nasal Intermittent Positive Pressure Ventilation Versus Nasal Continuous Positive Airway Pressure Using the Infant Flow Advance to Facilitate Successful Extubation in Premature Infants.",
+    "overall_status": "COMPLETED",
+    "start_date": "2004-11",
+    "completion_date": "2007-02",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 48,
+    "conditions": [
+      "Apnea",
+      "Infant, Premature",
+      "Bronchopulmonary Dysplasia"
+    ],
+    "interventions": [
+      "Nasal Continuous Positive Airway Pressure",
+      "Synchronized Nasal Positive Pressure Ventilation"
+    ],
+    "locations": [
+      "",
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT04051762",
+    "brief_title": "A Comparative Study Between Postextubation of Preterm Infants Into High-Flow Nasal Cannulae V.S Nasal Continuous Positive Airway Pressure",
+    "official_title": "A Comparative Study Between Postextubation of Preterm Infants Into High-Flow Nasal Cannulae V.S Nasal Continuous Positive Airway Pressure",
+    "overall_status": "COMPLETED",
+    "start_date": "2017-06-01",
+    "completion_date": "2018-07-30",
+    "study_type": "OBSERVATIONAL",
+    "has_results": false,
+    "enrollment": 100,
+    "conditions": [
+      "Neonatal Respiratory Distress"
+    ],
+    "interventions": [
+      "High flow nasal cannula vs. Nasal continuous positive airway pressure"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT04356443",
+    "brief_title": "Non-Invasive Monitoring of Respiratory Function in Spontaneously Breathing Patients With COVID-19 Infection",
+    "official_title": "Non-Invasive Monitoring of Respiratory Function in Spontaneously Breathing Patients With COVID-19 Infection",
+    "overall_status": "TERMINATED",
+    "start_date": "2020-04-15",
+    "completion_date": "2020-12-31",
+    "study_type": "OBSERVATIONAL",
+    "has_results": false,
+    "enrollment": 25,
+    "conditions": [
+      "Respiratory Failure",
+      "Ventilatory Failure",
+      "COVID-19",
+      "Pneumonia",
+      "ARDS, Human"
+    ],
+    "interventions": [
+      "AirGo Respiratory Monitor"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT02897076",
+    "brief_title": "Dose Reduction of Antenatal Betamethasone Given to Prevent the Neonatal Complications Associated With Very Preterm Birth",
+    "official_title": "Dose Reduction of Antenatal Betamethasone Given to Prevent the Neonatal Complications Associated With Very Preterm Birth: a Randomized, Multicentre, Double Blind Placebo-controlled Non Inferiority Trial",
+    "overall_status": "COMPLETED",
+    "start_date": "2017-01",
+    "completion_date": "2020-01-05",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 3250,
+    "conditions": [
+      "Neonatal Complications"
+    ],
+    "interventions": [
+      "betamethasone 24 mg",
+      "12mg betamethasone +placebo"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT01039285",
+    "brief_title": "Exogenous Surfactant in Very Preterm Neonates in Prevention of Bronchopulmonary Dysplasia",
+    "official_title": "Exogenous Surfactant in Very Preterm Neonates Presenting With Severe Respiratory Distress in Prevention of Bronchopulmonary Dysplasia",
+    "overall_status": "COMPLETED",
+    "start_date": "2009-12",
+    "completion_date": "2022-06",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 118,
+    "conditions": [
+      "Infant, Premature, Diseases",
+      "Respiratory Distress Syndrome, Newborn",
+      "Bronchopulmonary Dysplasia"
+    ],
+    "interventions": [
+      "Curosurf",
+      "Air"
+    ],
+    "locations": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT04244890",
+    "brief_title": "Feasibility of Uninterrupted Infant Respiratory Support Treatment",
+    "official_title": "Feasibility of Respiratory Management of Infants Needing Positive Pressure Ventilation or CPAP, Using a Single System to Deliver Uninterrupted Support Directly at Birth and the First Hours of Life",
+    "overall_status": "COMPLETED",
+    "start_date": "2020-02-21",
+    "completion_date": "2023-02-01",
+    "study_type": "OBSERVATIONAL",
+    "has_results": false,
+    "enrollment": 32,
+    "conditions": [
+      "Respiratory Distress Syndrome, Newborn",
+      "Infant, Newborn",
+      "Respiratory Insufficiency Syndrome of Newborn"
+    ],
+    "interventions": [
+      "Uninterrupted CPAP for the first hours of life"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT01496508",
+    "brief_title": "High-frequency Oscillatory Ventilation (HFOV) in Preterm Infants With Severe Respiratory Distress Syndrome (RDS)",
+    "official_title": "Principal Investigator",
+    "overall_status": "COMPLETED",
+    "start_date": "2007-06",
+    "completion_date": "2011-06",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 360,
+    "conditions": [
+      "Respiratory Distress Syndrome"
+    ],
+    "interventions": [
+      "mechanical ventilation (SLE 5000, Servo-i-Maquet)"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT06653374",
+    "brief_title": "Perinatal Conditions Influencing Morbidity, Mortality, and Medical Care in Newborns",
+    "official_title": "\"Condiciones Perinatales Que Influyen en la Morbimortalidad y atención Medica en Neonatos Del Hospital Gineco Obstétrico Isidro Ayora, Enero 2008-diciembre 2022\"",
+    "overall_status": "COMPLETED",
+    "start_date": "2023-11-12",
+    "completion_date": "2024-09-10",
+    "study_type": "OBSERVATIONAL",
+    "has_results": false,
+    "enrollment": 26000,
+    "conditions": [
+      "Preterm Birth",
+      "Low Birth Weight",
+      "Intrauterine Growth Restriction (IUGR)",
+      "Perinatal Asphyxia",
+      "Neonatal Sepsis",
+      "Respiratory Distress Syndrome (RDS)",
+      "Neonatal Jaundice",
+      "Congenital Malformations",
+      "Neonatal Hypoglycemia",
+      "Gestational Diabetes Mellitus (GDM)",
+      "Placental Abruption",
+      "Preterm Premature Rupture of Membranes (PPROM)",
+      "Hypertension, Pregnancy-Induced",
+      "Pre-Eclampsia"
+    ],
+    "interventions": [
+      "Infant, Premature"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT04371016",
+    "brief_title": "Pulmonary and Ventilatory Effects of Bed Verticalization in Patients With Acute Respiratory Distress Syndrome",
+    "official_title": "Pulmonary and Ventilatory Effects of Bed Verticalization in Patients With Acute Respiratory Distress Syndrome: An Exploratory and Pathophysiology Study",
+    "overall_status": "COMPLETED",
+    "start_date": "2020-03-30",
+    "completion_date": "2021-01-14",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 30,
+    "conditions": [
+      "Acute Respiratory Distress Syndrome"
+    ],
+    "interventions": [
+      "Verticalization (bed)"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT03896763",
+    "brief_title": "PROSpect: Prone and Oscillation Pediatric Clinical Trial",
+    "official_title": "PROSpect: Prone and Oscillation Pediatric Clinical Trial",
+    "overall_status": "ACTIVE_NOT_RECRUITING",
+    "start_date": "2019-05-01",
+    "completion_date": "2027-01-31",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 600,
+    "conditions": [
+      "Acute Respiratory Distress Syndrome in Children"
+    ],
+    "interventions": [
+      "Either supine or prone positioning and either CMV or HFOV"
+    ],
+    "locations": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT03275415",
+    "brief_title": "Intratracheal Budesonide/Surfactant Prevents BPD",
+    "official_title": "Routine Administration of Surfactant/Budesonide to Prevent BPD in VLBW With RDS-A Double Blind Study",
+    "overall_status": "COMPLETED",
+    "start_date": "2019-07-01",
+    "completion_date": "2022-06-30",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 310,
+    "conditions": [
+      "Respiratory Distress Syndrome",
+      "Bronchopulmonary Dysplasia"
+    ],
+    "interventions": [
+      "budesonide",
+      "Saline"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT00295464",
+    "brief_title": "Antenatal Rescue Course of Glucocorticoids in Threatened Premature Birth",
+    "official_title": "Randomized Trial on Efficacy and Safety of the Antenatal Rescue Course of Glucocorticoids in Threatened Premature Birth (ACG Trial)",
+    "overall_status": "TERMINATED",
+    "start_date": "2001-05",
+    "completion_date": "",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 440,
+    "conditions": [
+      "Respiratory Distress Syndrome",
+      "Intraventricular Haemorrhage"
+    ],
+    "interventions": [
+      "Betamethasone sodium phos (drug)"
+    ],
+    "locations": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT01473264",
+    "brief_title": "Safety, Pk and Anti-inflammatory Effects of CC10 Protein in Premature Infants With Respiratory Distress Syndrome (RDS)",
+    "official_title": "Safety and Tolerability of Recombinant Human Clara Cell 10kDa Protein (rhCC10) Delivered Intratracheally to Premature Neonates With Respiratory Distress Syndrome",
+    "overall_status": "COMPLETED",
+    "start_date": "2000-01",
+    "completion_date": "2003-12",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 22,
+    "conditions": [
+      "Respiratory Distress Syndrome in Premature Infant",
+      "Bronchopulmonary Dysplasia"
+    ],
+    "interventions": [
+      "recombinant human CC10 (rhCC10)",
+      "recombinant human CC10 (rhCC10)",
+      "placebo"
+    ],
+    "locations": [
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT04390126",
+    "brief_title": "COVID-19 Related Lockdown Effects On Chronic Diseases",
+    "official_title": "COVID-19 Related Lockdown Effects On Chronic Diseases",
+    "overall_status": "COMPLETED",
+    "start_date": "2020-04-14",
+    "completion_date": "2020-06-02",
+    "study_type": "OBSERVATIONAL",
+    "has_results": false,
+    "enrollment": 1343,
+    "conditions": [
+      "Chronic Coronary Syndrome",
+      "Heart Failure",
+      "AMD and Macular Edema",
+      "Chronic Respiratory Failure",
+      "Hemophilia",
+      "Malignant Hemopathy",
+      "Multiple Sclerosis",
+      "Horton's Disease"
+    ],
+    "interventions": [
+      "life questionnaires",
+      "questionnaire"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT01772381",
+    "brief_title": "Dexamethasone in Prevention of Respiratory Morbidity in Elective Caesarean Section in Term Fetus",
+    "official_title": "Dexamethasone in Prevention of Respiratory Morbidity in Elective Caesarean",
+    "overall_status": "COMPLETED",
+    "start_date": "2010-03",
+    "completion_date": "2011-06",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 600,
+    "conditions": [
+      "Transient Tachypnea of the Newborn"
+    ],
+    "interventions": [
+      "Dexamethasone"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT03721640",
+    "brief_title": "Evaluation of the Neonatal Autonomic Stress During Intubations Under Propofol in a Population of Premature Infants Under 33 w'GA",
+    "official_title": "Evaluation of the Neonatal Autonomic Stress During Intubations Under Propofol in a Population of Premature Infants Under 33 w'GA",
+    "overall_status": "COMPLETED",
+    "start_date": "2019-02-25",
+    "completion_date": "2022-08-23",
+    "study_type": "OBSERVATIONAL",
+    "has_results": false,
+    "enrollment": 21,
+    "conditions": [
+      "Hyaline Membrane Disease",
+      "Preterm Infant"
+    ],
+    "interventions": [
+      "electrocardiogram"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT01780155",
+    "brief_title": "Genes Associated With Bronchopulmonary Dysplasia and Retinopathy of Prematurity",
+    "official_title": "Candidate Genes Associated With Susceptibility to Bronchopulmonary Dysplasia and Retinopathy of Prematurity",
+    "overall_status": "COMPLETED",
+    "start_date": "2013-06-24",
+    "completion_date": "2020-08-01",
+    "study_type": "OBSERVATIONAL",
+    "has_results": false,
+    "enrollment": 1068,
+    "conditions": [
+      "Bronchopulmonary Dysplasia",
+      "Retinopathy of Prematurity",
+      "Prematurity",
+      "Pulmonary Disease"
+    ],
+    "interventions": [],
+    "locations": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT05237622",
+    "brief_title": "Functional Residual Capacity During Different Levels of High-flow in Preterm Infants",
+    "official_title": "The FUNK-FLOW Study - Functional Residual Capacity During Different Levels of High-flow in Preterm Infants",
+    "overall_status": "COMPLETED",
+    "start_date": "2022-02-19",
+    "completion_date": "2023-01-13",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 20,
+    "conditions": [
+      "Infant, Premature, Diseases",
+      "Respiratory Distress Syndrome"
+    ],
+    "interventions": [
+      "High Flow"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT02076126",
+    "brief_title": "Determination of Lung Maturity and Prediction of RDS at Birth",
+    "official_title": "Spectroscopic-chemometric Determination of Lecithin-sphingomyelin Ratio in Gastric Aspirates and Secretion From Hypopharynx at Birth, in Relation to Development of RDS",
+    "overall_status": "COMPLETED",
+    "start_date": "2014-03",
+    "completion_date": "2015-01",
+    "study_type": "OBSERVATIONAL",
+    "has_results": false,
+    "enrollment": 145,
+    "conditions": [
+      "RDS",
+      "Premature Birth"
+    ],
+    "interventions": [],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT02999165",
+    "brief_title": "Breastfeeding Infants Receiving Respiratory Support Trial",
+    "official_title": "Breastfeeding Infants Receiving Respiratory Support Trial",
+    "overall_status": "TERMINATED",
+    "start_date": "2016-11",
+    "completion_date": "2017-11",
+    "study_type": "OBSERVATIONAL",
+    "has_results": false,
+    "enrollment": 1,
+    "conditions": [
+      "Intensive Care, Neonatal",
+      "Neonatal Respiratory Distress Syndrome",
+      "Continuous Positive Airway Pressure",
+      "Breast Feeding",
+      "Infant, Premature"
+    ],
+    "interventions": [
+      "Breast feeding",
+      "Nasogastric feeding"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT00005777",
+    "brief_title": "Minimal Breathing Support and Early Steroids to Prevent Chronic Lung Disease in Extremely Premature Infants (SAVE)",
+    "official_title": "Randomized Trial of Minimal Ventilator Support and Early Corticosteroid Therapy to Increase Survival Without Chronic Lung Disease in Extremely-Low-Birth-Weight Infants",
+    "overall_status": "TERMINATED",
+    "start_date": "1998-02",
+    "completion_date": "2002-09",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 220,
+    "conditions": [
+      "Bronchopulmonary Dysplasia",
+      "Respiratory Distress Syndrome",
+      "Infant, Newborn",
+      "Infant, Low Birth Weight",
+      "Infant, Small for Gestational Age",
+      "Infant, Premature"
+    ],
+    "interventions": [
+      "Minimal mechanical ventilation management",
+      "Routine mechanical ventilation management",
+      "Dexamethasone",
+      "Placebo"
+    ],
+    "locations": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT01941745",
+    "brief_title": "Efficacy of Recombinant Human Clara Cell 10 Protein (rhCC10) Administered to Premature Neonates With Respiratory Distress Syndrome",
+    "official_title": "Efficacy of Recombinant Human Clara Cell Protein (rhCC10) Administered to Premature Neonates With Respiratory Distress Syndrome",
+    "overall_status": "COMPLETED",
+    "start_date": "2013-10",
+    "completion_date": "2017-08-25",
+    "study_type": "INTERVENTIONAL",
+    "has_results": true,
+    "enrollment": 88,
+    "conditions": [
+      "Respiratory Distress Syndrome in Premature Infant",
+      "Bronchopulmonary Dysplasia"
+    ],
+    "interventions": [
+      "Half normal saline",
+      "Low Dose rhCC10",
+      "High dose rhCC10"
+    ],
+    "locations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT05036603",
+    "brief_title": "Comparison of the Acute Effects of Chest Physiotherapy Methods Applied in Different Positions in Preterm Newborns",
+    "official_title": "Comparison of the Acute Effects of Chest Physiotherapy Methods Applied in Different Positions in Preterm Newborns",
+    "overall_status": "COMPLETED",
+    "start_date": "2022-04-01",
+    "completion_date": "2024-12-15",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 60,
+    "conditions": [
+      "Preterm Birth",
+      "Premature",
+      "Bronchopulmonary Dysplasia",
+      "Respiratory Distress Syndrome",
+      "Mechanical Ventilation Complication",
+      "Mechanical Ventilation Pressure High",
+      "Oxygen Toxicity",
+      "Neonatal Respiratory Failure",
+      "Atelectasis Neonatal",
+      "Pneumonia Neonatal",
+      "Lobar Collapse",
+      "Chronic Liver Disease",
+      "Hyaline Membrane Disease"
+    ],
+    "interventions": [
+      "chest physiotherapy"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT04333563",
+    "brief_title": "Non-invasive Neurally Adjusted Ventilator Assist or Continuous Positive Airway Pressure in Preterm Infants",
+    "official_title": "Non-invasive Neurally Adjusted Ventilator Assist or Continuous Positive Airway Pressure in Preterm Infants: A Randomized Crossover Study",
+    "overall_status": "COMPLETED",
+    "start_date": "2020-04-14",
+    "completion_date": "2022-04-30",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 20,
+    "conditions": [
+      "Premature Birth",
+      "Respiratory Distress Syndrome, Newborn"
+    ],
+    "interventions": [
+      "CPAP",
+      "NIV NAVA"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT02144363",
+    "brief_title": "Electrical Activity of Diaphragm as a Means to Predict Extubation Success in Preterm Infants",
+    "official_title": "A Prospective Study of Diaphragmatic Electrical Activity in Preterm Infants as a Means to Predict Extubation Success",
+    "overall_status": "COMPLETED",
+    "start_date": "2014-08",
+    "completion_date": "2015-10",
+    "study_type": "OBSERVATIONAL",
+    "has_results": false,
+    "enrollment": 21,
+    "conditions": [
+      "Respiratory Distress Syndrome"
+    ],
+    "interventions": [],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT00165074",
+    "brief_title": "Pilot Trial of Surfactant Therapy For Preterm Neonates 5-21 Days Old With Respiratory Decompensation",
+    "official_title": "Pilot Trial of Surfactant Therapy For Preterm Neonates 5-21 Days Old With",
+    "overall_status": "COMPLETED",
+    "start_date": "2003-06",
+    "completion_date": "2007-06",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 11,
+    "conditions": [
+      "Respiratory Distress Syndrome"
+    ],
+    "interventions": [
+      "Infasurf (drug)"
+    ],
+    "locations": []
+  },
+  {
+    "nct_id": "NCT01052480",
+    "brief_title": "Safety and Efficacy of Investigational Anti-Influenza Immune Plasma in Treating Influenza",
+    "official_title": "A Randomized, Open-Label, Phase 2, Multicenter Safety and Exploratory Efficacy Study of Investigational Anti-Influenza Immune Plasma for the Treatment of Influenza (IRC002)",
+    "overall_status": "COMPLETED",
+    "start_date": "2010-12",
+    "completion_date": "2015-11",
+    "study_type": "INTERVENTIONAL",
+    "has_results": true,
+    "enrollment": 98,
+    "conditions": [
+      "Influenza A",
+      "Influenza B"
+    ],
+    "interventions": [
+      "Anti-Influenza Immune Plasma",
+      "Standard Care"
+    ],
+    "locations": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT01941524",
+    "brief_title": "Brain Oxygenation and Function of Preterm Newborns During Administration of Two Different Surfactant Preparations",
+    "official_title": "Assessment of the Cerebral Tissue Oxygenation and the Bioelectrical Brain Activity of Preterm Newborns During Administration of Two Different Surfactant",
+    "overall_status": "COMPLETED",
+    "start_date": "2013-03-03",
+    "completion_date": "2015-06-20",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 22,
+    "conditions": [
+      "Respiratory Distress Syndrome, Newborn",
+      "Respiratory Failure"
+    ],
+    "interventions": [
+      "Poractant alfa instillation",
+      "Beractant instillation"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT02299414",
+    "brief_title": "Chronic Hypertension and Pregnancy (CHAP) Project",
+    "official_title": "A Pragmatic Multicenter Randomized Clinical Trial (RCT) of Antihypertensive Therapy for Mild Chronic Hypertension During Pregnancy: Chronic Hypertension and Pregnancy (CHAP) Project",
+    "overall_status": "COMPLETED",
+    "start_date": "2015-06",
+    "completion_date": "2022-12-16",
+    "study_type": "INTERVENTIONAL",
+    "has_results": true,
+    "enrollment": 2408,
+    "conditions": [
+      "Hypertension"
+    ],
+    "interventions": [
+      "Anti-hypertensive therapy",
+      "No anti-hypertensive therapy (unless BP is severe)"
+    ],
+    "locations": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT02210026",
+    "brief_title": "Seattle-PAP Bubble Nasal CPAP and Work of Breathing",
+    "official_title": "A Study to Evaluate the Efficacy of Seattle-PAP for the Respiratory Support of Premature Infants",
+    "overall_status": "COMPLETED",
+    "start_date": "2014-08",
+    "completion_date": "2015-10",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 40,
+    "conditions": [
+      "Respiratory Distress Syndrome In Premature Infants",
+      "Bronchopulmonary Dysplasia",
+      "Newborn Primary Sleep Apnea"
+    ],
+    "interventions": [
+      "Seattle-PAP"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT02772081",
+    "brief_title": "A Study in Preterm Neonates With Respiratory Distress Syndrome (RDS) Comparing CUROSURF® Administration Through Less Invasive Surfactant Administration (LISA) and Conventional Administration",
+    "official_title": "An Open-Label, Multicenter, Randomized, Controlled Study in Spontaneously Breathing Preterm Neonates With Respiratory Distress Syndrome to Compare Two Procedures for Porcine Surfactant (Poractant Alfa, CUROSURF®) Administration: A Less Invasive Method (LISA) During Non-invasive Ventilation (NIV) and the Conventional Administration During Brief Invasive Ventilation.",
+    "overall_status": "TERMINATED",
+    "start_date": "2021-05-18",
+    "completion_date": "2022-08-13",
+    "study_type": "INTERVENTIONAL",
+    "has_results": true,
+    "enrollment": 33,
+    "conditions": [
+      "Respiratory Distress Syndrome (RDS)"
+    ],
+    "interventions": [
+      "LISA combination product (Curosurf+catheter CHF6440)",
+      "Curosurf through conventional administration (endotracheal tube)"
+    ],
+    "locations": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT05198375",
+    "brief_title": "Lung UltrasouNd Guided Surfactant Therapy in Preterm Infants (LUNG Study)",
+    "official_title": "Lung UltrasouNd Guided Surfactant Therapy in Preterm Infants: an International Multicentric Randomized Control Trial (LUNG Study)",
+    "overall_status": "TERMINATED",
+    "start_date": "2022-04-05",
+    "completion_date": "2025-05-23",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 411,
+    "conditions": [
+      "Respiratory Distress Syndrome, Newborn"
+    ],
+    "interventions": [
+      "Lung ultrasound score (LUS)"
+    ],
+    "locations": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT06168149",
+    "brief_title": "The Relationship of Fetal Lung Elastography Values With the Development of Respiratory Distress in Cases of Preterm Labor",
+    "official_title": "Preterm Eylem Olgularında; Fetal Akciğer Elastografi Değerlerinin Respiratuvar Distres Gelişimi Ile İlişkisi",
+    "overall_status": "COMPLETED",
+    "start_date": "2023-09-06",
+    "completion_date": "2024-09-06",
+    "study_type": "OBSERVATIONAL",
+    "has_results": false,
+    "enrollment": 80,
+    "conditions": [
+      "Preterm Labor",
+      "Respiratory Distress Syndrome"
+    ],
+    "interventions": [
+      "fetal lung elastography measurement"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT04401696",
+    "brief_title": "Effectiveness of Bubble Nasal Continuous Positive Airway Pressure (bCPAP) in Neonatal Respiratory Distress",
+    "official_title": "Comparison of Bubble Nasal Continuous Positive Airway Pressure (bCPAP) Versus Control in Neonates With Respiratory Distress",
+    "overall_status": "COMPLETED",
+    "start_date": "2017-04-01",
+    "completion_date": "2018-06-30",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 120,
+    "conditions": [
+      "Neonatal Respiratory Distress"
+    ],
+    "interventions": [
+      "Bubble CPAP",
+      "Nasal Oxygen"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT03976037",
+    "brief_title": "Buccal Versus Vaginal Misoprostol In Combination With Foley Bulb",
+    "official_title": "Buccal Versus Vaginal Misoprostol In Combination With Foley Bulb for Labor Induction at Term: a Randomized Controlled Trial",
+    "overall_status": "COMPLETED",
+    "start_date": "2019-06-04",
+    "completion_date": "2021-02-01",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 216,
+    "conditions": [
+      "Induction of Labor"
+    ],
+    "interventions": [
+      "Misoprostol"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT01785563",
+    "brief_title": "Nasal Noninvasive NAVA in the Very Low Birth Weight Infant",
+    "official_title": "Nasal Noninvasive NAVA Provides Ventilation in the Very Low Birth Weight Infant",
+    "overall_status": "COMPLETED",
+    "start_date": "2013-02",
+    "completion_date": "2018-12-31",
+    "study_type": "INTERVENTIONAL",
+    "has_results": true,
+    "enrollment": 40,
+    "conditions": [
+      "Inadequate; Pulmonary Ventilation, Newborn",
+      "Infant, Very Low Birth Weight"
+    ],
+    "interventions": [
+      "Nasal NIV-NAVA"
+    ],
+    "locations": [
+      "",
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT03062280",
+    "brief_title": "A Study of the Efficacy, Safety and Tolerability of Chronocort in Treating CAH",
+    "official_title": "A Phase III Extension Study of Efficacy, Safety and Tolerability of Chronocort® in the Treatment of Congenital Adrenal Hyperplasia",
+    "overall_status": "COMPLETED",
+    "start_date": "2016-08-18",
+    "completion_date": "2022-07-13",
+    "study_type": "INTERVENTIONAL",
+    "has_results": true,
+    "enrollment": 91,
+    "conditions": [
+      "Congenital Adrenal Hyperplasia"
+    ],
+    "interventions": [
+      "Hydrocortisone"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT00146497",
+    "brief_title": "Cytokine Change in Bronchoalveolar Lavage Fluid After Early Budesonide-Surfactant Treatment in Premature Infants",
+    "official_title": "",
+    "overall_status": "TERMINATED",
+    "start_date": "2004-08",
+    "completion_date": "",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 30,
+    "conditions": [
+      "Premature Infants",
+      "Respiratory Distress Syndrome",
+      "Chronic Lung Disease",
+      "Bronchoalveolar Lavage Fluid",
+      "Cytokines"
+    ],
+    "interventions": [
+      "Budesonide-Surfactant"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT05706428",
+    "brief_title": "Cardiorespiratory Effects of Nasal High Frequency Ventilation in Neonates",
+    "official_title": "Cardiorespiratory Effects of Nasal High Frequency Ventilation in Moderate and Late Preterm Infants With Respiratory Distress",
+    "overall_status": "COMPLETED",
+    "start_date": "2023-02-01",
+    "completion_date": "2023-10-13",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 100,
+    "conditions": [
+      "Ventilator Lung; Newborn",
+      "Hemodynamic Instability",
+      "Echocardiography"
+    ],
+    "interventions": [
+      "NHFOV",
+      "NCPAP"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT00814099",
+    "brief_title": "Sedation Management in Pediatric Patients With Acute Respiratory Failure (The RESTORE Study)",
+    "official_title": "Sedation Management in Pediatric Patients With Acute Respiratory Failure",
+    "overall_status": "COMPLETED",
+    "start_date": "2009-01",
+    "completion_date": "2013-12",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 2449,
+    "conditions": [
+      "Respiratory Insufficiency",
+      "Respiratory Distress Syndrome, Newborn",
+      "Lung Diseases"
+    ],
+    "interventions": [
+      "Team approach to sedation management",
+      "Usual approach to sedation management"
+    ],
+    "locations": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT02582957",
+    "brief_title": "Sigh Ventilation to Increase Ventilator-Free Days in Victims of Trauma at Risk for Acute Respiratory Distress Syndrome",
+    "official_title": "Sigh Ventilation to Increase Ventilator-Free Days in Victims of Trauma at Risk for Acute Respiratory Distress Syndrome",
+    "overall_status": "COMPLETED",
+    "start_date": "2016-04-01",
+    "completion_date": "2022-10-08",
+    "study_type": "INTERVENTIONAL",
+    "has_results": true,
+    "enrollment": 524,
+    "conditions": [
+      "Acute Respiratory Distress Syndrome"
+    ],
+    "interventions": [
+      "Sigh breaths"
+    ],
+    "locations": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT02788110",
+    "brief_title": "Work of Breathing During Non-invasive Ventilation in Premature Neonates",
+    "official_title": "Prospective Crossover Comparison of Work of Breathing During Non-invasive Ventilation: Neurally Adjusted Ventilatory Assist (NAVA) Versus Nasal Intermittent Positive Pressure Ventilation (NIPPV) in Premature Neonates",
+    "overall_status": "COMPLETED",
+    "start_date": "2016-08",
+    "completion_date": "2018-06",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 15,
+    "conditions": [
+      "Respiratory Distress Syndrome, Newborn",
+      "Bronchopulmonary Dysplasia"
+    ],
+    "interventions": [
+      "Noninvasive neurally adjusted ventilatory assist (NIV NAVA)",
+      "Nasal intermittent positive pressure ventilation (NIPPV)"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT05455879",
+    "brief_title": "Impact of Antenatal Corticosteroid Therapy on Postnatal Surfactant Use in Preterm Infants",
+    "official_title": "Impact of the Number of Doses of Antenatal Corticosteroid Therapy on the Number of Doses of Surfactants Postnatal in Preterm Infants",
+    "overall_status": "COMPLETED",
+    "start_date": "2022-06-20",
+    "completion_date": "2022-07-05",
+    "study_type": "OBSERVATIONAL",
+    "has_results": false,
+    "enrollment": 145,
+    "conditions": [
+      "Hyaline Membrane Disease (HMD)"
+    ],
+    "interventions": [
+      "Impact of antenatal corticosteroid therapy on surfactants use postnatal"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT04494529",
+    "brief_title": "Single Dose Antenatal Corticosteroids (SNACS) for Women at Risk of Preterm Birth",
+    "official_title": "Single Dose Antenatal Corticosteroids (SNACS) Pilot Randomized Control Trial for Women at Risk of Preterm Birth",
+    "overall_status": "COMPLETED",
+    "start_date": "2021-03-01",
+    "completion_date": "2021-08-31",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 30,
+    "conditions": [
+      "Preterm Birth",
+      "Complication of Prematurity",
+      "Obstetric Labor, Premature",
+      "Obstetric Labor Complications",
+      "Pregnancy Complications"
+    ],
+    "interventions": [
+      "12 mg betamethasone + placebo",
+      "24 mg betamethasone"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT04404816",
+    "brief_title": "Effects of Non-invasive Ventilation With Helium-oxygen Mixture in Premature Infants With Respiratory Distress Syndrome",
+    "official_title": "Effects of Non-invasive Ventilation With Helium-oxygen Mixture in Premature Infants With Respiratory Distress Syndrome on Pulmonary Function and Electric Activity of the Diaphragm",
+    "overall_status": "COMPLETED",
+    "start_date": "2017-01",
+    "completion_date": "2018-12",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 23,
+    "conditions": [
+      "Respiratory Distress Syndrome",
+      "Premature Infants"
+    ],
+    "interventions": [
+      "heliox"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT04077333",
+    "brief_title": "MISA to NRDS：a Multicenter Study in China",
+    "official_title": "Minimal Invasive Surfactant Administration to Treat Neonatal Respiratory Distress Syndrome: a Multicenter Clinical Study in China",
+    "overall_status": "COMPLETED",
+    "start_date": "2017-07-01",
+    "completion_date": "2019-03-30",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 237,
+    "conditions": [
+      "Bronchopulmonary Dysplasia",
+      "Patent Ductus Arteriosus",
+      "Intraventricular Hemorrhage",
+      "Necrotizing Enterocolitis",
+      "Periventricular Leukomalacia"
+    ],
+    "interventions": [
+      "Minimal Invasive surfactant administration"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT06150586",
+    "brief_title": "Pain Assessment During Less-Invasive-Surfactant-Administration",
+    "official_title": "The PALISA Study - Pain Assessment During Less-Invasive-Surfactant-Administration",
+    "overall_status": "COMPLETED",
+    "start_date": "2023-12-05",
+    "completion_date": "2024-06-17",
+    "study_type": "OBSERVATIONAL",
+    "has_results": false,
+    "enrollment": 21,
+    "conditions": [
+      "Infant, Premature, Diseases",
+      "Respiratory Distress Syndrome",
+      "Surfactant Deficiency Syndrome Neonatal",
+      "Pain",
+      "Stress"
+    ],
+    "interventions": [
+      "Skin Conductance (SC) Measurement",
+      "Video Recording"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT00669383",
+    "brief_title": "Rescue Antenatal Steroids and Pulmonary Function Tests in Preterm Infants",
+    "official_title": "Rescue Antenatal Steroids and Lung Volumes in Preterm Infants",
+    "overall_status": "COMPLETED",
+    "start_date": "2001-06",
+    "completion_date": "2009-11",
+    "study_type": "INTERVENTIONAL",
+    "has_results": true,
+    "enrollment": 85,
+    "conditions": [
+      "Respiratory Compliance",
+      "Functional Residual Capacity",
+      "Pulmonary Function Testing"
+    ],
+    "interventions": [
+      "betamethasone",
+      "placebo"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT04542148",
+    "brief_title": "Glycemic Control After Antenatal Corticosteroids in Women With Pregestational and Gestational Diabetes",
+    "official_title": "Glycemic Control After Antenatal Corticosteroids in Women With Pregestational and Gestational Diabetes (Close the GAP)",
+    "overall_status": "ACTIVE_NOT_RECRUITING",
+    "start_date": "2022-02-10",
+    "completion_date": "2026-05-31",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 120,
+    "conditions": [
+      "Diabetes Mellitus, Type 2",
+      "Preterm Birth",
+      "Pregnancy, High Risk",
+      "Diabetes, Gestational"
+    ],
+    "interventions": [
+      "Sliding Scale Insulin",
+      "Up-Titration of Home Insulin",
+      "Continuous Insulin Infusion",
+      "Dexcom G6 Professional Continuous Glucose Monitor"
+    ],
+    "locations": [
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT02249143",
+    "brief_title": "Duration of Continuous Positive Airway Pressure and Pulmonary Function Testing in Preterm Infants",
+    "official_title": "Duration of Continuous Positive Airway Pressure and Pulmonary Function Testing in Preterm Infants",
+    "overall_status": "COMPLETED",
+    "start_date": "2014-09",
+    "completion_date": "2017-09",
+    "study_type": "INTERVENTIONAL",
+    "has_results": true,
+    "enrollment": 50,
+    "conditions": [
+      "Respiratory Distress Syndrome",
+      "Bronchopulmonary Dysplasia"
+    ],
+    "interventions": [
+      "CPAP and room air"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT00569530",
+    "brief_title": "Trial of Late Surfactant to Prevent BPD: A Pilot Study in Ventilated Preterm Neonates Receiving Inhaled Nitric Oxide",
+    "official_title": "Trial of Late Surfactant to Prevent BPD: A Pilot Study in Ventilated Preterm Neonates Receiving Inhaled Nitric Oxide",
+    "overall_status": "COMPLETED",
+    "start_date": "2008-01",
+    "completion_date": "2012-12",
+    "study_type": "INTERVENTIONAL",
+    "has_results": true,
+    "enrollment": 85,
+    "conditions": [
+      "Respiratory Distress Syndrome of Prematurity (Surfactant Dysfunction)",
+      "Bronchopulmonary Dysplasia"
+    ],
+    "interventions": [
+      "Infasurf (ONY Inc.)",
+      "Sham"
+    ],
+    "locations": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT03944512",
+    "brief_title": "Pravastatin to Prevent Preeclampsia",
+    "official_title": "A Randomized Controlled Trial of Pravastatin to Prevent Preeclampsia in High Risk Women",
+    "overall_status": "TERMINATED",
+    "start_date": "2019-07-17",
+    "completion_date": "2024-06-20",
+    "study_type": "INTERVENTIONAL",
+    "has_results": true,
+    "enrollment": 102,
+    "conditions": [
+      "Preeclampsia",
+      "Obstetric Labor Complications",
+      "Hypertension in Pregnancy"
+    ],
+    "interventions": [
+      "Pravastatin",
+      "Placebo"
+    ],
+    "locations": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT05430204",
+    "brief_title": "Continuous Glucose Monitoring for Screening for Diabetes in Pregnancy",
+    "official_title": "Continuous Glucose Monitoring for Screening for Diabetes in Pregnancy:A Comparative Effectiveness Randomized Control Trial (PRECISE)",
+    "overall_status": "COMPLETED",
+    "start_date": "2023-03-07",
+    "completion_date": "2024-09-16",
+    "study_type": "INTERVENTIONAL",
+    "has_results": true,
+    "enrollment": 1628,
+    "conditions": [
+      "Gestational Diabetes"
+    ],
+    "interventions": [
+      "Group 1: one-hour GCT",
+      "Group 2: CGM placement"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT04238273",
+    "brief_title": "High Flow Nasal Cannula Versus Nasal Continuous Positive Airway Pressure for Respiratory Support of Preterm Neonates",
+    "official_title": "Hemodynamic Changes With Heated, Humidified High Flow Nasal Cannula (HHHFNC) Versus Nasal Continuous Positive Airway Pressure (nCPAP) for Respiratory Support of Preterm Neonates",
+    "overall_status": "COMPLETED",
+    "start_date": "2018-01-31",
+    "completion_date": "2020-01-01",
+    "study_type": "OBSERVATIONAL",
+    "has_results": false,
+    "enrollment": 123,
+    "conditions": [
+      "Respiratory Distress Syndrome, Newborn"
+    ],
+    "interventions": [
+      "Functional Echocardiography"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT04689386",
+    "brief_title": "Effect of Chest Physiotherapy on the Development of Preterm Infants.",
+    "official_title": "Efecto De La Fisioterapia Respiratoria Sobre El Desarrollo De Niños/as Prematuros. Estudio Longitudinal.",
+    "overall_status": "COMPLETED",
+    "start_date": "2021-02-26",
+    "completion_date": "2024-12-31",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 51,
+    "conditions": [
+      "Development, Infant",
+      "Respiratory Distress Syndrome in Premature Infant"
+    ],
+    "interventions": [
+      "Group I (GE-I) - Stimulation of \"reflex rolling\" from the Vojta method",
+      "Group II (GE-II) - expiratory flow increase technique"
+    ],
+    "locations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT01310621",
+    "brief_title": "Comparison Of Surfactant Lung Lavage With Standard Care In The Treatment Of Meconium Aspiration Syndrome",
+    "official_title": "Surfactant Lung Lavage Versus Standard Care In The Treatment Of Meconium Aspiration Syndrome- A Randomized Controlled Study",
+    "overall_status": "COMPLETED",
+    "start_date": "2011-01",
+    "completion_date": "2012-04",
+    "study_type": "INTERVENTIONAL",
+    "has_results": false,
+    "enrollment": 60,
+    "conditions": [
+      "Meconium Aspiration Syndrome"
+    ],
+    "interventions": [
+      "Bovine surfactant"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT03181958",
+    "brief_title": "A Trial Comparing Noninvasive Ventilation Strategies in Preterm Infants Following Extubation",
+    "official_title": "Nasal High Frequency Oscillation Ventilation(NHFOV) vs. Nasal Continuous Positive Airway Pressure(NCPAP) vs Nasal Intermittent Positive Pressure Ventilation（NIPPV） as Post-extubation Respiratory Support in Preterm Infants With Respiratory Distress Syndrome:a Multicenter Randomized Controlled Trial",
+    "overall_status": "COMPLETED",
+    "start_date": "2017-12-01",
+    "completion_date": "2021-06-30",
+    "study_type": "INTERVENTIONAL",
+    "has_results": true,
+    "enrollment": 1493,
+    "conditions": [
+      "Intubated Infants Were Intend to Extubation Using Noninvasive Ventilation Strategies"
+    ],
+    "interventions": [
+      "NHFOV",
+      "NCPAP",
+      "NIPPV"
+    ],
+    "locations": [
+      ""
+    ]
+  },
+  {
+    "nct_id": "NCT02377466",
+    "brief_title": "A Phase III Efficacy and Safety Study of Intravenous Retosiban Versus Placebo for Women in Spontaneous Preterm Labor",
+    "official_title": "Randomized, Double-blind, Multicenter, Phase III Study Comparing the Efficacy and Safety of Retosiban Versus Placebo for Women in Spontaneous Preterm Labor",
+    "overall_status": "TERMINATED",
+    "start_date": "2016-02-29",
+    "completion_date": "2017-07-24",
+    "study_type": "INTERVENTIONAL",
+    "has_results": true,
+    "enrollment": 25,
+    "conditions": [
+      "Obstetric Labour, Premature"
+    ],
+    "interventions": [
+      "Retosiban IV infusion",
+      "Placebo IV infusion"
+    ],
+    "locations": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  }
+]

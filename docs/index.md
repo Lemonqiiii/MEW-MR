@@ -63,7 +63,7 @@
 ---
 
 ## 文献统计
-- 已收集: 1009 篇 (Tier 1 EPMC 18角度检索 + 去重 + 清理)
+- 已收集: 1205 篇 (Tier 1 EPMC 26角度 + CT.gov NCT反向追踪)
 - 已筛选: 0 篇
 - 已深度阅读: 0 篇
 - 已纳入综述引用: 0 篇
@@ -71,7 +71,7 @@
 ## 当前综述: NRDS 生命早期干预的远期影响（全生命周期视角）
 - **类型**: 叙述性综述
 - **数据文件**: data/pubmed_relevant_for_screening.json
-- **Tier 2**: 待手动检索 (Embase + Cochrane) — 见 docs/search-results/manual-search-checklist.md
+- **CT.gov**: 97 试验记录 | 3 未发表试验识别
 
 ---
 
