@@ -1,4 +1,4 @@
-# Revision Map — jitc_submission.md R4
+# Revision Map — jitc_submission.md R5
 
 This file maps each review finding to its resolution in the manuscript. Used by review agents to verify fixes without full re-read.
 
@@ -6,7 +6,39 @@ This file maps each review finding to its resolution in the manuscript. Used by 
 
 ---
 
-## R4 Fixes
+## R5 Fixes
+
+### MF-R5 (Must Fix)
+
+```
+MF-R5-1 | L249 | "The ventilation evidence base illustrates the central challenge" | ✅
+MF-R5-2 | L114 | "this hazard ratio derives from registry-based time-to-event analyses" | ✅
+```
+
+### NC-R5 (Numerical/Consistency)
+
+```
+NC-R5-1 | L237 | "in post-extubation trials" (NIPPV extubation qualifier) | ✅
+NC-R5-2 | L16  | "fewer than 2%" (Impact Statement, reduced from exact 1.4%) | ✅
+```
+
+### CA-R5 (Critical Qualifiers)
+
+```
+CA-R5-1 | L491 | "[3,20]" / "[5]" / "[16]" / "[14,15]" / "[39,41,42]" / "[17,37]" in What We Know | ✅
+CA-R5-2 | L495 | "Victorian cohort for adult outcomes [9]" | ✅
+```
+
+### SI-R5 (Suggested Improvements)
+
+```
+SI-R5-1 | L108 | "outcomes; new trials in LMIC" (§2.1 parenthetical semicolon) | ✅
+SI-R5-1 | L228 | "certainty; this evidence has not" (§5.1 parenthetical semicolon) | ✅
+```
+
+---
+
+## R4 Fixes (verified intact in R5)
 
 ### MF-NEW (Must Fix)
 
@@ -114,4 +146,4 @@ AX-5 | L219 | "no randomized trial has followed children beyond hospital dischar
 grep -n -f <(awk -F'|' '{print $3}' REVISION_MAP.md | grep '✅' | sed 's/^ *//;s/ *$//') jitc_submission.md
 ```
 
-**Last updated:** 2026-06-06 R3
+**Last updated:** 2026-06-06 R5

@@ -4,6 +4,45 @@ All notable changes to this manuscript are documented here. Each revision maps t
 
 ---
 
+## Revision R5 — 2026-06-06
+
+**Review source:**
+- `manuscript/peer_review_report_R5.md` (6-dimension deep review + R4 integrity verification)
+
+**Review Outcome:** MINOR REVISE → All items resolved
+
+### 🔴 MUST FIX (2/2 resolved)
+
+| ID | Location | Change | Type |
+|----|----------|--------|------|
+| MF-R5-1 | §5.4 L247 | Added 2-sentence introductory paragraph before Clinical Perspective box ("The ventilation evidence base illustrates the central challenge...") | Structural |
+| MF-R5-2 | §2.2 L114 | Added metric-type note: "this hazard ratio derives from registry-based time-to-event analyses [20], in contrast to the odds ratios from the cohort studies" | Precision |
+
+### 🟡 Numerical/Consistency (2/2 resolved)
+
+| ID | Location | Change |
+|----|----------|--------|
+| NC-R5-1 | §5.2 L237 | Added "in post-extubation trials" to qualify NIPPV extubation failure outcome |
+| NC-R5-2 | Impact Stmt L16 | Changed "only 1.4% (8 of 590)" → "fewer than 2%" to reduce exact-number repetition (retained in Abstract, §10, §12) |
+
+### 🔵 Critical Qualifiers (2/2 resolved)
+
+| ID | Location | Change |
+|----|----------|--------|
+| CA-R5-1 | §12 L491 | Added 6 citation anchors to "What We Know" summary: [3,20], [5], [16], [14,15], [39,41,42], [17,37] |
+| CA-R5-2 | §12 L495 | Added [9] after "Victorian cohort for adult outcomes" |
+
+### 🟢 Suggested Improvements (1/4 applied)
+
+| ID | Description | Change |
+|----|-------------|--------|
+| SI-R5-1 | §2.1 L108, §5.1 L228 | Parenthetical periods → semicolons for single-sentence flow (2 locations) |
+
+### Files Modified
+- `manuscript/jitc_submission.md` — 8 discrete edits
+
+---
+
 ## Revision R4 — 2026-06-06
 
 **Review source:**
