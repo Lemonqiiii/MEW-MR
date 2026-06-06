@@ -100,12 +100,99 @@ def clean_text(text):
     text = re.sub(r'\*(.+?)\*', r'\1', text)
     return text
 
+def _cell_runs(cell, text):
+    """Fill a table cell with text, preserving **bold** and *italic* markdown."""
+    # Split on **bold** markers: odd segments are normal, even are bold
+    parts = re.split(r'\*\*(.+?)\*\*', text)
+    for i, segment in enumerate(parts):
+        if not segment:
+            continue
+        if i % 2 == 0:
+            # Normal text — may contain *italic* markers
+            italic_parts = re.split(r'\*(.+?)\*', segment)
+            for j, iseg in enumerate(italic_parts):
+                if not iseg:
+                    continue
+                r = cell.add_paragraph().add_run(iseg)
+                r.font.name = 'Times New Roman'
+                r.font.size = Pt(10)
+                r.italic = (j % 2 == 1)
+        else:
+            # Bold segment
+            r = cell.add_paragraph().add_run(segment)
+            r.font.name = 'Times New Roman'
+            r.font.size = Pt(10)
+            r.bold = True
+
+def _detect_pipe_table(block):
+    """Return True if a block is a markdown pipe table (all lines start with |)."""
+    lines = [l.strip() for l in block.split('\n') if l.strip()]
+    if len(lines) < 2:
+        return False
+    # Every line must start with |
+    if not all(l.startswith('|') for l in lines):
+        return False
+    # Must have a separator row (second line: |---|...|)
+    sep = lines[1]
+    if not re.match(r'^\|[\s\-:|]+\|$', sep):
+        return False
+    return True
+
+def _render_md_table(block):
+    """Render a markdown pipe table block as a python-docx Table."""
+    lines = [l.strip() for l in block.split('\n') if l.strip() and l.startswith('|')]
+    # Header is first line, separator is second, data rows follow
+    header_cells = [c.strip() for c in lines[0].split('|')[1:-1]]
+    data_rows = []
+    for line in lines[2:]:
+        data_rows.append([c.strip() for c in line.split('|')[1:-1]])
+
+    ncols = len(header_cells)
+    nrows = 1 + len(data_rows)
+    table = doc.add_table(rows=nrows, cols=ncols)
+    table.style = 'Table Grid'
+
+    # Header row
+    for ci, cell_text in enumerate(header_cells):
+        _cell_runs(table.rows[0].cells[ci], cell_text)
+        # Shade header
+        from docx.oxml.ns import qn
+        shading = table.rows[0].cells[ci]._element.get_or_add_tcPr()
+        shd = shading.makeelement(qn('w:shd'), {
+            qn('w:fill'): 'D9E2F3',
+            qn('w:val'): 'clear',
+        })
+        shading.append(shd)
+
+    # Data rows (zebra-striped)
+    for ri, row_data in enumerate(data_rows):
+        for ci, cell_text in enumerate(row_data):
+            _cell_runs(table.rows[ri + 1].cells[ci], cell_text)
+            if ri % 2 == 1:
+                shading = table.rows[ri + 1].cells[ci]._element.get_or_add_tcPr()
+                shd = shading.makeelement(qn('w:shd'), {
+                    qn('w:fill'): 'F2F2F2',
+                    qn('w:val'): 'clear',
+                })
+                shading.append(shd)
+
+    # Spacing after table
+    P('')
+
 # ═══════════════════════════════════════════════════════════════════
 # 1. READ AND PARSE SOURCE
 # ═══════════════════════════════════════════════════════════════════
 
 with open(SRC, 'r', encoding='utf-8') as f:
     full_text = f.read()
+
+# ── Pre-processing: strip HTML comments (Phase 7.6a) ──
+import re as _re
+_stripped = _re.sub(r'<!--.*?-->', '', full_text, flags=_re.DOTALL)
+if _stripped != full_text:
+    n_stripped = len(_re.findall(r'<!--.*?-->', full_text, flags=_re.DOTALL))
+    print(f'  Stripped {n_stripped} HTML comment(s) from source')
+    full_text = _stripped
 
 # Split: body text vs reference section
 parts = full_text.split('## References')
@@ -305,8 +392,10 @@ for section in raw_sections:
 
     # Process non-Abstract body blocks
     # Figures/tables are inserted INLINE at their marker position, not at section end
-    for block in blocks:
-        block = block.strip()
+    i = 0
+    while i < len(blocks):
+        block = blocks[i].strip()
+        i += 1
         if not block:
             continue
         if block.startswith('---'):
@@ -330,7 +419,23 @@ for section in raw_sections:
             caption_text = fig_match.group(3).rstrip('*').strip()
             full_caption = f'{prefix} {num}. {caption_text}'
 
-            # Find matching file
+            # If this is a Table marker and the next block is a pipe table,
+            # skip image insertion and render the pipe table with caption instead.
+            next_block = blocks[i].strip() if i < len(blocks) else ''
+            if prefix == 'Table' and next_block and _detect_pipe_table(next_block):
+                # Render caption above the native table
+                cp = doc.add_paragraph()
+                cp.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                r = cp.add_run(full_caption)
+                r.font.name = 'Times New Roman'
+                r.font.size = Pt(10)
+                r.bold = True
+                P('')
+                _render_md_table(next_block)
+                i += 1  # consume the pipe table block
+                continue
+
+            # Otherwise, embed the image as before
             matching = [f for f in (fig_files + tab_files) if f'{prefix}{num}' in f]
             if matching:
                 P('')  # spacing before image
@@ -344,6 +449,11 @@ for section in raw_sections:
                 r.font.name = 'Times New Roman'
                 r.font.size = Pt(10)
                 r.italic = True
+            continue
+
+        # Is this a markdown pipe table? (| col1 | col2 | ...)
+        if _detect_pipe_table(block):
+            _render_md_table(block)
             continue
 
         # Regular paragraph: merge lines, clean, render

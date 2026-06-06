@@ -4,7 +4,7 @@
 - **目标**: 撰写高质量的医学/生物学英文综述论文
 - **领域**: 新生儿医学 / 呼吸病学 / 全生命周期流行病学
 - **综述主题**: NRDS 生命早期干预的远期影响（全生命周期视角）
-- **当前阶段**: revision（初稿完成，格式化为 Pediatric Research 投稿标准）
+- **当前阶段**: Phase 7 — AI 写作缺陷系统性修复 (Modules A-D 已部署，待端到端测试)
 - **目标期刊**: Pediatric Research (IF ~3, Springer Nature)
 - **上一轮**: LUSC ICI耐药综述已归档至 `archive/lusc-2025/`（8,969词 | 41引用 | 1图2表 | JITC）
 
@@ -43,6 +43,8 @@
 | `6` `编码` | 完整编码（进度+效率+安全+Git） | Agent 0 编码Agent |
 | `快记` `记` | 轻量编码（仅进度+Git，不含审计） | Agent 0 轻量模式 |
 | `7` `评估` `评` | 质量评估 | Agent 5 评估Agent |
+| `8` `合成` `synthesis` | 合成推理（跨干预比较+假设循环+决策框架+论证多样性） | Agent 7 合成Agent |
+| `9` `投稿` `submit` | 投稿格式化（清理+转化+合规检查） | Agent 8 投稿Agent |
 | `就绪` `好了` `done` | 手动操作完成 | (上下文相关) |
 | `状态` `进度` | 查看项目状态 | (展示当前状态) |
 | `帮助` `?` `help` | 显示命令和当前阶段 | (展示帮助) |
@@ -68,7 +70,7 @@
 ## Tier 2 资源（按需加载）
 - **项目状态**: `memory/project-status.md`
 - **当前聚焦**: `memory/active-focus.md`
-- **子Agent定义**: `memory/agent-specializations.md`
+- **子Agent定义**: `memory/agent-specializations.md` — Agent 0-7 完整定义 (Phase 7 新增 Agent 7 合成Agent)
 - **功能清单**: `features/FEATURE_LIST.md`
 - **关键发现**: `memory/key-findings.md`
 - **决策记录**: `memory/decisions.md`
@@ -79,6 +81,19 @@
 - **方法论**: `docs/methods/`
 - **数据库目录**: `docs/methods/database-coverage.md`
 - **术语表**: `docs/glossary.md`
+- **领域本体**: `knowledge/domain-ontology.md` — 自动构建的干预清单 + 证据空白分级 + 临床紧迫性评分 (Module A)
+- **证据缺口分级**: `harness/evidence-gap-grading.md` — G0-G4 分级框架 (Module A)
+- **证据时间标注**: `harness/time-annotation.md` — 证据新鲜度衰减规则 (Module D)
+- **跨干预比较矩阵**: `harness/cross-intervention-matrix.md` — 7 维度模板 (Module B)
+- **合成推理规则**: `harness/synthesis-reasoning.md` — Agent 7 工作流规则 (Module B)
+- **临床决策框架**: `harness/clinical-decision-framework.md` — 决策框架模板 (Module B)
+- **视角切换规则**: `harness/perspective-switching.md` — 5 种强制视角 (Module C)
+- **数据翻译规则**: `harness/data-translation.md` — RR→ARR/NNT 协议 (Module C)
+- **论证多样性规则**: `harness/argument-diversity-enforcement.md` — Pattern A 检测与转换 (Module C)
+- **批判吸收规则**: `harness/critical-absorption.md` — Cochrane 批判检查 (Module C)
+- **绝对否定声称检测**: `harness/negative-claim-detection.md` — 声称绝对性 vs 文献实际内容矛盾检测 (Phase 7.6b)
+- **投稿合规规则**: `harness/submission-compliance.md` — Agent 8 三阶段工作流规范 (Phase 7.6a)
+- **期刊格式模板**: `harness/journal-profiles.md` — 目标期刊格式参数 (Phase 7.6a)
 
 ## 写作纪律 (2026-06-04 编码)
 
@@ -198,6 +213,64 @@ python3 -c "
 通过标准: 0 条 MUST FIX 违规
 ```
 
+### Gate 7: 领域本体完整性 (2026-06-06 新增 — Module A)
+```bash
+Agent 1 Step 7 自动执行:
+1. 干预清单交叉对照 ≥2 指南 → 覆盖率 ≥90%
+2. 所有干预分配 G0-G4 空白分级 → 100% 覆盖
+3. 所有干预计算 Composite Urgency → 100% 覆盖
+4. 干预交互地图枚举所有配对 → 100% 枚举
+5. 与标准治疗清单交叉对比 → 缺失干预报警已生成
+通过标准: 所有检查项通过
+```
+
+### Gate 8: 写作前规划完整性 (2026-06-06 新增 — Module D)
+```bash
+Agent 3 Steps 0a-0f 自动执行:
+1. Priority-Weighted Section Allocation 覆盖所有大纲章节 → 100%
+2. 无 priority ≥7 干预分配至 Brief → 0 违规
+3. 所有 Band 2+ 引用有限定语计划 → 100%
+4. Gap-to-Emphasis 映射覆盖所有 G3-G4 干预 → 100%
+5. 覆盖率报告（本体 vs 大纲）已生成 → YES
+通过标准: 所有检查项通过
+```
+
+### Gate 9: 合成推理质量 (2026-06-06 新增 — Module B)
+```bash
+Agent 7 全部 7 步执行后自动检查:
+1. 跨干预比较矩阵覆盖所有干预对 → 100%
+2. 每个假设在 synthesis-reasoning-log.md 中有完整 trail → 100%
+3. Pattern A ("推断不是证据→需要更多研究") 次数 → ≤3
+4. 所有 Band 3+ 章节有时间演变小结 → 100%
+5. coverage-gap-report.md 已生成 → YES
+6. 无未标注假设（所有假设显式标注 [Hypothesis]） → 0
+通过标准: 所有检查项通过
+```
+
+### Gate 10: 增强审校完整性 (2026-06-06 新增 — Module C)
+```bash
+Agent 4 增强 Pass 1-4 执行后自动检查:
+1. 5 种视角切换尝试 ≥ 触发位置的 80% → ≥80% 覆盖
+2. 所有 RR 值有 ARR/NNT 或显式 baseline-unknown 标注 → 100%
+3. Pattern A ("优雅空洞") 最终计数 → ≤2
+4. 每篇被引 ≥2 次的 Cochrane 综述有 ≥1 条批判性限定语 → 100%
+5. Cochrane 集中度 ≤60% 或 ≥3 条批判性补充 → YES
+通过标准: 所有检查项通过
+```
+
+### Gate 11: 投稿就绪 (2026-06-06 新增 — Phase 7.6a)
+```bash
+Agent 8 三阶段执行后自动检查:
+1. HTML 审计标签 → 0 个残留
+2. 编辑占位符 → 0 个 [To be completed]/[TBD]
+3. 期刊匹配 → MATCH 或已标记不匹配 + 建议替代期刊
+4. 完整性 → Author Contributions/Acknowledgements/Funding/Data Availability 均已完成
+5. AI 披露 → 根据目标期刊政策存在，或已标记缺失
+6. 图表文件 → 所有引用图表存在
+7. submission-readiness-report.md 已生成
+通过标准: 所有检查项通过
+```
+
 ### 自检嵌入
 `gen_word_full.py` 每次生成后自动运行 8 项自检：
 Figure refs, Table refs, Bad refs, Body citations, Images embedded, Headings, Word count, Refs used
@@ -210,6 +283,16 @@ Figure refs, Table refs, Bad refs, Body citations, Images embedded, Headings, Wo
 - `引用越权` (2026-06-05): E类支撑因果声明 / G类做主引用 → Gate 6 检测
 - `类型误判` (2026-06-05): 喉鳞癌/头颈鳞癌被纳入LUSC综述 → Agent 6 Round 0 硬排除
 - `Step跳过` (2026-06-05): Agent 跳过门禁步骤（如搜索Agent跳过Step 0数据库评估）→ Agent定义中标记为"不可跳过"
+- `优雅空洞` (2026-06-06): 同一论证"推断不是证据→需要更多研究"在全文重复 10-12 次 → Agent 7 Step 4 检测 Pattern A + Agent 4 Post-Pass 3 强制转换
+- `沉默失明` (2026-06-06): 稿件系统性遗漏临床重要干预（如 NRDS 咖啡因/维生素A/iNO） → Agent 1 Step 7.2 完整性检查 + Agent 7 Step 6 覆盖验证
+- `Cochrane崇拜` (2026-06-06): Cochrane 综述被引用但无批判性讨论 → Agent 4 Post-Pass 4 强制批判检查
+- `统计翻译缺失` (2026-06-06): RR 值未转换为 ARR/NNT → Agent 4 Pre-Pass 2 数据翻译检查
+- `视角单一` (2026-06-06): 整篇综述仅维持抽象综述者视角 → Agent 4 Pre-Pass 1 视角切换
+- `管道表格丢失` (2026-06-06): gen_word_full.py 无 Markdown 管道表格解析逻辑 → 表格在 Word 中渲染为乱码。已修复：新增 `_detect_pipe_table` + `_render_md_table` + `_cell_runs` 函数，支持粗体/斜体、表头着色、斑马条纹
+- `Table双重渲染` (2026-06-06): `**Table N.**` marker 触发 PNG 嵌入 + 管道表格触发原生渲染 → Table 在 Word 中出现两次。已修复：marker + 管道表格组合时跳过 PNG，用 marker 文字作原生表格标题
+- `度量混用未说明` (2026-06-06): 同一句中混合 OR/HR/RR 未说明度量差异来源 → Agent 4 Step 5 检测 + 写作纪律新增度量一致性规则
+- `Cochrane计数未自动更新` (2026-06-06): 参考文献增删后正文中的 Cochrane 百分比/分数未自动重新计算 → 审校流程新增引用计数自动检查步骤
+- `绝对否定声称矛盾` (2026-06-06): "no data"等绝对声称与被引文献实际内容矛盾（如 Gibson 2015 报告了成人肺功能但稿件声称 no adult data） → Agent 4 Step 1.5 检测
 - `硬编码残留` (2026-06-05): gen_word_full.py 硬编码上一项目标题/图表/关键词 → 已修复：重写为通用版。新增 `scripts/audit_manuscript.py` 在生成Word前做10项检查
 - `编辑破坏引用段` (2026-06-05): 增量 Edit 重复插入 `## References` → 使用 `scripts/rebuild_refs.py` 批量重建
 - `图表插入时机错误` (2026-06-05): gen_word_full.py 把图表插入到节末尾而非标记位置 → 已修复：改为标记处原地插入。**铁律**: 图表插入位置必须与markdown中的`**Figure/Table N.**`标记位置一致；正文引用必须在标记之前出现（先引用，后插图）
@@ -352,3 +435,63 @@ Agent:
 7. **阶段结束** → 展示 Phase结束检查清单 → 提示用户说"编码"
 8. **每次修改稿件后** → 运行 Gate 4/5/6 自检确认无回归
 9. **每次生成Word后** → 确认 gen_word_full.py 8项自检全部通过
+
+---
+
+## 增量审校与版本管理 (2026-06-06 新增)
+
+### 审校反馈处理协议
+
+当收到审校报告（审校Agent 或外部评审）时，按以下流程处理：
+
+1. **读取审校报告** → 确认所有问题项及其严重程度（MUST FIX / 数值修正 / 限定语 / 建议）
+2. **逐项修改** → 按优先级顺序：MUST FIX → 数值修正 → 限定语 → 建议改进
+3. **自行复查** → 用 REVISION_MAP.md 交叉验证所有项均已修复
+4. **更新版本记录** → 追加 CHANGELOG.md 和 REVISION_MAP.md
+5. **递增版本号** → 更新稿件 HTML 注释中的 Revision 编号
+
+### 版本管理文件
+
+| 文件 | 用途 |
+|------|------|
+| `manuscript/CHANGELOG.md` | 每个 Revision Round 的完整变更记录 |
+| `manuscript/REVISION_MAP.md` | 逐项修复的 line→grep-anchor 映射，供审校Agent快速验证 |
+| 稿件 HTML 注释（L2-7） | 嵌入当前版本号、审校来源、变更摘要 |
+
+### 版本号规则
+
+- **R1**: 初稿
+- **R2**: 第一次修改
+- **R3+**: 每次审校反馈修改后递增
+- 每次 Revision 必须：更新 HTML 注释 → 追加 CHANGELOG → 更新 REVISION_MAP
+
+### 自行复查检查清单
+
+每次修改完成后，Agent 必须运行以下检查：
+
+```
+📍 增量修改复查 (Revision R<N>):
+
+  □ 所有 MUST FIX grep 验证通过？
+  □ 所有数值修正 grep 验证通过（旧值零匹配）？
+  □ 所有限定语已插入正确位置？
+  □ 所有建议改进已应用？
+  □ 无引入新矛盾（跨节交叉检查）？
+  □ CHANGELOG.md 已追加本次 Revision？
+  □ REVISION_MAP.md 已更新 grep-anchor？
+  □ 稿件 HTML 注释 Revision 号已递增？
+
+旧值零匹配验证命令:
+  grep -n "旧值1\|旧值2\|旧值3" manuscript/jitc_submission.md
+  → 期望输出: No matches found
+```
+
+### 防止问题重复的编码约定
+
+1. **数值引用**: 始终包含分子分母 → `42.5% (17 of 40)` 而非 `~50%`
+2. **Cochrane 百分比**: 每次引用总数变化时必须重新计算
+3. **排除计数**: 必须满足 `初始 − 纳入 = 排除` 的算术约束
+4. **年龄表述**: 全文统一一种格式，避免混用 "fifties" / "fifth and sixth decades"
+5. **百分比一致性**: 同一统计数据在所有出现位置（Abstract + Impact Statement + 正文 + Conclusions）必须一致
+6. **Scope 声明**: 任何在正文中实质性讨论的干预不得在 Scope 中声明 "not covered"
+7. **GRADE 评级**: 引用时必须核实 Cochrane 原文，不依赖记忆
