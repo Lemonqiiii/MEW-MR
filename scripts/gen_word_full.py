@@ -295,6 +295,8 @@ for section in raw_sections:
         num = m.group(2)
         # Caption is the rest of the line (strip any trailing ** if present)
         caption_text = m.group(3).rstrip('*').strip()
+        # Also remove any residual ** markers (e.g. closing bold before description text)
+        caption_text = caption_text.replace('**', '')
         caption = f'{prefix} {num}. {caption_text}'
 
         matching = [f for f in available_figs if f'{prefix}{num}' in f]
@@ -417,6 +419,8 @@ for section in raw_sections:
             prefix = fig_match.group(1)  # "Figure" or "Table"
             num = fig_match.group(2)
             caption_text = fig_match.group(3).rstrip('*').strip()
+            # Also remove any residual ** markers (e.g. closing bold before description text)
+            caption_text = caption_text.replace('**', '')
             full_caption = f'{prefix} {num}. {caption_text}'
 
             # If this is a Table marker and the next block is a pipe table,
