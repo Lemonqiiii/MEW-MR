@@ -2,17 +2,18 @@
 
 ```yaml
 ---
-phase: revision                   # planning | literature-search | screening | deep-reading | writing | revision
-progress_pct: 90
-current_section: COMPLETE
-last_session_id: 2026-06-05-s2
-target_journal: TBD
+phase: phase7                     # planning | literature-search | screening | deep-reading | writing | revision | phase7
+progress_pct: 93
+current_section: R4_COMPLETE
+last_session_id: 2026-06-06-r4
+target_journal: Pediatric Research (IF ~3)
 papers_collected: 1205
 papers_screened: 590
 papers_read_in_depth: 528
 papers_effective: 528
-words_written: 9847
-last_update: 2026-06-05 (post-review revision)
+words_written: 15700
+references: 42
+last_update: 2026-06-06 (R4审校修复完成)
 ---
 ```
 
