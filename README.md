@@ -1,5 +1,7 @@
 # MEW-MR: Medical Writing & Medical Review
 
+> **👉 First time here?** Go straight to **[GETTING_STARTED.md](GETTING_STARTED.md)** — a step-by-step guide from download to working output. Every command copy-pasteable.
+
 An AI-assisted system for writing and peer-reviewing high-quality medical review papers.
 
 ```
