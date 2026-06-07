@@ -1,0 +1,86 @@
+# ============================================================
+# Demo Configuration — Vitamin D & Respiratory Infections
+# ============================================================
+# Copy this to config.yaml for an immediate test drive:
+#   cp config.demo.yaml config.yaml
+#
+# This is a well-studied topic with manageable scope (~200-400 papers),
+# a major Cochrane review (Martineau et al., 2017), and clear PICO.
+# Perfect for verifying the pipeline works end-to-end.
+# ============================================================
+
+project:
+  topic: "Vitamin D Supplementation for Prevention of Acute Respiratory Tract Infections"
+  domain: "nutrition, immunology, respiratory medicine, public health"
+  review_type: "narrative"          # narrative | systematic | meta-analysis
+  target_journal: "Nutrients"
+  language: "en"
+
+systematic_review:
+  protocol_registration: ""
+  dual_screening: true
+  rob_tool: "RoB2"
+  meta_analysis: false
+  grade_assessment: true
+  prisma_checklist: true
+
+paths:
+  manuscript_src: "manuscript/submission.md"
+  figures_dir: "manuscript/figures"
+  data_dir: "data"
+  papers_dir: "docs/papers"
+  search_results_dir: "docs/search-results"
+  output_dir: "manuscript"
+
+agents:
+  screening:
+    paper_type_system: "default-a-j"
+    exclusion_keywords:
+      population: []
+      intervention: []
+      other: []
+    type_thresholds:
+      mechanism_types_min_pct: 20
+      bioinformatics_max_pct: 50
+      secondary_source_max_pct: 30
+      abstract_only_max_pct: 20
+
+  submission:
+    target_journal_profile: "nutrients"
+
+scripts:
+  gen_word:
+    output_filename: "manuscript/output.docx"
+    font: "Times New Roman"
+    font_size: 12
+    line_spacing: 2.0
+    margin_top_cm: 2.54
+    margin_bottom_cm: 2.54
+    margin_left_cm: 3.18
+    margin_right_cm: 3.18
+
+  audit:
+    checks:
+      - title_exists
+      - abstract_exists
+      - references_exist
+      - sections_sequential
+      - citation_integrity
+
+screening:
+  mechanism_categories: {}
+  domain_keywords: []
+  domain_context_keywords: []
+  domain_ici_focus: false
+
+quality:
+  contamination_check:
+    enabled: false
+    keywords: []
+    lung_context_keywords: ["lung", "pulmonary"]
+
+# PICO for this demo topic:
+#   Population:    General population, all ages
+#   Intervention:  Vitamin D oral supplementation (any dose, formulation)
+#   Comparison:    Placebo or no supplementation
+#   Outcome:       Incidence of acute respiratory tract infections (ARTI)

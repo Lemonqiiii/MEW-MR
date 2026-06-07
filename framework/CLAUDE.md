@@ -1,10 +1,18 @@
 # Medical Review Framework
 
+## First Run? Start Here
+1. **Verify setup**: `python3 scripts/smoke_test.py` — confirms everything works
+2. **Pick a topic**: Edit `config.yaml` → `project.topic` (or `cp config.demo.yaml config.yaml` for a demo)
+3. **Say `1`** to begin literature search — the pipeline guides you from there
+
+**Demo mode**: `cp config.demo.yaml config.yaml` gives you a pre-configured Vitamin D topic. You can start immediately and see the full pipeline in action before committing to your own topic.
+
 ## Startup
 1. Read `config.yaml` — all project-specific settings
 2. Read `state.json` — current phase and progress
 3. Read `claude/gates/gates.md` — gate definitions
 4. Output: current phase, progress %, next available action
+5. If topic is unset → prompt user to edit config.yaml or use config.demo.yaml
 
 ## Agent Dispatch
 

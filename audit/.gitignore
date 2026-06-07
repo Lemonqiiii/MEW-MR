@@ -227,8 +227,10 @@ secrets/
 
 # ── Review pipeline (generated per review run) ──────────────
 # Keep directory structure via .gitkeep, ignore all content
+# Exception: DEMO-MANUSCRIPT.md ships with the repo for testing
 review-pipeline/input/*
 !review-pipeline/input/.gitkeep
+!review-pipeline/input/DEMO-MANUSCRIPT.md
 review-pipeline/output/*
 !review-pipeline/output/.gitkeep
 review-pipeline/reviews/*

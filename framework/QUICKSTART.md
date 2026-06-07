@@ -103,6 +103,26 @@ python3 scripts/peer_review.py manuscript/submission.md
 
 ## Need Help?
 
-- Full docs: `docs/GETTING_STARTED.md`, `docs/WORKFLOW.md`, `docs/CONFIG.md`
-- Framework README: `README.md`
-- All agent definitions: `claude/agents/`
+### Common Issues
+
+| Problem | Solution |
+|---------|----------|
+| "WebFetch blocked" during search | Use WebSearch or Semantic Scholar API as fallback — Agent 1 will suggest alternatives |
+| All 11 gates show FAIL | **This is normal!** Gates check for artifacts that don't exist yet. Run Agent 1 first, then gates will pass one by one. |
+| `gen_word.py` says "file not found" | You need a manuscript first. Complete Agents 1→2→3, or create a test file at `manuscript/submission.md` |
+| `audit_manuscript.py` crashes | Pass a manuscript path: `python3 scripts/audit_manuscript.py manuscript/submission.md` |
+| "No module named yaml" | `pip install -r scripts/requirements.txt` |
+| Topic not configured warning | `cp config.demo.yaml config.yaml` for a demo topic, or edit config.yaml |
+
+### Full Documentation
+
+- **Why this exists**: [WHY.md](WHY.md) — motivation and capabilities
+- **Full workflow**: [docs/WORKFLOW.md](docs/WORKFLOW.md) — phase-by-phase walkthrough
+- **All config options**: [docs/CONFIG.md](docs/CONFIG.md) — every config.yaml setting
+- **Agent definitions**: `claude/agents/` — each agent's steps and handoff schema
+
+### Still Stuck?
+
+1. Run `python3 scripts/smoke_test.py` to verify your setup
+2. Check the demo config: `config.demo.yaml` has a working example
+3. Open an issue on GitHub
