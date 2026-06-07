@@ -1,6 +1,16 @@
 # Getting Started
 
-Welcome. This guide takes you from zero to a working AI-assisted medical review pipeline in under 10 minutes. Every command can be copy-pasted. Expected output is shown so you know things are working.
+Welcome. This guide takes you from zero to a working AI-assisted medical review pipeline in under 10 minutes.
+
+**If you just want to go:** paste this one-liner into your terminal (or directly into Claude Code):
+
+```bash
+git clone https://github.com/Lemonqiiii/MEW-MR.git && cd MEW-MR/framework && pip install -q -r scripts/requirements.txt && python3 scripts/smoke_test.py && cp config.demo.yaml config.yaml && echo "Done. Run: claude"
+```
+
+This clones the repo, installs dependencies, runs the 34-point smoke test, and sets up the demo topic. When it finishes, just run `claude` and say `1`.
+
+**Prefer to understand each step?** Read on. Every command is copy-pasteable with expected output shown.
 
 ## What Is This?
 

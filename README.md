@@ -1,6 +1,11 @@
 # MEW-MR: Medical Writing & Medical Review
 
-> **👉 First time here?** Go straight to **[GETTING_STARTED.md](GETTING_STARTED.md)** — a step-by-step guide from download to working output. Every command copy-pasteable.
+> **👉 First time here?** Go straight to **[GETTING_STARTED.md](GETTING_STARTED.md)** — a step-by-step guide from download to working output.
+>
+> **⚡ One-liner (paste into terminal or Claude Code):**
+> ```bash
+> git clone https://github.com/Lemonqiiii/MEW-MR.git && cd MEW-MR/framework && pip install -q -r scripts/requirements.txt && python3 scripts/smoke_test.py && cp config.demo.yaml config.yaml && echo "Done. Run: claude"
+> ```
 
 An AI-assisted system for writing and peer-reviewing high-quality medical review papers.
 
