@@ -1,0 +1,70 @@
+{
+  "project": {
+    "phase": "planning",
+    "progress_pct": 0,
+    "last_updated": ""
+  },
+  "metrics": {
+    "papers_collected": 0,
+    "papers_screened": 0,
+    "papers_analyzed": 0,
+    "words_written": 0,
+    "references": 0
+  },
+  "gates": {
+    "1": {
+      "status": "pending",
+      "last_run": null
+    },
+    "2": {
+      "status": "pending",
+      "last_run": null
+    },
+    "3": {
+      "status": "pending",
+      "last_run": null
+    },
+    "4": {
+      "status": "pending",
+      "last_run": null
+    },
+    "5": {
+      "status": "pending",
+      "last_run": null
+    },
+    "6": {
+      "status": "pending",
+      "last_run": null
+    },
+    "7": {
+      "status": "pending",
+      "last_run": null
+    },
+    "8": {
+      "status": "pending",
+      "last_run": null
+    },
+    "9": {
+      "status": "pending",
+      "last_run": null
+    },
+    "10": {
+      "status": "pending",
+      "last_run": null
+    },
+    "11": {
+      "status": "pending",
+      "last_run": null
+    }
+  },
+  "active_focus": {
+    "topic": "",
+    "pico": {
+      "population": "",
+      "intervention": "",
+      "comparison": "",
+      "outcome": ""
+    }
+  },
+  "decisions": []
+}

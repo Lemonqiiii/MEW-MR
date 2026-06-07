@@ -1,0 +1,78 @@
+# Medical Review Framework — Project Configuration
+# ===============================================
+# This is the SINGLE source of project-specific settings.
+# All scripts and agents read from this file.
+# Edit this file before starting a new review project.
+
+# ── Project Identity ──
+project:
+  topic: ""                         # e.g. "NRDS Life-Course Outcomes"
+  domain: ""                        # e.g. "neonatology, respiratory medicine"
+  review_type: "narrative"          # narrative | systematic | meta-analysis
+  target_journal: ""                # e.g. "Pediatric Research"
+  language: "en"                    # en | zh (manuscript language)
+
+# ── Systematic Review Settings (active when review_type is "systematic" or "meta-analysis") ──
+systematic_review:
+  protocol_registration: ""         # PROSPERO ID (e.g. CRD4202XXXXXXXX)
+  dual_screening: true              # Two independent reviewers
+  rob_tool: "RoB2"                  # RoB2 | ROBINS-I | NOS | mixed
+  meta_analysis: false              # Plan to pool statistically?
+  grade_assessment: true            # Generate GRADE SoF tables
+  prisma_checklist: true            # Complete PRISMA 2020 checklist
+
+# ── File Paths (relative to project root) ──
+paths:
+  manuscript_src: "manuscript/submission.md"
+  figures_dir: "manuscript/figures"
+  data_dir: "data"
+  papers_dir: "docs/papers"
+  search_results_dir: "docs/search-results"
+  output_dir: "manuscript"
+
+# ── Agent Configuration ──
+agents:
+  screening:
+    # Paper classification system to use:
+    # "default-a-j" — mechanism/biomarker reviews (10 types A-J)
+    # Custom systems can be added to templates/paper-types/
+    paper_type_system: "default-a-j"
+
+    # Domain-specific exclusion keywords (applied during Round 0)
+    exclusion_keywords:
+      population: []                # e.g. ["laryngeal", "head and neck", "esophageal"]
+      intervention: []
+      other: []
+
+    # Type distribution health check thresholds
+    type_thresholds:
+      mechanism_types_min_pct: 20   # A+B+C minimum % for mechanism reviews
+      bioinformatics_max_pct: 50     # E type maximum %
+      secondary_source_max_pct: 30   # F+G maximum %
+      abstract_only_max_pct: 20      # maximum % of abstract-only inclusions
+
+  submission:
+    # Journal format profile
+    # Built-in profiles are in templates/journal-profiles/
+    target_journal_profile: ""      # e.g. "pediatric-research"
+
+# ── Script Configuration ──
+scripts:
+  gen_word:
+    output_filename: "manuscript/output.docx"
+    font: "Times New Roman"
+    font_size: 12
+    line_spacing: 2.0
+    margin_top_cm: 2.54
+    margin_bottom_cm: 2.54
+    margin_left_cm: 3.18
+    margin_right_cm: 3.18
+
+  audit:
+    # Checks to run before Word generation
+    checks:
+      - title_exists
+      - abstract_exists
+      - references_exist
+      - sections_sequential
+      - citation_integrity

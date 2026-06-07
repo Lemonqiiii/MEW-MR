@@ -1,0 +1,9 @@
+{
+  "reviews": [],
+  "cumulative": {
+    "total_reviews": 0,
+    "total_findings": 0,
+    "avg_wall_time_sec": 0,
+    "avg_tokens_per_review": 0
+  }
+}

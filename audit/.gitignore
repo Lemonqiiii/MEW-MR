@@ -1,0 +1,265 @@
+# ============================================================
+# Medical Review Audit — .gitignore
+# ============================================================
+# Base: github/gitignore — Python + Windows + macOS
+# Custom: Claude Code + review pipeline artifacts
+#
+# Template sources:
+#   https://github.com/github/gitignore/blob/main/Python.gitignore
+#   https://github.com/github/gitignore/blob/main/Global/Windows.gitignore
+#   https://github.com/github/gitignore/blob/main/Global/macOS.gitignore
+# ============================================================
+
+# ── Byte-compiled / optimized / DLL files (Python.gitignore) ─
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ── C extensions (Python.gitignore) ─────────────────────────
+*.so
+
+# ── Distribution / packaging (Python.gitignore) ─────────────
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ── PyInstaller (Python.gitignore) ──────────────────────────
+*.manifest
+*.spec
+
+# ── Installer logs (Python.gitignore) ───────────────────────
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ── Unit test / coverage reports (Python.gitignore) ─────────
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# ── Translations (Python.gitignore) ─────────────────────────
+*.mo
+*.pot
+
+# ── Django (Python.gitignore) ───────────────────────────────
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# ── Flask (Python.gitignore) ────────────────────────────────
+instance/
+.webassets-cache
+
+# ── Scrapy (Python.gitignore) ───────────────────────────────
+.scrapy
+
+# ── Sphinx documentation (Python.gitignore) ─────────────────
+docs/_build/
+
+# ── PyBuilder (Python.gitignore) ────────────────────────────
+target/
+
+# ── Jupyter Notebook (Python.gitignore) ─────────────────────
+.ipynb_checkpoints
+
+# ── IPython (Python.gitignore) ──────────────────────────────
+profile_default/
+ipython_config.py
+
+# ── pyenv (Python.gitignore) ────────────────────────────────
+.python-version
+
+# ── pipenv (Python.gitignore) ───────────────────────────────
+Pipfile.lock
+
+# ── poetry (Python.gitignore) ───────────────────────────────
+poetry.lock
+
+# ── pdm (Python.gitignore) ──────────────────────────────────
+.pdm.toml
+.pdm-python
+.pdm-build/
+
+# ── PEP 582 (Python.gitignore) ──────────────────────────────
+__pypackages__/
+
+# ── Celery (Python.gitignore) ───────────────────────────────
+celerybeat-schedule
+celerybeat.pid
+
+# ── SageMath (Python.gitignore) ─────────────────────────────
+*.sage.py
+
+# ── Environments (Python.gitignore) ─────────────────────────
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ── Spyder (Python.gitignore) ───────────────────────────────
+.spyderproject
+.spyproject
+
+# ── Rope (Python.gitignore) ─────────────────────────────────
+.ropeproject
+
+# ── mkdocs (Python.gitignore) ───────────────────────────────
+/site
+
+# ── mypy (Python.gitignore) ─────────────────────────────────
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ── Pyre (Python.gitignore) ─────────────────────────────────
+.pyre/
+
+# ── pytype (Python.gitignore) ───────────────────────────────
+.pytype/
+
+# ── IDE: VSCode (Global/VisualStudioCode.gitignore) ──────────
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+.history/
+*.vsix
+
+# ── IDE: JetBrains (Global/JetBrains.gitignore) ─────────────
+.idea/
+*.sublime-workspace
+
+# ── IDE: Vim ────────────────────────────────────────────────
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+*.un~
+
+# ── IDE: Emacs ──────────────────────────────────────────────
+*~
+\#*\#
+.\#*
+
+# ── OS: Windows (Global/Windows.gitignore) ──────────────────
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# ── OS: macOS (Global/macOS.gitignore) ──────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# ── OS: Linux ───────────────────────────────────────────────
+*~
+
+# ============================================================
+# BELOW: Project-specific rules (not from GitHub templates)
+# ============================================================
+
+# ── Claude Code (user/session-specific, never commit) ───────
+.claude/settings.local.json
+.claude/projects/
+.claude/workflows/
+.claude/scheduled_tasks.json
+
+# ── Sensitive files ─────────────────────────────────────────
+!.env.example
+credentials/
+secrets/
+*.pem
+*.key
+
+# ── Review pipeline (generated per review run) ──────────────
+# Keep directory structure via .gitkeep, ignore all content
+review-pipeline/input/*
+!review-pipeline/input/.gitkeep
+review-pipeline/output/*
+!review-pipeline/output/.gitkeep
+review-pipeline/reviews/*
+!review-pipeline/reviews/.gitkeep
+review-pipeline/context/*
+!review-pipeline/context/.gitkeep
+review-pipeline/meta/*
+!review-pipeline/meta/.gitkeep
+review-log.md
+review-pipeline/review-log.md
+
+# ── Large binary files (not source; generated or imported) ─
+*.pdf
+*.docx
+*.doc
+*.pptx
+*.ppt
+*.xlsx
+*.xls
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# ── Archives ────────────────────────────────────────────────
+*.zip
+*.tar.gz
+*.tar.bz2
+*.rar
+*.7z
+
+# ── Manuscript copies (input only; source lives in writing project) ─
+manuscript/
