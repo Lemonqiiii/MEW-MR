@@ -35,23 +35,36 @@ The two projects operate independently — they share only a manuscript file and
 
 ## Quick Start
 
-### Framework (Writing)
+### First Time? Run This
 ```bash
 cd framework
 pip install -r scripts/requirements.txt
-# Edit config.yaml — set your topic
+python3 scripts/smoke_test.py          # 34 checks — verify everything works
+cp config.demo.yaml config.yaml        # Demo topic: Vitamin D & respiratory infections
+claude                                 # Say "1" to test the full pipeline
+```
+
+### Framework (Writing)
+```bash
+cd framework
+# 1. Verify setup
+python3 scripts/smoke_test.py
+# 2. Configure your topic (or use demo)
+cp config.demo.yaml config.yaml
+# 3. Start writing
 claude
-# Say "1" to begin
+# Say "1" to begin literature search
 ```
 
 ### Audit (Reviewing)
 ```bash
 cd audit
-# Place manuscript in review-pipeline/input/
-python3 scripts/check-structure.py review-pipeline/input/your-manuscript.md
-python3 scripts/verify-citations.py review-pipeline/input/your-manuscript.md
+# Demo manuscript ships with the repo — test immediately:
+python3 scripts/check-structure.py review-pipeline/input/DEMO-MANUSCRIPT.md
+python3 scripts/verify-citations.py review-pipeline/input/DEMO-MANUSCRIPT.md
+# Full 6-dimension review:
 claude
-# Say "审稿" to run full 6-dimension review
+# Say "审稿" or "peer-review"
 ```
 
 ## Requirements
