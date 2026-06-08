@@ -4,8 +4,9 @@
 ---
 phase: revision                     # planning | literature-search | screening | deep-reading | writing | revision | phase7
 progress_pct: 85
-current_section: R4_COMPLETE
-last_session_id: 2026-06-08-pncs-r4
+current_section: R6_COMPLETE
+last_session_id: 2026-06-08-pncs-r6
+words_written: 7759
 target_journal: Pediatric Research 或 ADC Fetal & Neonatal Edition
 papers_collected: ~30 (web-based targeted search)
 papers_screened: ~30

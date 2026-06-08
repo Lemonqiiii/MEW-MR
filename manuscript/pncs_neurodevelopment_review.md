@@ -28,7 +28,7 @@ Postnatal systemic corticosteroids reduce bronchopulmonary dysplasia (BPD) in ve
 
 ### 1.1 The Clinical Context
 
-Neonatal respiratory distress syndrome (NRDS), a disease of surfactant deficiency in preterm infants, remains a leading cause of neonatal morbidity and mortality worldwide [1]. For infants who survive the acute phase of NRDS but develop bronchopulmonary dysplasia (BPD) — a chronic lung disease characterized by impaired alveolarization and pulmonary vascular development — the clinical trajectory extends far beyond the neonatal intensive care unit (NICU). BPD affects approximately 40% of infants born before 28 weeks' gestation [1] and is independently associated with adverse neurodevelopmental outcomes, rehospitalization, and reduced quality of life throughout childhood [29].
+For preterm infants who survive neonatal respiratory distress syndrome (NRDS) but develop bronchopulmonary dysplasia (BPD) — affecting approximately 40% of those born before 28 weeks' gestation [1] — the clinical trajectory extends far beyond the neonatal intensive care unit (NICU). BPD is independently associated with adverse neurodevelopmental outcomes, rehospitalization, and reduced quality of life throughout childhood [29].
 
 Among the pharmacological interventions available to prevent and treat BPD, systemic postnatal corticosteroids occupy a uniquely contentious position. They are effective: a 10-day course of dexamethasone can reduce the probability of BPD by approximately one-quarter. They are also potentially harmful: the same glucocorticoid receptor-mediated pathways that suppress pulmonary inflammation also interfere with neuronal proliferation, myelination, and cerebellar development. For the neonatologist standing at the bedside of a ventilator-dependent preterm infant in the second week of life, the decision to prescribe postnatal corticosteroids is among the most difficult in neonatal medicine — a calculation in which the existing evidence can describe the contours of the trade-off but cannot resolve it.
 
@@ -102,11 +102,9 @@ No adequately powered head-to-head randomized trial has directly compared dexame
 
 ### 3.4 The Dose Dimension: More Than Timing and Agent Choice
 
-A variable that cuts across the timing-agent taxonomy is cumulative corticosteroid dose. The early dexamethasone trials that generated the CP signal (Section 2.2) typically used prolonged tapering courses — 28 to 42 days — with cumulative doses exceeding 5 mg/kg of dexamethasone [4]. In contrast, the DART trial, which found no significant increase in CP, used a 10-day course with a total cumulative dose of 0.89 mg/kg [15]. The PREMILOC hydrocortisone regimen totaled 8.5 mg/kg over 10 days — a far lower glucocorticoid receptor burden than the early dexamethasone courses, regardless of the chosen potency-equivalence ratio [16]. By any standard metric, these lower-dose regimens expose the developing brain to substantially less glucocorticoid activity than the early high-dose dexamethasone trials.
+A variable that cuts across the timing-agent taxonomy is cumulative corticosteroid dose. The early dexamethasone trials that generated the CP signal (Section 2.2) typically used prolonged tapering courses — 28 to 42 days — with cumulative doses exceeding 5 mg/kg of dexamethasone [4]. In contrast, subsequent trials using far lower cumulative exposures — whether low-dose late dexamethasone or low-dose early hydrocortisone — found reassuring neurodevelopmental profiles, as detailed in Section 4. This dose gradient confounds the clean interpretation of "early vs. late" or "dexamethasone vs. hydrocortisone" as the sole determinants of neurodevelopmental risk: a trial that used a low cumulative dose of the "wrong" agent at the "wrong" time can still produce a reassuring neurodevelopmental outcome, suggesting that **dose** may be as important as **timing** or **agent choice**. This hypothesis is biologically coherent: glucocorticoid receptor-mediated neurotoxicity is dose-dependent in animal models [9], and the developing brain's vulnerability follows a gradient rather than a binary threshold.
 
-This dose gradient confounds the clean interpretation of "early vs. late" or "dexamethasone vs. hydrocortisone" as the sole determinants of neurodevelopmental risk. The DART trial, which used late, low-dose dexamethasone, and the PREMILOC trial, which used early, low-dose hydrocortisone, both found reassuring neurodevelopmental profiles — suggesting that **dose** may be as important as **timing** or **agent choice** in determining the neurodevelopmental safety of postnatal corticosteroids. This hypothesis is biologically coherent: glucocorticoid receptor-mediated neurotoxicity is dose-dependent in animal models [9], and the developing brain's vulnerability follows a gradient rather than a binary threshold.
-
-No trial has directly compared different cumulative doses of the same corticosteroid for the same timing window, so the dose-response relationship remains inferred rather than experimentally confirmed. The practical implication is that when postnatal corticosteroids are deemed necessary, the lowest effective dose for the shortest effective duration — a principle borrowed from general corticosteroid pharmacology — should guide clinical decisions, pending direct evidence.
+No trial has directly compared different cumulative doses of the same corticosteroid for the same timing window, so the dose-response relationship remains inferred rather than experimentally confirmed. The practical implication is that when postnatal corticosteroids are deemed necessary, the lowest effective dose for the shortest effective duration should guide clinical decisions, pending direct evidence.
 
 ---
 
@@ -168,9 +166,7 @@ Two findings recur. Early HC in the sickest infants shows benefit. Late HC in br
 
 ### 5.1 Rationale and Pharmacological Considerations
 
-Inhaled corticosteroids offer a conceptually attractive approach: direct delivery of anti-inflammatory therapy to the pulmonary epithelium, with theoretically reduced systemic absorption and consequently reduced neurodevelopmental risk. Budesonide, beclomethasone, and fluticasone have all been studied in preterm infants, with budesonide receiving the most rigorous evaluation [27,28].
-
-However, the "local therapy" premise deserves scrutiny. Systemic absorption of inhaled corticosteroids is not negligible in preterm infants. Budesonide administered via nebulizer or metered-dose inhaler produces measurable plasma concentrations, and the preterm infant's immature hepatic metabolism and reduced protein binding may result in higher free drug concentrations than in older populations [29]. The degree to which inhaled corticosteroids are truly "topical" versus "systemic by a different route" remains incompletely characterized.
+Inhaled corticosteroids offer a conceptually attractive approach — direct pulmonary delivery with theoretically reduced systemic absorption — but the "local therapy" premise deserves scrutiny. Budesonide administered via nebulizer or metered-dose inhaler produces measurable plasma concentrations in preterm infants, whose immature hepatic metabolism may result in higher free drug concentrations than in older populations [29]. Whether inhaled corticosteroids are truly topical rather than systemic by a different route remains incompletely characterized.
 
 ### 5.2 The NEUROSIS Trial
 
@@ -186,9 +182,7 @@ The NEUROSIS (Neonatal European Study of Inhaled Steroids) trial randomized 863 
 
 ### 5.3 Cochrane Evidence for Inhaled Corticosteroids
 
-Two Cochrane reviews have synthesized the inhaled corticosteroid evidence [27,28]. Early (≤2 weeks) inhaled corticosteroids may reduce BPD (RR 0.76, 95% CI 0.63–0.93; ARR ~9.6%, NNT ~10, assuming ~40% baseline BPD risk), but the estimate is imprecise and the quality of evidence is low to moderate. Late (>2 weeks) inhaled corticosteroids show a trend toward reduced BPD that does not reach statistical significance (RR 0.90, 95% CI 0.73–1.11). Neurodevelopmental follow-up data are extremely limited: only NEUROSIS has reported outcomes beyond hospital discharge, and as described above, those data demonstrated higher rates of neurodevelopmental impairment among survivors — not reassurance of safety [31].
-
-The Cochrane authors' conclusions are measured: "There is insufficient evidence to support the routine use of inhaled corticosteroids for the prevention of BPD in preterm infants." The 2025 European RDS Consensus Guidelines do not recommend inhaled corticosteroids for BPD prevention, and the AAP has issued no endorsement.
+Two Cochrane reviews have synthesized the inhaled corticosteroid evidence [27,28]. While early administration may reduce BPD, the quality of evidence is low to moderate and the effect is imprecisely estimated. Neurodevelopmental follow-up data are limited to NEUROSIS, which — as described above — demonstrated harm, not reassurance [31]. On the basis of this evidence, neither the 2025 European RDS Consensus Guidelines nor the AAP recommends inhaled corticosteroids for BPD prevention outside of research settings.
 
 ---
 
@@ -204,11 +198,7 @@ The trials whose 2-year Bayley data suggest "no difference between groups" canno
 
 ### 6.2 Cerebral Palsy: The Best-Quantified Risk
 
-Cerebral palsy (CP) is the neurodevelopmental outcome for which the postnatal corticosteroid evidence is most complete, primarily because it is a binary, relatively objective diagnosis that can be made with reasonable confidence by 18–24 months. The Cochrane data establish three propositions with high certainty:
-
-1. **Early dexamethasone increases CP** (RR 1.42, 95% CI 1.08–1.87; high-certainty GRADE) [7].
-2. **Late dexamethasone does not conclusively increase CP** (RR 1.12, 95% CI 0.81–1.54; the confidence interval is wide and a clinically meaningful increase is not excluded) [13].
-3. **Hydrocortisone, regardless of timing, has not been associated with a statistically significant increase in CP** in any individual trial or meta-analysis, though the evidence base is smaller and the confidence intervals wider than for dexamethasone [13].
+Cerebral palsy (CP) is the neurodevelopmental outcome for which the postnatal corticosteroid evidence is most complete, primarily because it is a binary, relatively objective diagnosis that can be made with reasonable confidence by 18–24 months. The Cochrane data establish a clear gradient: early dexamethasone increases CP (high-certainty GRADE); late dexamethasone's CP risk is attenuated and not statistically significant, though a clinically meaningful increase is not excluded; and hydrocortisone has not been associated with a statistically significant increase in CP in any trial or meta-analysis [7,13].
 
 The clinical significance of these estimates depends on the baseline CP risk. In the populations enrolled in the Cochrane reviews, the baseline CP rate was approximately 15–20%, giving an absolute risk increase of approximately 5 percentage points (NNH ~20) for early dexamethasone. In contemporary NICU populations, baseline CP rates in extremely preterm infants have declined to approximately 8–12%, which would proportionally reduce the absolute harm attributable to dexamethasone. However, the relative risk increase appears consistent across populations, and no subgroup has been identified in which early dexamethasone is free of CP risk.
 
@@ -218,16 +208,9 @@ Jenkinson et al. (2023) conducted the most comprehensive systematic review of ch
 
 These observational data are subject to confounding by indication: infants who received dexamethasone were, by definition, sicker than those who did not, and illness severity itself is associated with worse neurodevelopmental outcomes. The observational studies attempted to adjust for gestational age, birth weight, and illness severity, but residual confounding cannot be excluded. The critical evidence gap is the absence of randomized trial data on school-age cognition: of the 32 RCTs in the early corticosteroid Cochrane review, none reported cognitive outcomes beyond 2 years.
 
-### 6.4 Behavior, Executive Function, and Academic Achievement
+Beyond cognition, even less is known. Two studies have reported behavioral outcomes: the SToP-BPD trial found lower anxiety scores in hydrocortisone-treated children at 2 years, with no differences in other CBCL domains [22]; the CAP caffeine trial follow-up demonstrated persisting motor benefits at 11 years, suggesting that different neurodevelopmental domains may follow different trajectories following neonatal pharmacological exposures [33]. No randomized trial of postnatal corticosteroids has reported data on executive function, academic achievement, social competence, or mental health outcomes in middle childhood or adolescence — the outcomes most relevant to quality of life and functional independence.
 
-Even less is known about outcomes beyond the traditional domains of cognition and motor function. Two studies have reported behavioral outcomes following postnatal corticosteroids:
-
-- The SToP-BPD trial found significantly lower anxiety scores in hydrocortisone-treated children at 2 years' corrected age, with no differences in other CBCL domains [22].
-- The CAP trial follow-up (caffeine, not corticosteroids) demonstrated that motor benefits persisted to 11 years while cognitive differences attenuated — a pattern that suggests different neurodevelopmental domains may have different developmental trajectories following neonatal pharmacological exposures [33].
-
-No randomized trial of postnatal corticosteroids has reported data on executive function, academic achievement, social competence, or mental health outcomes in middle childhood or adolescence. Given that these are the outcomes most relevant to quality of life and functional independence, their absence from the evidence base represents a critical limitation.
-
-### 6.5 The Role of BPD as a Mediator
+### 6.4 The Role of BPD as a Mediator
 
 A central but underappreciated complexity in interpreting postnatal corticosteroid neurodevelopmental outcomes is the dual role of BPD as both a treatment target and an independent risk factor for neurodevelopmental impairment. BPD is associated with a 2- to 3-fold increase in the odds of cerebral palsy, cognitive delay, and behavioral problems, independent of gestational age and other perinatal factors [34]. Corticosteroids, by reducing BPD, may confer indirect neurodevelopmental benefit through improved pulmonary health — reduced hypoxia, better nutrition, fewer rehospitalizations — that partially or fully offsets their direct neurotoxic effects.
 
@@ -264,17 +247,7 @@ The evidence reviewed in this paper supports a stratified clinical approach, org
 
 ### 7.3 Communication with Families
 
-The postnatal corticosteroid decision is one for which shared decision-making is not merely desirable but ethically mandatory. The evidence base juxtaposes a tangible short-term pulmonary benefit against an uncertain long-term neurological risk, and the relative importance assigned to these outcomes varies among families.
-
-A framework for communicating the evidence to parents should include:
-
-1. **Numerical framing:** "For every 10 babies treated with late dexamethasone, approximately one fewer develops severe chronic lung disease. The risk of cerebral palsy — about 15 in 100 untreated babies — may be slightly higher in treated babies, but the evidence is not conclusive."
-
-2. **Acknowledgment of uncertainty:** "The studies we have follow children to age 2. We do not have good studies that followed children to school age to assess learning, behavior, or intelligence. This is a gap in our knowledge that no amount of statistical analysis can fill."
-
-3. **Individualization:** "Whether this treatment is right for your baby depends on how high their risk of severe lung disease is, and on what matters most to your family."
-
-The goal is not to persuade parents toward or away from treatment, but to equip them with the information — including its limitations — that they need to participate meaningfully in the decision.
+The postnatal corticosteroid decision is one for which shared decision-making is not merely desirable but ethically mandatory. The evidence juxtaposes a tangible short-term pulmonary benefit against an uncertain long-term neurological risk, and the relative importance assigned to these outcomes varies among families. Clinicians should communicate the evidence numerically (e.g., late dexamethasone: NNT ~10 for BPD, NNH ~50 for CP, with the caveat that the latter does not exclude harm), acknowledge the temporal limits of follow-up (all trial data terminate at age 2, and school-age outcomes are unknown), and individualize the decision based on the infant's specific BPD risk and the family's values. The goal is not to persuade toward or away from treatment, but to equip families with the information — including its limitations — to participate meaningfully in the decision.
 
 ---
 
