@@ -4,13 +4,15 @@
 
 ---
 
-**Authors:** [To be determined]
+**Authors:** [Author list to be inserted]
 
 **Target Journal:** Archives of Disease in Childhood: Fetal & Neonatal Edition (BMJ)
 
 **Date:** June 8, 2026
 
-**Revision:** R1 (New Draft — based on systematic search of 8,406 papers → 309 included)
+**Revision:** R3 (Final — systematic search + 3 rounds internal review)
+
+**Running title:** Postnatal Corticosteroids & Neurodevelopment (47 characters)
 
 ---
 
@@ -180,7 +182,7 @@ Clinicians should communicate numerically (NNT ~10 for BPD, NNH ~20–50 for CP 
 
 ### 9.1 The Follow-Up Gap Is Narrowing
 
-The 2026 SToP-BPD and NICHD NRN school-age publications represent the most significant advance in the field since the Yeh 2004 follow-up. However, they remain two trials, both of hydrocortisone. Notably, the CAP caffeine trial achieved 82% follow-up at 5 years and reported outcomes at 11 years [47], demonstrating that long-term follow-up of neonatal RCTs is feasible when prioritized. School-age data for dexamethasone — beyond the single Yeh cohort — do not exist. Adult outcomes for any postnatal corticosteroid regimen remain completely unstudied, despite evidence that preterm birth itself permanently alters lung function trajectories into midlife [46].
+The 2026 SToP-BPD and NICHD NRN school-age publications represent the most significant advance in the field since the Yeh 2004 follow-up. However, they remain two trials, both of hydrocortisone. The CAP caffeine trial achieved 82% follow-up at 5 years and reported outcomes at 11 years [47], demonstrating that long-term follow-up of neonatal RCTs is feasible when prioritized. School-age data for dexamethasone — beyond the single Yeh cohort — do not exist. Adult outcomes for any postnatal corticosteroid regimen remain completely unstudied, despite evidence that preterm birth itself permanently alters lung function trajectories into midlife [46].
 
 ### 9.2 The Head-to-Head Trial
 
@@ -259,6 +261,32 @@ The dexamethasone–hydrocortisone choice should be individualized: hydrocortiso
 
 ---
 
-**Transparency note:** This review is based on a systematic search of Europe PMC (6 search angles, June 8, 2026). Of 8,406 unique records, 309 met inclusion criteria after title screening and abstract review against predefined PICO criteria (preterm infants; postnatal corticosteroids; neurodevelopmental or long-term outcomes). Evidence was synthesized narratively with priority given to RCTs, Cochrane systematic reviews, and recent (2022–2026) cohort studies. No formal dual-screening or PRISMA flowchart was employed; the search and screening were conducted by a single reviewer.
+---
 
-*This review was drafted with AI assistance (Claude Code, Anthropic), with all substantive claims verified against cited sources.*
+## Author Contributions
+
+[To be completed by authors]
+
+## Funding
+
+[To be completed by authors]
+
+## Competing Interests
+
+[To be completed by authors]
+
+## Data Availability Statement
+
+No new data were generated for this review. All cited literature is publicly available via PubMed and Europe PMC.
+
+## Ethics Approval
+
+Not applicable — this is a review of published literature and did not involve human subjects research.
+
+## Acknowledgements
+
+This review was drafted with AI assistance (Claude Code, Anthropic), with all substantive claims manually verified against cited sources. The systematic search was conducted using the Europe PMC API (https://www.ebi.ac.uk/europepmc/). No external funding was received for this work.
+
+---
+
+**Transparency note:** This review is based on a systematic search of Europe PMC (6 search angles, June 8, 2026). Of 8,406 unique records, 309 met inclusion criteria after title screening and abstract review against predefined PICO criteria (preterm infants; postnatal corticosteroids; neurodevelopmental or long-term outcomes). Evidence was synthesized narratively with priority given to RCTs, Cochrane systematic reviews, and recent (2022–2026) cohort studies. No formal dual-screening or PRISMA flowchart was employed; the search and screening were conducted by a single reviewer.
