@@ -86,7 +86,7 @@ The 2021 Cochrane review of late postnatal corticosteroids included 23 RCTs enro
 
 **Respiratory outcomes.** Late corticosteroids reduced BPD (RR 0.80, 95% CI 0.70–0.91; NNT approximately 13) and the composite of death or BPD (RR 0.83, 95% CI 0.73–0.94). Dexamethasone drove the BPD reduction (RR 0.76, dexamethasone subgroup), while hydrocortisone showed a weaker and less precise effect (RR 0.89, 95% CI 0.76–1.04).
 
-**Neurological outcomes.** Critically, the cerebral palsy signal was attenuated. Late initiation was not associated with a statistically significant increase in cerebral palsy (RR 1.12, 95% CI 0.81–1.54; NNH approximately 50, though the confidence interval does not exclude a clinically meaningful increase of up to approximately 1 in 18). Mortality was reduced (RR 0.81, 95% CI 0.66–0.99), a finding not observed in the early administration review.
+**Neurological outcomes.** Critically, the cerebral palsy signal was attenuated. Late initiation was not associated with a statistically significant increase in cerebral palsy (RR 1.12, 95% CI 0.81–1.54; NNH approximately 50, though the confidence interval does not exclude a clinically meaningful increase of up to approximately 1 in 18). Mortality was reduced (RR 0.81, 95% CI 0.66–0.99; high-certainty GRADE), a finding not observed in the early administration review.
 
 **Interpretation.** The late corticosteroid evidence supports a more favorable risk-benefit balance than early administration. The CP point estimate remains on the side of harm, but the 95% confidence interval is wide and crosses the null. Combined with the mortality reduction, the data suggest that late corticosteroids — when restricted to infants who remain ventilator-dependent beyond the first week and are at high risk of severe BPD — offer a net benefit in terms of survival without BPD, without a clearly demonstrated increase in neurodevelopmental harm.
 
@@ -186,7 +186,7 @@ The NEUROSIS (Neonatal European Study of Inhaled Steroids) trial randomized 863 
 
 ### 5.3 Cochrane Evidence for Inhaled Corticosteroids
 
-Two Cochrane reviews have synthesized the inhaled corticosteroid evidence [27,28]. Early (≤2 weeks) inhaled corticosteroids may reduce BPD (RR 0.76, 95% CI 0.63–0.93), but the estimate is imprecise and the quality of evidence is low to moderate. Late (>2 weeks) inhaled corticosteroids show a trend toward reduced BPD that does not reach statistical significance (RR 0.90, 95% CI 0.73–1.11). Neurodevelopmental follow-up data are extremely limited: only NEUROSIS has reported outcomes beyond hospital discharge, and as described above, those data demonstrated higher rates of neurodevelopmental impairment among survivors — not reassurance of safety [31].
+Two Cochrane reviews have synthesized the inhaled corticosteroid evidence [27,28]. Early (≤2 weeks) inhaled corticosteroids may reduce BPD (RR 0.76, 95% CI 0.63–0.93; ARR ~9.6%, NNT ~10, assuming ~40% baseline BPD risk), but the estimate is imprecise and the quality of evidence is low to moderate. Late (>2 weeks) inhaled corticosteroids show a trend toward reduced BPD that does not reach statistical significance (RR 0.90, 95% CI 0.73–1.11). Neurodevelopmental follow-up data are extremely limited: only NEUROSIS has reported outcomes beyond hospital discharge, and as described above, those data demonstrated higher rates of neurodevelopmental impairment among survivors — not reassurance of safety [31].
 
 The Cochrane authors' conclusions are measured: "There is insufficient evidence to support the routine use of inhaled corticosteroids for the prevention of BPD in preterm infants." The 2025 European RDS Consensus Guidelines do not recommend inhaled corticosteroids for BPD prevention, and the AAP has issued no endorsement.
 
@@ -282,7 +282,7 @@ The goal is not to persuade parents toward or away from treatment, but to equip 
 
 ### 8.1 The Follow-up Gap
 
-The single most critical limitation of the postnatal corticosteroid evidence base is the temporal truncation of follow-up. Of the 55 RCTs included in the early and late Cochrane reviews, the longest neurodevelopmental follow-up reported was 2 years. No randomized trial has assessed cognitive, behavioral, academic, or pulmonary outcomes at school age or beyond. This gap is not attributable to feasibility — the CAP trial (caffeine) achieved 82% follow-up at 5 years and reported outcomes at 11 years [33] — but to a failure of research prioritization.
+The single most critical limitation of the postnatal corticosteroid evidence base is the temporal truncation of follow-up. Of the 55 RCTs included in the early and late Cochrane reviews, the longest neurodevelopmental follow-up reported was 2 years. Beyond the Yeh et al. school-age follow-up of a single early dexamethasone trial [37] — which demonstrated cognitive deficits but was an observational follow-up of a previously randomized cohort — no randomized trial has assessed cognitive, behavioral, academic, or pulmonary outcomes at school age or beyond as a pre-specified endpoint. This gap is not attributable to feasibility — the CAP trial (caffeine) achieved 82% follow-up at 5 years and reported outcomes at 11 years [33] — but to a failure of research prioritization.
 
 ### 8.2 The Dexamethasone–Hydrocortisone Comparison
 
@@ -299,6 +299,10 @@ The hypothesis that the net neurodevelopmental effect of postnatal corticosteroi
 ### 8.5 Adult Outcomes
 
 The first cohorts of preterm infants who received postnatal dexamethasone in the 1980s and 1990s are now in their fourth and fifth decades of life. Their respiratory, cardiovascular, metabolic, and cognitive status at midlife is unknown. Given the DOHaD (Developmental Origins of Health and Disease) framework — which posits that early-life exposures program lifelong health trajectories — the absence of adult follow-up data represents a fundamental gap. That early-life exposures to preterm birth permanently alter lung function trajectories is well documented [2]; whether specific NICU corticosteroid regimens modulate these trajectories in adulthood is unknown. These cohorts exist and are identifiable through neonatal follow-up databases; what is missing is the commitment and funding to re-contact and assess them.
+
+### 8.6 A Global Perspective
+
+This review has been written from a high-income country perspective, and its recommendations assume the infrastructure of a well-resourced NICU. In low- and middle-income countries (LMICs), the calculus differs. Dexamethasone is widely available and inexpensive, while hydrocortisone and inhaled budesonide may not be stocked. Mechanical ventilation capacity is limited, and infants who survive NRDS in these settings may face different BPD trajectories — shaped by variable oxygen delivery, higher infection burdens, and near-total absence of post-discharge follow-up. Crucially, the neurodevelopmental follow-up data on which this review relies were generated almost exclusively in high-income countries; whether the risk-benefit ratio of postnatal corticosteroids differs in LMIC populations with different baseline risks, co-morbidities, and genetic backgrounds is unknown. Research conducted in, and responsive to the needs of, LMIC settings should be a priority for the field.
 
 ---
 

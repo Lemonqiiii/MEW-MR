@@ -118,8 +118,10 @@
   - 新增 §3.4 剂量-效应维度 + §2.2 landmark trial 原始引用
   - 最终: 7,910 词 / 40 引用 / 12 章 / 30 子节
   - R3 终审: PASS — 修复 ref [2] orphan + 添加方法学透明性声明
-  - 最终: 8,003 词 / 40 引用 / 12 章 / 30 子节 / R3 Final Draft
-- **下一步**: gen Word 文档 或 投稿准备
+  - 定目标期刊: ADC Fetal & Neonatal Edition → 引用格式转换为 BMJ Vancouver
+  - R4 项目审校: 修复绝对否定声称 + GRADE标注 + 吸入CS NNT + 新增 LMIC 视角 (§8.6)
+  - 最终: 8,131 词 / 40 引用 / 12 章 / 31 子节 / R4 Final Draft
+- **下一步**: R5 终审 或 投稿准备
 - **阻碍**: 无
 
 ---
