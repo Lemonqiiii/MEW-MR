@@ -2,27 +2,27 @@
 
 ```yaml
 ---
-phase: revision                     # planning | literature-search | screening | deep-reading | writing | revision | phase7
-progress_pct: 85
-current_section: R6_COMPLETE
-last_session_id: 2026-06-08-pncs-r6
-words_written: 7759
-target_journal: Pediatric Research 或 ADC Fetal & Neonatal Edition
-papers_collected: ~30 (web-based targeted search)
-papers_screened: ~30
-papers_read_in_depth: ~25
-papers_effective: ~25
-words_written: 7910
-references: 40
-last_update: 2026-06-08 (PNCS综述R2审校修复完成)
+phase: revision                     # planning | literature-search | screening | deep-reading | writing | revision
+progress_pct: 60
+current_section: R1_FIXED
+last_session_id: 2026-06-08-pncs-systematic-r1
+target_journal: Archives of Disease in Childhood: Fetal & Neonatal Edition (BMJ)
+papers_collected: 8406 (EPMC systematic search)
+papers_screened: 309
+papers_read_in_depth: 80 (evidence table)
+papers_effective: 48 (cited)
+words_written: 4500 (systematic review draft)
+references: 48
+last_update: 2026-06-08 (系统检索完成 + R1审校修复)
 ---
 ```
 
 ## 当前状态说明
-- **阶段**: revision — 新综述 (PNCS + NRDS 远期神经发育) 初稿完成, R1+R2 审校修复完成
-- **综述主题**: 产后糖皮质激素治疗早产儿BPD的远期神经发育结局 — 地塞米松 vs 氢化可的松
-- **下一轮**: NRDS 全生命周期综述（15,700词/42引用）→ 待归档
-- **下一步**: 第三轮审校 或 gen_word_full.py 生成 Word 文档 或 投稿准备
+- **阶段**: revision — 系统检索新稿完成, R1审校修复完成
+- **检索**: EPMC 6角度 → 8,406 → 309纳入 → 80篇证据表 → 48篇引用
+- **稿件**: `manuscript/pncs_systematic_review.md` (4,500词/48引用/10章)
+- **旧稿**: R6终稿 `pncs_neurodevelopment_review.md` (7,759词) 将被替换
+- **下一步**: R2审校 → gen Word → 投稿
 - **阻碍**: 无
 
 *最后更新: 2026-06-08*
