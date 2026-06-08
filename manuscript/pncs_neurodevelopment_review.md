@@ -6,7 +6,7 @@
 
 **Authors:** [To be determined]
 
-**Target Journal:** Pediatric Research (IF ~3, Springer Nature) or Archives of Disease in Childhood: Fetal & Neonatal Edition
+**Target Journal:** Archives of Disease in Childhood: Fetal & Neonatal Edition (BMJ)
 
 **Word Count:** ~8,000 words (main text); 40 references
 
@@ -314,46 +314,46 @@ Until that gap is closed — through sustained investment in longitudinal follow
 
 ## References
 
-1. Stoll BJ, Hansen NI, Bell EF, et al. Trends in care practices, morbidity, and mortality of extremely preterm neonates, 1993–2012. *JAMA* 2015;314(10):1039–1051.
-2. Gibson AM, Reddington C, MacBean V, et al. Lung function in adult survivors of very preterm birth. *Thorax* 2015;70(7):639–643.
-3. Northway WH Jr, Rosan RC, Porter DY. Pulmonary disease following respirator therapy of hyaline-membrane disease. Bronchopulmonary dysplasia. *N Engl J Med* 1967;276(7):357–368.
-4. Cummings JJ, D'Eugenio DB, Gross SJ. A controlled trial of dexamethasone in preterm infants at high risk for bronchopulmonary dysplasia. *N Engl J Med* 1989;320(23):1505–1510.
-5. Yoder BA, Harrison MC, Clark RH. Time-related changes in steroid use and bronchopulmonary dysplasia in very low birth weight infants. *Pediatrics* 2009;124(2):673–679.
-6. Jenkinson A, O'Connell O, Ryan CA, et al. Systematic review of the long-term effects of postnatal corticosteroids. *J Perinat Med* 2023;51(7):951–960. DOI: 10.1515/jpm-2023-0297.
-7. Doyle LW, Cheong JL, Hay S, Manley BJ, Halliday HL. Early (<7 days) systemic postnatal corticosteroids for prevention of bronchopulmonary dysplasia in preterm infants. *Cochrane Database Syst Rev* 2021;Issue 10:CD001146. DOI: 10.1002/14651858.CD001146.pub6.
-8. McEwen BS. Glucocorticoids, depression, and mood disorders: structural remodeling in the brain. *Metabolism* 2005;54(5 Suppl 1):20–23.
-9. Uno H, Lohmiller L, Thieme C, et al. Brain damage induced by prenatal exposure to dexamethasone in fetal rhesus macaques. I. Hippocampus. *Brain Res Dev Brain Res* 1990;53(2):157–167.
-10. American Academy of Pediatrics Committee on Fetus and Newborn. Postnatal corticosteroids to treat or prevent chronic lung disease in preterm infants. *Pediatrics* 2002;109(2):330–338.
-11. Cheong JLY, Anderson P, Roberts G, et al. Postnatal corticosteroids and neurodevelopmental outcomes in extremely low-birth-weight or extremely preterm infants. *JAMA Pediatr* 2014;168(9):828–835.
-12. Watterberg KL, Gerdes JS, Cole CH, et al. Prophylaxis of early adrenal insufficiency to prevent bronchopulmonary dysplasia: a multicenter trial. *Pediatrics* 2004;114(6):1649–1657.
-13. Doyle LW, Cheong JL, Hay S, Manley BJ, Halliday HL. Late (≥7 days) systemic postnatal corticosteroids for prevention of bronchopulmonary dysplasia in preterm infants. *Cochrane Database Syst Rev* 2021;Issue 11:CD001145. DOI: 10.1002/14651858.CD001145.pub5.
-14. Onland W, De Jaegere AP, Offringa M, van Kaam A. Systemic corticosteroid regimens for prevention of bronchopulmonary dysplasia in preterm infants. *Cochrane Database Syst Rev* 2017;Issue 1:CD010941.
-15. Doyle LW, Davis PG, Morley CJ, McPhee A, Carlin JB; DART Study Investigators. Outcome at 2 years of age of infants from the DART study: a multicenter, international, randomized, controlled trial of low-dose dexamethasone. *Pediatrics* 2007;119(4):716–721. DOI: 10.1542/peds.2006-2806.
-16. Baud O, Maury L, Lebail F, et al. Effect of early low-dose hydrocortisone on survival without bronchopulmonary dysplasia in extremely preterm infants (PREMILOC): a double-blind, placebo-controlled, multicentre, randomised trial. *Lancet* 2016;387(10030):1827–1836.
-17. Baud O, Trousson C, Biran V, et al. Two-year neurodevelopmental outcomes of extremely preterm infants treated with early hydrocortisone: treatment effect according to gestational age at birth. *Arch Dis Child Fetal Neonatal Ed* 2019;104(1):F30–F35.
-18. Trousson C, Biran V, Zana-Taieb E, et al. Association between early low-dose hydrocortisone therapy in extremely preterm neonates and neurodevelopmental outcomes at 2 years of age. *JAMA* 2017;317(13):1329–1337.
-19. Baud O, Lehert P; PREMILOC study group. BPD at 40 weeks better predicts neurodevelopmental impairment than BPD at 36 weeks in extremely preterm infants treated with prophylactic hydrocortisone. *Pediatr Res* 2024; published online October 24. DOI: 10.1038/s41390-024-03601-w.
-20. Baud O, Lehert P; PREMILOC study group. The beneficial effect of prophylactic hydrocortisone treatment in extremely preterm infants improves upon adjustment of the baseline characteristics. *Pediatr Res* 2024;95(1):251–256. DOI: 10.1038/s41390-023-02785-x.
-21. Halbmeijer NM, Onland W, Cools F, et al. Effect of systemic hydrocortisone initiated 7 to 14 days after birth in ventilated preterm infants on neurodevelopmental outcomes at 2 years' corrected age: follow-up of a randomized clinical trial. *JAMA* 2021;326(4):355–365.
-22. Halbmeijer NM, Onland W, Cools F, et al. Effect of systemic hydrocortisone in ventilated preterm infants on parent-reported behavioural outcomes at 2 years' corrected age. *Arch Dis Child Fetal Neonatal Ed* 2023;108(5):452–458.
-23. Cools F, Halbmeijer NM, Onland W, et al. Effect of systemic hydrocortisone on brain abnormalities and regional brain volumes in ventilator-dependent infants born preterm: substudy of the SToP-BPD Study. *J Pediatr* 2024;265:113609.
-24. Halbmeijer NM, Onland W, Cools F, et al. Identifying effect modifiers of systemic hydrocortisone treatment initiated 7–14 days after birth in ventilated very preterm infants on long-term outcome: secondary analysis of a randomised controlled trial. *Arch Dis Child Fetal Neonatal Ed* 2023;108:444–451.
-25. Watterberg KL, Walsh MC, Li L, et al. Hydrocortisone to improve survival without bronchopulmonary dysplasia. *N Engl J Med* 2022;386(12):1121–1131.
-26. Gentle SJ, Rysavy MA, Li L, et al. Heterogeneity of treatment effects of hydrocortisone by risk of bronchopulmonary dysplasia or death among extremely preterm infants in the NICHD NRN Trial: a secondary analysis of a randomized clinical trial. *JAMA Netw Open* 2023;6(5):e2315315.
-27. Shah SS, Ohlsson A, Halliday HL, Shah VS. Inhaled versus systemic corticosteroids for preventing bronchopulmonary dysplasia in ventilated very low birth weight preterm neonates. *Cochrane Database Syst Rev* 2017;Issue 10:CD002058.
-28. Shah VS, Ohlsson A, Halliday HL, Dunn M. Early administration of inhaled corticosteroids for preventing chronic lung disease in very low birth weight preterm neonates. *Cochrane Database Syst Rev* 2017;Issue 1:CD001969.
-29. Anderson PJ, Doyle LW. Neurodevelopmental outcome of bronchopulmonary dysplasia. *Semin Perinatol* 2006;30(4):227–232.
-30. Bassler D, Plavka R, Shinwell ES, et al. Early inhaled budesonide for the prevention of bronchopulmonary dysplasia. *N Engl J Med* 2015;373(16):1497–1506. (NEUROSIS primary trial)
-31. Bassler D, Shinwell ES, Hallman M, et al. Long-term effects of inhaled budesonide for bronchopulmonary dysplasia. *N Engl J Med* 2018;378(2):148–157. DOI: 10.1056/NEJMoa1708831. PMID: 29320647. (NEUROSIS 5-year follow-up)
-32. Luttikhuizen dos Santos ES, de Kieviet JF, Königs M, van Elburg RM, Oosterlaan J. Predictive value of the Bayley Scales of Infant Development on development of very preterm/very low birth weight children: a meta-analysis. *Early Hum Dev* 2013;89(7):487–496.
-33. Schmidt B, Anderson PJ, Doyle LW, et al. Survival without disability to age 5 years after neonatal caffeine therapy for apnea of prematurity. *JAMA* 2012;307(3):275–282.
-34. Singer L, Yamashita T, Lilien L, Collin M, Baley J. A longitudinal study of developmental outcome of infants with bronchopulmonary dysplasia and very low birth weight. *Pediatrics* 1997;100(6):987–993.
-35. Sweet DG, Carnielli VP, Greisen G, et al. European consensus guidelines on the management of respiratory distress syndrome: 2025 update. *Neonatology* 2025;122(1):1–42.
-36. Speer CP. Pulmonary inflammation and bronchopulmonary dysplasia. *J Perinatol* 2006;26(Suppl 1):S57–S62.
-37. Yeh TF, Lin YJ, Lin HC, et al. Outcomes at school age after postnatal dexamethasone therapy for lung disease of prematurity. *N Engl J Med* 2004;350(13):1304–1313. DOI: 10.1056/NEJMoa032089. PMID: 15084633.
-38. Shinwell ES, Karplus M, Reich D, et al. Early postnatal dexamethasone therapy and increased incidence of cerebral palsy. *Arch Dis Child Fetal Neonatal Ed* 1997;76(5):F283–F287. PMID: 8710065.
-39. O'Shea TM, Kothadia JM, Klinepeter KL, et al. Randomized placebo-controlled trial of a 42-day tapering course of dexamethasone to reduce the duration of ventilator dependency in very low birth weight infants: outcome of study participants at 1-year adjusted age. *Pediatrics* 1999;104(1 Pt 1):15–21. PMID: 10429013.
-40. Yeh TF, Lin YJ, Huang CC, et al. Early dexamethasone therapy in preterm infants: a follow-up study. *Pediatrics* 1998;101(5):e7. DOI: 10.1542/peds.101.5.e7. PMID: 9565440.
+1. Stoll BJ, Hansen NI, Bell EF, et al. Trends in care practices, morbidity, and mortality of extremely preterm neonates, 1993–2012. *JAMA* 2015;314:1039–51.
+2. Gibson AM, Reddington C, MacBean V, et al. Lung function in adult survivors of very preterm birth. *Thorax* 2015;70:639–43.
+3. Northway WH Jr, Rosan RC, Porter DY. Pulmonary disease following respirator therapy of hyaline-membrane disease. Bronchopulmonary dysplasia. *N Engl J Med* 1967;276:357–68.
+4. Cummings JJ, D'Eugenio DB, Gross SJ. A controlled trial of dexamethasone in preterm infants at high risk for bronchopulmonary dysplasia. *N Engl J Med* 1989;320:1505–10.
+5. Yoder BA, Harrison MC, Clark RH. Time-related changes in steroid use and bronchopulmonary dysplasia in very low birth weight infants. *Pediatrics* 2009;124:673–9.
+6. Jenkinson A, O'Connell O, Ryan CA, et al. Systematic review of the long-term effects of postnatal corticosteroids. *J Perinat Med* 2023;51:951–60.
+7. Doyle LW, Cheong JL, Hay S, et al. Early (<7 days) systemic postnatal corticosteroids for prevention of bronchopulmonary dysplasia in preterm infants. *Cochrane Database Syst Rev* 2021;(10):CD001146.
+8. McEwen BS. Glucocorticoids, depression, and mood disorders: structural remodeling in the brain. *Metabolism* 2005;54(5 Suppl 1):20–3.
+9. Uno H, Lohmiller L, Thieme C, et al. Brain damage induced by prenatal exposure to dexamethasone in fetal rhesus macaques. I. Hippocampus. *Brain Res Dev Brain Res* 1990;53:157–67.
+10. American Academy of Pediatrics Committee on Fetus and Newborn. Postnatal corticosteroids to treat or prevent chronic lung disease in preterm infants. *Pediatrics* 2002;109:330–8.
+11. Cheong JLY, Anderson P, Roberts G, et al. Postnatal corticosteroids and neurodevelopmental outcomes in extremely low-birth-weight or extremely preterm infants. *JAMA Pediatr* 2014;168:828–35.
+12. Watterberg KL, Gerdes JS, Cole CH, et al. Prophylaxis of early adrenal insufficiency to prevent bronchopulmonary dysplasia: a multicenter trial. *Pediatrics* 2004;114:1649–57.
+13. Doyle LW, Cheong JL, Hay S, et al. Late (≥7 days) systemic postnatal corticosteroids for prevention of bronchopulmonary dysplasia in preterm infants. *Cochrane Database Syst Rev* 2021;(11):CD001145.
+14. Onland W, De Jaegere AP, Offringa M, et al. Systemic corticosteroid regimens for prevention of bronchopulmonary dysplasia in preterm infants. *Cochrane Database Syst Rev* 2017;(1):CD010941.
+15. Doyle LW, Davis PG, Morley CJ, et al. Outcome at 2 years of age of infants from the DART study: a multicenter, international, randomized, controlled trial of low-dose dexamethasone. *Pediatrics* 2007;119:716–21.
+16. Baud O, Maury L, Lebail F, et al. Effect of early low-dose hydrocortisone on survival without bronchopulmonary dysplasia in extremely preterm infants (PREMILOC): a double-blind, placebo-controlled, multicentre, randomised trial. *Lancet* 2016;387:1827–36.
+17. Baud O, Trousson C, Biran V, et al. Two-year neurodevelopmental outcomes of extremely preterm infants treated with early hydrocortisone: treatment effect according to gestational age at birth. *Arch Dis Child Fetal Neonatal Ed* 2019;104:F30–5.
+18. Trousson C, Biran V, Zana-Taieb E, et al. Association between early low-dose hydrocortisone therapy in extremely preterm neonates and neurodevelopmental outcomes at 2 years of age. *JAMA* 2017;317:1329–37.
+19. Baud O, Lehert P; PREMILOC study group. BPD at 40 weeks better predicts neurodevelopmental impairment than BPD at 36 weeks in extremely preterm infants treated with prophylactic hydrocortisone. *Pediatr Res* 2025;97:255–61.
+20. Baud O, Lehert P; PREMILOC study group. The beneficial effect of prophylactic hydrocortisone treatment in extremely preterm infants improves upon adjustment of the baseline characteristics. *Pediatr Res* 2024;95:251–6.
+21. Halbmeijer NM, Onland W, Cools F, et al. Effect of systemic hydrocortisone initiated 7 to 14 days after birth in ventilated preterm infants on neurodevelopmental outcomes at 2 years' corrected age: follow-up of a randomized clinical trial. *JAMA* 2021;326:355–65.
+22. Halbmeijer NM, Onland W, Cools F, et al. Effect of systemic hydrocortisone in ventilated preterm infants on parent-reported behavioural outcomes at 2 years' corrected age. *Arch Dis Child Fetal Neonatal Ed* 2023;108:452–8.
+23. Cools F, Halbmeijer NM, Onland W, et al. Effect of systemic hydrocortisone on brain abnormalities and regional brain volumes in ventilator-dependent infants born preterm: substudy of the SToP-BPD study. *J Pediatr* 2024;265:113609.
+24. Halbmeijer NM, Onland W, Cools F, et al. Identifying effect modifiers of systemic hydrocortisone treatment initiated 7–14 days after birth in ventilated very preterm infants on long-term outcome: secondary analysis of a randomised controlled trial. *Arch Dis Child Fetal Neonatal Ed* 2023;108:444–51.
+25. Watterberg KL, Walsh MC, Li L, et al. Hydrocortisone to improve survival without bronchopulmonary dysplasia. *N Engl J Med* 2022;386:1121–31.
+26. Gentle SJ, Rysavy MA, Li L, et al. Heterogeneity of treatment effects of hydrocortisone by risk of bronchopulmonary dysplasia or death among extremely preterm infants in the NICHD NRN Trial: a secondary analysis of a randomized clinical trial. *JAMA Netw Open* 2023;6:e2315315.
+27. Shah SS, Ohlsson A, Halliday HL, et al. Inhaled versus systemic corticosteroids for preventing bronchopulmonary dysplasia in ventilated very low birth weight preterm neonates. *Cochrane Database Syst Rev* 2017;(10):CD002058.
+28. Shah VS, Ohlsson A, Halliday HL, et al. Early administration of inhaled corticosteroids for preventing chronic lung disease in very low birth weight preterm neonates. *Cochrane Database Syst Rev* 2017;(1):CD001969.
+29. Anderson PJ, Doyle LW. Neurodevelopmental outcome of bronchopulmonary dysplasia. *Semin Perinatol* 2006;30:227–32.
+30. Bassler D, Plavka R, Shinwell ES, et al. Early inhaled budesonide for the prevention of bronchopulmonary dysplasia. *N Engl J Med* 2015;373:1497–506.
+31. Bassler D, Shinwell ES, Hallman M, et al. Long-term effects of inhaled budesonide for bronchopulmonary dysplasia. *N Engl J Med* 2018;378:148–57.
+32. Luttikhuizen dos Santos ES, de Kieviet JF, Königs M, et al. Predictive value of the Bayley Scales of Infant Development on development of very preterm/very low birth weight children: a meta-analysis. *Early Hum Dev* 2013;89:487–96.
+33. Schmidt B, Anderson PJ, Doyle LW, et al. Survival without disability to age 5 years after neonatal caffeine therapy for apnea of prematurity. *JAMA* 2012;307:275–82.
+34. Singer L, Yamashita T, Lilien L, et al. A longitudinal study of developmental outcome of infants with bronchopulmonary dysplasia and very low birth weight. *Pediatrics* 1997;100:987–93.
+35. Sweet DG, Carnielli VP, Greisen G, et al. European consensus guidelines on the management of respiratory distress syndrome: 2025 update. *Neonatology* 2025;122:1–42.
+36. Speer CP. Pulmonary inflammation and bronchopulmonary dysplasia. *J Perinatol* 2006;26(Suppl 1):S57–62.
+37. Yeh TF, Lin YJ, Lin HC, et al. Outcomes at school age after postnatal dexamethasone therapy for lung disease of prematurity. *N Engl J Med* 2004;350:1304–13.
+38. Shinwell ES, Karplus M, Reich D, et al. Early postnatal dexamethasone therapy and increased incidence of cerebral palsy. *Arch Dis Child Fetal Neonatal Ed* 1997;76:F283–7.
+39. O'Shea TM, Kothadia JM, Klinepeter KL, et al. Randomized placebo-controlled trial of a 42-day tapering course of dexamethasone to reduce the duration of ventilator dependency in very low birth weight infants: outcome of study participants at 1-year adjusted age. *Pediatrics* 1999;104:15–21.
+40. Yeh TF, Lin YJ, Huang CC, et al. Early dexamethasone therapy in preterm infants: a follow-up study. *Pediatrics* 1998;101:e7.
 
 ---
 
