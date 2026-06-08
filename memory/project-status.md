@@ -2,37 +2,26 @@
 
 ```yaml
 ---
-phase: phase7                     # planning | literature-search | screening | deep-reading | writing | revision | phase7
-progress_pct: 93
-current_section: R4_COMPLETE
-last_session_id: 2026-06-06-r4
-target_journal: Pediatric Research (IF ~3)
-papers_collected: 1205
-papers_screened: 590
-papers_read_in_depth: 528
-papers_effective: 528
-words_written: 15700
-references: 42
-last_update: 2026-06-06 (R4审校修复完成)
+phase: revision                     # planning | literature-search | screening | deep-reading | writing | revision | phase7
+progress_pct: 85
+current_section: R2_COMPLETE
+last_session_id: 2026-06-08-pncs-r2
+target_journal: Pediatric Research 或 ADC Fetal & Neonatal Edition
+papers_collected: ~30 (web-based targeted search)
+papers_screened: ~30
+papers_read_in_depth: ~25
+papers_effective: ~25
+words_written: 7910
+references: 40
+last_update: 2026-06-08 (PNCS综述R2审校修复完成)
 ---
 ```
 
 ## 当前状态说明
-- **阶段**: revision — Phase 6 完成 (审校+Word+编码, 9,060词, 35引用)
-- **下一步**: 运行 gen_word_full.py 生成 Word 文档 + Gate 4/5/6 验证 + 最终审校
-- **下一步**: 继续撰写 Section 2 (Antenatal Corticosteroids) 或审校 Introduction
+- **阶段**: revision — 新综述 (PNCS + NRDS 远期神经发育) 初稿完成, R1+R2 审校修复完成
+- **综述主题**: 产后糖皮质激素治疗早产儿BPD的远期神经发育结局 — 地塞米松 vs 氢化可的松
+- **下一轮**: NRDS 全生命周期综述（15,700词/42引用）→ 待归档
+- **下一步**: 第三轮审校 或 gen_word_full.py 生成 Word 文档 或 投稿准备
 - **阻碍**: 无
-- **综述主题**: NRDS 生命早期干预的远期影响（全生命周期视角）
-- **综述类型**: 叙述性综述（采纳 PRISMA + 结构化检索透明性元素）
-- **下一步**: 用户 VPN 执行 Tier 2 手动检索 → 说"就绪" → Agent 合并去重 → 进入筛选
-- **阻碍**: Tier 2 数据库需用户手动检索（Embase + Cochrane）
 
-## 阶段流转规则
-1. `planning` → 用户确认综述主题后 → `literature-search`
-2. `literature-search` → 完成检索去重 → `screening`
-3. `screening` → PRISMA流程图完成 → `deep-reading`
-4. `deep-reading` → 核心论点提取完成 → `writing`
-5. `writing` → 初稿完成 → `revision`
-6. `revision` → 投稿 → 项目归档
-
-*最后更新: 2026-06-05*
+*最后更新: 2026-06-08*
