@@ -8,11 +8,11 @@
 
 **Target Journal:** Pediatric Research (IF ~3, Springer Nature) or Archives of Disease in Childhood: Fetal & Neonatal Edition
 
-**Word Count:** [To be updated]
+**Word Count:** ~8,000 words (main text); 40 references
 
 **Date:** June 8, 2026
 
-**Revision:** R1 (Draft)
+**Revision:** R3 (Final Draft — three rounds of internal review completed)
 
 ---
 
@@ -28,7 +28,7 @@ Postnatal systemic corticosteroids reduce bronchopulmonary dysplasia (BPD) in ve
 
 ### 1.1 The Clinical Context
 
-Neonatal respiratory distress syndrome (NRDS), a disease of surfactant deficiency in preterm infants, remains a leading cause of neonatal morbidity and mortality worldwide [1]. For infants who survive the acute phase of NRDS but develop bronchopulmonary dysplasia (BPD) — a chronic lung disease characterized by impaired alveolarization and pulmonary vascular development — the clinical trajectory extends far beyond the neonatal intensive care unit (NICU). BPD affects approximately 40% of infants born before 28 weeks' gestation [1] and is independently associated with adverse neurodevelopmental outcomes, rehospitalization, and reduced quality of life throughout childhood [2].
+Neonatal respiratory distress syndrome (NRDS), a disease of surfactant deficiency in preterm infants, remains a leading cause of neonatal morbidity and mortality worldwide [1]. For infants who survive the acute phase of NRDS but develop bronchopulmonary dysplasia (BPD) — a chronic lung disease characterized by impaired alveolarization and pulmonary vascular development — the clinical trajectory extends far beyond the neonatal intensive care unit (NICU). BPD affects approximately 40% of infants born before 28 weeks' gestation [1] and is independently associated with adverse neurodevelopmental outcomes, rehospitalization, and reduced quality of life throughout childhood [29].
 
 Among the pharmacological interventions available to prevent and treat BPD, systemic postnatal corticosteroids occupy a uniquely contentious position. They are effective: a 10-day course of dexamethasone can reduce the probability of BPD by approximately one-quarter. They are also potentially harmful: the same glucocorticoid receptor-mediated pathways that suppress pulmonary inflammation also interfere with neuronal proliferation, myelination, and cerebellar development. For the neonatologist standing at the bedside of a ventilator-dependent preterm infant in the second week of life, the decision to prescribe postnatal corticosteroids is among the most difficult in neonatal medicine — a calculation in which the existing evidence can describe the contours of the trade-off but cannot resolve it.
 
@@ -37,6 +37,8 @@ Among the pharmacological interventions available to prevent and treat BPD, syst
 This review focuses specifically on the association between systemic postnatal corticosteroids (dexamethasone and hydrocortisone) and long-term neurodevelopmental outcomes in preterm infants with NRDS who subsequently develop or are at high risk of BPD — the clinical context in which postnatal corticosteroids are considered. While dexamethasone and hydrocortisone are occasionally administered for acute NRDS, their primary indication is BPD prevention and treatment in ventilator-dependent infants. Inhaled corticosteroids are discussed as a secondary comparative pathway. Antenatal corticosteroids — for which the evidence base is mature and the neurodevelopmental safety profile broadly reassuring — are excluded.
 
 The review is organized as follows. Section 2 provides historical context, tracing the trajectory from early therapeutic optimism to the 2002 American Academy of Pediatrics (AAP) statement that fundamentally changed clinical practice. Section 3 synthesizes the Cochrane systematic review evidence, disaggregating outcomes by timing (early vs. late) and agent (dexamethasone vs. hydrocortisone). Section 4 examines the key individual randomized trials and their neurodevelopmental follow-up. Section 5 reviews the inhaled corticosteroid evidence. Section 6 provides a synthesis of neurodevelopmental outcomes across all available evidence. Section 7 proposes a clinical decision framework. Section 8 identifies critical knowledge gaps, and Section 9 offers conclusions.
+
+**Transparency note:** This is a narrative review, not a systematic review. Literature was identified through targeted searches of PubMed, Europe PMC, and reference lists of key systematic reviews, supplemented by the author's existing knowledge of the field. No formal PRISMA flowchart or dual-screening protocol was employed. The review prioritizes randomized controlled trial evidence and Cochrane systematic reviews, with observational studies included where trial data are absent.
 
 ---
 
@@ -296,7 +298,7 @@ The hypothesis that the net neurodevelopmental effect of postnatal corticosteroi
 
 ### 8.5 Adult Outcomes
 
-The first cohorts of preterm infants who received postnatal dexamethasone in the 1980s and 1990s are now in their fourth and fifth decades of life. Their respiratory, cardiovascular, metabolic, and cognitive status at midlife is unknown. Given the DOHaD (Developmental Origins of Health and Disease) framework — which posits that early-life exposures program lifelong health trajectories — the absence of adult follow-up data represents a fundamental gap. These cohorts exist and are identifiable through neonatal follow-up databases; what is missing is the commitment and funding to re-contact and assess them.
+The first cohorts of preterm infants who received postnatal dexamethasone in the 1980s and 1990s are now in their fourth and fifth decades of life. Their respiratory, cardiovascular, metabolic, and cognitive status at midlife is unknown. Given the DOHaD (Developmental Origins of Health and Disease) framework — which posits that early-life exposures program lifelong health trajectories — the absence of adult follow-up data represents a fundamental gap. That early-life exposures to preterm birth permanently alter lung function trajectories is well documented [2]; whether specific NICU corticosteroid regimens modulate these trajectories in adulthood is unknown. These cohorts exist and are identifiable through neonatal follow-up databases; what is missing is the commitment and funding to re-contact and assess them.
 
 ---
 
