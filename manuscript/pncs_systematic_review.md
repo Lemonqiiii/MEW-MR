@@ -32,7 +32,7 @@
 
 ## 1. Introduction
 
-Bronchopulmonary dysplasia (BPD) affects approximately 40% of infants born before 28 weeks' gestation [1] and is independently associated with cerebral palsy, cognitive delay, and reduced quality of life [2]. Among pharmacological strategies to prevent BPD, systemic postnatal corticosteroids occupy a uniquely contentious position: they are among the most effective interventions for reducing BPD, and simultaneously among the most feared for their potential to harm the developing brain.
+Bronchopulmonary dysplasia (BPD) affects approximately 40% of infants born before 28 weeks' gestation [1] and is independently associated with cerebral palsy, cognitive delay, and reduced quality of life [2]. Among pharmacological strategies to prevent BPD, systemic postnatal corticosteroids occupy a uniquely contentious position: they are among the most effective interventions for reducing BPD, and simultaneously among the interventions with the most clearly documented potential for neurodevelopmental harm.
 
 The evidence base has evolved substantially. Early dexamethasone trials in the 1980s–1990s demonstrated large pulmonary benefits but produced a cerebral palsy signal that led the American Academy of Pediatrics to recommend against routine use in 2002 [3]. The subsequent two decades saw the emergence of hydrocortisone as a potentially safer alternative, tested in three major RCTs (PREMILOC, SToP-BPD, NICHD NRN), and — critically — the publication in 2026 of school-age follow-up data from two of these trials, representing the first long-term neurodevelopmental evidence for any postnatal corticosteroid regimen beyond dexamethasone.
 
@@ -169,7 +169,7 @@ The evidence supports stratification by postnatal age, BPD risk, and agent:
 | Scenario | Recommendation | Key Evidence |
 |----------|---------------|-------------|
 | First week of life | Avoid, unless life-threatening | CP RR 1.42, NNH 20 [14] |
-| Week 2–3, BPD risk >60%, ventilated | Consider HC or low-dose dex | Mortality reduction; HC school-age safety emerging [15, 33, 36] |
+| Week 2–3, BPD risk >60%, ventilated | Consider HC or low-dose dex | Mortality reduction; HC school-age data emerging [15, 33, 36] |
 | Week 2–3, BPD risk 30–60% | Prefer HC if treatment needed | Lower CP signal; NMA evidence [17] |
 | Week 4+, refractory | Dex may be preferred for efficacy | Limited trial evidence |
 | Inhaled budesonide | Not recommended outside trials | NEUROSIS: mortality + 5yr NDI signal [38, 39] |
@@ -258,8 +258,6 @@ The dexamethasone–hydrocortisone choice should be individualized: hydrocortiso
 46. Gibson AM, Reddington C, MacBean V, et al. Lung function in adult survivors of very preterm birth. *Thorax* 2015;70:639–43.
 47. Schmidt B, Anderson PJ, Doyle LW, et al. Survival without disability to age 5 years after neonatal caffeine therapy for apnea of prematurity. *JAMA* 2012;307:275–82.
 48. Watterberg KL, Gerdes JS, Cole CH, et al. Prophylaxis of early adrenal insufficiency to prevent bronchopulmonary dysplasia: a multicenter trial. *Pediatrics* 2004;114:1649–57.
-
----
 
 ---
 
