@@ -49,7 +49,11 @@ def verify_pmid(pmid):
         with urlopen(req, timeout=10) as resp:
             data = json.loads(resp.read())
             if "result" in data and pmid in data["result"]:
-                return True, data["result"][pmid].get("title", "Unknown")
+                record = data["result"][pmid]
+                title = record.get("title", "Unknown")
+                if record.get("error") or not title or title == "Unknown":
+                    return False, record.get("error", "PMID not found")
+                return True, title
             return False, "PMID not found"
     except Exception as e:
         return False, str(e)

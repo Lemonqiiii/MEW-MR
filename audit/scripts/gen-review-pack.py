@@ -22,6 +22,7 @@ def parse_manuscript(filepath):
     title = ""
     for line in lines:
         cleaned = re.sub(r'^\[\d+\]\[.*?\]\s*', '', line).strip()
+        cleaned = re.sub(r'^#+\s*', '', cleaned).strip()
         if cleaned and len(cleaned) > 20:
             title = cleaned
             break
@@ -33,13 +34,14 @@ def parse_manuscript(filepath):
 
     for line in lines:
         heading_match = re.match(r'^\[\d+\]\[Heading (\d)\]\s*(.+)', line)
-        if heading_match:
+        markdown_heading = re.match(r'^(#{1,3})\s+(.+)', line)
+        if heading_match or markdown_heading:
             if current_section:
                 sections.append({
                     "title": current_section,
                     "content": "\n".join(current_content)
                 })
-            current_section = heading_match.group(2)
+            current_section = heading_match.group(2) if heading_match else markdown_heading.group(2)
             current_content = []
         elif current_section:
             cleaned = re.sub(r'^\[\d+\]\[.*?\]\s*', '', line)
@@ -57,6 +59,9 @@ def parse_manuscript(filepath):
 
     # Count references
     ref_count = len(re.findall(r'^\[\d+\]\[Normal\]\s*\[\d+\]', text, re.MULTILINE))
+    if ref_count == 0:
+        ref_text = text.split("## References", 1)[1] if "## References" in text else text
+        ref_count = len(re.findall(r'^\s*\d+\.\s+', ref_text, re.MULTILINE))
 
     return {
         "title": title,
@@ -66,7 +71,7 @@ def parse_manuscript(filepath):
     }
 
 
-def build_disclosure_packet(parsed, journal="Pediatric Research"):
+def build_disclosure_packet(parsed, journal="Target Journal"):
     """Build the Disclosure Packet following the 6-category standard."""
     return {
         "category_a": {
@@ -77,19 +82,19 @@ def build_disclosure_packet(parsed, journal="Pediatric Research"):
         },
         "category_b": {
             "journal": journal,
-            "journal_type": "Specialty pediatric research journal",
-            "if_range": "~3"
+            "journal_type": "To be inferred from journal requirements",
+            "if_range": "To be verified"
         },
         "category_c": {
-            "declared_review_type": "Narrative Review",
-            "methodology_standard": "Narrative review - no PRISMA requirement"
+            "declared_review_type": "To be inferred from manuscript",
+            "methodology_standard": "To be selected after review-type detection"
         },
         "category_d": {
             "pico": {
-                "population": "Preterm infants with NRDS",
-                "intervention": "Early-life respiratory interventions",
-                "comparison": "Various (intervention-dependent)",
-                "outcome": "Long-term pulmonary, neurodevelopmental, quality of life"
+                "population": "To be inferred from manuscript",
+                "intervention": "To be inferred from manuscript",
+                "comparison": "To be inferred from manuscript",
+                "outcome": "To be inferred from manuscript"
             }
         },
         "category_e": {
@@ -113,7 +118,7 @@ def main():
         sys.exit(0 if len(sys.argv) >= 2 and sys.argv[1] in ('--help', '-h') else 1)
 
     filepath = sys.argv[1]
-    journal = sys.argv[2] if len(sys.argv) > 2 else "Pediatric Research"
+    journal = sys.argv[2] if len(sys.argv) > 2 else "Target Journal"
 
     parsed = parse_manuscript(filepath)
     packet = build_disclosure_packet(parsed, journal)

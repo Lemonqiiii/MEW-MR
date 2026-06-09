@@ -1,33 +1,21 @@
 # 当前审稿任务
 
-## 审稿进度: 8/8 (100%) ✅ 全部完成
+## 审稿进度: 未开始
 
-| 步骤 | 状态 | 关键结果 |
-|------|:--:|------|
-| R1-R6 审稿 | ✅ | 31条原始发现 |
-| **V 引用验证** | **✅** | **8条抽样: 0%通过率 — 发现系统性数字偏差** |
-| **M 主编综合** | ✅ | 12条合并发现 + 优先级路线图 |
-| F 输出 | ⬜ | 待生成 review-actions.json |
+| 字段 | 值 |
+|------|----|
+| 当前稿件 | 待用户放入 `review-pipeline/input/` |
+| 目标期刊 | 待用户指定，或由 `gen-review-pack.py` 参数提供 |
+| 综述类型 | 待 Agent P 从稿件中识别 |
+| 当前阶段 | 等待预处理 |
 
-## Agent V 关键发现 🔴
+## 使用方式
 
-**8条关键引用Layer 2验证: 0/8 (0%) 完全匹配**
+1. 将待审稿件放入 `review-pipeline/input/`
+2. 运行结构检查：`python scripts/check-structure.py review-pipeline/input/<manuscript>.md`
+3. 生成披露包：`python scripts/gen-review-pack.py review-pipeline/input/<manuscript>.md "<Target Journal>"`
+4. 在 Claude Code 中说 `审稿` 或 `peer-review`
 
-| 引用 | 偏差类型 | 严重性 |
-|------|---------|:--:|
-| [3] McGoldrick 2020 ACS | 4个RR全部偏离(系统向乐观方向) | **C** |
-| [16] Abdel-Latif 2021 LISA | Death/BPD RR 0.77→实际0.59(36%偏差) | **C** |
-| [5] Klingenberg 2017 VTV | 通气时间MD −2.36→实际−1.35(75%偏差) | **C** |
-| [20] Ninan 2022 JAMA Peds | 选择性引用—忽略关键effect modification | **C** |
-| [14] Doyle 2021 Early CS | Dexa亚组vs整体分析混淆 | M |
-| [17] Askie 2017 Oxygen | 点估计接近但CI差异 | M |
-| [21] Crowther 2019 Repeat ACS | 结局名称错误(RDS≠respiratory support) | M |
-| [11] Twilhaar 2018 | SD低估(0.7-0.8 vs 0.86) | m |
+## 示例
 
-## 全局评估
-验证结果 + META-1(均质化) + META-2(沉默失明) = **三重缺陷组合**:
-**遗漏内容 → 均质化剩余内容 → 均质化使用的数字可能不准确**
-
----
-
-*最后更新: 2026-06-06 | 全部完成*
+历史 NRDS 审稿示例已移至 `audit/examples/nrds-lifecourse/active-review.md`。

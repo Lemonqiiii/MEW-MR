@@ -8,6 +8,7 @@
 - [决策记录](decisions.md) — 关键设计决策
 - [经验教训](lessons-learned.md) — 审稿流程中发现的问题和改进
 - [流程演进](workflow-evolution.md) — 审稿流程的版本演变记录
+- [NRDS历史示例](../examples/nrds-lifecourse/active-review.md) — 历史审稿结果示例，不作为默认当前任务
 
 ---
 

@@ -50,6 +50,7 @@
 - **Gate enforcement**: `python3 scripts/verify_gates.py --gate <N>` (exit code 0 = pass)
 - **Writing disciplines**: `claude/disciplines/` — citation-scope, language-naturalness, manuscript-integrity
 - **Error patterns**: `claude/disciplines/error-patterns.md` — known failure modes and fixes
+- **Revision workflow**: `docs/REVISION_WORKFLOW.md` — importing audit `review-actions.json` and tracking fixes
 
 ## Configuration
 All project-specific settings in `config.yaml`:

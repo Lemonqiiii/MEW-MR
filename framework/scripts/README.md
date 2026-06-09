@@ -9,6 +9,7 @@
 | `gen_word.py` | Generate Word document from markdown manuscript |
 | `audit_manuscript.py` | Structural integrity audit before Word generation |
 | `rebuild_refs.py` | Rebuild reference section from body citations |
+| `import_review_actions.py` | Import audit `review-actions.json` into a framework-side revision checklist |
 
 ## Domain-Specific Examples (customize for your review)
 | Script | Purpose | Customization Needed |

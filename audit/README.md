@@ -50,6 +50,8 @@
 | R5 | 文献覆盖审稿人 | 引用完整性、关键论文遗漏、引用偏倚、学科盲区 |
 | R6 | 结构与叙事审稿人 | 逻辑流、章节权重、叙事弧线、读者体验 |
 
+Machine-readable output follows `schemas/review-actions.schema.json` so the writing framework can import findings without copying reviewer prose by hand.
+
 ## 快速开始
 
 ```bash

@@ -22,7 +22,7 @@ systematic_review:
   rob_tool: "RoB2"
   meta_analysis: false
   grade_assessment: true
-  prisma_checklist: true
+  prisma_checklist: false            # Set true only for systematic/meta-analysis mode
 
 paths:
   manuscript_src: "manuscript/submission.md"

@@ -8,7 +8,18 @@ Welcome. This guide takes you from zero to a working AI-assisted medical review 
 git clone https://github.com/Lemonqiiii/MEW-MR.git && cd MEW-MR/framework && pip install -q -r scripts/requirements.txt && python3 scripts/smoke_test.py && cp config.demo.yaml config.yaml && echo "Done. Run: claude"
 ```
 
-This clones the repo, installs dependencies, runs the 34-point smoke test, and sets up the demo topic. When it finishes, just run `claude` and say `1`.
+This clones the repo, installs dependencies, runs the smoke test, and sets up the demo topic. When it finishes, just run `claude` and say `1`.
+
+On Windows PowerShell, use:
+
+```powershell
+git clone https://github.com/Lemonqiiii/MEW-MR.git
+cd MEW-MR\framework
+pip install -q -r scripts\requirements.txt
+python scripts\smoke_test.py
+Copy-Item config.demo.yaml config.yaml
+claude
+```
 
 **Prefer to understand each step?** Read on. Every command is copy-pasteable with expected output shown.
 
@@ -60,7 +71,7 @@ The audit project needs no dependencies — it uses only Python's standard libra
 python3 scripts/smoke_test.py
 ```
 
-This runs 34 checks in ~3 seconds. You should see all green checkmarks:
+This runs a setup smoke test in ~3 seconds. The exact check count depends on optional files and whether Claude Code is installed:
 
 ```
 Medical Review Framework — Smoke Test
@@ -84,7 +95,7 @@ RESULTS
   🎉  All checks passed!
 ```
 
-If you see any red ❌, fix those before continuing. The error message tells you exactly what's wrong and how to fix it.
+If you see any red ❌, fix those before continuing. Yellow warnings usually mean optional setup remains, such as Claude Code not being installed or a topic not yet configured.
 
 ## Step 4: Try the Demo (5 minutes)
 
@@ -92,6 +103,13 @@ We've included a pre-configured demo topic so you can see the full pipeline imme
 
 ```bash
 cp config.demo.yaml config.yaml
+claude
+```
+
+Windows PowerShell:
+
+```powershell
+Copy-Item config.demo.yaml config.yaml
 claude
 ```
 

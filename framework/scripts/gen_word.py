@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Generate Word document from jitc_submission.md.
+Generate Word document from the configured markdown manuscript.
 Generic and configurable — reads PROJECT config from first comment block.
 Does not hardcode any topic-specific content (title, figures, keywords).
 
@@ -21,7 +21,7 @@ import sys as _sys
 if '--help' in _sys.argv or '-h' in _sys.argv:
     print("Usage: python3 gen_word.py")
     print("  Generate Word (.docx) from markdown manuscript.")
-    print("  Reads paths from config.yaml — manuscript_src, manuscript_docx, figures_dir.")
+    print("  Reads paths from config.yaml: manuscript_src, output_filename, figures_dir.")
     print("  No CLI arguments. Place manuscript at the configured path and run.")
     _sys.exit(0)
 
@@ -250,15 +250,18 @@ tr.font.size = Pt(18)
 tr.bold = True
 
 P('')
-P('Narrative Review', sz=14, italic=True, align=WD_ALIGN_PARAGRAPH.CENTER)
+review_type = _config.get("project", {}).get("review_type", "review").replace("_", " ").title()
+target_journal = _config.get("project", {}).get("target_journal", "Target Journal")
+running_title = title if len(title) <= 50 else title[:47].rstrip() + "..."
+P(review_type, sz=14, italic=True, align=WD_ALIGN_PARAGRAPH.CENTER)
 P('')
 
 # Running information
 info_lines = [
-    ('Running title: ', 'NRDS Interventions: Life-Course Consequences'),
+    ('Running title: ', running_title),
     ('Word count: ', f'~{word_count:,} words (body); ~{word_count + 800:,} including references'),
     ('Figures/Tables: ', f'{len(fig_files)} Figure(s) | {len(tab_files)} Table(s) | {ref_count} References'),
-    ('Target Journal: ', 'Pediatric Research'),
+    ('Target Journal: ', target_journal),
 ]
 for label, value in info_lines:
     pp = P('')
@@ -559,22 +562,7 @@ if not missing_figs and not missing_tabs:
     print(f"  All figure/table refs resolved OK")
 
 # Quick structural validation
-has_title_page = 'Narrative Review' in all_text
+has_title_page = title in all_text and review_type in all_text
 has_references = 'References' in all_text
 print(f"Title page: {'OK' if has_title_page else 'MISSING'}")
 print(f"Reference section: {'OK' if has_references else 'MISSING'}")
-
-
-# ── CLI overrides ──
-if __name__ == "__main__" and "gen_word" in str(__import__("sys").argv[0]):
-    import argparse
-    ap = argparse.ArgumentParser(description="Generate Word document from markdown manuscript")
-    ap.add_argument("--src", help="Markdown source file")
-    ap.add_argument("--out", help="Output .docx file")
-    ap.add_argument("--fig-dir", help="Figure directory")
-    args = ap.parse_args()
-    if args.src: SRC = args.src
-    if args.out: OUT = args.out
-    if args.fig_dir: FIG_DIR = args.fig_dir
-    # Re-run main generation with overridden paths
-    # (The script runs at import time, so this is informational when used as module)
