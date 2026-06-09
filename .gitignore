@@ -34,3 +34,27 @@ node_modules/
 
 # Draft outputs not ready for commit
 manuscript/draft-*.md.tmp
+data/
+
+# Runtime artifacts (generated outputs, search results, reports)
+manuscript/*.docx
+manuscript/*.png
+manuscript/*.txt
+manuscript/*.json
+archive/
+docs/search-results/
+docs/review/
+docs/papers/
+harness/reports/
+progress/
+.claude/
+.codex/
+
+# Project state files (create these per-project)
+memory/project-status.md
+memory/active-focus.md
+memory/decisions.md
+memory/key-findings.md
+memory/workflow-evolution.md
+knowledge/domain-ontology.md
+knowledge/pre-writing-plan.md
