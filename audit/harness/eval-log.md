@@ -11,9 +11,9 @@
 
 ### 基本信息
 - **审稿ID**: RA-2026-06-06-001
-- **稿件**: nrds_full_text.md
+- **稿件**: example_manuscript.md
 - **稿件类型**: 叙述性综述
-- **目标期刊**: Pediatric Research
+- **目标期刊**: Target Journal
 - **审稿模式**: 完整审稿（6审稿人并行）
 
 ### 审稿结果

@@ -14,7 +14,7 @@
 - knowledge/ 全部文件: common-ai-defects, statistical-patterns, review-standards, journal-requirements
 - features/FEATURE_LIST.md
 
-**下一步**: 完成初始化收尾（scripts, progress, settings）→ 准备NRDS稿件输入 → 首次审稿
+**下一步**: 完成初始化收尾（scripts, progress, settings）→ 准备示例或用户稿件输入 → 首次审稿
 
 **阻碍**: 无
 

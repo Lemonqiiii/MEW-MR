@@ -242,6 +242,8 @@ def score_paper(paper):
     return score, reasons
 
 def main():
+    print("WARNING: screen_abstracts.py is a LUSC/NSCLC-specific example. Edit PICO signals before using it for a new review.")
+
     # Load papers
     with open(INPUT_FILE, "r", encoding="utf-8") as f:
         papers = json.load(f)

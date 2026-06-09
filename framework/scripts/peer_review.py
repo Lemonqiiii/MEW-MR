@@ -153,15 +153,16 @@ def generate_template(manuscript_path):
         }
 
     # Add verification items (auto-generated grep checks for common issues)
-    report["verification_items"] = generate_verifications(text, refs, report)
+    report["verification_items"] = generate_verifications(text, refs, report, manuscript_path)
 
     return report
 
 
-def generate_verifications(text, refs, report):
+def generate_verifications(text, refs, report, manuscript_path):
     """Generate grep-verifiable checks for common manuscript issues."""
     items = []
     body = text.split("## References")[0] if "## References" in text else text
+    manuscript_cmd_path = str(Path(manuscript_path))
 
     # V1: All cited references appear in reference list
     body_refs = set()
@@ -184,15 +185,15 @@ def generate_verifications(text, refs, report):
     uncited = sorted(list_nums - body_refs)
     if dangling:
         ref_str = ",".join(str(d) for d in dangling[:3])
-        items.append({"id": "V-REF-001", "description": f"Dangling references in body: {dangling}", "severity": "MUST_FIX", "command": f"grep -n '[{ref_str}]' manuscript/submission.md", "expected": "No matches (dangling refs removed or added to reference list)"})
+        items.append({"id": "V-REF-001", "description": f"Dangling references in body: {dangling}", "severity": "MUST_FIX", "command": f"grep -n '[{ref_str}]' {manuscript_cmd_path}", "expected": "No matches (dangling refs removed or added to reference list)"})
     if uncited:
         ref_str = "|".join(str(u) for u in uncited[:3])
-        items.append({"id": "V-REF-002", "description": f"Uncited references in list: {uncited}", "severity": "SHOULD_FIX", "command": f"grep -n '^({ref_str})\\.' manuscript/submission.md", "expected": "No matches (uncited refs removed or cited in body)"})
+        items.append({"id": "V-REF-002", "description": f"Uncited references in list: {uncited}", "severity": "SHOULD_FIX", "command": f"grep -n '^({ref_str})\\.' {manuscript_cmd_path}", "expected": "No matches (uncited refs removed or cited in body)"})
 
     # V2: No editor placeholders
     placeholders = re.findall(r"\[(To be completed|TBD|待完成)\]", body)
     if placeholders:
-        items.append({"id": "V-PH-001", "description": f"Editor placeholders found: {placeholders}", "severity": "MUST_FIX", "command": "grep -n -E 'To be completed|TBD' manuscript/submission.md", "expected": "No matches"})
+        items.append({"id": "V-PH-001", "description": f"Editor placeholders found: {placeholders}", "severity": "MUST_FIX", "command": f"grep -n -E 'To be completed|TBD' {manuscript_cmd_path}", "expected": "No matches"})
 
     # V3: Abstract exists and has minimum length
     if "## Abstract" in text:
@@ -201,7 +202,7 @@ def generate_verifications(text, refs, report):
         abstract_text = text[abstract_start:abstract_end] if abstract_end > 0 else text[abstract_start:abstract_start + 500]
         abstract_words = len(re.findall(r"\b\w+\b", abstract_text))
         if abstract_words < 50:
-            items.append({"id": "V-ABS-001", "description": f"Abstract too short: {abstract_words} words (minimum 50)", "severity": "MUST_FIX", "command": f"grep -c '\\w' manuscript/submission.md # abstract word count was {abstract_words}", "expected": ">=50 words in Abstract"})
+            items.append({"id": "V-ABS-001", "description": f"Abstract too short: {abstract_words} words (minimum 50)", "severity": "MUST_FIX", "command": f"grep -c '\\w' {manuscript_cmd_path} # abstract word count was {abstract_words}", "expected": ">=50 words in Abstract"})
 
     # V4: Figure/table references match available files
     fig_refs = set(re.findall(r"Figure\s+(\d+)", text))
@@ -215,7 +216,7 @@ def generate_verifications(text, refs, report):
     if "<!--" in text:
         html_comments = re.findall(r"<!-- (.*?) -->", text)
         if html_comments:
-            items.append({"id": "V-HTML-001", "description": f"HTML audit comments remaining: {len(html_comments)}", "severity": "MUST_FIX", "command": "grep -c '<!--' manuscript/submission.md", "expected": "0 HTML comments"})
+            items.append({"id": "V-HTML-001", "description": f"HTML audit comments remaining: {len(html_comments)}", "severity": "MUST_FIX", "command": f"grep -c '<!--' {manuscript_cmd_path}", "expected": "0 HTML comments"})
 
     return items
 

@@ -10,6 +10,8 @@ OUTPUT_DIR = str(ROOT / config["paths"]["data_dir"])
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 OUTPUT_FILE = os.path.join(OUTPUT_DIR, "pubmed_search_results.json")
 
+print("WARNING: pubmed_search.py is a domain-specific example. Edit QUERIES before using it for a new review.")
+
 QUERIES = [
     "squamous carcinoma NSCLC immunotherapy resistance",
     "squamous NSCLC PD-1 resistance immune mechanism",

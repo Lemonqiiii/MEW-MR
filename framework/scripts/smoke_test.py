@@ -109,6 +109,40 @@ try:
         else:
             warn("Topic not configured",
                  'Edit config.yaml → project.topic: "Your Topic Here"')
+
+        required_sections = ["project", "paths", "agents", "scripts"]
+        for section in required_sections:
+            if isinstance(cfg.get(section), dict):
+                ok(f"config.{section} present")
+            else:
+                bad(f"config.{section} missing or invalid",
+                    f"Add a top-level {section}: block to config.yaml")
+
+        paths = cfg.get("paths", {}) if isinstance(cfg.get("paths"), dict) else {}
+        for key in ["manuscript_src", "figures_dir", "data_dir", "papers_dir", "output_dir"]:
+            if key in paths:
+                ok(f"paths.{key} configured")
+            else:
+                bad(f"paths.{key} missing", f"Add paths.{key} to config.yaml")
+
+        agents = cfg.get("agents", {}) if isinstance(cfg.get("agents"), dict) else {}
+        if isinstance(agents.get("screening"), dict):
+            ok("agents.screening present")
+        else:
+            bad("agents.screening missing", "Add agents.screening to config.yaml")
+
+        submission = agents.get("submission")
+        if isinstance(submission, dict) and "target_journal_profile" in submission:
+            ok("agents.submission.target_journal_profile configured")
+        else:
+            bad("agents.submission.target_journal_profile missing",
+                "Move submission settings under agents.submission in config.yaml")
+
+        screening = cfg.get("screening", {}) if isinstance(cfg.get("screening"), dict) else {}
+        if isinstance(screening.get("submission"), dict):
+            bad("submission nested under screening",
+                "Move screening.submission to agents.submission")
+
 except Exception as e:
     bad(f"config.yaml error: {e}", "Check config.yaml syntax")
 

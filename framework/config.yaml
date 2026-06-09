@@ -40,6 +40,9 @@ agents:
       secondary_source_max_pct: 30
       abstract_only_max_pct: 20
 
+  submission:
+    target_journal_profile: ""      # Set a journal profile, e.g. "nutrients"
+
 # ── Domain-specific fulltext screening (leave empty to skip) ──
 # Add keywords for your research domain to enable Dimensions 1, 2, and 5.
 # Example for NSCLC immunotherapy resistance:
@@ -56,9 +59,6 @@ screening:
   domain_keywords: []
   domain_context_keywords: []
   domain_ici_focus: false
-
-  submission:
-    target_journal_profile: ""      # Set a journal profile, e.g. "nutrients"
 
 scripts:
   gen_word:

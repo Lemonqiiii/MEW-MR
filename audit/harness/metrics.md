@@ -63,7 +63,7 @@
 ```
 定义: 审稿系统面对不同类型综述的稳定性
 测试稿件类型:
-  - 叙述性综述（当前NRDS）
+  - 叙述性综述（示例或当前稿件）
   - 系统综述+荟萃分析
   - 范围综述 (Scoping Review)
   - 伞状综述 (Umbrella Review)
@@ -139,7 +139,7 @@
 ```json
 {
   "review_id": "RA-2026-06-06-001",
-  "manuscript": "nrds_full_text.md",
+  "manuscript": "example_manuscript.md",
   "timestamp": "2026-06-06T18:00:00+08:00",
   "metrics": {
     "success": {

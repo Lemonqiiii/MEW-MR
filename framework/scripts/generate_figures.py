@@ -362,6 +362,7 @@ def fig4_decision():
 # Run all
 # ============================================================
 if __name__ == "__main__":
+    print("WARNING: generate_figures.py contains domain-specific example figures. Edit figure content before using it for a new review.")
     print("Generating figures...\n")
     fig1_prisma()
     fig2_framework()
