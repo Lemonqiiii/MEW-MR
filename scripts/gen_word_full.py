@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Generate Word document from jitc_submission.md.
-Generic and configurable — reads PROJECT config from first comment block.
+Generate Word document from a manuscript markdown file.
+Generic and configurable; paths can be supplied on the command line.
 Does not hardcode any topic-specific content (title, figures, keywords).
 
 Expected markdown structure:
@@ -20,13 +20,27 @@ Expected markdown structure:
 from docx import Document
 from docx.shared import Pt, Cm, RGBColor, Inches
 from docx.enum.text import WD_ALIGN_PARAGRAPH
-import os, re, json
+import os, re, json, sys
+from pathlib import Path
 
-# ── Configuration (only these three paths need changing between projects) ──
-OUT = "E:/medical-review/manuscript/NRDS_LifeCourse_Review.docx"
-FIG_DIR = "E:/medical-review/manuscript/figures"
-SRC = "E:/medical-review/manuscript/jitc_submission.md"
-# ────────────────────────────────────────────────────────────────────────
+def current_manuscript_from_status():
+    status = Path("memory/project-status.md")
+    if not status.exists():
+        raise SystemExit("No manuscript path provided and memory/project-status.md was not found")
+    text = status.read_text(encoding="utf-8")
+    m = re.search(r'`(manuscript/[^`]+\.md)`', text)
+    if not m:
+        raise SystemExit("No manuscript path provided and project-status.md does not name a manuscript/*.md file")
+    return m.group(1)
+
+
+def default_output_for(src):
+    return str(Path(src).with_suffix(".docx"))
+
+
+SRC = sys.argv[1] if len(sys.argv) > 1 else current_manuscript_from_status()
+OUT = sys.argv[2] if len(sys.argv) > 2 else default_output_for(SRC)
+FIG_DIR = sys.argv[3] if len(sys.argv) > 3 else "manuscript/figures"
 
 doc = Document()
 

@@ -28,6 +28,12 @@
 |---------|------|
 | `git *` | 版本控制 |
 | `python *` | Python 脚本 |
+| `python scripts/process_integrity_check.py` | Gate 0 流程完整性检查 |
+| `python scripts/harness_architecture_check.py` | Harness 架构检查 |
+| `python scripts/audit_manuscript.py *` | 当前稿件审计 |
+| `rg *` | 项目内文本搜索 |
+| `Get-Content *` | PowerShell 文件读取 |
+| `Get-ChildItem *` | PowerShell 文件枚举 |
 | `pip *` | Python 包管理 |
 | `mkdir -p /e/medical-review/**` | 创建项目目录 |
 | `find /e/medical-review/**` | 文件搜索 |
@@ -90,7 +96,19 @@ for op in session_operations:
 ### 规则 3: 命令越界检测
 
 ```python
-ALLOWED_COMMANDS = ["git *", "python *", "pip *", "mkdir -p /e/medical-review/**", "find /e/medical-review/**"]
+ALLOWED_COMMANDS = [
+    "git *",
+    "python scripts/process_integrity_check.py",
+    "python scripts/harness_architecture_check.py",
+    "python scripts/audit_manuscript.py *",
+    "python *",
+    "rg *",
+    "Get-Content *",
+    "Get-ChildItem *",
+    "pip *",
+    "mkdir -p /e/medical-review/**",
+    "find /e/medical-review/**"
+]
 
 for op in session_operations:
     if op.type == "Bash":
@@ -147,6 +165,46 @@ for op in session_operations:
                 })
 ```
 
+### 规则 6: 模型/API Provenance 缺失检测
+
+关键产物包括筛选日志、证据表、稿件正文、审校报告、投稿报告。若产物由 AI/API 辅助生成，必须记录模型/API 来源、输入来源、输出路径和人工核查状态。
+
+```python
+CRITICAL_OUTPUTS = [
+    "docs/search-results/screening-decisions.csv",
+    "data/**/evidence_table.*",
+    "manuscript/*.md",
+    "harness/reports/*.md",
+    "harness/submission-readiness-report.md",
+]
+
+for output in generated_outputs:
+    if matches_any(output.path, CRITICAL_OUTPUTS):
+        if output.ai_assisted and not output.has_provenance:
+            violations.append({
+                "severity": "MEDIUM",
+                "type": "MISSING_AI_PROVENANCE",
+                "path": output.path
+            })
+```
+
+### 规则 7: 旧项目写入脚本检测
+
+任何会写文件的脚本，如果包含历史稿件名、历史主题名或内置长篇正文，必须被视为 legacy unsafe，除非它明确接受当前项目输入/输出路径。
+
+```python
+LEGACY_TOKENS = ["jitc_submission.md", "LUSC", "JITC", "screening_final_40.json"]
+
+for script in scripts:
+    if script.writes_files and any(tok in script.text for tok in LEGACY_TOKENS):
+        if not script.requires_explicit_paths:
+            violations.append({
+                "severity": "HIGH",
+                "type": "LEGACY_WRITE_SCRIPT",
+                "path": script.path
+            })
+```
+
 ---
 
 ## 审计报告格式
@@ -166,12 +224,16 @@ for op in session_operations:
         "context": "Agent read user's Documents folder without authorization"
       }
     ],
-    "summary": {
-      "critical": 0,
-      "high": 0,
-      "medium": 1,
-      "low": 0
-    }
+        "summary": {
+            "critical": 0,
+            "high": 0,
+            "medium": 1,
+            "low": 0
+        },
+        "provenance": {
+            "critical_outputs_checked": 4,
+            "missing_ai_provenance": 0
+        }
   }
 }
 ```

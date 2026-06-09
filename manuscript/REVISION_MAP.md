@@ -1,10 +1,29 @@
-# Revision Map — jitc_submission.md R5
+# Revision Map — Current Manuscript
+
+**Current manuscript:** `manuscript/pncs_systematic_review.md`
+**Current revision workspace:** `docs/review/review-action-log.json`
 
 This file maps each review finding to its resolution in the manuscript. Used by review agents to verify fixes without full re-read.
 
 **Format:** `review_item_id | line | grep-anchor | status`
 
 ---
+
+## Current Round — R5
+
+```
+R5-001 | Section 5.2 | "rather than definitive proof of long-term safety" | verified
+R5-002 | Section 9.1 | "have not been evaluated in controlled follow-up studies" | verified
+R5-003 | Declarations | "Competing-interest disclosures will be confirmed" | verified
+R5-004 | Acknowledgements | "Claude Code/Anthropic and Codex/OpenAI" | verified
+R5-FMT | Title page | "Revision:** R5 (format cleanup + internal review response)" | verified
+```
+
+---
+
+## Legacy Records — Previous NRDS Life-Course Draft
+
+The following records are retained as historical examples only. They are not the active revision map for `manuscript/pncs_systematic_review.md`.
 
 ## R5 Fixes
 

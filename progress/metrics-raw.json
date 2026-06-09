@@ -1,6 +1,30 @@
 {
   "_description": "结构化效率与安全数据。编码Agent 每次任务完成后追加一条记录。评估Agent 读取本文件做 L2 判定、效率分析和安全复核。",
-  "_schema_version": "1.0",
+  "_schema_version": "1.1",
+  "_record_schema": {
+    "date": "YYYY-MM-DD",
+    "session_id": "stable session id",
+    "phase": "project phase",
+    "tasks_completed": ["short task names"],
+    "provenance": {
+      "models_or_apis": ["Claude", "DeepSeek API", "Codex", "manual"],
+      "input_sources": ["files, APIs, PDFs, search exports"],
+      "outputs": ["files written or reports generated"],
+      "human_verification": "none | sampled | full | not_applicable"
+    },
+    "checks": {
+      "process_integrity": "pass | fail | not_run",
+      "harness_architecture": "pass | fail | not_run",
+      "gate_search": "pass | fail | warning | not_run",
+      "gate_screening": "pass | fail | warning | not_run",
+      "manuscript_audit": "pass | fail | warning | not_run"
+    },
+    "safety": {
+      "violations": [],
+      "missing_ai_provenance": 0,
+      "legacy_write_scripts": 0
+    }
+  },
   "records": [
     {
       "date": "2026-06-05",

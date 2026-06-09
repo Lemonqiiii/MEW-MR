@@ -10,11 +10,9 @@
 
 **Date:** June 8, 2026
 
-**Revision:** R3 (Final — systematic search + 3 rounds internal review)
+**Revision:** R5 (format cleanup + internal review response)
 
-**Running title:** Postnatal Corticosteroids & Neurodevelopment (47 characters)
-
----
+**Running title:** Postnatal Corticosteroids & Neurodevelopment
 
 ## Abstract
 
@@ -22,23 +20,19 @@
 
 **Methods:** Systematic search of Europe PMC (6 search angles) identified 8,406 unique records. After title screening and abstract review against predefined PICO criteria, 309 papers were included. Evidence was synthesized narratively, with priority given to Cochrane systematic reviews, RCTs with neurodevelopmental follow-up, and recent (2022–2026) cohort studies.
 
-**Results:** Early (<7 days) dexamethasone reduces bronchopulmonary dysplasia (BPD) (RR 0.76, 95% CI 0.67–0.86; NNT ~10) but increases cerebral palsy (RR 1.42, 95% CI 1.08–1.87; NNH ~20), a finding driven predominantly by dexamethasone trials and not generalizable to hydrocortisone. Late (≥7 days) dexamethasone attenuates but does not eliminate the CP signal (RR 1.12, 95% CI 0.81–1.54). Hydrocortisone trials (PREMILOC, SToP-BPD, NICHD NRN) have not demonstrated increased CP risk, and two major trials now have school-age follow-up (SToP-BPD 5.5-year and NICHD NRN school-age outcomes, both 2026), providing the first evidence of long-term neurodevelopmental safety. A 2023 network meta-analysis identified moderately-early, low-dose dexamethasone and late low-dose hydrocortisone as regimens that optimize the BPD-CP trade-off. Inhaled budesonide, despite reducing BPD (NEUROSIS: RR 0.74), increased mortality (RR 1.37) and 5-year neurodevelopmental impairment (RR 1.41). Cohort data from the EPICE study suggest that the neurodevelopmental effect of postnatal steroids may depend on baseline BPD risk. The evidence base remains constrained by follow-up predominantly terminating at 18–24 months, though the school-age data for hydrocortisone represent meaningful progress.
+**Results:** Early (<7 days) dexamethasone reduces bronchopulmonary dysplasia (BPD) (RR 0.76, 95% CI 0.67–0.86; NNT ~10) but increases cerebral palsy (RR 1.42, 95% CI 1.08–1.87; NNH ~20), a finding driven predominantly by dexamethasone trials and not generalizable to hydrocortisone. Late (≥7 days) dexamethasone attenuates but does not eliminate the CP signal (RR 1.12, 95% CI 0.81–1.54). Hydrocortisone trials (PREMILOC, SToP-BPD, NICHD NRN) have not demonstrated increased CP risk, and two major trials now have school-age follow-up (SToP-BPD 5.5-year and NICHD NRN school-age outcomes), providing the first randomized school-age evidence that hydrocortisone did not increase measured functional or neurodevelopmental impairment. A 2023 network meta-analysis identified moderately-early, low-dose dexamethasone and late low-dose hydrocortisone as regimens that optimize the BPD-CP trade-off. Inhaled budesonide, despite reducing BPD (NEUROSIS: RR 0.74), increased mortality (RR 1.37) and 5-year neurodevelopmental impairment (RR 1.41). Cohort data from the EPICE study suggest that the neurodevelopmental effect of postnatal steroids may depend on baseline BPD risk. The evidence base remains constrained by follow-up predominantly terminating at 18–24 months, though the school-age data for hydrocortisone represent meaningful progress.
 
-**Conclusions:** The postnatal corticosteroid evidence has evolved from a simple dexamethasone toxicity narrative to a more nuanced picture in which agent choice, timing, and cumulative dose independently modulate neurodevelopmental risk. Hydrocortisone, particularly when initiated after the first week, has a neurodevelopmental safety profile superior to early dexamethasone, with emerging school-age data that will further define its long-term safety profile. The dexamethasone–hydrocortisone choice should be individualized by BPD risk, with hydrocortisone preferred when treatment is necessary and dexamethasone reserved for refractory cases.
+**Conclusions:** The postnatal corticosteroid evidence has evolved from a simple dexamethasone toxicity narrative to a more nuanced picture in which agent choice, timing, and cumulative dose independently modulate neurodevelopmental risk. Hydrocortisone, particularly when initiated after the first week, has a more reassuring neurodevelopmental profile than early dexamethasone, with emerging school-age data showing no measured excess functional or neurodevelopmental impairment. The dexamethasone–hydrocortisone choice should be individualized by BPD risk, with hydrocortisone preferred when treatment is necessary and dexamethasone reserved for refractory cases.
 
 **Keywords:** postnatal corticosteroids, dexamethasone, hydrocortisone, preterm infant, bronchopulmonary dysplasia, neurodevelopment, cerebral palsy, systematic review
-
----
 
 ## 1. Introduction
 
 Bronchopulmonary dysplasia (BPD) affects approximately 40% of infants born before 28 weeks' gestation [1] and is independently associated with cerebral palsy, cognitive delay, and reduced quality of life [2]. Among pharmacological strategies to prevent BPD, systemic postnatal corticosteroids occupy a uniquely contentious position: they are among the most effective interventions for reducing BPD, and simultaneously among the interventions with the most clearly documented potential for neurodevelopmental harm.
 
-The evidence base has evolved substantially. Early dexamethasone trials in the 1980s–1990s demonstrated large pulmonary benefits but produced a cerebral palsy signal that led the American Academy of Pediatrics to recommend against routine use in 2002 [3]. The subsequent two decades saw the emergence of hydrocortisone as a potentially safer alternative, tested in three major RCTs (PREMILOC, SToP-BPD, NICHD NRN), and — critically — the publication in 2026 of school-age follow-up data from two of these trials, representing the first long-term neurodevelopmental evidence for any postnatal corticosteroid regimen beyond dexamethasone.
+The evidence base has evolved substantially. Early dexamethasone trials in the 1980s–1990s demonstrated large pulmonary benefits but produced a cerebral palsy signal that led the American Academy of Pediatrics to recommend against routine use in 2002 [3]. The subsequent two decades saw the emergence of hydrocortisone as a potentially safer alternative, tested in three major RCTs (PREMILOC, SToP-BPD, NICHD NRN), and — critically — the publication of school-age follow-up data from two of these trials, representing the first randomized school-age neurodevelopmental evidence for any postnatal corticosteroid regimen beyond dexamethasone.
 
 This review synthesizes the current evidence on the neurodevelopmental consequences of postnatal corticosteroids, with a focus on the dexamethasone–hydrocortisone comparison. It is based on a systematic search of Europe PMC (8,406 records screened, 309 included) and prioritizes RCT evidence, Cochrane systematic reviews, and recent cohort studies with neurodevelopmental follow-up. Inhaled corticosteroids are reviewed as a secondary comparative pathway.
-
----
 
 ## 2. Historical Context
 
@@ -50,7 +44,7 @@ Systemic corticosteroids entered neonatal practice in the 1980s, driven by recog
 
 The first warning came from Shinwell et al. (1996), who reported CP rates of 39% versus 13% (P < 0.01) in dexamethasone-treated infants [8] — a strikingly high absolute rate reflecting the extreme cumulative doses and severely ill populations of early trials. O'Shea et al. (1999) confirmed increased neuromotor abnormalities [9]. Yeh et al. provided the most detailed follow-up: at school age, dexamethasone-exposed children had lower full-scale IQ (78.2 vs. 84.4; P = 0.008), with deficits across verbal IQ, performance IQ, perceptual organization, and processing speed [10, 11]. A 2023 systematic review of 18 observational studies (1,609 patients) confirmed the consistency of these cognitive deficits [12].
 
-The biological plausibility of dexamethasone neurotoxicity is strong. Glucocorticoid receptors are densely expressed in the developing hippocampus, cerebellum, and prefrontal cortex — regions undergoing explosive growth during the third trimester. Animal models demonstrate that dexamethasone exposure during critical developmental windows triggers neuronal apoptosis, reduces cerebellar volume, and impairs myelination [22].
+The biological plausibility of dexamethasone neurotoxicity is strong. The developing brain contains glucocorticoid-sensitive regions, and experimental work links excess glucocorticoid exposure to structural remodeling and altered neural development [22]. These data do not prove clinical causality, but they make the trial-level CP and cognition signals biologically credible.
 
 ### 2.3 The Regulatory Response
 
@@ -104,7 +98,7 @@ PREMILOC randomized 523 infants (24–27 weeks) to prophylactic hydrocortisone (
 
 SToP-BPD randomized 371 ventilated infants (<30 weeks) to hydrocortisone (72.5 mg/kg over 22 days, initiated at 7–14 days) or placebo [29, 30]. The trial did not meet its primary BPD endpoint (70.2% vs. 73.1%; adjusted RD −2.8%; P = 0.55), though hydrocortisone facilitated earlier extubation. At 2 years, death-or-NDI was 56.7% vs. 62.7% (non-significant); death was 21.5% vs. 29.5% (P = 0.08). Brain MRI at term showed no differences in abnormality scores or regional volumes [31]. Hydrocortisone-treated children had lower anxiety scores at 2 years [30]. Infants <27 weeks showed a potential survival benefit [32].
 
-**5.5-year follow-up (2026).** The SToP-BPD 5.5-year neurodevelopmental follow-up [33] — one of only two postnatal corticosteroid RCTs with school-age data beyond Yeh 2004 — assessed cognitive, motor, neurosensory, behavioral, and school functioning. This represents a critical addition to the evidence base, providing the first long-term hydrocortisone safety data from an RCT.
+**5.5-year follow-up.** The SToP-BPD 5.5-year neurodevelopmental follow-up [33] — one of only two postnatal corticosteroid RCTs with school-age data beyond Yeh 2004 — assessed cognitive, motor, neurosensory, behavioral, and school functioning. This represents a critical addition to the evidence base, providing randomized school-age follow-up for hydrocortisone rather than definitive proof of long-term safety.
 
 ### 5.3 NICHD NRN Hydrocortisone Trial
 
@@ -120,7 +114,7 @@ A 2026 Japanese cohort study [37] of extremely low birth weight infants found th
 
 ## 6. Inhaled Corticosteroids
 
-Inhaled corticosteroids offer the theoretical advantage of direct pulmonary delivery with reduced systemic absorption. However, budesonide administered by nebulizer or metered-dose inhaler produces measurable plasma concentrations in preterm infants, whose immature hepatic metabolism may result in higher free drug levels than in older populations [2]. Whether inhaled corticosteroids are truly topical rather than systemic by a different route remains incompletely characterized.
+Inhaled corticosteroids offer the theoretical advantage of direct pulmonary delivery with reduced systemic exposure. However, the clinical outcomes of early inhaled budesonide caution against assuming that inhaled delivery is neurologically neutral in extremely preterm infants. Whether inhaled corticosteroids are truly topical rather than systemic by a different route remains incompletely characterized.
 
 ### 6.1 The NEUROSIS Trial
 
@@ -182,11 +176,11 @@ Clinicians should communicate numerically (NNT ~10 for BPD, NNH ~20–50 for CP 
 
 ### 9.1 The Follow-Up Gap Is Narrowing
 
-The 2026 SToP-BPD and NICHD NRN school-age publications represent the most significant advance in the field since the Yeh 2004 follow-up. However, they remain two trials, both of hydrocortisone. The CAP caffeine trial achieved 82% follow-up at 5 years and reported outcomes at 11 years [47], demonstrating that long-term follow-up of neonatal RCTs is feasible when prioritized. School-age data for dexamethasone — beyond the single Yeh cohort — do not exist. Adult outcomes for any postnatal corticosteroid regimen remain completely unstudied, despite evidence that preterm birth itself permanently alters lung function trajectories into midlife [46].
+The SToP-BPD and NICHD NRN school-age publications represent the most significant advance in the field since the Yeh 2004 follow-up. However, they remain two trials, both of hydrocortisone. The CAP caffeine trial achieved 82% follow-up at 5 years and reported outcomes at 11 years [47], demonstrating that long-term follow-up of neonatal RCTs is feasible when prioritized. School-age data for dexamethasone — beyond the single Yeh cohort — do not exist. Adult outcomes specifically linked to postnatal corticosteroid regimens have not been evaluated in controlled follow-up studies, despite evidence that preterm birth itself permanently alters lung function trajectories into midlife [46].
 
 ### 9.2 The Head-to-Head Trial
 
-No adequately powered RCT has directly compared dexamethasone and hydrocortisone with long-term neurodevelopment as the primary outcome. The indirect evidence consistently favors HC for safety, but residual confounding by trial population, dose, and era precludes definitive conclusions.
+No adequately powered RCT has directly compared dexamethasone and hydrocortisone with long-term neurodevelopment as the primary outcome. The indirect evidence gives hydrocortisone a more reassuring neurodevelopmental profile, but residual confounding by trial population, dose, and era precludes definitive conclusions.
 
 ### 9.3 Individualized Risk Prediction
 
@@ -196,15 +190,13 @@ The hypothesis that BPD risk modifies the neurodevelopmental effect of corticost
 
 This evidence was generated almost exclusively in high-income countries. Dexamethasone is widely available and inexpensive in LMICs, where HC may not be stocked, ventilation capacity is limited, and post-discharge follow-up is near-absent. Whether the risk-benefit ratio differs in these settings — with different baseline risks, co-morbidities, and genetic backgrounds — is unknown.
 
----
-
 ## 10. Conclusions
 
-The postnatal corticosteroid evidence base has matured considerably. Four decades of trial data have precisely characterized the dexamethasone risk-benefit trade-off: early high-dose dexamethasone reduces BPD (NNT ~10) and increases CP (NNH ~20). Late, lower-dose regimens attenuate this risk. Hydrocortisone, tested in three major RCTs with two now having school-age follow-up, has not demonstrated a neurodevelopmental penalty and represents the preferred agent when postnatal corticosteroids are necessary.
+The postnatal corticosteroid evidence base has matured considerably. Four decades of trial data have precisely characterized the dexamethasone risk-benefit trade-off: early high-dose dexamethasone reduces BPD (NNT ~10) and increases CP (NNH ~20). Late, lower-dose regimens attenuate this risk. Hydrocortisone, tested in three major RCTs with two now having school-age follow-up, has not demonstrated excess measured neurodevelopmental harm and represents the preferred agent when postnatal corticosteroids are necessary.
 
-The 2026 school-age publications for SToP-BPD and NICHD NRN hydrocortisone mark a turning point: the field is moving from an evidence base dominated by 18–24 month Bayley data to one that can begin to answer the question parents actually ask — "What will my child be like when they start school?" The answer, for hydrocortisone, is only now being systematically studied. For dexamethasone, and for adult outcomes of any postnatal corticosteroid, the question remains unanswered.
+The school-age publications for SToP-BPD and NICHD NRN hydrocortisone mark a turning point: the field is moving from an evidence base dominated by 18–24 month Bayley data to one that can begin to answer the question parents actually ask — "What will my child be like when they start school?" The answer, for hydrocortisone, is only now being systematically studied. For dexamethasone, and for adult outcomes of any postnatal corticosteroid, the question remains unanswered.
 
-The dexamethasone–hydrocortisone choice should be individualized: hydrocortisone for most infants requiring treatment after the first week, dexamethasone reserved for refractory cases where its greater efficacy is judged to outweigh its greater risk. This framework is based on the best available evidence. It will require revision as the 2026 school-age data mature and as — one hopes — adult follow-up studies are initiated for the now middle-aged survivors of the early dexamethasone era.
+The dexamethasone–hydrocortisone choice should be individualized: hydrocortisone for most infants requiring treatment after the first week, dexamethasone reserved for refractory cases where its greater efficacy is judged to outweigh its greater risk. This framework is based on the best available evidence. It will require revision as school-age hydrocortisone data are interpreted across settings and as — one hopes — adult follow-up studies are initiated for the now middle-aged survivors of the early dexamethasone era.
 
 ---
 
@@ -235,14 +227,14 @@ The dexamethasone–hydrocortisone choice should be individualized: hydrocortiso
 23. Zeng L, Tian J, Song F, et al. Effect of dexamethasone on intelligence and hearing in preterm infants: a meta-analysis. *Pediatrics* 2014;134:898–906. PMID: 25206867.
 24. O'Brien CE, et al. Postnatal dexamethasone treatment for preterm infants at high risk for bronchopulmonary dysplasia is associated with altered regional brain volumes at term-equivalent age. *Pediatr Res* 2025. PMID: 40360237.
 25. Baud O, Trousson C, Biran V, et al. Two-year neurodevelopmental outcomes of extremely preterm infants treated with early hydrocortisone. *Arch Dis Child Fetal Neonatal Ed* 2019;104:F30–5.
-26. Trousson C, Biran V, Zana-Taieb E, et al. Association between early low-dose hydrocortisone therapy in extremely preterm neonates and neurodevelopmental outcomes at 2 years of age. *JAMA* 2017;317:1329–37.
+26. Trousson C, Biran V, Zana-Taieb E, et al. Association between early low-dose hydrocortisone therapy in extremely preterm neonates and neurodevelopmental outcomes at 2 years of age. *JAMA* 2017;317:1329–37. PMID: 28384828.
 27. Baud O, Lehert P. BPD at 40 weeks better predicts neurodevelopmental impairment than BPD at 36 weeks. *Pediatr Res* 2025;97:255–61. PMID: 39453210.
 28. Baud O, Lehert P. The beneficial effect of prophylactic hydrocortisone treatment in extremely preterm infants improves upon adjustment of the baseline characteristics. *Pediatr Res* 2024;95:251–6. PMID: 37653218.
 29. Halbmeijer NM, Onland W, Cools F, et al. Effect of systemic hydrocortisone initiated 7 to 14 days after birth in ventilated preterm infants on neurodevelopmental outcomes at 2 years' corrected age. *JAMA* 2021;326:355–65.
 30. Halbmeijer NM, Onland W, Cools F, et al. Effect of systemic hydrocortisone in ventilated preterm infants on parent-reported behavioural outcomes at 2 years' corrected age. *Arch Dis Child Fetal Neonatal Ed* 2023;108:452–8.
 31. Cools F, Halbmeijer NM, Onland W, et al. Effect of systemic hydrocortisone on brain abnormalities and regional brain volumes. *J Pediatr* 2024;265:113609.
 32. Halbmeijer NM, Onland W, Cools F, et al. Identifying effect modifiers of systemic hydrocortisone treatment. *Arch Dis Child Fetal Neonatal Ed* 2023;108:444–51.
-33. de Baat T, van de Loo M, Aarnoudse-Moens CSH, et al. Effect of systemic hydrocortisone in ventilated infants born preterm: mortality and 5.5-year neurodevelopmental outcomes. *Arch Dis Child Fetal Neonatal Ed* 2026. PMID: 41391545.
+33. de Baat T, van de Loo M, Aarnoudse-Moens CSH, et al. Effect of systemic hydrocortisone in ventilated infants born preterm: mortality and 5.5-year neurodevelopmental outcomes of a randomized clinical trial. *J Pediatr* 2025:114954. doi: 10.1016/j.jpeds.2025.114954. PMID: 41391545.
 34. Watterberg KL, Walsh MC, Li L, et al. Hydrocortisone to improve survival without bronchopulmonary dysplasia. *N Engl J Med* 2022;386:1121–31.
 35. Gentle SJ, Rysavy MA, Li L, et al. Heterogeneity of treatment effects of hydrocortisone by risk of BPD or death. *JAMA Netw Open* 2023;6:e2315315.
 36. DeMauro SB, Kirpalani H, Hintz S, et al. Hydrocortisone in preterm infants and school-age functional outcomes: follow-up of a randomized clinical trial. *JAMA* 2026. PMID: 41359352.
@@ -263,15 +255,15 @@ The dexamethasone–hydrocortisone choice should be individualized: hydrocortiso
 
 ## Author Contributions
 
-[To be completed by authors]
+The author list and contribution statements will be finalized by the corresponding author before journal submission.
 
 ## Funding
 
-[To be completed by authors]
+No external funding was received for this work.
 
 ## Competing Interests
 
-[To be completed by authors]
+Competing-interest disclosures will be confirmed by all authors before journal submission.
 
 ## Data Availability Statement
 
@@ -283,8 +275,6 @@ Not applicable — this is a review of published literature and did not involve 
 
 ## Acknowledgements
 
-This review was drafted with AI assistance (Claude Code, Anthropic), with all substantive claims manually verified against cited sources. The systematic search was conducted using the Europe PMC API (https://www.ebi.ac.uk/europepmc/). No external funding was received for this work.
-
----
+This review was drafted and revised with AI assistance (Claude Code/Anthropic and Codex/OpenAI), with all substantive claims checked against cited sources during internal review. The systematic search was conducted using the Europe PMC API (https://www.ebi.ac.uk/europepmc/). No external funding was received for this work.
 
 **Transparency note:** This review is based on a systematic search of Europe PMC (6 search angles, June 8, 2026). Of 8,406 unique records, 309 met inclusion criteria after title screening and abstract review against predefined PICO criteria (preterm infants; postnatal corticosteroids; neurodevelopmental or long-term outcomes). Evidence was synthesized narratively with priority given to RCTs, Cochrane systematic reviews, and recent (2022–2026) cohort studies. No formal dual-screening or PRISMA flowchart was employed; the search and screening were conducted by a single reviewer.

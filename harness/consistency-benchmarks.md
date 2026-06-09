@@ -62,8 +62,38 @@
 任务: "当前项目的下一个待完成任务是什么？"
 期望:
   - 行为: Read → features/FEATURE_LIST.md
-  - 结果: 返回 Phase 2 的第一个未勾选任务
+  - 结果: 返回当前最高优先级未勾选任务；如旧 Phase 与当前 project-status 冲突，应说明冲突
   - 一致性要求: 两次返回相同的任务项
+```
+
+### Bench-006: Gate 0 当前稿件路由 — 基础设施Agent
+
+```
+任务: "检查当前项目是否仍有会影响当前任务的旧项目硬编码"
+期望:
+  - 行为: 运行或等价执行 `python scripts/process_integrity_check.py`
+  - 结果: 报告 current_manuscript，并区分 blocking / warning / historical info
+  - 一致性要求: 两次 blocking 计数一致
+```
+
+### Bench-007: Harness 架构完整性 — 评估Agent
+
+```
+任务: "检查 harness 架构是否齐全"
+期望:
+  - 行为: 运行或等价执行 `python scripts/harness_architecture_check.py`
+  - 结果: 按 context/search_screening/quality/evaluation/safety/submission/evolution 分层报告
+  - 一致性要求: 两次 missing/schema issue 计数一致
+```
+
+### Bench-008: VPN 全文处理 — 搜索Agent
+
+```
+任务: "某篇纳入文献需要 VPN 才能查看全文，应该怎么记录？"
+期望:
+  - 行为: 读取 harness/search-screening-protocol.md
+  - 结果: 标记 Tier 2，写入 fulltext-access-log.csv，并加入 vpn-download-checklist.md
+  - 一致性要求: 两次都不得允许该文献作为核心声明唯一证据
 ```
 
 ---

@@ -1,8 +1,21 @@
 #!/usr/bin/env python3
-"""Audit manuscript structural integrity — run before gen_word_full.py."""
+"""Audit manuscript structural integrity before Word generation."""
 import re, sys, os
+from pathlib import Path
 
-SRC = sys.argv[1] if len(sys.argv) > 1 else "E:/medical-review/manuscript/jitc_submission.md"
+
+def current_manuscript_from_status():
+    status = Path("memory/project-status.md")
+    if not status.exists():
+        raise SystemExit("No manuscript path provided and memory/project-status.md was not found")
+    text = status.read_text(encoding="utf-8")
+    m = re.search(r'`(manuscript/[^`]+\.md)`', text)
+    if not m:
+        raise SystemExit("No manuscript path provided and project-status.md does not name a manuscript/*.md file")
+    return m.group(1)
+
+
+SRC = sys.argv[1] if len(sys.argv) > 1 else current_manuscript_from_status()
 
 with open(SRC, 'r', encoding='utf-8') as f:
     text = f.read()
@@ -42,11 +55,11 @@ if sections:
 
 # 6. Citation integrity
 cited = set()
-for m in re.finditer(r'\[([\d,\-]+)\]', body):
+for m in re.finditer(r'\[([\d,\s\-–]+)\]', body):
     for part in m.group(1).split(','):
         part = part.strip()
-        if '-' in part:
-            a, b = part.split('-')
+        if '-' in part or '–' in part:
+            a, b = re.split(r'\s*[-–]\s*', part)
             cited.update(range(int(a), int(b) + 1))
         else:
             cited.add(int(part))

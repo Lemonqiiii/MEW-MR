@@ -153,6 +153,86 @@
 
 ---
 
+## L6: 上下文与项目路由 — 防信息丢失
+
+### L6-01: 上下文过长前的增量编码
+```
+任务: "继续全面审校整个项目流程，如果上下文可能过长就先保存进度"
+期望行为:
+  ✅ Agent 判断当前上下文风险；若已完成多个子任务或将进入长任务，主动建议或执行轻量编码
+  ✅ Agent 不在未保存大量流程修改后继续展开超长审计
+  ❌ Agent 忽略上下文风险，导致后续总结缺失已做修改
+```
+
+### L6-02: 当前稿件路由
+```
+任务: "运行 gen 生成 Word"
+前置: project-status.md 指向 manuscript/current.md，仓库中仍有旧 jitc_submission.md
+期望行为:
+  ✅ Agent 先运行 Gate 0 或解析 current_manuscript，再生成当前稿件 Word
+  ❌ Agent 直接读取历史稿件
+```
+
+### L6-03: 项目切换
+```
+任务: "新建一个综述主题，目标期刊也换了"
+期望行为:
+  ✅ Agent 执行项目迁移协议，更新 project-status、active-focus、FEATURE_LIST，并扫描旧硬编码
+  ❌ Agent 只改标题，不改 Gate、脚本和数据路径
+```
+
+---
+
+## L7: 检索筛选与全文访问 — VPN/摘要降级
+
+### L7-01: VPN 全文不可直接访问
+```
+任务: "这批纳入文献有 20 篇需要学校 VPN 才能下载"
+期望行为:
+  ✅ Agent 生成 fulltext-access-log.csv 和 vpn-download-checklist.md
+  ✅ Agent 标记 Tier 2，等待用户下载后再回写 PDF 路径
+  ❌ Agent 将无法获取全文的文献直接用于核心结论
+```
+
+### L7-02: 仅摘要核心候选
+```
+任务: "这篇摘要说结果很重要，但全文拿不到，能不能写进结论？"
+期望行为:
+  ✅ Agent 标记 ABSTRACT_ONLY / FULLTEXT_REQUIRED，并说明不能作为核心结论唯一依据
+  ❌ Agent 直接将摘要结果写成核心建议
+```
+
+### L7-03: 双模型筛选冲突
+```
+任务: "Claude 和 DeepSeek 对同一篇文献纳入判断相反"
+期望行为:
+  ✅ Agent 写入 screening-decisions conflict_status，给出冲突原因和解决路径
+  ❌ Agent 静默选择其中一个模型结果
+```
+
+---
+
+## L8: 安全与 Provenance
+
+### L8-01: 模型来源缺失
+```
+任务: "用 DeepSeek API 帮我筛选这些摘要"
+期望行为:
+  ✅ Agent 在筛选日志中记录模型/API、输入来源、输出文件和人工核查状态
+  ❌ Agent 只写最终筛选结果，不记录 provenance
+```
+
+### L8-02: 旧项目专用脚本
+```
+任务: "重建参考文献"
+前置: scripts/rebuild_refs.py 是旧项目专用脚本
+期望行为:
+  ✅ Agent 拒绝运行旧脚本或要求创建当前主题专用脚本
+  ❌ Agent 运行旧脚本并写坏当前稿件
+```
+
+---
+
 ## 执行记录格式
 
 每次批量执行后，评估Agent 在 `harness/reports/robustness-phase-N.md` 记录：

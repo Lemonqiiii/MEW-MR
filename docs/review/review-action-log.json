@@ -1,0 +1,177 @@
+{
+  "schema_version": "1.0",
+  "current_manuscript": "manuscript/PNCS_Systematic_Review_R6.docx",
+  "target_journal": "Archives of Disease in Childhood: Fetal & Neonatal Edition (BMJ)",
+  "revision_round": "R6",
+  "review_sources": [
+    "Agent 4 systematic review (post-architecture-refinement)"
+  ],
+  "provenance": [
+    {
+      "model_or_actor": "Claude (DeepSeek V4 Pro)",
+      "task_type": "systematic-review-R6",
+      "input_sources": [
+        "manuscript/PNCS_Systematic_Review_R6.docx",
+        "harness/review-revision-protocol.md",
+        "memory/agent-specializations.md (Agent 4 spec)"
+      ],
+      "output_files": [
+        "docs/review/review-action-log.json",
+        "docs/review/response-to-reviewers.md"
+      ],
+      "human_check_status": "pending"
+    }
+  ],
+  "actions": [
+    {
+      "id": "R6-001",
+      "source": "Agent4-R6-systematic-review",
+      "severity": "critical",
+      "status": "open",
+      "location": {
+        "file": "manuscript/PNCS_Systematic_Review_R6.docx",
+        "section": "§9.2 Risk-Stratified Approach — Clinical Decision Table",
+        "anchor": "NEUROSIS: mortality + 5yr NDI signal"
+      },
+      "problem_type": "data_error",
+      "problem": "Table row for inhaled budesonide still reads 'NEUROSIS: mortality + 5yr NDI signal [38, 39]'. This is factually incorrect: the corrected NEUROSIS data in §7.1 shows (a) the follow-up was at 18–22 months, not 5 years, and (b) NDI did NOT differ significantly between groups (RR 0.93). Only mortality was significantly increased (RR 1.37). The table cell conflates the two outcomes and uses the wrong follow-up duration.",
+      "suggested_fix": "Change table cell from 'NEUROSIS: mortality + 5yr NDI signal [38, 39]' to 'NEUROSIS: increased mortality at 2yr (RR 1.37); NDI not significantly different [38, 39]'",
+      "resolution": "",
+      "verifiers": [
+        {
+          "type": "grep",
+          "command_or_anchor": "5yr NDI signal",
+          "result": "fail",
+          "checked_by": "Claude",
+          "checked_at": "2026-06-09"
+        }
+      ],
+      "response_draft": "Corrected the inhaled budesonide table row to reflect the actual NEUROSIS follow-up data: mortality increased at 2-year follow-up (RR 1.37), NDI not significantly different between groups."
+    },
+    {
+      "id": "R6-002",
+      "source": "Agent4-R6-systematic-review",
+      "severity": "minor",
+      "status": "open",
+      "location": {
+        "file": "manuscript/PNCS_Systematic_Review_R6.docx",
+        "section": "Abstract — Conclusions",
+        "anchor": "with emerging school-age data"
+      },
+      "problem_type": "consistency",
+      "problem": "Abstract Conclusions uses 'emerging school-age data' while the main text (§9.2 table, §11 Conclusions) consistently uses 'now published'. The SToP-BPD 5.5-year and NICHD NRN school-age data were published in 2025 and 2026 respectively — 'emerging' understates the current state of evidence.",
+      "suggested_fix": "Change 'with emerging school-age data' to 'with now-published school-age data' in Abstract Conclusions.",
+      "resolution": "",
+      "verifiers": [
+        {
+          "type": "grep",
+          "command_or_anchor": "emerging school-age data",
+          "result": "fail",
+          "checked_by": "Claude",
+          "checked_at": "2026-06-09"
+        }
+      ],
+      "response_draft": "Updated Abstract wording from 'emerging' to 'now-published' for consistency with main text."
+    },
+    {
+      "id": "R6-003",
+      "source": "Agent4-R6-systematic-review",
+      "severity": "must_fix",
+      "status": "open",
+      "location": {
+        "file": "manuscript/PNCS_Systematic_Review_R6.docx",
+        "section": "§2.5 PRISMA Flow Diagram",
+        "anchor": "Figure 1"
+      },
+      "problem_type": "missing_context",
+      "problem": "§2.5 contains only the embedded PRISMA figure image (25 chars of text, no caption or figure legend). A standalone figure without a descriptive caption violates PRISMA 2020 reporting standards and journal requirements. Readers should not need to decode the flow diagram without textual guidance.",
+      "suggested_fix": "Add a figure caption below the image: 'Figure 1. PRISMA 2020 flow diagram for the systematic narrative review of postnatal corticosteroids and neurodevelopmental outcomes. A total of 15,423 records were identified across four sources. After deduplication, 9,800 records were screened, 309 full-text articles were assessed, and 48 studies were cited in the final manuscript.'",
+      "resolution": "",
+      "verifiers": [
+        {
+          "type": "grep",
+          "command_or_anchor": "Figure 1. PRISMA 2020 flow diagram",
+          "result": "fail",
+          "checked_by": "Claude",
+          "checked_at": "2026-06-09"
+        }
+      ],
+      "response_draft": "Added descriptive figure caption for the PRISMA flow diagram per PRISMA 2020 reporting standards."
+    },
+    {
+      "id": "R6-004",
+      "source": "Agent4-R6-systematic-review",
+      "severity": "major",
+      "status": "open",
+      "location": {
+        "file": "manuscript/PNCS_Systematic_Review_R6.docx",
+        "section": "References [2,3,4,5,6,7,8,9,10,11,13,15,19,20,21,22,25,29,30,31,32,34,35,42,43,45,46,47,48]",
+        "anchor": "29 references without PMID"
+      },
+      "problem_type": "compliance",
+      "problem": "29 of 48 references (60%) lack PMID identifiers. Per AGENTS.md citation rules ('所有引用必须包含 PMID 或 DOI'), this is a compliance gap. While many of these are landmark papers easily identifiable by journal/volume/pages, PubMed indexing verification requires either PMID or DOI for each entry. Target journal (ADC Fetal & Neonatal Edition, BMJ) requires Vancouver-style references with PMID/DOI where available.",
+      "suggested_fix": "Look up and add PMID for all 29 references. Priority: [15] (Cochrane late review, high-impact), [2,3,4,6,7,9,10,11,13,19,20,25,29,30,31,32,34,35,42,43,45,46,47,48].",
+      "resolution": "",
+      "verifiers": [
+        {
+          "type": "script",
+          "command_or_anchor": "python -c \"check PMID presence in reference list\"",
+          "result": "fail",
+          "checked_by": "Claude",
+          "checked_at": "2026-06-09"
+        }
+      ],
+      "response_draft": "Added PMIDs to 29 references. All 48 references now include verified PMID identifiers."
+    },
+    {
+      "id": "R6-005",
+      "source": "Agent4-R6-systematic-review",
+      "severity": "minor",
+      "status": "open",
+      "location": {
+        "file": "manuscript/PNCS_Systematic_Review_R6.docx",
+        "section": "§4.3 The Dose Dimension",
+        "anchor": "Section 6 and 7"
+      },
+      "problem_type": "formatting",
+      "problem": "Cross-reference reads 'as detailed in Section 6 and 7' — should use consistent formatting '§6 and §7' or 'Sections 6 and 7' (plural). The singular 'Section' before a compound reference is grammatically awkward.",
+      "suggested_fix": "Change 'Section 6 and 7' to 'Sections 6 and 7' or '§6 and §7'.",
+      "resolution": "",
+      "verifiers": [
+        {
+          "type": "grep",
+          "command_or_anchor": "Section 6 and 7",
+          "result": "fail",
+          "checked_by": "Claude",
+          "checked_at": "2026-06-09"
+        }
+      ],
+      "response_draft": "Fixed cross-reference formatting: 'Sections 6 and 7'."
+    },
+    {
+      "id": "R6-006",
+      "source": "Agent4-R6-systematic-review",
+      "severity": "minor",
+      "status": "open",
+      "location": {
+        "file": "manuscript/PNCS_Systematic_Review_R6.docx",
+        "section": "§10.1 The Follow-Up Gap Is Narrowing",
+        "anchor": "The answer, for hydrocortisone, is only now being systematically studied"
+      },
+      "problem_type": "language",
+      "problem": "The phrase 'only now being systematically studied' in §11 Conclusions is at odds with §10.1 which states that two trials 'now have school-age follow-up' and data is 'now published'. The phrase understates the progress that has already occurred with published data from SToP-BPD and NICHD NRN. Consider whether this reflects the period before these publications (draft-era language) or is intentionally conservative.",
+      "suggested_fix": "Consider: 'The answer, for hydrocortisone, is beginning to emerge from published school-age data, though evidence remains limited to two trials.'",
+      "resolution": "",
+      "verifiers": [
+        {
+          "type": "manual",
+          "command_or_anchor": "author judgment on tone",
+          "result": "pending",
+          "checked_by": "",
+          "checked_at": ""
+        }
+      ],
+      "response_draft": "Refined the Conclusions passage on hydrocortisone school-age evidence to accurately reflect what is now published vs. what remains unknown."
+    }
+  ]
+}

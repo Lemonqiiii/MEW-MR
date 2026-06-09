@@ -265,4 +265,98 @@
 
 ---
 
+## E010: 检索筛选与VPN全文获取协议 — 2026-06-09
+
+- **触发**: 用户指出项目此前通过 Claude 调用 DeepSeek API 完成综述流程，存在流程性不足；进一步讨论发现文献检索、筛选和 VPN/机构访问全文获取缺少统一协议。
+- **根因**:
+  1. 检索式、数据库选择、检索日期和 seed paper 命中情况未被强制记录，导致检索不可复现。
+  2. 筛选决定缺少统一 decision log，排除理由、置信度、冲突处理和引用权限难以追溯。
+  3. VPN/机构订阅全文获取依赖临时人工操作，没有 access tier、下载清单和 PDF 匹配回写机制。
+  4. 仅摘要文献虽有比例限制，但缺少“能用于什么/不能用于什么”的显式降级规则。
+  5. 多模型串联输出缺少 provenance，容易出现一个模型的错误被另一个模型顺滑写入正文。
+- **修改**:
+  1. `harness/search-screening-protocol.md` → **新建** — 检索协议、数据库激活、Gate Search、筛选日志、VPN全文获取、仅摘要纪律、AI双通道筛选、证据表要求、Gate Screening。
+  2. `AGENTS.md` → 新增 Gate Search / Gate Screening / Gate Fulltext；新增文献检索与筛选纪律；将 VPN 下载和 abstract-only 降级写入最高级流程规则。
+  3. `memory/agent-specializations.md` → Agent 1 接入 search protocol、search-protocol.md、fulltext-access-log、vpn-download-checklist；Agent 6 接入 screening-decisions、access_tier、fulltext_status、citation_scope、FULLTEXT_REQUIRED。
+  4. `docs/search-results/search-protocol.md` → **新建模板** — 记录 PICO、数据库、检索式、seed papers、诊断和变更日志。
+  5. `docs/search-results/fulltext-access-log.csv` → **新建模板** — 记录全文访问层级和 PDF 路径。
+  6. `docs/search-results/screening-decisions.csv` → **新建模板** — 记录每条筛选决定。
+  7. `docs/search-results/vpn-download-checklist.md` → **新建模板** — 供用户连接 VPN 后批量下载全文。
+  8. `features/FEATURE_LIST.md` → 新增 Phase 8.2 任务清单。
+- **效果**: 新主题启动时，Agent 必须先建立可复现检索协议；筛选过程必须留下逐条决策日志；需要 VPN 的文献自动进入下载清单；用户下载 PDF 后 Agent 可回写全文状态；仅摘要文献被自动降级，不能悄悄支撑核心结论；多模型参与的关键产物必须记录来源和核查状态。
+
+## E011: Harness 架构审计与可执行检查 — 2026-06-09
+
+- **触发**: 用户要求重新检查整个项目，重点关注上下文、编码、步骤评估、安全性等 harness 架构是否齐全。
+- **根因**:
+  1. Harness 文件很多，但缺少一个架构总图来说明各层职责和最低可执行检查。
+  2. 鲁棒性测试和一致性基准仍偏旧项目示例，未覆盖上下文丢失、当前稿件路由、VPN 全文、AI provenance 和旧写入脚本。
+  3. 安全策略仍偏 Claude/Bash 语境，未覆盖当前 Codex/PowerShell/rg/apply_patch 工作方式。
+  4. 没有脚本能快速判断 harness 必备文件是否齐全。
+- **修改**:
+  1. `harness/architecture.md` → **新建** — 分层定义 context/search_screening/quality/evaluation/safety/submission/evolution。
+  2. `scripts/harness_architecture_check.py` → **新建** — 检查必备 harness 文件、metrics schema 和空文件。
+  3. `harness/README.md` → 新增架构文件说明和最低可执行检查命令。
+  4. `harness/test-scenarios.md` → 新增 L6-L8，覆盖上下文路由、VPN/摘要降级、安全与 provenance。
+  5. `harness/consistency-benchmarks.md` → 新增 Bench-006/008，覆盖 Gate 0、harness 架构检查、VPN 全文处理。
+  6. `harness/safety-policy.md` → 新增 Codex/PowerShell/rg 命令、AI provenance 缺失检测、旧项目写入脚本检测。
+  7. `memory/MEMORY.md` + `features/FEATURE_LIST.md` → 登记新架构文件和 Phase 8.4 任务。
+- **效果**: Harness 从“规则文件集合”升级为有架构说明、有最低可执行检查、有鲁棒性/一致性测试覆盖、有安全策略更新的评估层。当前验证结果：`harness_architecture_check.py` 0 missing/schema issue；`process_integrity_check.py` 0 blocking；`audit_manuscript.py` passed。
+
+## E012: Harness 可执行化收口 — 2026-06-09
+
+- **触发**: 用户要求继续完善上一轮仍值得改进的部分，包括旧项目残留、Gate Search/Gate Screening 脚本、metrics provenance、鲁棒性/一致性 runner。
+- **根因**:
+  1. Agent 7/8 和部分写作/审校定义仍把历史稿件名作为当前默认输出。
+  2. Gate Search 和 Gate Screening 已有文字规则，但缺少可执行结构检查。
+  3. metrics-raw.json 只能记录任务摘要，不能表达模型/API provenance、检查结果和安全审计摘要。
+  4. 鲁棒性和一致性测试库已扩展，但缺少基本 inventory runner。
+  5. Gate 0 对“禁止旧路径”这类说明文字误报 warning，噪音偏高。
+- **修改**:
+  1. `memory/agent-specializations.md` + `harness/synthesis-reasoning.md` + 合成报告模板 → 将当前稿件默认值替换为 `current_manuscript`。
+  2. `harness/quality-gate.md` → 移除历史 LUSC Gate 4 硬编码脚本，改为当前主题 claim map 原则。
+  3. `scripts/gate_search_check.py` → **新建** — 检查 search protocol 结构、检索式、seed papers 和数据库行。
+  4. `scripts/gate_screening_check.py` → **新建** — 检查 screening decisions、access log、冲突、全文状态、abstract-only 比例。
+  5. `scripts/harness_test_inventory.py` → **新建** — 检查 L6-L8 和 Bench-006/008 是否存在。
+  6. `scripts/run_harness_checks.py` → **新建** — 一次运行最低可执行 harness 检查。
+  7. `progress/metrics-raw.json` → schema 更新到 1.1，加入 provenance/checks/safety 字段说明。
+  8. `scripts/process_integrity_check.py` → 降低历史说明/禁止语句的误报，将其归入 INFO。
+  9. `harness/README.md` / `harness/architecture.md` / `features/FEATURE_LIST.md` → 登记新脚本。
+- **效果**: 当前最低可执行检查具备单一入口；Gate 0 warning 降为 0；Gate Search/Screening 在模板未填时会主动失败，防止未完成检索/筛选就进入写作；metrics schema 可以记录多模型串联和安全审计状态。
+
+## E013: 审稿修回流程门禁化 — 2026-06-09
+
+- **触发**: 用户将分析重点切换到“审稿项目”，要求检查审稿流程而非综述正文。
+- **根因**:
+  1. Agent 4 能生成审校报告，但缺少独立协议把 review findings 转化为可追踪、可关闭、可回复的 action log。
+  2. `CHANGELOG.md` / `REVISION_MAP.md` 仍以旧稿件标题作为活动记录，容易让 Claude/Codex 在当前稿件上误用历史 R5 修回状态。
+  3. Harness 架构已有 Gate Revision 概念，但缺少可执行脚本阻断 unresolved critical/must_fix actions。
+  4. 审校定义仍有 `CLACDE.md` 拼写错误和历史病种过滤表达。
+- **修改**:
+  1. `harness/review-revision-protocol.md` → **新建** — 定义审稿 intake、severity/status taxonomy、action schema、修复/验证/回复/记录流程和 Gate Revision。
+  2. `docs/review/review-action-log.json` → **新建模板** — 当前稿件 `manuscript/pncs_systematic_review.md` 的结构化审稿 action log。
+  3. `docs/review/response-to-reviewers.md` → **新建模板** — 按 action ID 映射的回复信草稿。
+  4. `scripts/review_revision_check.py` → **新建** — 检查 action log、blocking action 状态、verifier、CHANGELOG、REVISION_MAP 和回复信。
+  5. `AGENTS.md` + `memory/agent-specializations.md` → 接入审稿修回协议；修复 CLAUDE/CLACDE 残留；将历史病种过滤泛化为当前 PICO 错配过滤。
+  6. `manuscript/CHANGELOG.md` + `manuscript/REVISION_MAP.md` → 改为 current manuscript 路由安全头部，并将旧 R4/R5 记录标为 legacy。
+  7. `harness/architecture.md` + `harness/README.md` + `scripts/harness_architecture_check.py` + `scripts/run_harness_checks.py` + `features/FEATURE_LIST.md` + `memory/MEMORY.md` → 登记 Gate Revision。
+- **效果**: 审稿项目现在拥有“审稿意见 → action log → 修改 → verifier → 回复信 → changelog/revision map → 可执行 Gate Revision”的闭环。未解决 critical/must_fix 项会阻断统一 harness 检查，旧稿件修回记录不会再被当作当前稿件状态。
+
+## E014: 检索筛选数据物化门禁 — 2026-06-09
+
+- **触发**: 用户要求审核并修改 PNCS 系统叙述综述。审核发现正文声称 Europe PMC 系统检索 8,406 条、筛选纳入 309 篇，但 `docs/search-results/search-protocol.md`、`screening-decisions.csv`、`fulltext-access-log.csv` 仍为模板/空表；真实数据存在于 `data/pncs_search/*.json`。
+- **根因**:
+  1. 检索/筛选脚本产出了 JSON 中间数据，但流程没有强制把中间数据回填为可审计 protocol/CSV。
+  2. `run_harness_checks.py` 默认没有运行 Gate Search / Gate Screening，导致主 harness 通过但系统检索透明性仍失败。
+  3. Agent 1/6/3 的工作流没有明确规定：写作前必须通过检索和筛选门禁，否则正文不得使用系统性检索声明。
+- **修改**:
+  1. `scripts/materialize_search_screening_logs.py` → 新建脚本，从 `data/pncs_search/*.json` 生成 `search-protocol.md`、`screening-decisions.csv`、`fulltext-access-log.csv`。
+  2. `docs/search-results/search-protocol.md` → 回填当前 PNCS 主题、PICO、6 个 Europe PMC 检索角度、seed papers、诊断和筛选摘要。
+  3. `docs/search-results/screening-decisions.csv` → 回填 8,406 条筛选记录，每条含 decision/reason_code/fulltext_status/citation_scope。
+  4. `docs/search-results/fulltext-access-log.csv` → 回填 80 条证据表访问记录。
+  5. `scripts/run_harness_checks.py` → Gate Search / Gate Screening 改为默认执行。
+  6. `AGENTS.md` + `memory/agent-specializations.md` → 新增数据物化要求和写作前 Gate Search/Screening 阻断规则。
+  7. `manuscript/pncs_systematic_review.md` → 修正审核发现的过强安全性措辞、弱引用支撑和 Reference 33 文献信息。
+- **效果**: 后续主题若 JSON 数据存在但正式审计日志为空，Gate Search/Screening 会阻断统一 harness；Agent 3 写作前必须先修复日志或降级稿件中的系统性检索声明。本轮验证结果：Gate Search 0 errors/0 warnings；Gate Screening 0 errors/0 warnings。
+
 *本文件在每次商讨完并修改项目文件后追加。*
