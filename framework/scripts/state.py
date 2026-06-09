@@ -86,7 +86,7 @@ def main():
             sys.exit(1)
         state = load()
         state = set_nested(state, sys.argv[2], sys.argv[3])
-        state["project"]["last_updated"] = datetime.now().isoformat()
+        state.setdefault("project", {})["last_updated"] = datetime.now().isoformat()
         save(state)
         print(f"Set {sys.argv[2]} = {sys.argv[3]}")
 
@@ -103,7 +103,7 @@ def main():
             "status": "passed" if gate_status == "pass" else "failed",
             "last_run": datetime.now().isoformat(),
         }
-        state["project"]["last_updated"] = datetime.now().isoformat()
+        state.setdefault("project", {})["last_updated"] = datetime.now().isoformat()
         save(state)
         print(f"Gate {gate_id}: {gate_status.upper()}")
 

@@ -19,7 +19,7 @@ systematic_review:
   rob_tool: "RoB2"                  # RoB2 | ROBINS-I | NOS | mixed
   meta_analysis: false              # Plan to pool statistically?
   grade_assessment: true            # Generate GRADE SoF tables
-  prisma_checklist: true            # Complete PRISMA 2020 checklist
+  prisma_checklist: false           # Set true only for systematic/meta-analysis mode
 
 # ── File Paths (relative to project root) ──
 paths:

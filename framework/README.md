@@ -20,7 +20,7 @@ Say `1` or `search` to begin.
 
 ## How It Works
 
-8 specialized agents collaborate through a structured pipeline:
+11 agent definition files support the framework: 9 pipeline agents plus standalone peer-review and systematic-review modes.
 
 ```
 Search → Screen → Analyze → Write → Synthesize → Review → Submit
@@ -45,7 +45,7 @@ Each agent has defined inputs, outputs, and quality gates. Gates are **enforced 
 ├── state.json               # Progress tracking
 ├── claude/
 │   ├── CLAUDE.md            # Orchestrator
-│   ├── agents/              # 9 agent definitions
+│   ├── agents/              # 11 agent definition files
 │   ├── disciplines/         # Writing rules
 │   ├── gates/               # Quality gates
 │   └── prompts/             # Review enhancement prompts

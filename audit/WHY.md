@@ -64,7 +64,7 @@ Run your own manuscript through the system before sending it to a journal. Find 
 Want to critically evaluate a paper in your field? Feed it in, get a structured 6-dimension assessment. Useful for journal clubs, systematic review screening, or just building your critical appraisal skills.
 
 ### Power a review pipeline
-Pair this with the [Medical Review Framework](https://github.com/...) — the framework writes, this audits. Write → Audit → Revise → Re-audit. Each cycle catches problems the previous one missed.
+Pair this with the [Medical Review Framework](https://github.com/Lemonqiiii/MEW-MR) — the framework writes, this audits. Write → Audit → Revise → Re-audit. Each cycle catches problems the previous one missed.
 
 ### Train reviewers
 The 6-dimension structure is an excellent teaching tool. Each reviewer's output shows what "good" looks like for that dimension. The convergence analysis teaches how different perspectives illuminate the same underlying problem.

@@ -10,7 +10,7 @@ You spend weeks searching PubMed, screening hundreds of abstracts, taking notes 
 
 ## What This Framework Does
 
-This is an **AI-assisted pipeline of 9 specialized agents** that each focus on one thing and do it systematically:
+This is an **AI-assisted framework with 11 agent definition files**: 9 pipeline agents plus standalone peer-review and systematic-review modes. The core pipeline agents each focus on one thing and do it systematically:
 
 | Agent | What it does | What you'd do without it |
 |-------|-------------|--------------------------|
@@ -52,7 +52,7 @@ Set `review_type: "systematic"` in config. The pipeline switches to dual-screeni
 The built-in peer review agent reads your manuscript as an external reviewer would — catching citation inaccuracies, argument gaps, and structure problems before journal reviewers do.
 
 ### Domain-adapt for any field
-The framework ships with generic defaults. Add your domain keywords and mechanism categories in `config.yaml`, and the screening/analysis agents automatically adapt. The NSCLC ICI resistance template shows what's possible for mechanism-heavy reviews.
+The framework ships with generic defaults. Add your domain keywords and mechanism categories in `config.yaml`, and the screening/analysis agents automatically adapt. Domain-specific templates can be added without changing the core pipeline.
 
 ## Why It's Better Than the Alternative
 

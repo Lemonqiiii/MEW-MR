@@ -55,7 +55,7 @@ At each step:
 ├── state.json               # Progress tracking — auto-managed
 ├── claude/
 │   ├── CLAUDE.md            # Orchestrator (auto-loaded each session)
-│   ├── agents/              # 9 specialized agents
+│   ├── agents/              # 11 agent definition files
 │   ├── disciplines/         # Writing rules and error patterns
 │   ├── gates/               # Quality gate definitions
 │   └── prompts/             # Review enhancement prompts
